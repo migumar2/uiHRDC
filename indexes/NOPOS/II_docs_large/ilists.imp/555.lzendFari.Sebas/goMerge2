@@ -1,0 +1,2 @@
+./myILSearch cr_doc_s2 I 100 1 "int2=merge" < ../pattscr.ids_1000_2
+

@@ -1,0 +1,112 @@
+########################################################################################
+#### LOCATE OF PATTERNS (retrieving <doc-id,offset> pairs  #############################
+########################################################################################
+rm -f o.dat
+rm -f M.dat
+
+echo "*****************************************************************************" >>times_o_SEARCHwcsa.txt
+echo "********************  PATTERN SET A.words (Wa)       ************************" >>times_o_SEARCHwcsa.txt
+echo "*****************************************************************************" >>times_o_SEARCHwcsa.txt
+
+./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k    o  50 < ../data/patterns/wiki2g.words.f1_1000
+./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k    o  25 < ../data/patterns/wiki2g.words.f1_1000
+./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k  o  25 < ../data/patterns/wiki2g.words.f1_1000
+./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o  25 < ../data/patterns/wiki2g.words.f1_1000
+
+mv o.dat N.Wa_swcsa.dat
+
+echo "*****************************************************************************" >>times_o_SEARCHwcsa.txt
+echo "********************  PATTERN SET B.words (Wb)       ************************" >>times_o_SEARCHwcsa.txt
+echo "*****************************************************************************" >>times_o_SEARCHwcsa.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k    o 50  < ../data/patterns/wiki2g.words.f1001_100k
+./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k    o 25  < ../data/patterns/wiki2g.words.f1001_100k
+./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k  o 25  < ../data/patterns/wiki2g.words.f1001_100k
+./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 25  < ../data/patterns/wiki2g.words.f1001_100k
+
+mv o.dat N.Wb_swcsa.dat
+
+
+echo "*****************************************************************************" >>times_o_SEARCHwcsa.txt
+echo "********************  PATTERN SET phrases.2 (p2)     ************************" >>times_o_SEARCHwcsa.txt
+echo "*****************************************************************************" >>times_o_SEARCHwcsa.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k    o 25  < ../data/patterns/wiki2g_2_2
+./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k    o 25  < ../data/patterns/wiki2g_2_2
+./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k  o 15  < ../data/patterns/wiki2g_2_2
+./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 15  < ../data/patterns/wiki2g_2_2
+
+mv o.dat N.P2_swcsa.dat
+
+echo "*****************************************************************************" >>times_o_SEARCHwcsa.txt
+echo "********************  PATTERN SET phrases.5 (p5)     ************************" >>times_o_SEARCHwcsa.txt
+echo "*****************************************************************************" >>times_o_SEARCHwcsa.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k    o 2  < ../data/patterns/wiki2g_5_5
+./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k    o 2  < ../data/patterns/wiki2g_5_5
+./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k  o 2  < ../data/patterns/wiki2g_5_5
+./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 2  < ../data/patterns/wiki2g_5_5
+
+mv o.dat N.P5_swcsa.dat
+
+
+
+
+########################################################################################
+#### LOCATE OF PATTERNS (retrieving <doc-id,offset> pairs  #############################
+########################################################################################
+#rm -f e.dat
+rm -f e.dat
+
+echo "*****************************************************************************" >>times_e_SEARCHwcsa.txt
+echo "********************  Intervals Set 1                ************************" >>times_e_SEARCHwcsa.txt
+echo "*****************************************************************************" >>times_e_SEARCHwcsa.txt
+
+./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k    e   < ../intervals/wiki2g.intervals.20words.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k    e   < ../intervals/wiki2g.intervals.20words.txt
+./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k  e   < ../intervals/wiki2g.intervals.20words.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k e   < ../intervals/wiki2g.intervals.20words.txt
+
+mv e.dat e.Words20_swcsa.dat
+
+echo "*****************************************************************************" >>times_e_SEARCHwcsa.txt
+echo "********************  PATTERN SET B.words (Wb)       ************************" >>times_e_SEARCHwcsa.txt
+echo "*****************************************************************************" >>times_e_SEARCHwcsa.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k    e   < ../intervals/wiki2g.intervals.3000words.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k    e   < ../intervals/wiki2g.intervals.3000words.txt
+./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k  e   < ../intervals/wiki2g.intervals.3000words.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k e   < ../intervals/wiki2g.intervals.3000words.txt
+
+mv e.dat e.Words3000_swcsa.dat
+
+
+
+
+
+########################################################################################
+#### AVG DOCUMENT EXTRACTION TIME ######################################################
+########################################################################################
+##--not needed --
+echo "*****************************************************************************" >>times_M_SEARCHwcsa.txt
+echo "********************  wiki2gb_sA16.sAi64.sPsi16.16k  ************************" >>times_M_SEARCHwcsa.txt
+echo "*****************************************************************************" >>times_M_SEARCHwcsa.txt
+
+./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k M
+
+
+echo "*****************************************************************************" >>times_M_SEARCHwcsa.txt
+echo "*****************  wiki2gb_sA32.sAi64.sPsi32.16k  ************************" >>times_M_SEARCHwcsa.txt
+echo "*****************************************************************************" >>times_M_SEARCHwcsa.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k M
+
+
+echo "*****************************************************************************" >>times_M_SEARCHwcsa.txt
+echo "********************  wiki2gb_ssA64.sAi128.sPsi32.16k  ************************" >>times_M_SEARCHwcsa.txt
+echo "*****************************************************************************" >>times_M_SEARCHwcsa.txt
+
+./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k M
+
+
+echo "*****************************************************************************" >>times_M_SEARCHwcsa.txt
+echo "*****************  wiki2gb_sA128.sAi256.sPsi128.16k  ************************" >>times_M_SEARCHwcsa.txt
+echo "*****************************************************************************" >>times_M_SEARCHwcsa.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k M
+
+mv M.dat M.swcsa.dat

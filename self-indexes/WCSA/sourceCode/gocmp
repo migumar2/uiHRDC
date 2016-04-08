@@ -1,0 +1,5 @@
+cmp indexes/cr_index.CSA.sA ../../swcsa3.qsort/sourceCode/indexes/cr_index.CSA.sA
+cmp indexes/cr_index.CSA.sAI ../../swcsa3.qsort/sourceCode/indexes/cr_index.CSA.sAI 
+cmp indexes/cr_index.CSA.Dbv ../../swcsa3.qsort/sourceCode/indexes/cr_index.CSA.Dbv
+cmp indexes/cr_index.CSA.psi ../../swcsa3.qsort/sourceCode/indexes/cr_index.CSA.psi
+

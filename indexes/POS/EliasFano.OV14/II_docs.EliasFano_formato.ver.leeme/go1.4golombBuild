@@ -1,0 +1,25 @@
+./BUILD_RICE_PLAIN ../textos/CR.TXT indexes/cr.1.4.rice "lenBitmapDiv=8"
+
+#--------words--------
+#./SEARCH_RICE_PLAIN indexes/cr.1.4.rice E 1 "int2=merge;intn=svs;fsearch=seqM"     < ../patterns/crNoRep_2_1       
+##occs = 136478
+
+#./SEARCH_RICE_PLAIN indexes/cr.1.4.rice E 1 "int2=merge;intn=svs;fsearch=seqM"     < ../patterns/cr.xt100k_1
+##occs = 1712686 
+
+
+#--------phrases--------
+#./SEARCH_RICE_PLAIN indexes/cr.1.4.rice N 1 "int2=merge;intn=svs;fsearch=seqM" < ../patterns/crNoRep_2_4
+##occs = 10
+
+#./SEARCH_RICE_PLAIN indexes/cr.1.4.rice N 1 "int2=merge;intn=svs;fsearch=seqM" < ../patterns/cr.xt100k_2
+##occs = 364741
+
+#./SEARCH_RICE_PLAIN indexes/cr.1.4.rice N 1 "int2=merge;intn=svs;fsearch=seqM" < ../patterns/cr.xt100k_4
+##occs = 303546
+
+#./SEARCH_RICE_PLAIN indexes/cr.1.4.rice N 1 "int2=merge;intn=svs;fsearch=seqM" < ../patterns/crTheWhiteHouse
+##occs = 90
+
+#./SEARCH_RICE_PLAIN indexes/cr.1.4.rice N 1 "int2=merge;intn=svs;fsearch=seqM" < ../patterns/crWhiteHouse
+##occs = 784

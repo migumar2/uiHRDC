@@ -1,0 +1,1 @@
+./myIL ../ftall_doc_lower.post ft_doc_noSample "path2lzmaencoder=./lzmaEncoder; minbcssize=1000"

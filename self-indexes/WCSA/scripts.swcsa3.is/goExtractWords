@@ -1,0 +1,37 @@
+########################################################################################
+#### LOCATE OF PATTERNS (retrieving <doc-id,offset> pairs  #############################
+########################################################################################
+#rm -f e.dat
+rm -f e.dat
+
+echo "*****************************************************************************" >>times_e_SEARCHwcsa.txt
+echo "********************  Intervals Set 1                ************************" >>times_e_SEARCHwcsa.txt
+echo "*****************************************************************************" >>times_e_SEARCHwcsa.txt
+
+./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k    e   < ../data/intervals/wiki2g.intervals.20words.txt
+#./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k    e   < ../data/intervals/wiki2g.intervals.20words.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k    e   < ../data/intervals/wiki2g.intervals.20words.txt
+./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k  e   < ../data/intervals/wiki2g.intervals.20words.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k e   < ../data/intervals/wiki2g.intervals.20words.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k e   < ../data/intervals/wiki2g.intervals.20words.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k e   < ../data/intervals/wiki2g.intervals.20words.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi16.sPsi16.16k    e   < ../data/intervals/wiki2g.intervals.20words.txt
+
+mv e.dat e.Words20_swcsa.dat
+
+echo "*****************************************************************************" >>times_e_SEARCHwcsa.txt
+echo "********************  PATTERN SET B.words (Wb)       ************************" >>times_e_SEARCHwcsa.txt
+echo "*****************************************************************************" >>times_e_SEARCHwcsa.txt
+
+./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k    e   < ../data/intervals/wiki2g.intervals.3000words.txt
+#./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k    e   < ../data/intervals/wiki2g.intervals.3000words.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k    e   < ../data/intervals/wiki2g.intervals.3000words.txt
+./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k  e   < ../data/intervals/wiki2g.intervals.3000words.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k e   < ../data/intervals/wiki2g.intervals.3000words.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k e   < ../data/intervals/wiki2g.intervals.3000words.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k e   < ../data/intervals/wiki2g.intervals.3000words.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi16.sPsi16.16k    e   < ../data/intervals/wiki2g.intervals.3000words.txt
+
+mv e.dat e.Words3000_swcsa.dat
+
+

@@ -1,0 +1,5 @@
+
+A version that makes it very unlikely to generate very deep rules.
+(Haven't tried to prove anything).
+
+Trick: enqueueing instead of stacking rules in infreq arrays

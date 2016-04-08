@@ -1,0 +1,182 @@
+
+ Search: ./SEARCH indexes/wiki2gb_bitmap1_k16: 10 int2=lookup;intn=lookup
+	Load index time = 0.010000 sec
+	Index size = 781411026 bytes = (763096 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 37.428%
+	** Operation = I ** numpatts = 1000, wordsXpattern=2-2
+	**size_Index= 781411026 bytes, size_Inv-lists= 752569182 bytes, size_compText= 25280144 bytes
+	Total Num occs found = 31932037
+	Locate time = 5.221000 sec
+	Locate time/Num_occs = 0.000164 msec/occss
+	Locate_time/pat = 5.22100000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000164  msec/occs
+
+
+ Search: ./SEARCH indexes/wiki2gb_bitmap1_k64: 10 int2=lookup;intn=lookup
+	Load index time = 0.010000 sec
+	Index size = 746760637 bytes = (729258 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.768%
+	** Operation = I ** numpatts = 1000, wordsXpattern=2-2
+	**size_Index= 746760637 bytes, size_Inv-lists= 717918793 bytes, size_compText= 25280144 bytes
+	Total Num occs found = 31932037
+	Locate time = 6.065000 sec
+	Locate time/Num_occs = 0.000190 msec/occss
+	Locate_time/pat = 6.06500000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000190  msec/occs
+
+
+ Search: ./SEARCH indexes/wiki2gb_bitmap1_k128: 10 int2=lookup;intn=lookup
+	Load index time = 0.010000 sec
+	Index size = 741020813 bytes = (723653 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.493%
+	** Operation = I ** numpatts = 1000, wordsXpattern=2-2
+	**size_Index= 741020813 bytes, size_Inv-lists= 712178969 bytes, size_compText= 25280144 bytes
+	Total Num occs found = 31932037
+	Locate time = 6.591000 sec
+	Locate time/Num_occs = 0.000206 msec/occss
+	Locate_time/pat = 6.59100000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000207  msec/occs
+
+
+ Search: ./SEARCH indexes/wiki2gb_bitmap1_k16: 10 int2=lookup;intn=lookup
+	Load index time = 0.010000 sec
+	Index size = 781411026 bytes = (763096 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 37.428%
+	** Operation = N ** numpatts = 1000, wordsXpattern=5-5
+	**size_Index= 781411026 bytes, size_Inv-lists= 752569182 bytes, size_compText= 25280144 bytes
+	Total Num occs found = 9032540
+	Locate time = 4.015000 sec
+	Locate time/Num_occs = 0.000445 msec/occss
+	Locate_time/pat = 4.01500000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000446  msec/occs
+
+
+ Search: ./SEARCH indexes/wiki2gb_bitmap1_k64: 10 int2=lookup;intn=lookup
+	Load index time = 0.010000 sec
+	Index size = 746760637 bytes = (729258 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.768%
+	** Operation = N ** numpatts = 400, wordsXpattern=5-5
+	**size_Index= 746760637 bytes, size_Inv-lists= 717918793 bytes, size_compText= 25280144 bytes
+	Total Num occs found = 6141506
+	Locate time = 2.618000 sec
+	Locate time/Num_occs = 0.000426 msec/occss
+	Locate_time/pat = 6.54500000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000428  msec/occs
+
+
+ Search: ./SEARCH indexes/wiki2gb_bitmap1_k128: 10 int2=lookup;intn=lookup
+	Load index time = 0.000000 sec
+	Index size = 741020813 bytes = (723653 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.493%
+	** Operation = N ** numpatts = 400, wordsXpattern=5-5
+	**size_Index= 741020813 bytes, size_Inv-lists= 712178969 bytes, size_compText= 25280144 bytes
+	Total Num occs found = 6141506
+	Locate time = 2.836000 sec
+	Locate time/Num_occs = 0.000462 msec/occss
+	Locate_time/pat = 7.09000000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000462  msec/occs
+
+
+ Search: ./SEARCH indexes/wiki2gb_bitmap1_k128: 1 int2=lookup;intn=lookup
+	Load index time = 0.000000 sec
+	Index size = 741020813 bytes = (723653 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.493%
+	** Operation = N ** numpatts = 990, wordsXpattern=5-5
+	**size_Index= 741020813 bytes, size_Inv-lists= 712178969 bytes, size_compText= 25280144 bytes
+	Total Num occs found = 9029699
+	Locate time = 5.280000 sec
+	Locate time/Num_occs = 0.000585 msec/occss
+	Locate_time/pat = 5.33333333 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000585  msec/occs
+
+
+ Search: ./SEARCH indexes/wiki2gb_bitmap1_k64: 10 int2=lookup;intn=lookup
+	Load index time = 0.010000 sec
+	Index size = 746760637 bytes = (729258 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.768%
+	** Operation = N ** numpatts = 990, wordsXpattern=5-5
+	**size_Index= 746760637 bytes, size_Inv-lists= 717918793 bytes, size_compText= 25280144 bytes
+	Total Num occs found = 9029699
+	Locate time = 4.802000 sec
+	Locate time/Num_occs = 0.000532 msec/occss
+	Locate_time/pat = 4.85050505 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000533  msec/occs
+
+
+ Search: ./SEARCH indexes/wiki2gb_bitmap1_k128: 10 int2=lookup;intn=lookup
+	Load index time = 0.000000 sec
+	Index size = 741020813 bytes = (723653 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.493%
+	** Operation = N ** numpatts = 990, wordsXpattern=5-5
+	**size_Index= 741020813 bytes, size_Inv-lists= 712178969 bytes, size_compText= 25280144 bytes
+	Total Num occs found = 9029699
+	Locate time = 5.305000 sec
+	Locate time/Num_occs = 0.000588 msec/occss
+	Locate_time/pat = 5.35858586 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000588  msec/occs
+
+
+ Search: ./SEARCH indexes/wiki2gb_bitmap1_k16: 10 int2=lookup;intn=lookup
+	Load index time = 0.000000 sec
+	Index size = 781411026 bytes = (763096 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 37.428%
+	** Operation = N ** numpatts = 1000, wordsXpattern=5-5
+	**size_Index= 781411026 bytes, size_Inv-lists= 752569182 bytes, size_compText= 25280144 bytes
+	Total Num occs found = 9032540
+	Locate time = 4.012000 sec
+	Locate time/Num_occs = 0.000444 msec/occss
+	Locate_time/pat = 4.01200000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000444  msec/occs
+
+
+ Search: ./SEARCH indexes/wiki2gb_bitmap1_k64: 10 int2=lookup;intn=lookup
+	Load index time = 0.000000 sec
+	Index size = 746760637 bytes = (729258 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.768%
+	** Operation = N ** numpatts = 990, wordsXpattern=5-5
+	**size_Index= 746760637 bytes, size_Inv-lists= 717918793 bytes, size_compText= 25280144 bytes
+	Total Num occs found = 9029699
+	Locate time = 4.798000 sec
+	Locate time/Num_occs = 0.000531 msec/occss
+	Locate_time/pat = 4.84646465 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000531  msec/occs
+
+
+ Search: ./SEARCH indexes/wiki2gb_bitmap1_k128: 10 int2=lookup;intn=lookup
+	Load index time = 0.000000 sec
+	Index size = 741020813 bytes = (723653 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.493%
+	** Operation = N ** numpatts = 990, wordsXpattern=5-5
+	**size_Index= 741020813 bytes, size_Inv-lists= 712178969 bytes, size_compText= 25280144 bytes
+	Total Num occs found = 9029699
+	Locate time = 5.298000 sec
+	Locate time/Num_occs = 0.000587 msec/occss
+	Locate_time/pat = 5.35151515 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000587  msec/occs
+
+
+ Search: ./SEARCH indexes/wiki2gb_bitmap1_k128: 10 int2=lookup;intn=lookup
+	Load index time = 0.000000 sec
+	Index size = 741020813 bytes = (723653 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.493%
+	** Operation = I ** numpatts = 1000, wordsXpattern=2-2
+	**size_Index= 741020813 bytes, size_Inv-lists= 712178969 bytes, size_compText= 25280144 bytes
+	Total Num occs found = 31932037
+	Locate time = 6.561000 sec
+	Locate time/Num_occs = 0.000205 msec/occss
+	Locate_time/pat = 6.56100000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000205  msec/occs
+
+
+ Search: ./SEARCH indexes/wiki2gb_bitmap1_k128: 1 int2=lookup;intn=lookup
+	Load index time = 0.000000 sec
+	Index size = 741020813 bytes = (723653 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.493%
+	** Operation = N ** numpatts = 990, wordsXpattern=5-5
+	**size_Index= 741020813 bytes, size_Inv-lists= 712178969 bytes, size_compText= 25280144 bytes
+	Total Num occs found = 9029699
+	Locate time = 5.350000 sec
+	Locate time/Num_occs = 0.000592 msec/occss
+	Locate_time/pat = 5.40404040 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000592  msec/occs
+

@@ -1,0 +1,3 @@
+
+echo "sampleK=32" > ../FTB8.const.samplek
+./myIL ../../ftall_doc_lower.post  FTB8 "filename=FTB8; lenBitmapDiv=1; maxMemRepair=200000000; replacesPerIter = 1000; repairBreak=0.00000005; path2convert=./srcREPAIR/convert; path2build_bitmap=./srcREPAIR/build_bitmap; path2build_index=./srcREPAIR/build_index; path2compress_dictionary=./srcREPAIR/compressDictionary"

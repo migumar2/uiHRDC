@@ -1,0 +1,42 @@
+
+ ############  SVS+expM
+
+ 
+#./myILSearch ft_doc_s16 I 1000 1000 "int2=svs;fsearch=expM" < ../pattersH_100000_1000
+./myILSearchRemoveZeros ft_doc_s16 I 1000 1000 "int2=svs;fsearch=expM" < ../pattersH_100000_1000
+  mv moffat_ft_doc_s16.m ssvsExpMk16H.m
+
+# ./myILSearch ft_doc_s4 I 1000 1000 "int2=svs;fsearch=expM" < ../pattersH_100000_1000
+ ./myILSearchRemoveZeros ft_doc_s4 I 1000 1000 "int2=svs;fsearch=expM" < ../pattersH_100000_1000
+  mv moffat_ft_doc_s4.m ssvsExpMk4H.m
+
+
+ ############  SVS+expM
+
+ ./myILSearch ft_doc_s16 I 1000 1000 "int2=svs;fsearch=expM" < ../pattersH_10000_100
+  mv moffat_ft_doc_s16.m ssvsExpMk16M.m
+
+ ./myILSearch ft_doc_s4 I 1000 1000 "int2=svs;fsearch=expM" < ../pattersH_10000_100
+  mv moffat_ft_doc_s4.m ssvsExpMk4M.m
+
+
+ ############  SVS+expM
+
+ ./myILSearch ft_doc_s16 I 1000 20000 "int2=svs;fsearch=expM" < ../pattersH_100_1
+  mv moffat_ft_doc_s16.m ssvsExpMk16L.m
+
+ ./myILSearch ft_doc_s4 I 1000 20000 "int2=svs;fsearch=expM" < ../pattersH_100_1
+  mv moffat_ft_doc_s4.m ssvsExpMk4L.m
+
+ ############  Merge
+
+ ./myILSearch ft_doc_s64 I 1000 2000 "int2=merge;fsearch=merge" < ../pattersH_100000_1000
+  mv moffat_ft_doc_s64.m sMergek64H.m
+
+ ./myILSearch ft_doc_s64 I 1000 2000 "int2=merge;fsearch=merge" < ../pattersH_10000_100
+  mv moffat_ft_doc_s64.m sMergek64M.m
+
+ ./myILSearch ft_doc_s64 I 1000 20000 "int2=merge;fsearch=merge" < ../pattersH_100_1
+  mv moffat_ft_doc_s64.m sMergek64L.m 
+
+

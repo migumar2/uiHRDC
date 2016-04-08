@@ -1,0 +1,47 @@
+ess: It: 1937 compressed: 32.5681% m=150830414
+Repair.compress: It: 1938 compressed: 32.5629% m=150806529
+Repair.compress: It: 1939 compressed: 32.5578% m=150782600
+Repair.compress: It: 1940 compressed: 32.5526% m=150758712
+Repair.compress: It: 1941 compressed: 32.5475% m=150734827
+Repair.compress: It: 1942 compressed: 32.5423% m=150711032
+Repair.compress: It: 1943 compressed: 32.5374% m=150688094
+lasti vale 1 i vale 1944
+=============================
+./lib/compressDictionary indexes/wiki2gb m=150437545
+read=150437545
+nodes=250551
+max_value=463119209
+max_assigned=465029054
+max_value=462868658
+max_assigned=464778503
+Sin Comprimir=86842897, comprimido=63594648
+Costo prom descompr=456.455579
+Original=462872628
+Simpolos finales=150437545 (32.500851%)
+Conjunto de pares=3819690 (0.825214%) hubo 1909845 reemplazos
+Conjunto de pares2=2544394+139196 (0.579769%) ahorro  1136100
+Estructura para rank para descomprimir=15188008 (3.281250%) tira de bits+5% extra
+Sumas simbolos+pares=154257235 (33.326061%)
+Sumas simbolos+pares2=153121135 (33.080620%)
+save BRR = 0
+save BR = 0
+
+ sizeUncompressed is 1852492720 and maxLenPosting is 13574598
+ m vale = 150437545 n vale = 462872628
+
+
+ RSS[] array has been compacted with skip_info into c_symb !!!!
+
+ loaded lenPosts[] array
+Loading  bitmap-type postings: indexes/wiki2gb.bitmappost
+
+ file indexes/wiki2gb.bitmappost opened sucessfully
+ read: [462872629][462872630][14464770][0]
+RAnk en pos 1 =0
+RAnk en pos 2 =0
+RAnk en pos 3 =0
+RAnk en pos 100000 =0
+ THE INDEX HAS BEEN BUILT SUCCESFULLY: indexes/wiki2gb
+
+Now compressing the text: 2087767849 bytes
+

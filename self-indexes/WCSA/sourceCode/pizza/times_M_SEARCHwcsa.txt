@@ -1,0 +1,65 @@
+
+ Search sWCSA: ../indexes/cr_index
+ Search sWCSA: ../indexes/cr_index	** Operation = M ** 
+**size_Index= 19620527 bytes
+Total Num chars extracted found = 51085545
+Extract time = 8.48000000 sec (numdocs = 11358)
+Extract_time/chars = 0.00016600 msec/char
+Extract_time/doc = 0.74661032 msec/doc
+(Load_time+Extract_time)/char = 0.00016600 msec/char
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+        19620527	    38.407	    0.746610319	    0.165996076	       51085545	          11358	#cr_index
+
+------------------------
+
+
+ Search sWCSA: ../indexes/cr_index	** Operation = M ** 
+**size_Index= 19620527 bytes
+Total Num chars extracted found = 51085545
+Extract time = 8.42000000 sec (numdocs = 11358)
+Extract_time/chars = 0.00016482 msec/char
+Extract_time/doc = 0.74132770 msec/doc
+(Load_time+Extract_time)/char = 0.00016482 msec/char
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+        19620527	    38.407	    0.741327699	    0.164821575	       51085545	          11358	#cr_index
+
+------------------------
+
+
+ Search sWCSA: ../indexes/cr_index	** Operation = M ** 
+**size_Index= 19620527 bytes
+Total Num chars extracted found = 51085545
+Extract time = 8.52000000 sec (numdocs = 11358)
+Extract_time/chars = 0.00016678 msec/char
+Extract_time/doc = 0.75013207 msec/doc
+(Load_time+Extract_time)/char = 0.00016678 msec/char
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+        19620527	    38.407	    0.750132066	    0.166779076	       51085545	          11358	#cr_index
+
+------------------------
+
+
+ Search sWCSA: ../indexes/cr_index	** Operation = M ** 
+**size_Index= 19620527 bytes
+Total Num chars extracted found = 51085545
+Extract time = 8.34000000 sec (numdocs = 11358)
+Extract_time/chars = 0.00016326 msec/char
+Extract_time/doc = 0.73428420 msec/doc
+(Load_time+Extract_time)/char = 0.00016326 msec/char
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+        19620527	    38.407	    0.734284205	    0.163255575	       51085545	          11358	#cr_index
+
+------------------------
+

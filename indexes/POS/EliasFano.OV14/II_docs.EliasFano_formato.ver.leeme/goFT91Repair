@@ -1,0 +1,1 @@
+./BUILD_REPAIR_NOSKIP_PLAIN ../textos/FT91.TXT ft91_repnoskip "filename=ft91_repnoskip; lenBitmapDiv=1; maxMemRepair=500000000; replacesPerIter = 1000; repairBreak=75; path2convert=./lib/convert; path2build_bitmap=./lib/build_bitmap; path2build_index=./lib/build_index32b; path2compress_dictionary=./lib/compressDictionary"

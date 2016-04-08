@@ -1,0 +1,5 @@
+#./BUILDP_VBYTE_NOTEXT ../20gb indexes/IP20gVBb8 "lenBitmapDiv=8"
+#./SEARCH_VBYTE_NOTEXT indexes/200mb_bitmap1 I 1 "int2=merge;intn=svs;fsearch=seqM" < ../experiments2gb/patterns/torsen2000mb_2_2_10k./BUILD_VBYTE_NOTEXT ../textos/text20gb.txt indexes/20gb_vbyteb1 "lenBitmapDiv=1"
+
+./BUILD_VBYTE_PLAIN  ../textos/torsen.text200mb.txt indexes/200mb_bitmap1 "lenBitmapDiv=1"
+

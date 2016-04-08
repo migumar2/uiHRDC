@@ -1,0 +1,118 @@
+
+ Searching!!: ./myILSearch ft_doc_s2 I 10 100 int2=merge
+	 occs =    295478 :: time = 7.80000000 msecs 
+	    avg time per pattern = 0.39000000 msecs 
+	      avg time per occur = 0.00002640 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s2 N 10 100 intn=svs;fsearch=seqM
+ Searching!!: ./myILSearch ft_doc_s2 N 10 100 intn=merge
+	 occs =    127360 :: time = 18.80000000 msecs 
+	    avg time per pattern = 1.88000000 msecs 
+	      avg time per occur = 0.00014761 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s2 I 10 100 int2=merge
+	 occs =    295478 :: time = 7.70000000 msecs 
+	    avg time per pattern = 0.38500000 msecs 
+	      avg time per occur = 0.00002606 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s2 I 10 100 int2=merge
+	 occs =    295478 :: time = 7.60000000 msecs 
+	    avg time per pattern = 0.38000000 msecs 
+	      avg time per occur = 0.00002572 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s2 I 10 100 int2=merge
+	 occs =    295478 :: time = 7.60000000 msecs 
+	    avg time per pattern = 0.38000000 msecs 
+	      avg time per occur = 0.00002572 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s2 N 10 100 intn=merge
+	 occs =    127360 :: time = 18.90000000 msecs 
+	    avg time per pattern = 1.89000000 msecs 
+	      avg time per occur = 0.00014840 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s2 I 10 100 int2=merge
+	 occs =    295478 :: time = 197.90000000 msecs 
+	    avg time per pattern = 9.89500000 msecs 
+	      avg time per occur = 0.00066976 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s2 N 10 10 intn=merge
+	 occs =    127360 :: time = 523.00000000 msecs 
+	    avg time per pattern = 52.30000000 msecs 
+	      avg time per occur = 0.00410647 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s128 N 10 10 intn=merge
+ Searching!!: ./myILSearch ft_doc_s128 N 10 10 intn=merge
+ Searching!!: ./myILSearch ft_doc_s2 N 10 10 intn=merge
+	 occs =    127360 :: time = 526.00000000 msecs 
+	    avg time per pattern = 52.60000000 msecs 
+	      avg time per occur = 0.00413003 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s126 N 10 10 intn=merge
+	 occs =    127360 :: time = 523.00000000 msecs 
+	    avg time per pattern = 52.30000000 msecs 
+	      avg time per occur = 0.00410647 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s50 N 10 10 intn=merge
+	 occs =    127360 :: time = 520.00000000 msecs 
+	    avg time per pattern = 52.00000000 msecs 
+	      avg time per occur = 0.00408291 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s2 I 10 100 int2=merge
+	 occs =    295478 :: time = 7.90000000 msecs 
+	    avg time per pattern = 0.39500000 msecs 
+	      avg time per occur = 0.00002674 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s50 I 10 100 int2=merge
+	 occs =    295478 :: time = 7.80000000 msecs 
+	    avg time per pattern = 0.39000000 msecs 
+	      avg time per occur = 0.00002640 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s50 I 10 100 int2=merge
+	 occs =    295478 :: time = 7.00000000 msecs 
+	    avg time per pattern = 0.35000000 msecs 
+	      avg time per occur = 0.00002369 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s2 I 10 100 int2=merge
+	 occs =    295478 :: time = 7.00000000 msecs 
+	    avg time per pattern = 0.35000000 msecs 
+	      avg time per occur = 0.00002369 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s2 I 10 100 int2=merge
+	 occs =    295478 :: time = 5.20000000 msecs 
+	    avg time per pattern = 0.26000000 msecs 
+	      avg time per occur = 0.00001760 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s2 N 10 100 intn=merge
+	 occs =    127360 :: time = 13.70000000 msecs 
+	    avg time per pattern = 1.37000000 msecs 
+	      avg time per occur = 0.00010757 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s2 I 10 100 int2=merge
+	 occs =    295478 :: time = 14.02511000 msecs 
+	    avg time per pattern = 0.70125550 msecs 
+	      avg time per occur = 0.00004747 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s2 I 10 100 int2=merge
+	 occs =    295478 :: time = 14.16056000 msecs 
+	    avg time per pattern = 0.70802800 msecs 
+	      avg time per occur = 0.00004792 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s2 I 10 100 int2=merge
+	 occs =    295478 :: time = 11.10591000 msecs 
+	    avg time per pattern = 0.55529550 msecs 
+	      avg time per occur = 0.00003759 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s2 N 10 100 intn=merge
+	 occs =    127360 :: time = 33.54024000 msecs 
+	    avg time per pattern = 3.35402400 msecs 
+	      avg time per occur = 0.00026335 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s2 N 10 100 intn=merge
+	 occs =    127360 :: time = 34.10831000 msecs 
+	    avg time per pattern = 3.41083100 msecs 
+	      avg time per occur = 0.00026781 msecs 
+
+ Searching!!: ./myILSearch ft_doc_s2 N 10 100 intn=merge
+	 occs =    127360 :: time = 23.05122000 msecs 
+	    avg time per pattern = 2.30512200 msecs 
+	      avg time per occur = 0.00018099 msecs 

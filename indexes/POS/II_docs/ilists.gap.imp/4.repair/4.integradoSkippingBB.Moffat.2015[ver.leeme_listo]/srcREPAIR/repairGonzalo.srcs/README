@@ -1,0 +1,11 @@
+
+repair <file> compresses <file> by generating <file>.[CR]
+not a real compressor as it generates integers for .C and .R, but it
+gives some statistics on what could be obtained if coding them with log|R|
+bits, and can be used for different purposes.
+
+despair <file> (re)generates <file> from <file>.[CR]
+
+irepair, idespair: same but expect sequences of integers not chars
+
+toint <file> converts chars to ints, to test irepair/idespair

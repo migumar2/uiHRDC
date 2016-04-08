@@ -1,0 +1,1 @@
+./search_re crr.post.conv 2 E 50 100 V <  patts/patterns50_2.file >log 

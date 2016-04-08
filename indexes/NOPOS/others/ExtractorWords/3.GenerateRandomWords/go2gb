@@ -1,0 +1,13 @@
+#Usage: ./RANDOMCHOOSER <AllPatternsFile> <outPrefix> <MaxIters> <numPatterns1> [<numPatterns2>] [<numPatterns3>] ... 
+#./RANDOMCHOOSER ../einstein[5-25][f2-50k].xt einstein.words 1000 1 5 10 50
+#
+
+
+./RANDOMCHOOSER ../wiki2g[5-25][f1-1000].xt wiki2g.words.f1_1000 1000 1
+mv tmp/wiki2g.words.f1_1000_Iter1000_Pats1 ../wiki2g.words.f1_1000
+
+
+	
+./RANDOMCHOOSER ../wiki2g[5-25][f1001-100k].xt wiki2g.words.f1001_100k 1000 1
+mv tmp/wiki2g.words.f1001_100k_Iter1000_Pats1 ../wiki2g.words.f1001_100k
+

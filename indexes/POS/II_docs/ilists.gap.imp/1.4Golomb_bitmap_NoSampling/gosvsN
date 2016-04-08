@@ -1,0 +1,1 @@
+ ./myILSearch ftalls32  N 1 1 "intn=svs;fsearch=bin" < patts/patterns.file13

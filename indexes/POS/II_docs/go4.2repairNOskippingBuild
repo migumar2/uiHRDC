@@ -1,0 +1,25 @@
+./BUILD_REPAIR_NOSKIP_REPAIR_T ../textos/CR.TXT indexes/cr.4.2repair "filename=indexes/cr.4.2repair; lenBitmapDiv=1000; maxMemRepair=500000000; replacesPerIter = 10000; repairBreak=55; path2convert=./lib/convert; path2build_bitmap=./lib/build_bitmap; path2build_index=./lib/build_index32b; path2compress_dictionary=./lib/compressDictionary"
+
+#--------words--------
+#./SEARCH_REPAIR_NOSKIP_REPAIR_T indexes/cr.4.2repair E 1 "int2=merge;intn=merge"     < ../patterns/crNoRep_2_1       
+##occs = 136478
+
+#./SEARCH_REPAIR_NOSKIP_REPAIR_T indexes/cr.4.2repair E 1 "int2=merge;intn=merge"     < ../patterns/cr.xt100k_1
+##occs = 1712686 
+
+
+#--------phrases--------
+#./SEARCH_REPAIR_NOSKIP_REPAIR_T indexes/cr.4.2repair N 1 "int2=merge;intn=merge" < ../patterns/crNoRep_2_4
+##occs = 10
+
+#./SEARCH_REPAIR_NOSKIP_REPAIR_T indexes/cr.4.2repair N 1 "int2=merge;intn=merge" < ../patterns/cr.xt100k_2
+##occs = 364741
+
+#./SEARCH_REPAIR_NOSKIP_REPAIR_T indexes/cr.4.2repair N 1 "int2=merge;intn=merge" < ../patterns/cr.xt100k_4
+##occs = 303546
+
+#./SEARCH_REPAIR_NOSKIP_REPAIR_T indexes/cr.4.2repair N 1 "int2=merge;intn=merge" < ../patterns/crTheWhiteHouse
+##occs = 90
+
+#./SEARCH_REPAIR_NOSKIP_REPAIR_T indexes/cr.4.2repair N 1 "int2=merge;intn=merge" < ../patterns/crWhiteHouse
+##occs = 784

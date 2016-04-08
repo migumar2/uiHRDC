@@ -1,0 +1,2 @@
+./myIL ../../yahoo0_2gb.post yahoo0_2gb_ns_b8 "lenBitmapDiv=8"
+./myILSearch yahoo0_2gb_ns_b8 I 1000 1 "int2=merge;fsearch=seqM" < ../../yahoopatts_1000_2

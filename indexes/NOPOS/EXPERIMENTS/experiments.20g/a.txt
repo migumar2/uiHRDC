@@ -1,0 +1,640 @@
+.:
+total 88
+drwxrwx--- 3 fari cikm 4096 abr  7 18:51 1.4.scripts.rice.bitmap
+drwxrwx--- 3 fari cikm 4096 abr  7 18:51 1.5.scritps.riceRLE
+drwxrwx--- 3 fari cikm 4096 abr  7 18:51 2.1.scripts.vbytebitmap
+drwxrwx--- 3 fari cikm 4096 abr  7 18:52 2.scripts.vbytebitmapmoffat
+drwxrwx--- 3 fari cikm 4096 abr  7 18:52 3.scripts.vbytebitmapSanders
+drwxrwx--- 3 fari cikm 4096 abr  7 18:53 4.22.scripts.RepairGonzalo
+drwxrwx--- 3 fari cikm 4096 abr  7 18:53 4.22.scripts.RepairGonzalo_bal
+drwxrwx--- 3 fari cikm 4096 abr  7 18:52 4.2.scripts.Repair
+drwxrwx--- 3 fari cikm 4096 abr  7 18:56 4.33.1.RepairSkippingMoffatGonzalo
+drwxrwx--- 3 fari cikm 4096 abr  7 18:58 4.33.2.RepairSkippingSandersGonzalo
+drwxrwx--- 3 fari cikm 4096 abr  7 18:53 4.33.RepairSkippingGonzalo
+drwxrwx--- 3 fari cikm 4096 abr  7 18:53 4.33.RepairSkippingGonzalo_bal
+drwxrwx--- 3 fari cikm 4096 abr  7 18:52 4.3.scripts.Repair.skipping
+drwxrwx--- 3 fari cikm 4096 abr  7 18:58 555.scripts.lzend.delta_sample
+drwxrwx--- 3 fari cikm 4096 abr  7 18:58 6.scripts.vbytelzma
+drwxrwx--- 3 fari cikm 4096 abr  7 18:58 7.scripts.simple9
+drwxrwx--- 3 fari cikm 4096 abr  7 18:58 8.scripts.pfordelta
+drwxrwx--- 3 fari cikm 4096 abr  7 18:58 9.scripts.qmx
+drwxrwx--- 3 fari cikm 4096 abr  7 18:59 9.scripts.qmx.bis
+-rw-rw-r-- 1 fari fari    0 abr  8 00:10 a.txt
+-rwxrwx--- 1 fari cikm 1277 abr  2 18:11 goBuildAll.sh
+-rwxrwx--- 1 fari cikm 2297 abr  5 13:46 goClean.sh
+-rwxrwx--- 1 fari cikm 1220 abr  3 01:24 goSearchAll.sh
+
+./1.4.scripts.rice.bitmap:
+total 35812
+lrwxrwxrwx 1 fari cikm       31 abr  7 18:46 BUILD -> ../../II_docs/BUILD_RICE_NOTEXT
+lrwxrwxrwx 1 fari cikm       32 abr  7 18:46 BUILDP -> ../../II_docs/BUILDP_RICE_NOTEXT
+-rwxrwx--- 1 fari cikm       44 mar 31 12:54 clean.sh
+-rw-rw-r-- 1 fari fari      195 abr  7 18:51 E_Wa.1.4.rice.dat
+-rw-rw-r-- 1 fari fari      195 abr  7 18:51 E_Wb.1.4.rice.dat
+-rwxrwx--- 1 fari cikm      643 mar 31 12:42 goBuild.sh
+-rwxrwx--- 1 fari cikm      984 mar 31 09:10 goSearch.sh
+drwxrwx--- 2 fari cikm     4096 abr  7 18:46 indexes
+-rw-rw-r-- 1 fari fari      195 abr  7 18:51 N_p2.1.4.rice.dat
+-rw-rw-r-- 1 fari fari      195 abr  7 18:51 N_p5.1.4.rice.dat
+-rwxrwx--- 1 fari cikm 36623720 abr  7 18:46 postinglists.posts.32595
+lrwxrwxrwx 1 fari cikm       32 abr  7 18:46 SEARCH -> ../../II_docs/SEARCH_RICE_NOTEXT
+-rw-rw-r-- 1 fari fari     1188 abr  7 18:51 times_E_SEARCH.txt
+-rwxrwx--- 1 fari cikm      629 abr  7 18:46 times_info_BUILD.txt
+-rw-rw-r-- 1 fari fari     1184 abr  7 18:51 times_N_SEARCH.txt
+
+./1.4.scripts.rice.bitmap/indexes:
+total 3584
+-rwxrwx--- 1 fari cikm      16 abr  7 18:46 wiki20gb_bitmap1.const
+-rwxrwx--- 1 fari cikm 3535930 abr  7 18:46 wiki20gb_bitmap1.il.gol.nosample
+-rwxrwx--- 1 fari cikm  125374 abr  7 18:46 wiki20gb_bitmap1.voc
+
+./1.5.scritps.riceRLE:
+total 35812
+lrwxrwxrwx 1 fari cikm       35 abr  7 18:46 BUILD -> ../../II_docs/BUILD_RICE_RLE_NOTEXT
+lrwxrwxrwx 1 fari cikm       36 abr  7 18:46 BUILDP -> ../../II_docs/BUILDP_RICE_RLE_NOTEXT
+-rwxrwx--- 1 fari cikm       44 mar 31 12:54 clean.sh
+-rw-rw-r-- 1 fari fari      187 abr  7 18:51 E_Wa.1.5.riceRLE.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:51 E_Wb.1.5.riceRLE.dat
+-rwxrwx--- 1 fari cikm      537 mar 31 12:42 goBuild.sh
+-rwxrwx--- 1 fari cikm     1199 mar 31 09:11 goSearch.sh
+drwxrwx--- 2 fari cikm     4096 abr  7 18:46 indexes
+-rw-rw-r-- 1 fari fari      187 abr  7 18:51 N_p2.1.5.riceRLE.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:51 N_p5.1.5.riceRLE.dat
+-rwxrwx--- 1 fari cikm 36623720 abr  7 18:46 postinglists.posts.32619
+lrwxrwxrwx 1 fari cikm       36 abr  7 18:46 SEARCH -> ../../II_docs/SEARCH_RICE_RLE_NOTEXT
+-rw-rw-r-- 1 fari fari     1142 abr  7 18:51 times_E_SEARCH.txt
+-rwxrwx--- 1 fari cikm      611 abr  7 18:46 times_info_BUILD.txt
+-rw-rw-r-- 1 fari fari     1138 abr  7 18:51 times_N_SEARCH.txt
+
+./1.5.scritps.riceRLE/indexes:
+total 680
+-rwxrwx--- 1 fari cikm     16 abr  7 18:46 wiki20gb.const
+-rwxrwx--- 1 fari cikm 561882 abr  7 18:46 wiki20gb.il.rice
+-rwxrwx--- 1 fari cikm 125374 abr  7 18:46 wiki20gb.voc
+
+./2.1.scripts.vbytebitmap:
+total 35812
+lrwxrwxrwx 1 fari cikm       32 abr  7 18:46 BUILD -> ../../II_docs/BUILD_VBYTE_NOTEXT
+lrwxrwxrwx 1 fari cikm       33 abr  7 18:46 BUILDP -> ../../II_docs/BUILDP_VBYTE_NOTEXT
+-rwxrwx--- 1 fari cikm       44 mar 31 12:54 clean.sh
+-rw-rw-r-- 1 fari fari      195 abr  7 18:51 E_Wa.2.1.vbyte.dat
+-rw-rw-r-- 1 fari fari      195 abr  7 18:51 E_Wb.2.1.vbyte.dat
+-rwxrwx--- 1 fari cikm      644 abr  3 01:34 goBuild.sh
+-rwxrwx--- 1 fari cikm      975 mar 31 09:11 goSearch.sh
+drwxrwx--- 2 fari cikm     4096 abr  7 18:46 indexes
+-rw-rw-r-- 1 fari fari      195 abr  7 18:51 N_p2.2.1.vbyte.dat
+-rw-rw-r-- 1 fari fari      195 abr  7 18:51 N_p5.2.1.vbyte.dat
+-rwxrwx--- 1 fari cikm 36623720 abr  7 18:46 postinglists.posts.32643
+lrwxrwxrwx 1 fari cikm       33 abr  7 18:46 SEARCH -> ../../II_docs/SEARCH_VBYTE_NOTEXT
+-rw-rw-r-- 1 fari fari     1188 abr  7 18:51 times_E_SEARCH.txt
+-rwxrwx--- 1 fari cikm      629 abr  7 18:46 times_info_BUILD.txt
+-rw-rw-r-- 1 fari fari     1184 abr  7 18:51 times_N_SEARCH.txt
+
+./2.1.scripts.vbytebitmap/indexes:
+total 9188
+-rwxrwx--- 1 fari cikm      16 abr  7 18:46 wiki20gb_bitmap1.const
+-rwxrwx--- 1 fari cikm 9275765 abr  7 18:46 wiki20gb_bitmap1.il.vbyte.nosample
+-rwxrwx--- 1 fari cikm  125374 abr  7 18:46 wiki20gb_bitmap1.voc
+
+./2.scripts.vbytebitmapmoffat:
+total 71580
+lrwxrwxrwx 1 fari cikm       39 abr  7 18:46 BUILD -> ../../II_docs/BUILD_VBYTE_MOFFAT_NOTEXT
+lrwxrwxrwx 1 fari cikm       40 abr  7 18:46 BUILDP -> ../../II_docs/BUILDP_VBYTE_MOFFAT_NOTEXT
+-rwxrwx--- 1 fari cikm       44 mar 31 12:54 clean.sh
+-rw-rw-r-- 1 fari fari      301 abr  7 18:52 E_Wa.2.vbyte.moffat.dat
+-rw-rw-r-- 1 fari fari      301 abr  7 18:52 E_Wb.2.vbyte.moffat.dat
+-rwxrwx--- 1 fari cikm     1581 mar 31 12:47 goBuild.sh
+-rwxrwx--- 1 fari cikm     2776 mar 31 09:10 goSearch.sh
+drwxrwx--- 2 fari cikm     4096 abr  7 18:46 indexes
+-rw-rw-r-- 1 fari fari      301 abr  7 18:52 N_p2.2.vbyte.moffat.dat
+-rw-rw-r-- 1 fari fari      301 abr  7 18:52 N_p5.2.vbyte.moffat.dat
+-rwxrwx--- 1 fari cikm 36623720 abr  7 18:46 postinglists.posts.32658
+-rwxrwx--- 1 fari cikm 36623720 abr  7 18:46 postinglists.posts.32677
+lrwxrwxrwx 1 fari cikm       40 abr  7 18:46 SEARCH -> ../../II_docs/SEARCH_VBYTE_MOFFAT_NOTEXT
+-rw-rw-r-- 1 fari fari     2382 abr  7 18:52 times_E_SEARCH.txt
+-rwxrwx--- 1 fari cikm     1302 abr  7 18:46 times_info_BUILD.txt
+-rw-rw-r-- 1 fari fari     2374 abr  7 18:52 times_N_SEARCH.txt
+
+./2.scripts.vbytebitmapmoffat/indexes:
+total 9816
+-rwxrwx--- 1 fari cikm      16 abr  7 18:46 wiki20gb_bitmap8_k32.const
+-rwxrwx--- 1 fari cikm 4857423 abr  7 18:46 wiki20gb_bitmap8_k32.il.spire07_bis
+-rwxrwx--- 1 fari cikm  125374 abr  7 18:46 wiki20gb_bitmap8_k32.voc
+-rwxrwx--- 1 fari cikm      16 abr  7 18:46 wiki20gb_bitmap8_k4.const
+-rwxrwx--- 1 fari cikm 4929688 abr  7 18:46 wiki20gb_bitmap8_k4.il.spire07_bis
+-rwxrwx--- 1 fari cikm  125374 abr  7 18:46 wiki20gb_bitmap8_k4.voc
+
+./3.scripts.vbytebitmapSanders:
+total 71580
+lrwxrwxrwx 1 fari cikm       40 abr  7 18:46 BUILD -> ../../II_docs/BUILD_VBYTE_SANDERS_NOTEXT
+lrwxrwxrwx 1 fari cikm       41 abr  7 18:46 BUILDP -> ../../II_docs/BUILDP_VBYTE_SANDERS_NOTEXT
+-rwxrwx--- 1 fari cikm       44 mar 31 12:54 clean.sh
+-rw-rw-r-- 1 fari fari      303 abr  7 18:52 E_Wa.3.vbyte.sanders.dat
+-rw-rw-r-- 1 fari fari      303 abr  7 18:52 E_Wb.3.vbyte.sanders.dat
+-rwxrwx--- 1 fari cikm      981 mar 31 12:47 goBuild.sh
+-rwxrwx--- 1 fari cikm     3082 mar 31 09:10 goSearch.sh
+drwxrwx--- 2 fari cikm     4096 abr  7 18:46 indexes
+-rw-rw-r-- 1 fari fari      303 abr  7 18:52 N_p2.3.vbyte.sanders.dat
+-rw-rw-r-- 1 fari fari      303 abr  7 18:52 N_p5.3.vbyte.sanders.dat
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:46 postinglists.posts.32701
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:46 postinglists.posts.32714
+lrwxrwxrwx 1 fari cikm       41 abr  7 18:46 SEARCH -> ../../II_docs/SEARCH_VBYTE_SANDERS_NOTEXT
+-rw-rw-r-- 1 fari fari     2358 abr  7 18:52 times_E_SEARCH.txt
+-rwxrwx--- 1 fari cikm     1291 abr  7 18:46 times_info_BUILD.txt
+-rw-rw-r-- 1 fari fari     2350 abr  7 18:52 times_N_SEARCH.txt
+
+./3.scripts.vbytebitmapSanders/indexes:
+total 19132
+-rwxrwx--- 1 fari fari      16 abr  7 18:46 wiki20gb_bitmap1_k128.const
+-rwxrwx--- 1 fari fari 9408077 abr  7 18:46 wiki20gb_bitmap1_k128.il.sandersbc
+-rwxrwx--- 1 fari fari  125374 abr  7 18:46 wiki20gb_bitmap1_k128.voc
+-rwxrwx--- 1 fari fari      16 abr  7 18:46 wiki20gb_bitmap1_k16.const
+-rwxrwx--- 1 fari fari 9919574 abr  7 18:46 wiki20gb_bitmap1_k16.il.sandersbc
+-rwxrwx--- 1 fari fari  125374 abr  7 18:46 wiki20gb_bitmap1_k16.voc
+
+./4.22.scripts.RepairGonzalo:
+total 35812
+lrwxrwxrwx 1 fari fari       40 abr  7 18:48 BUILD -> ../../II_docs/BUILD_REPAIR_NOSKIP_NOTEXT
+lrwxrwxrwx 1 fari fari       41 abr  7 18:48 BUILDP -> ../../II_docs/BUILDP_REPAIR_NOSKIP_NOTEXT
+-rwxrwx--- 1 fari cikm       44 mar 31 12:54 clean.sh
+-rw-rw-r-- 1 fari fari      187 abr  7 18:52 E_Wa.4.2.repairG.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:53 E_Wb.4.2.repairG.dat
+-rwxrwx--- 1 fari cikm     1996 mar 31 12:47 goBuild.sh
+-rwxrwx--- 1 fari cikm     1437 mar 31 09:11 goSearch.sh
+drwxrwx--- 2 fari cikm     4096 abr  7 18:48 indexes
+lrwxrwxrwx 1 fari fari       17 abr  7 18:48 lib -> ../../II_docs/lib
+-rw-rw-r-- 1 fari fari      187 abr  7 18:53 N_p2.4.2.repairG.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:53 N_p5.4.2.repairG.dat
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:48 postinglists.posts.851
+lrwxrwxrwx 1 fari fari       41 abr  7 18:48 SEARCH -> ../../II_docs/SEARCH_REPAIR_NOSKIP_NOTEXT
+-rw-rw-r-- 1 fari fari     1142 abr  7 18:53 times_E_SEARCH.txt
+-rw-rw-r-- 1 fari fari      886 abr  7 18:48 times_info_BUILD.txt
+-rw-rw-r-- 1 fari fari     1138 abr  7 18:53 times_N_SEARCH.txt
+
+./4.22.scripts.RepairGonzalo/indexes:
+total 73728
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:48 wiki20gb
+-rwxrwxr-- 1 fari fari       16 abr  7 18:48 wiki20gb.bitmappost
+-rw-rw-r-- 1 fari fari    58748 abr  7 18:48 wiki20gb.cdict
+-rwxrwx--- 1 fari fari       16 abr  7 18:48 wiki20gb.const
+-rw-rw-r-- 1 fari fari  1281648 abr  7 18:48 wiki20gb.crp
+-rw-rw-r-- 1 fari fari   115932 abr  7 18:48 wiki20gb.dict
+-rw-rw-r-- 1 fari fari 36623712 abr  7 18:48 wiki20gb.gonzalo.data
+-rw-rw-r-- 1 fari fari   229508 abr  7 18:48 wiki20gb.gonzalo.data.C
+-rw-rw-r-- 1 fari fari    77292 abr  7 18:48 wiki20gb.gonzalo.data.R
+-rw-rw-r-- 1 fari fari    55208 abr  7 18:48 wiki20gb.lens
+-rw-rw-r-- 1 fari fari    41424 abr  7 18:48 wiki20gb.ptr
+-rw-rw-r-- 1 fari fari    55208 abr  7 18:48 wiki20gb.ptr.ints
+-rw-rw-r-- 1 fari fari   174328 abr  7 18:48 wiki20gb.rp
+-rwxrwx--- 1 fari fari   125374 abr  7 18:48 wiki20gb.voc
+
+./4.22.scripts.RepairGonzalo_bal:
+total 35812
+lrwxrwxrwx 1 fari fari       40 abr  7 18:48 BUILD -> ../../II_docs/BUILD_REPAIR_NOSKIP_NOTEXT
+lrwxrwxrwx 1 fari fari       41 abr  7 18:48 BUILDP -> ../../II_docs/BUILDP_REPAIR_NOSKIP_NOTEXT
+-rwxrwx--- 1 fari cikm       44 mar 31 12:54 clean.sh
+-rw-rw-r-- 1 fari fari      187 abr  7 18:53 E_Wa.4.2.repairG.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:53 E_Wb.4.2.repairG.dat
+-rwxrwx--- 1 fari cikm     2004 mar 31 12:47 goBuild.sh
+-rwxrwx--- 1 fari cikm     1435 mar 31 09:11 goSearch.sh
+drwxrwx--- 2 fari cikm     4096 abr  7 18:49 indexes
+lrwxrwxrwx 1 fari fari       17 abr  7 18:48 lib -> ../../II_docs/lib
+-rw-rw-r-- 1 fari fari      187 abr  7 18:53 N_p2.4.2.repairG.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:53 N_p5.4.2.repairG.dat
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:48 postinglists.posts.935
+lrwxrwxrwx 1 fari fari       41 abr  7 18:48 SEARCH -> ../../II_docs/SEARCH_REPAIR_NOSKIP_NOTEXT
+-rw-rw-r-- 1 fari fari     1140 abr  7 18:53 times_E_SEARCH.txt
+-rw-rw-r-- 1 fari fari      890 abr  7 18:49 times_info_BUILD.txt
+-rw-rw-r-- 1 fari fari     1138 abr  7 18:53 times_N_SEARCH.txt
+
+./4.22.scripts.RepairGonzalo_bal/indexes:
+total 73728
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:48 wiki20gb
+-rwxrwxr-- 1 fari fari       16 abr  7 18:48 wiki20gb.bitmappost
+-rw-rw-r-- 1 fari fari    58748 abr  7 18:49 wiki20gb.cdict
+-rwxrwx--- 1 fari fari       16 abr  7 18:49 wiki20gb.const
+-rw-rw-r-- 1 fari fari  1281648 abr  7 18:49 wiki20gb.crp
+-rw-rw-r-- 1 fari fari   115932 abr  7 18:49 wiki20gb.dict
+-rw-rw-r-- 1 fari fari 36623712 abr  7 18:48 wiki20gb.gonzalo.data
+-rw-rw-r-- 1 fari fari   229508 abr  7 18:49 wiki20gb.gonzalo.data.C
+-rw-rw-r-- 1 fari fari    77292 abr  7 18:49 wiki20gb.gonzalo.data.R
+-rw-rw-r-- 1 fari fari    55208 abr  7 18:48 wiki20gb.lens
+-rw-rw-r-- 1 fari fari    41424 abr  7 18:49 wiki20gb.ptr
+-rw-rw-r-- 1 fari fari    55208 abr  7 18:48 wiki20gb.ptr.ints
+-rw-rw-r-- 1 fari fari   174328 abr  7 18:49 wiki20gb.rp
+-rwxrwx--- 1 fari fari   125374 abr  7 18:49 wiki20gb.voc
+
+./4.2.scripts.Repair:
+total 35812
+lrwxrwxrwx 1 fari fari       40 abr  7 18:46 BUILD -> ../../II_docs/BUILD_REPAIR_NOSKIP_NOTEXT
+lrwxrwxrwx 1 fari fari       41 abr  7 18:46 BUILDP -> ../../II_docs/BUILDP_REPAIR_NOSKIP_NOTEXT
+-rwxrwx--- 1 fari cikm       44 mar 31 12:54 clean.sh
+-rw-rw-r-- 1 fari fari      187 abr  7 18:52 E_Wa.4.2.repair.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:52 E_Wb.4.2.repair.dat
+-rwxrwx--- 1 fari cikm     1603 mar 31 12:48 goBuild.sh
+-rwxrwx--- 1 fari cikm     1431 mar 31 09:11 goSearch.sh
+drwxrwx--- 2 fari cikm     4096 abr  7 18:47 indexes
+lrwxrwxrwx 1 fari fari       17 abr  7 18:46 lib -> ../../II_docs/lib
+-rw-rw-r-- 1 fari fari      187 abr  7 18:52 N_p2.4.2.repair.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:52 N_p5.4.2.repair.dat
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:46 postinglists.posts.32739
+lrwxrwxrwx 1 fari fari       41 abr  7 18:46 SEARCH -> ../../II_docs/SEARCH_REPAIR_NOSKIP_NOTEXT
+-rw-rw-r-- 1 fari fari     1140 abr  7 18:52 times_E_SEARCH.txt
+-rw-rw-r-- 1 fari fari      842 abr  7 18:47 times_info_BUILD.txt
+-rw-rw-r-- 1 fari fari     1138 abr  7 18:52 times_N_SEARCH.txt
+
+./4.2.scripts.Repair/indexes:
+total 37868
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:46 wiki20gb
+-rwxrwxr-- 1 fari fari       16 abr  7 18:46 wiki20gb.bitmappost
+-rw-rw-r-- 1 fari fari   111800 abr  7 18:47 wiki20gb.cdict
+-rwxrwx--- 1 fari fari       16 abr  7 18:47 wiki20gb.const
+-rw-rw-r-- 1 fari fari  1317332 abr  7 18:47 wiki20gb.crp
+-rw-rw-r-- 1 fari fari   240744 abr  7 18:47 wiki20gb.dict
+-rw-rw-r-- 1 fari fari    55208 abr  7 18:46 wiki20gb.lens
+-rw-rw-r-- 1 fari fari    41424 abr  7 18:47 wiki20gb.ptr
+-rw-rw-r-- 1 fari fari   234804 abr  7 18:47 wiki20gb.rp
+-rwxrwx--- 1 fari fari   125374 abr  7 18:47 wiki20gb.voc
+
+./4.33.1.RepairSkippingMoffatGonzalo:
+total 35848
+-rwxrwx--- 1 fari cikm    10437 mar 31 09:10 appendLastLine
+-rwxrwx--- 1 fari cikm      778 mar 31 09:10 appendLastLine.c
+lrwxrwxrwx 1 fari fari       45 abr  7 18:49 BUILD -> ../../II_docs/BUILD_REPAIR_SKIP_MOFFAT_NOTEXT
+lrwxrwxrwx 1 fari fari       46 abr  7 18:49 BUILDP -> ../../II_docs/BUILDP_REPAIR_SKIP_MOFFAT_NOTEXT
+-rwxrwx--- 1 fari cikm       44 mar 31 12:54 clean.sh
+-rw-rw-r-- 1 fari fari      506 abr  7 18:54 E_Wa.4.3.1repairG.skipping.moffat.dat
+-rw-rw-r-- 1 fari fari      506 abr  7 18:56 E_Wb.4.3.1repairG.skipping.moffat.dat
+-rwxrwx--- 1 fari cikm     1581 mar 31 09:10 goBuild.BestCut.sh
+-rwxrwx--- 1 fari cikm     2025 mar 31 12:48 goBuild.sh
+-rwxrwx--- 1 fari cikm     2620 abr  2 02:30 goSearch.sh
+drwxrwx--- 2 fari cikm     4096 abr  7 18:49 indexes
+lrwxrwxrwx 1 fari fari       17 abr  7 18:49 lib -> ../../II_docs/lib
+-rwxrwx--- 1 fari cikm       71 mar 31 09:10 Makefile
+-rw-rw-r-- 1 fari fari      506 abr  7 18:56 N_p2.4.3.1repairG.skipping.moffat.dat
+-rw-rw-r-- 1 fari fari      506 abr  7 18:56 N_p5.4.3.1repairG.skipping.moffat.dat
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:49 postinglists.posts.1012
+-rwxrwx--- 1 fari cikm      543 mar 31 09:10 sampleK.c
+lrwxrwxrwx 1 fari fari       46 abr  7 18:49 SEARCH -> ../../II_docs/SEARCH_REPAIR_SKIP_MOFFAT_NOTEXT
+-rw-rw-r-- 1 fari fari     4552 abr  7 18:56 times_E_SEARCH.txt
+-rw-rw-r-- 1 fari fari      889 abr  7 18:49 times_info_BUILD.txt
+-rw-rw-r-- 1 fari fari     4552 abr  7 18:56 times_N_SEARCH.txt
+
+./4.33.1.RepairSkippingMoffatGonzalo/indexes:
+total 73732
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:49 wiki20gb
+-rwxrwxr-- 1 fari fari       16 abr  7 18:49 wiki20gb.bitmappost
+-rw-rw-r-- 1 fari fari    58748 abr  7 18:49 wiki20gb.cdict
+-rwxrwx--- 1 fari fari       16 abr  7 18:49 wiki20gb.const
+-rw-rw-r-- 1 fari fari        9 abr  7 18:49 wiki20gb.const.samplek
+-rw-rw-r-- 1 fari fari  1281648 abr  7 18:49 wiki20gb.crp
+-rw-rw-r-- 1 fari fari   115932 abr  7 18:49 wiki20gb.dict
+-rw-rw-r-- 1 fari fari 36623712 abr  7 18:49 wiki20gb.gonzalo.data
+-rw-rw-r-- 1 fari fari   229508 abr  7 18:49 wiki20gb.gonzalo.data.C
+-rw-rw-r-- 1 fari fari    77292 abr  7 18:49 wiki20gb.gonzalo.data.R
+-rw-rw-r-- 1 fari fari    55208 abr  7 18:49 wiki20gb.lens
+-rw-rw-r-- 1 fari fari    41424 abr  7 18:49 wiki20gb.ptr
+-rw-rw-r-- 1 fari fari    55208 abr  7 18:49 wiki20gb.ptr.ints
+-rw-rw-r-- 1 fari fari   174328 abr  7 18:49 wiki20gb.rp
+-rwxrwx--- 1 fari fari   125374 abr  7 18:49 wiki20gb.voc
+
+./4.33.2.RepairSkippingSandersGonzalo:
+total 35860
+-rwxrwx--- 1 fari cikm     8914 mar 31 09:10 appendLastLine
+-rwxrwx--- 1 fari cikm      778 mar 31 09:10 appendLastLine.c
+lrwxrwxrwx 1 fari fari       46 abr  7 18:49 BUILD -> ../../II_docs/BUILD_REPAIR_SKIP_SANDERS_NOTEXT
+lrwxrwxrwx 1 fari fari       47 abr  7 18:49 BUILDP -> ../../II_docs/BUILDP_REPAIR_SKIP_SANDERS_NOTEXT
+-rwxrwx--- 1 fari cikm       44 mar 31 12:54 clean.sh
+-rw-rw-r-- 1 fari fari      613 abr  7 18:56 E_Wa.4.3.2repairG.skipping.sanders.dat
+-rw-rw-r-- 1 fari fari      613 abr  7 18:57 E_Wb.4.3.2repairG.skipping.sanders.dat
+-rwxrwx--- 1 fari cikm     1581 mar 31 09:10 goBuild.BestCut.sh
+-rwxrwx--- 1 fari cikm     2025 mar 31 12:48 goBuild.sh
+-rwxrwx--- 1 fari cikm     2663 mar 31 09:10 goSearch.sh
+drwxrwx--- 2 fari cikm     4096 abr  7 18:49 indexes
+lrwxrwxrwx 1 fari fari       17 abr  7 18:49 lib -> ../../II_docs/lib
+-rwxrwx--- 1 fari cikm       71 mar 31 09:10 Makefile
+-rw-rw-r-- 1 fari fari      613 abr  7 18:57 N_p2.4.3.2repairG.skipping.sanders.dat
+-rw-rw-r-- 1 fari fari      613 abr  7 18:58 N_p5.4.3.2repairG.skipping.sanders.dat
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:49 postinglists.posts.1047
+-rwxrwx--- 1 fari cikm     8676 mar 31 09:10 sampleK
+-rwxrwx--- 1 fari cikm      543 mar 31 09:10 sampleK.c
+lrwxrwxrwx 1 fari fari       47 abr  7 18:49 SEARCH -> ../../II_docs/SEARCH_REPAIR_SKIP_SANDERS_NOTEXT
+-rw-rw-r-- 1 fari fari     5736 abr  7 18:57 times_E_SEARCH.txt
+-rw-rw-r-- 1 fari fari      892 abr  7 18:49 times_info_BUILD.txt
+-rw-rw-r-- 1 fari fari     5726 abr  7 18:58 times_N_SEARCH.txt
+
+./4.33.2.RepairSkippingSandersGonzalo/indexes:
+total 73732
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:49 wiki20gb
+-rwxrwxr-- 1 fari fari       16 abr  7 18:49 wiki20gb.bitmappost
+-rw-rw-r-- 1 fari fari    58748 abr  7 18:49 wiki20gb.cdict
+-rwxrwx--- 1 fari fari       16 abr  7 18:49 wiki20gb.const
+-rw-rw-r-- 1 fari fari       13 abr  7 18:58 wiki20gb.const.samplek
+-rw-rw-r-- 1 fari fari  1281648 abr  7 18:49 wiki20gb.crp
+-rw-rw-r-- 1 fari fari   115932 abr  7 18:49 wiki20gb.dict
+-rw-rw-r-- 1 fari fari 36623712 abr  7 18:49 wiki20gb.gonzalo.data
+-rw-rw-r-- 1 fari fari   229508 abr  7 18:49 wiki20gb.gonzalo.data.C
+-rw-rw-r-- 1 fari fari    77292 abr  7 18:49 wiki20gb.gonzalo.data.R
+-rw-rw-r-- 1 fari fari    55208 abr  7 18:49 wiki20gb.lens
+-rw-rw-r-- 1 fari fari    41424 abr  7 18:49 wiki20gb.ptr
+-rw-rw-r-- 1 fari fari    55208 abr  7 18:49 wiki20gb.ptr.ints
+-rw-rw-r-- 1 fari fari   174328 abr  7 18:49 wiki20gb.rp
+-rwxrwx--- 1 fari fari   125374 abr  7 18:49 wiki20gb.voc
+
+./4.33.RepairSkippingGonzalo:
+total 35820
+lrwxrwxrwx 1 fari fari       38 abr  7 18:48 BUILD -> ../../II_docs/BUILD_REPAIR_SKIP_NOTEXT
+lrwxrwxrwx 1 fari fari       39 abr  7 18:48 BUILDP -> ../../II_docs/BUILDP_REPAIR_SKIP_NOTEXT
+-rwxrwx--- 1 fari cikm       44 mar 31 12:54 clean.sh
+-rw-rw-r-- 1 fari fari      187 abr  7 18:48 E.sizes.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:53 E_Wa.4.3.repairG.skipping.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:53 E_Wb.4.3.repairG.skipping.dat
+-rwxrwx--- 1 fari cikm     1560 mar 31 09:10 goBuild.BestCut.sh
+-rwxrwx--- 1 fari cikm     1700 abr  2 02:01 goBuild.sh
+-rwxrwx--- 1 fari cikm     1476 mar 31 09:10 goSearch.sh
+drwxrwx--- 2 fari cikm     4096 abr  7 18:48 indexes
+lrwxrwxrwx 1 fari fari       17 abr  7 18:48 lib -> ../../II_docs/lib
+-rw-rw-r-- 1 fari fari      187 abr  7 18:53 N_p2.4.3.repairG.skipping.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:53 N_p5.4.3.repairG.skipping.dat
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:48 postinglists.posts.886
+lrwxrwxrwx 1 fari fari       39 abr  7 18:48 SEARCH -> ../../II_docs/SEARCH_REPAIR_SKIP_NOTEXT
+-rw-rw-r-- 1 fari fari     1764 abr  7 18:53 times_E_SEARCH.txt
+-rw-rw-r-- 1 fari fari      889 abr  7 18:48 times_info_BUILD.txt
+-rw-rw-r-- 1 fari fari     1134 abr  7 18:53 times_N_SEARCH.txt
+
+./4.33.RepairSkippingGonzalo/indexes:
+total 73728
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:48 wiki20gb
+-rwxrwxr-- 1 fari fari       16 abr  7 18:48 wiki20gb.bitmappost
+-rw-rw-r-- 1 fari fari    58748 abr  7 18:48 wiki20gb.cdict
+-rwxrwx--- 1 fari fari       16 abr  7 18:48 wiki20gb.const
+-rw-rw-r-- 1 fari fari  1281648 abr  7 18:48 wiki20gb.crp
+-rw-rw-r-- 1 fari fari   115932 abr  7 18:48 wiki20gb.dict
+-rw-rw-r-- 1 fari fari 36623712 abr  7 18:48 wiki20gb.gonzalo.data
+-rw-rw-r-- 1 fari fari   229508 abr  7 18:48 wiki20gb.gonzalo.data.C
+-rw-rw-r-- 1 fari fari    77292 abr  7 18:48 wiki20gb.gonzalo.data.R
+-rw-rw-r-- 1 fari fari    55208 abr  7 18:48 wiki20gb.lens
+-rw-rw-r-- 1 fari fari    41424 abr  7 18:48 wiki20gb.ptr
+-rw-rw-r-- 1 fari fari    55208 abr  7 18:48 wiki20gb.ptr.ints
+-rw-rw-r-- 1 fari fari   174328 abr  7 18:48 wiki20gb.rp
+-rwxrwx--- 1 fari fari   125374 abr  7 18:48 wiki20gb.voc
+
+./4.33.RepairSkippingGonzalo_bal:
+total 35820
+lrwxrwxrwx 1 fari fari       38 abr  7 18:49 BUILD -> ../../II_docs/BUILD_REPAIR_SKIP_NOTEXT
+lrwxrwxrwx 1 fari fari       39 abr  7 18:49 BUILDP -> ../../II_docs/BUILDP_REPAIR_SKIP_NOTEXT
+-rwxrwx--- 1 fari cikm       44 mar 31 12:54 clean.sh
+-rw-rw-r-- 1 fari fari      187 abr  7 18:49 E.sizes.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:53 E_Wa.4.3.repairG.skipping.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:53 E_Wb.4.3.repairG.skipping.dat
+-rwxrwx--- 1 fari cikm     1560 mar 31 09:11 goBuild.BestCut.sh
+-rwxrwx--- 1 fari cikm     1703 mar 31 12:49 goBuild.sh
+-rwxrwx--- 1 fari cikm     1476 mar 31 09:11 goSearch.sh
+drwxrwx--- 2 fari cikm     4096 abr  7 18:49 indexes
+lrwxrwxrwx 1 fari fari       17 abr  7 18:49 lib -> ../../II_docs/lib
+-rw-rw-r-- 1 fari fari      187 abr  7 18:53 N_p2.4.3.repairG.skipping.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:53 N_p5.4.3.repairG.skipping.dat
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:49 postinglists.posts.970
+lrwxrwxrwx 1 fari fari       39 abr  7 18:49 SEARCH -> ../../II_docs/SEARCH_REPAIR_SKIP_NOTEXT
+-rw-rw-r-- 1 fari fari     1764 abr  7 18:53 times_E_SEARCH.txt
+-rw-rw-r-- 1 fari fari      893 abr  7 18:49 times_info_BUILD.txt
+-rw-rw-r-- 1 fari fari     1134 abr  7 18:53 times_N_SEARCH.txt
+
+./4.33.RepairSkippingGonzalo_bal/indexes:
+total 73728
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:49 wiki20gb
+-rwxrwxr-- 1 fari fari       16 abr  7 18:49 wiki20gb.bitmappost
+-rw-rw-r-- 1 fari fari    58748 abr  7 18:49 wiki20gb.cdict
+-rwxrwx--- 1 fari fari       16 abr  7 18:49 wiki20gb.const
+-rw-rw-r-- 1 fari fari  1281648 abr  7 18:49 wiki20gb.crp
+-rw-rw-r-- 1 fari fari   115932 abr  7 18:49 wiki20gb.dict
+-rw-rw-r-- 1 fari fari 36623712 abr  7 18:49 wiki20gb.gonzalo.data
+-rw-rw-r-- 1 fari fari   229508 abr  7 18:49 wiki20gb.gonzalo.data.C
+-rw-rw-r-- 1 fari fari    77292 abr  7 18:49 wiki20gb.gonzalo.data.R
+-rw-rw-r-- 1 fari fari    55208 abr  7 18:49 wiki20gb.lens
+-rw-rw-r-- 1 fari fari    41424 abr  7 18:49 wiki20gb.ptr
+-rw-rw-r-- 1 fari fari    55208 abr  7 18:49 wiki20gb.ptr.ints
+-rw-rw-r-- 1 fari fari   174328 abr  7 18:49 wiki20gb.rp
+-rwxrwx--- 1 fari fari   125374 abr  7 18:49 wiki20gb.voc
+
+./4.3.scripts.Repair.skipping:
+total 35812
+lrwxrwxrwx 1 fari fari       38 abr  7 18:47 BUILD -> ../../II_docs/BUILD_REPAIR_SKIP_NOTEXT
+lrwxrwxrwx 1 fari fari       39 abr  7 18:47 BUILDP -> ../../II_docs/BUILDP_REPAIR_SKIP_NOTEXT
+-rwxrwx--- 1 fari cikm       44 mar 31 12:54 clean.sh
+-rw-rw-r-- 1 fari fari      187 abr  7 18:52 E_Wa.4.3.repair.skipping.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:52 E_Wb.4.3.repair.skipping.dat
+-rwxrwx--- 1 fari cikm     1290 mar 31 12:50 goBuild.sh
+-rwxrwx--- 1 fari cikm     1472 mar 31 09:10 goSearch.sh
+drwxrwx--- 2 fari cikm     4096 abr  7 18:48 indexes
+lrwxrwxrwx 1 fari fari       17 abr  7 18:47 lib -> ../../II_docs/lib
+-rw-rw-r-- 1 fari fari      187 abr  7 18:52 N_p2.4.3.repair.skipping.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:52 N_p5.4.3.repair.skipping.dat
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:47 postinglists.posts.562
+lrwxrwxrwx 1 fari fari       39 abr  7 18:47 SEARCH -> ../../II_docs/SEARCH_REPAIR_SKIP_NOTEXT
+-rw-rw-r-- 1 fari fari     1136 abr  7 18:52 times_E_SEARCH.txt
+-rw-rw-r-- 1 fari fari      842 abr  7 18:48 times_info_BUILD.txt
+-rw-rw-r-- 1 fari fari     1134 abr  7 18:52 times_N_SEARCH.txt
+
+./4.3.scripts.Repair.skipping/indexes:
+total 37868
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:47 wiki20gb
+-rwxrwxr-- 1 fari fari       16 abr  7 18:47 wiki20gb.bitmappost
+-rw-rw-r-- 1 fari fari   111800 abr  7 18:48 wiki20gb.cdict
+-rwxrwx--- 1 fari fari       16 abr  7 18:48 wiki20gb.const
+-rw-rw-r-- 1 fari fari  1317332 abr  7 18:48 wiki20gb.crp
+-rw-rw-r-- 1 fari fari   240744 abr  7 18:48 wiki20gb.dict
+-rw-rw-r-- 1 fari fari    55208 abr  7 18:47 wiki20gb.lens
+-rw-rw-r-- 1 fari fari    41424 abr  7 18:48 wiki20gb.ptr
+-rw-rw-r-- 1 fari fari   234804 abr  7 18:48 wiki20gb.rp
+-rwxrwx--- 1 fari fari   125374 abr  7 18:48 wiki20gb.voc
+
+./555.scripts.lzend.delta_sample:
+total 143124
+lrwxrwxrwx 1 fari fari       35 abr  7 18:49 BUILD -> ../../II_docs/BUILD_LZEND_IL_NOTEXT
+lrwxrwxrwx 1 fari fari       36 abr  7 18:49 BUILDP -> ../../II_docs/BUILDP_LZEND_IL_NOTEXT
+-rwxrwx--- 1 fari cikm       44 mar 31 12:54 clean.sh
+-rw-rw-r-- 1 fari fari      489 abr  7 18:58 E_Wa.5.lzend.dat
+-rw-rw-r-- 1 fari fari      489 abr  7 18:58 E_Wb.5.lzend.dat
+-rwxrwx--- 1 fari cikm     1274 mar 31 12:50 goBuild.sh
+-rwxrwx--- 1 fari cikm     1883 mar 31 09:11 goSearch.sh
+drwxrwx--- 2 fari cikm     4096 abr  7 18:50 indexes
+-rw-rw-r-- 1 fari fari      489 abr  7 18:58 N_p2.5.lzend.dat
+-rw-rw-r-- 1 fari fari      489 abr  7 18:58 N_p5.5.lzend.dat
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:49 postinglists.posts.1090
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:49 postinglists.posts.1173
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:49 postinglists.posts.1269
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:50 postinglists.posts.1370
+lrwxrwxrwx 1 fari fari       36 abr  7 18:49 SEARCH -> ../../II_docs/SEARCH_LZEND_IL_NOTEXT
+-rw-rw-r-- 1 fari fari     4610 abr  7 18:58 times_E_SEARCH.txt
+-rw-rw-r-- 1 fari fari     2497 abr  7 18:50 times_info_BUILD.txt
+-rw-rw-r-- 1 fari fari     4610 abr  7 18:58 times_N_SEARCH.txt
+
+./555.scripts.lzend.delta_sample/indexes:
+total 38016
+-rw-rw-r-- 1 fari fari 9165377 abr  7 18:49 torsen20gb_ds04
+-rw-rw-r-- 1 fari fari   37649 abr  7 18:49 torsen20gb_ds04.char
+-rwxrwx--- 1 fari fari      16 abr  7 18:49 torsen20gb_ds04.const
+-rw-rw-r-- 1 fari fari       2 abr  7 18:49 torsen20gb_ds04.delta_sampling
+-rw-rw-r-- 1 fari fari   55208 abr  7 18:49 torsen20gb_ds04.encodedlen
+-rw-rw-r-- 1 fari fari      13 abr  7 18:49 torsen20gb_ds04.idx.const
+-rw-rw-r-- 1 fari fari   22440 abr  7 18:49 torsen20gb_ds04.idx.lenlist
+-rw-rw-r-- 1 fari fari  150596 abr  7 18:49 torsen20gb_ds04.len
+-rw-rw-r-- 1 fari fari  150596 abr  7 18:49 torsen20gb_ds04.start
+-rwxrwx--- 1 fari fari  125374 abr  7 18:49 torsen20gb_ds04.voc
+-rw-rw-r-- 1 fari fari 9165377 abr  7 18:49 torsen20gb_ds16
+-rw-rw-r-- 1 fari fari   37649 abr  7 18:49 torsen20gb_ds16.char
+-rwxrwx--- 1 fari fari      16 abr  7 18:49 torsen20gb_ds16.const
+-rw-rw-r-- 1 fari fari       3 abr  7 18:49 torsen20gb_ds16.delta_sampling
+-rw-rw-r-- 1 fari fari   55208 abr  7 18:49 torsen20gb_ds16.encodedlen
+-rw-rw-r-- 1 fari fari      13 abr  7 18:49 torsen20gb_ds16.idx.const
+-rw-rw-r-- 1 fari fari   22440 abr  7 18:49 torsen20gb_ds16.idx.lenlist
+-rw-rw-r-- 1 fari fari  150596 abr  7 18:49 torsen20gb_ds16.len
+-rw-rw-r-- 1 fari fari  150596 abr  7 18:49 torsen20gb_ds16.start
+-rwxrwx--- 1 fari fari  125374 abr  7 18:49 torsen20gb_ds16.voc
+-rw-rw-r-- 1 fari fari 9165377 abr  7 18:50 torsen20gb_ds256
+-rw-rw-r-- 1 fari fari   37649 abr  7 18:50 torsen20gb_ds256.char
+-rwxrwx--- 1 fari fari      16 abr  7 18:50 torsen20gb_ds256.const
+-rw-rw-r-- 1 fari fari       4 abr  7 18:50 torsen20gb_ds256.delta_sampling
+-rw-rw-r-- 1 fari fari   55208 abr  7 18:50 torsen20gb_ds256.encodedlen
+-rw-rw-r-- 1 fari fari      13 abr  7 18:50 torsen20gb_ds256.idx.const
+-rw-rw-r-- 1 fari fari   22440 abr  7 18:50 torsen20gb_ds256.idx.lenlist
+-rw-rw-r-- 1 fari fari  150596 abr  7 18:50 torsen20gb_ds256.len
+-rw-rw-r-- 1 fari fari  150596 abr  7 18:50 torsen20gb_ds256.start
+-rwxrwx--- 1 fari fari  125374 abr  7 18:50 torsen20gb_ds256.voc
+-rw-rw-r-- 1 fari fari 9165377 abr  7 18:50 torsen20gb_ds64
+-rw-rw-r-- 1 fari fari   37649 abr  7 18:50 torsen20gb_ds64.char
+-rwxrwx--- 1 fari fari      16 abr  7 18:50 torsen20gb_ds64.const
+-rw-rw-r-- 1 fari fari       3 abr  7 18:50 torsen20gb_ds64.delta_sampling
+-rw-rw-r-- 1 fari fari   55208 abr  7 18:50 torsen20gb_ds64.encodedlen
+-rw-rw-r-- 1 fari fari      13 abr  7 18:50 torsen20gb_ds64.idx.const
+-rw-rw-r-- 1 fari fari   22440 abr  7 18:50 torsen20gb_ds64.idx.lenlist
+-rw-rw-r-- 1 fari fari  150596 abr  7 18:50 torsen20gb_ds64.len
+-rw-rw-r-- 1 fari fari  150596 abr  7 18:50 torsen20gb_ds64.start
+-rwxrwx--- 1 fari fari  125374 abr  7 18:50 torsen20gb_ds64.voc
+
+./6.scripts.vbytelzma:
+total 36324
+lrwxrwxrwx 1 fari fari       37 abr  7 18:50 BUILD -> ../../II_docs/BUILD_VBYTE_LZMA_NOTEXT
+lrwxrwxrwx 1 fari fari       38 abr  7 18:50 BUILDP -> ../../II_docs/BUILDP_VBYTE_LZMA_NOTEXT
+-rwxrwx--- 1 fari cikm       67 abr  4 16:38 clean.sh
+-rw-rw-r-- 1 fari fari      187 abr  7 18:58 E_Wa.6.vbyte.lzma.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:58 E_Wb.6.vbyte.lzma.dat
+-rwxrwx--- 1 fari cikm      652 mar 31 12:50 goBuild.sh
+-rwxrwx--- 1 fari cikm      897 mar 31 09:11 goSearch.sh
+drwxrwx--- 2 fari cikm     4096 abr  7 18:51 indexes
+lrwxrwxrwx 1 fari fari       17 abr  7 18:50 lib -> ../../II_docs/lib
+-rw-rw-r-- 1 fari fari      187 abr  7 18:58 N_p2.6.vbyte.lzma.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:58 N_p5.6.vbyte.lzma.dat
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:50 postinglists.posts.1483
+lrwxrwxrwx 1 fari fari       38 abr  7 18:50 SEARCH -> ../../II_docs/SEARCH_VBYTE_LZMA_NOTEXT
+-rw-rw-r-- 1 fari fari     1140 abr  7 18:58 times_E_SEARCH.txt
+-rw-rw-r-- 1 fari fari     1132 abr  7 18:51 times_info_BUILD.txt
+-rw-rw-r-- 1 fari fari     1138 abr  7 18:58 times_N_SEARCH.txt
+-rw-rw-r-- 1 fari fari   130460 abr  7 18:51 vbyte.lzma.1505
+-rw-rw-r-- 1 fari fari   130382 abr  7 18:51 vbyte.lzma.1506
+-rw-rw-r-- 1 fari fari   128993 abr  7 18:51 vbyte.lzma.1507
+-rw-rw-r-- 1 fari fari   130522 abr  7 18:51 vbyte.lzma.1508
+
+./6.scripts.vbytelzma/indexes:
+total 1148
+-rwxrwx--- 1 fari fari 465149 abr  7 18:51 wiki20gb.bcs
+-rwxrwx--- 1 fari fari     16 abr  7 18:51 wiki20gb.const
+-rwxrwx--- 1 fari fari 577309 abr  7 18:51 wiki20gb.il.vbyte.lzma
+-rwxrwx--- 1 fari fari 125374 abr  7 18:51 wiki20gb.voc
+
+./7.scripts.simple9:
+total 35812
+lrwxrwxrwx 1 fari fari       34 abr  7 18:51 BUILD -> ../../II_docs/BUILD_SIMPLE9_NOTEXT
+lrwxrwxrwx 1 fari fari       35 abr  7 18:51 BUILDP -> ../../II_docs/BUILDP_SIMPLE9_NOTEXT
+-rwxrwx--- 1 fari cikm       44 mar 31 12:54 clean.sh
+-rw-rw-r-- 1 fari fari      187 abr  7 18:58 E_Wa.7.simple9.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:58 E_Wb.7.simple9.dat
+-rwxrwx--- 1 fari cikm      512 mar 31 12:51 goBuild.sh
+-rwxrwx--- 1 fari cikm     1471 mar 31 09:11 goSearch.sh
+drwxrwx--- 2 fari cikm     4096 abr  7 18:51 indexes
+-rw-rw-r-- 1 fari fari      187 abr  7 18:58 N_p2.7.simple9.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:58 N_p5.7.simple9.dat
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:51 postinglists.posts.21482
+lrwxrwxrwx 1 fari fari       35 abr  7 18:51 SEARCH -> ../../II_docs/SEARCH_SIMPLE9_NOTEXT
+-rw-rw-r-- 1 fari fari     1158 abr  7 18:58 times_E_SEARCH.txt
+-rw-rw-r-- 1 fari fari      602 abr  7 18:51 times_info_BUILD.txt
+-rw-rw-r-- 1 fari fari     1154 abr  7 18:58 times_N_SEARCH.txt
+
+./7.scripts.simple9/indexes:
+total 1984
+-rwxrwx--- 1 fari fari      16 abr  7 18:51 wiki20gb.const
+-rwxrwx--- 1 fari fari 1897512 abr  7 18:51 wiki20gb.il.simple9
+-rwxrwx--- 1 fari fari  125374 abr  7 18:51 wiki20gb.voc
+
+./8.scripts.pfordelta:
+total 35812
+lrwxrwxrwx 1 fari fari       36 abr  7 18:51 BUILD -> ../../II_docs/BUILD_PFORDELTA_NOTEXT
+lrwxrwxrwx 1 fari fari       37 abr  7 18:51 BUILDP -> ../../II_docs/BUILDP_PFORDELTA_NOTEXT
+-rwxrwx--- 1 fari cikm       44 mar 31 12:54 clean.sh
+-rw-rw-r-- 1 fari fari      187 abr  7 18:58 E_Wa.8.pfordelta.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:58 E_Wb.8.pfordelta.dat
+-rwxrwx--- 1 fari cikm      629 mar 31 12:51 goBuild.sh
+-rwxrwx--- 1 fari cikm     1438 mar 31 09:11 goSearch.sh
+drwxrwx--- 2 fari cikm     4096 abr  7 18:51 indexes
+-rw-rw-r-- 1 fari fari      187 abr  7 18:58 N_p2.8.pfordelta.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:58 N_p5.8.pfordelta.dat
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:51 postinglists.posts.21506
+lrwxrwxrwx 1 fari fari       37 abr  7 18:51 SEARCH -> ../../II_docs/SEARCH_PFORDELTA_NOTEXT
+-rw-rw-r-- 1 fari fari     1148 abr  7 18:58 times_E_SEARCH.txt
+-rw-rw-r-- 1 fari fari      612 abr  7 18:51 times_info_BUILD.txt
+-rw-rw-r-- 1 fari fari     1146 abr  7 18:58 times_N_SEARCH.txt
+
+./8.scripts.pfordelta/indexes:
+total 2136
+-rwxrwx--- 1 fari fari      16 abr  7 18:51 wiki20gb.const
+-rwxrwx--- 1 fari fari 2054976 abr  7 18:51 wiki20gb.il.pfd
+-rwxrwx--- 1 fari fari  125374 abr  7 18:51 wiki20gb.voc
+
+./9.scripts.qmx:
+total 35812
+lrwxrwxrwx 1 fari fari       36 abr  7 18:51 BUILD -> ../../II_docs/BUILD_QMXCODING_NOTEXT
+lrwxrwxrwx 1 fari fari       37 abr  7 18:51 BUILDP -> ../../II_docs/BUILDP_QMXCODING_NOTEXT
+-rwxrwx--- 1 fari cikm       44 mar 31 12:54 clean.sh
+-rw-rw-r-- 1 fari fari      187 abr  7 18:58 E_Wa.9.qmx.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:58 E_Wb.9.qmx.dat
+-rwxrwx--- 1 fari cikm      615 mar 31 12:51 goBuild.sh
+-rwxrwx--- 1 fari cikm      710 mar 31 09:11 goSearch.sh
+drwxrwx--- 2 fari cikm     4096 abr  7 18:51 indexes
+-rw-rw-r-- 1 fari fari      187 abr  7 18:58 N_p2.9.qmx.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:58 N_p5.9.qmx.dat
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:51 postinglists.posts.21530
+lrwxrwxrwx 1 fari fari       37 abr  7 18:51 SEARCH -> ../../II_docs/SEARCH_QMXCODING_NOTEXT
+-rw-rw-r-- 1 fari fari     1152 abr  7 18:58 times_E_SEARCH.txt
+-rw-rw-r-- 1 fari fari      604 abr  7 18:51 times_info_BUILD.txt
+-rw-rw-r-- 1 fari fari     1148 abr  7 18:58 times_N_SEARCH.txt
+
+./9.scripts.qmx/indexes:
+total 9912
+-rwxrwx--- 1 fari fari       16 abr  7 18:51 wiki20gb.const
+-rwxrwx--- 1 fari fari 10016220 abr  7 18:51 wiki20gb.il.qmx
+-rwxrwx--- 1 fari fari   125374 abr  7 18:51 wiki20gb.voc
+
+./9.scripts.qmx.bis:
+total 35812
+lrwxrwxrwx 1 fari fari       40 abr  7 18:51 BUILD -> ../../II_docs/BUILD_QMXCODINGSIMD_NOTEXT
+lrwxrwxrwx 1 fari fari       41 abr  7 18:51 BUILDP -> ../../II_docs/BUILDP_QMXCODINGSIMD_NOTEXT
+-rwxrwx--- 1 fari cikm       44 mar 31 12:54 clean.sh
+-rw-rw-r-- 1 fari fari      187 abr  7 18:59 E_Wa.9.qmx.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:59 E_Wb.9.qmx.dat
+-rwxrwx--- 1 fari cikm      630 abr  1 15:53 goBuild.sh
+-rwxrwx--- 1 fari cikm      710 mar 31 09:11 goSearch.sh
+drwxrwx--- 2 fari cikm     4096 abr  7 18:51 indexes
+-rw-rw-r-- 1 fari fari      187 abr  7 18:59 N_p2.9.qmx.dat
+-rw-rw-r-- 1 fari fari      187 abr  7 18:59 N_p5.9.qmx.dat
+-rw-rw-r-- 1 fari fari 36623720 abr  7 18:51 postinglists.posts.21554
+lrwxrwxrwx 1 fari fari       41 abr  7 18:51 SEARCH -> ../../II_docs/SEARCH_QMXCODINGSIMD_NOTEXT
+-rw-rw-r-- 1 fari fari     1152 abr  7 18:59 times_E_SEARCH.txt
+-rw-rw-r-- 1 fari fari      607 abr  7 18:51 times_info_BUILD.txt
+-rw-rw-r-- 1 fari fari     1148 abr  7 18:59 times_N_SEARCH.txt
+
+./9.scripts.qmx.bis/indexes:
+total 9912
+-rwxrwx--- 1 fari fari       16 abr  7 18:51 wiki20gb.const
+-rwxrwx--- 1 fari fari 10016220 abr  7 18:51 wiki20gb.il.qmx
+-rwxrwx--- 1 fari fari   125374 abr  7 18:51 wiki20gb.voc

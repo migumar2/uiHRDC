@@ -1,0 +1,2 @@
+./SEARCHERFACADE DNA1MBq4moffat   L "int2=svs;intn=svs;fsearch=seqM" < extractor/dna1m.q4
+./SEARCHERFACADE DNA100MBq4moffat L "int2=svs;intn=svs;fsearch=seqM" < extractor/dna1m.q4

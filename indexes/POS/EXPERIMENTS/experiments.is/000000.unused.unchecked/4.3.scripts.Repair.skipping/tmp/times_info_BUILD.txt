@@ -1,0 +1,161 @@
+
+ Building index qgrams: ./BUILD ../../text2gb/wiki_src2gb.txt indexes/wiki2gb filename=indexes/wiki2gb; lenBitmapDiv=1; maxMemRepair=900000000; replacesPerIter = 1000; repairBreak=0.01; path2convert=./lib/convert; path2build_bitmap=./lib/build_bitmap; path2build_index=./lib/build_index32b; path2compress_dictionary=./lib/compressDictionary
+	Building time: 2249.330 secs
+	Input: 2087767849 bytes --> Output 592497739 bytes.
+	Overall compression --> 28.38% (2.27 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 104 bytes.
+	 number of diff words= 250550
+	 number of docs (ndocs)= 149761
+	 vocabulary of words = 2962548 bytes.
+	 Mapping Docs-2-wordposition = 599048 bytes.
+	 Inverted list-structure = 563655895 bytes.
+	 Text (compressed representation) = 25280144 bytes.
+	 Whole index = 592497739 bytes  ** Ratio = 28.379 % **
+ 
+=====================================
+
+
+
+
+Repair.compress: It: 1942 compressed: 32.5493% m=150743462
+Repair.compress: It: 1943 compressed: 32.5441% m=150719490
+Repair.compress: It: 1944 compressed: 32.5391% m=150696284
+Repair.compress: It: 1945 compressed: 32.5342% m=150673356
+lasti vale 1 i vale 1946
+=============================
+./lib/compressDictionary indexes/wiki2gb m=150422807
+read=150422807
+nodes=250551
+max_value=463119209
+max_assigned=465029969
+max_value=462868658
+max_assigned=464779418
+Sin Comprimir=86829014, comprimido=63593793
+Costo prom descompr=462.507262
+Original=462872628
+Simpolos finales=150422807 (32.497665%)
+Conjunto de pares=3821520 (0.825609%) hubo 1910760 reemplazos
+Conjunto de pares2=2545692+139265 (0.580064%) ahorro  1136563
+Estructura para rank para descomprimir=15188008 (3.281250%) tira de bits+5% extra
+Sumas simbolos+pares=154244327 (33.323273%)
+Sumas simbolos+pares2=153107764 (33.077728%)
+save BRR = 0
+save BR = 0
+
+ sizeUncompressed is 1852492720 and maxLenPosting is 13574598
+ m vale = 150422807 n vale = 462872628
+
+
+ RSS[] array has been built !!!!
+
+
+ RSS[] array has been compacted with skip_info into c_symb !!!!
+
+ loaded lenPosts[] array
+Loading  bitmap-type postings: indexes/wiki2gb.bitmappost
+
+ file indexes/wiki2gb.bitmappost opened sucessfully
+ read: [462872629][462872630][14464770][0]
+RAnk en pos 1 =0
+
+ THE INDEX HAS BEEN BUILT SUCCESFULLY: indexes/wiki2gb
+
+Now compressing the text: 2087767849 bytes
+ =================== DOC 0 ======================
+{{MetaSidebar|19%|#9E005E|left|Dublin to Belfast Line|Principal stations[[Belfast Central railway station|Belfast Central]]&lt;/br&gt;[[Lisburn railway station|Lisburn]]&lt;/br&gt;[[Portadown railway station|Portadown]]&lt;/br&gt;[[Newry railway station|Newry]]&lt;/br&gt;[[Dundalk railway station|Dundalk]]&lt;/br&gt;[[Drogheda railway station|Drogheda]]&lt;/br&gt;[[Dublin Connolly railway station|Dublin Connolly]]&lt;/br&gt;}}[[Category:Northern Ireland Railways]]
+
+ =================== ***** ======================
+
+ ptrs_size =876936
+ compressed seq=545282676
+ Bitmap Rb (ya quitadas estructs rank)=557056 bytes
+ Rs (dic)=16154640
+ LenPosting[] array (lens of each posting OLD!!) = 1002204
+ LenPosting[] array (lens of each posting BITS) = 751656
+ VOCAB SIZE = ptrs[] + lenList[] = 1628592 bytes
+
+  @size Postings as bitmaps =0 bytes
+  @Number of Bitmaps=0, bitmapLenListThreshold=462872629
+  @Bytes per bitmap = 57859080
+
+  @Rank struct for bitVector+ bitVector 32931
+ The index has already been built: 592497739 bytes!!
+
+ ** Call to setDefaultSearchOptions_il: "filename=indexes/wiki2gb; lenBitmapDiv=1; maxMemRepair=900000000; replacesPerIter = 1000; repairBreak=0.01; path2convert=./lib/convert; path2build_bitmap=./lib/build_bitmap; path2build_index=./lib/build_index32b; path2compress_dictionary=./lib/compressDictionary"
+
+Saving structures to disk: indexes/wiki2gb.*
+        Saving Vocabulary (list of sorted words) into disk indexes/wiki2gb.voc
+        Saving the configuration constants to file indexes/wiki2gb.const
+         Saving  document-beginnings offsets to disk: file  indexes/wiki2gb.doc_inis...
+        **saved il_list
+        **saved compressed representation of the source text
+ ptrs_size =876936
+ compressed seq=545282676
+ Bitmap Rb (ya quitadas estructs rank)=557056 bytes
+ Rs (dic)=16154640
+ LenPosting[] array (lens of each posting OLD!!) = 1002204
+ LenPosting[] array (lens of each posting BITS) = 751656
+ VOCAB SIZE = ptrs[] + lenList[] = 1628592 bytes
+
+  @size Postings as bitmaps =0 bytes
+  @Number of Bitmaps=0, bitmapLenListThreshold=462872629
+  @Bytes per bitmap = 57859080
+
+  @Rank struct for bitVector+ bitVector 32931
+ ptrs_size =876936
+ compressed seq=545282676
+ Bitmap Rb (ya quitadas estructs rank)=557056 bytes
+ Rs (dic)=16154640
+ LenPosting[] array (lens of each posting OLD!!) = 1002204
+ LenPosting[] array (lens of each posting BITS) = 751656
+ VOCAB SIZE = ptrs[] + lenList[] = 1628592 bytes
+
+  @size Postings as bitmaps =0 bytes
+  @Number of Bitmaps=0, bitmapLenListThreshold=462872629
+  @Bytes per bitmap = 57859080
+
+  @Rank struct for bitVector+ bitVector 32931
+        Space statistics for II-words-DocOriented
+
+        Space statistics for II-words-DocOriented
+         tindex structure = 104 bytes.
+         number of diff words= 250550
+         number of docs (ndocs)= 149761
+         vocabulary of words = 2962548 bytes.
+         Mapping Docs-2-wordposition = 599048 bytes.
+         Inverted list-structure = 563655895 bytes.
+         Text (compressed representation) = 25280144 bytes.
+         Whole index = 592497739 bytes  ** Ratio = 28.379 % **
+
+before calling to buildII.c:: freeIndex
+
+
+ after free
+
+
+
+Building time: 2249.330 secs
+Input: 2087767849 bytes --> Output 592497739 bytes.
+Overall compression --> 28.38% (2.27 bits per char).
+
+         Extended info
+
+        Space statistics for II-words-DocOriented
+         tindex structure = 104 bytes.
+         number of diff words= 250550
+         number of docs (ndocs)= 149761
+         vocabulary of words = 2962548 bytes.
+         Mapping Docs-2-wordposition = 599048 bytes.
+         Inverted list-structure = 563655895 bytes.
+         Text (compressed representation) = 25280144 bytes.
+         Whole index = 592497739 bytes  ** Ratio = 28.379 % **
+
+
+################################################################
+
+
+

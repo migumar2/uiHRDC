@@ -1,0 +1,1 @@
+ valgrind  --leak-check=full --show-reachable=yes ./myILSearch crr I 20 2 "int2=svs;fsearch=seq" < patterns.file

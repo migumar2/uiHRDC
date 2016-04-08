@@ -1,0 +1,1 @@
+valgrind  --leak-check=full --show-reachable=yes ./myILSearch crr E 1 1000 < patterns.file
