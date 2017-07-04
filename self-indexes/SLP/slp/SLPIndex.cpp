@@ -70,6 +70,26 @@ getTime(void)
 using namespace cds_static;
 using namespace std;
 
+/* Open patterns file and read header */
+void pfile_info(unsigned int* length, unsigned int* numpatt){
+	int error;
+	unsigned char c;
+	unsigned char origfilename[257];
+
+	error = fscanf(stdin, "# number=%u length=%u file=%s forbidden=", numpatt, length, origfilename);
+	if (error != 3)	{
+		fprintf (stderr, "Error: Patterns file header not correct\n");
+		perror ("run_queries");
+		exit (1);
+	}
+	//fprintf (stderr, "# patterns = %lu length = %lu file = %s forbidden chars = ", *numpatt, *length, origfilename);
+	while ( (c = fgetc(stdin)) != 0) {
+		if (c == '\n') break;
+		//fprintf (stderr, "%d",c);
+	}
+	//fprintf(stderr, "\n");
+}
+
 void
 usage()
 {
@@ -84,7 +104,7 @@ usage()
 	cerr << "=================================================" << endl << endl;
 
 	cerr << "*** LOCATING ***" << endl;
-	cerr << "./SLPIndex -l <dest> <doc_boundaries> <number_of_patterns>" << endl;
+	cerr << "./SLPIndex -l <index>" << endl;
 	cerr << "=================================================" << endl;
 	cerr << "It reads, one to one, the provided patterns and locates of all their" << endl;
 	cerr << " occurrences in the collection indexed in <dest>." << endl;
@@ -155,81 +175,61 @@ main(int argc, char* argv[])
 
 			case 'l':
 			{
-				if (argc == 5)
+				if (argc == 3)
 				{
+
+				
+
 					// LOADING THE SLP INDEX
 					RePairSLPIndex *index;
 					int q = RePairSLPIndex::load(argv[2], &index);
 
 					if (q != 0)
 					{
-						// LOADING DOCUMENT BOUNDARIES
-						ifstream fdocs(argv[3]);
-						fdocs.seekg(0,ios_base::end);
-						uint ndocs = fdocs.tellg()/sizeof(int);
-						fdocs.seekg(0,ios_base::beg);
 
-						uint * doc_array = loadValue<uint>(fdocs, ndocs);
-						fdocs.close();
+						unsigned int length=0;
+						unsigned int numpatt=0;
+
+						pfile_info(&length, &numpatt);
 
 						// LOADING THE PATTERNS TO BE SEARCHED
-						int npatterns = atoi(argv[4]);
-						int aux;
+						
 
-						Pattern *patterns = new Pattern[npatterns];
 
-						unsigned int ordinal=0;
-    						unsigned char* pattern[1000];
-						string header;
-						getline(cin, header);
 
-						for (int i=0; i<npatterns; i++)
-						{
-							aux = fscanf(stdin, "%u %u ", &ordinal, &(patterns[i].length));
-							aux = fread(pattern, sizeof(uchar), patterns[i].length, stdin);
+						uchar *pattern = new uchar[length+1];
+					    	pattern[length] = '\0';
 
-							pattern[patterns[i].length] = 0;
-							patterns[i].pattern = string((char*)pattern);
+						if (pattern == NULL){
+							std::cerr<<"Error: cannot allocate pattern"<<std::endl;
+							exit(EXIT_FAILURE);
 						}
 
-						fprintf(stderr, "%u;%u;;", index->size(), (uint)(ndocs*sizeof(unsigned int)));
-						
-						double aggregated_time = 0;
+						while(numpatt){
 
-						for (uint j=0; j<RUNS; j++)
-						{
-							uint tot_occs = 0;
-							double time = getTime ();
-
-							for (int i=0; i<npatterns; i++)
-							{
-								uint occs;
-								vector<uint> *pos = index->RePairSLPIndex::locate((uchar*)(patterns[i].pattern).c_str(), patterns[i].length, &occs);
-
-								uint *docs = doc_offset_exp(doc_array, ndocs, pos->data(), occs);
-								delete pos; delete [] docs;
-								tot_occs += occs;
+							if(fread(pattern, sizeof(uchar), length, stdin) != length){
+								fprintf(stderr, "Error: cannot read patterns file\n");
+								exit(EXIT_FAILURE);
 							}
 
-							double tot_time = (getTime () - time);
+							pattern[length] = '\0';
+							string ss = string((char*)pattern);
 
-							// PRINTF Occurrences
-							if (j==0) fprintf(stderr, "%u;;", tot_occs);
+							//cout << "searching " << ss << flush;
+							//cout << "/STARTING SEARCH " << endl;
 
-							// PRINTF Run locate time
-							fprintf(stderr, "%.2f;", tot_time);
-							fflush(stderr);
+							{
+								uint occs = 0;
+								vector<uint> *pos = index->RePairSLPIndex::locate((uchar*)ss.c_str(), ss.length(), &occs);
+								delete pos;
 
-							aggregated_time += tot_time;
-							sleep(5);
+							}
+
+							numpatt--;
+
 						}
 
-						// PRINTF Averaged locate time
-						fprintf(stderr, ";%.2f \n", aggregated_time/RUNS);
-						fflush(stderr);
-
-						delete [] doc_array;
-						delete [] patterns;
+						delete [] pattern;
 						delete index;
 					}
 					else

@@ -276,7 +276,11 @@ namespace cds_static
 	uint
 	LabeledBinaryRelation::nRowsPerColumnNoBitSeq(uint column)
 	{
-		if ((((WaveletTreeNoptrs*)Sb)->check(column)) == true) return Sb->rank(column, nrows-1);
+		if ((((WaveletTreeNoptrs*)Sb)->check(column)) == true) 
+		{
+			return Sb->rank(column, nrows-1);
+		}
+
 		return 0;
 	}
 

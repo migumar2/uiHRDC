@@ -96,7 +96,7 @@ namespace cds_static
             size_t n;
 
             /** Height of the Wavelet Tree. */
-            uint height, max_v;
+            uint height, max_v, max_mapped_v;
 
             /** Obtains the maximum value from the string
              * symbols of length n */

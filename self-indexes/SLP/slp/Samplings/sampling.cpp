@@ -47,6 +47,12 @@ Sampling::getMaxLength()
 	return dictionary->getMaxLength()-1;
 }
 
+uint
+Sampling::getTerminals()
+{
+	return terminals;
+}
+
 uint 
 Sampling::extract(size_t id, uchar* s)
 {
@@ -144,7 +150,10 @@ Sampling::leftBlockForTerminal(uint terminal)
 size_t
 Sampling::rightBlockForTerminal(uint terminal)
 {
-	return posterms[terminal];
+	if (terminal < terminals)
+		return posterms[terminal];
+	else 
+		return getBlocks()-1;
 }
 
 void

@@ -83,12 +83,23 @@ namespace csd
     	size_t
 	CSD_HTFC::locateByPrefix(uchar *prefix, uint len, uint *left, uint *right, uint *bleft, uint *bright)
 	{
-		uint lblock = *bleft, rblock = *bright;
+		int ilblock = *bleft, irblock = *bright;
 
 		// Binary search for locating left and right blocks
-		locateLimitBlocks(prefix, len, &lblock, &rblock);
-		*bleft = lblock;
-		*bright = rblock;
+		locateLimitBlocks(prefix, len, &ilblock, &irblock);
+
+		if (ilblock == NOTFOUND) {
+			*left = 0; 
+			*right = 0;
+			return 0;
+		}
+		else 
+		{
+			*bleft = ilblock;
+			*bright = irblock;
+		}
+
+		uint lblock = ilblock, rblock = irblock;
 
 		if (lblock == rblock)
 		{
@@ -127,8 +138,13 @@ namespace csd
 	CSD_HTFC::locate(uchar *s, size_t len, uint *left, uint *bleft)
 	{
 		// Locating the candidate block for 's'
-		bool cmp = locateBlock(s, len, bleft);
+		int xbleft;
+		bool cmp = locateBlock(s, len, &xbleft);
 
+		// 's' is smaller than the first string in the dictionary
+		if (xbleft < 0) { *left = 0; *bleft = 0; } 
+		else { *bleft = xbleft; }
+		
 		if (cmp)
 		{
 			// The string is located at the first position of the block
@@ -514,7 +530,7 @@ namespace csd
 	}
 
 	bool 
-	CSD_HTFC::locateBlock(uchar *s, uint slen, uint *block)
+	CSD_HTFC::locateBlock(uchar *s, uint slen, int *block)
 	{
 		uchar *encoded = new uchar[2*slen];
 		encoded[0] = 0;
@@ -524,14 +540,13 @@ namespace csd
 		for (uint i=0; i<slen; i++) encodeHT(HTcode[s[i]].code, HTcode[s[i]].cbits, encoded, &encpos, &encoffset);
 		if (encoffset > 0) encpos++;
 
-		uint l = 0, r = nblocks-1, c;
+		int l = 0, r = nblocks-1, c;
 		uint delta;
 		int cmp;
 		
 		while (l <= r)
 		{			
 			c = (l+r)/2;
-
 			uint pos = blocks->getField(c);
 			
 			// Reading the compressed string length
@@ -577,7 +592,7 @@ namespace csd
 	}
 
 	void
-	CSD_HTFC::locateLimitBlocks(uchar *s, uint slen, uint *left, uint *right)
+	CSD_HTFC::locateLimitBlocks(uchar *s, uint slen, int *left, int *right)
 	{
 		uchar *encoded = new uchar[2*slen];
 		encoded[0] = 0;
@@ -689,7 +704,11 @@ namespace csd
 		uint read = 1;
 		uint id = 0;
 
-		while (read < blocksize)
+		uint scanneable = blocksize;
+
+		if (block == nblocks-1) scanneable = (length%blocksize);
+
+		while (read < scanneable)
 		{
 			// Decoding the prefix (delta)
 			decompressDelta(text, &pos, &offset, deltaseq);
