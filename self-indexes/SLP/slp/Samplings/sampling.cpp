@@ -144,7 +144,10 @@ Sampling::load(ifstream & fp)
 size_t
 Sampling::leftBlockForTerminal(uint terminal)
 {
-	return posterms[terminal-1];
+	if (terminal < terminals)
+		return posterms[terminal-1];
+	else
+		return getBlocks()-1;
 }
 
 size_t

@@ -215,8 +215,8 @@ main(int argc, char* argv[])
 							pattern[length] = '\0';
 							string ss = string((char*)pattern);
 
-							//cout << "searching " << ss << flush;
-							//cout << "/STARTING SEARCH " << endl;
+//							cout << "(" << numpatt << ") searching " << ss << flush;
+//							cout << "/STARTING SEARCH " << endl;
 
 							{
 								uint occs = 0;
