@@ -7,19 +7,19 @@ cd ../slp
 
 echo " --- Locating low frequency words..."
 echo "Index size;Doc index size;Occs;#1;#2;#3;#4;#5;#6;#7;#8;#9;#10;;Avg.Time" >> ../evaluation/results/slp.f1_1000 
-./SLPIndex -l ../evaluation/indexes/index.slp 1000 ../evaluation/text.DOCBOUNDARIES < ../evaluation/patterns/wiki2g.words.f1_1000 2>> ../evaluation/results/slp.f1_1000 
+./SLPIndex -l ../evaluation/indexes/index.slp ../evaluation/text.DOCBOUNDARIES 1000 < ../evaluation/patterns/wiki2g.words.f1_1000 2>> ../evaluation/results/slp.f1_1000 
 
 echo " --- Locating high frequency words..."
 echo "Index size;Doc index size;Occs;#1;#2;#3;#4;#5;#6;#7;#8;#9;#10;;Avg.Time" >> ../evaluation/results/slp.f1001_100k
-./SLPIndex -l ../evaluation/indexes/index.slp 1000 ../evaluation/text.DOCBOUNDARIES < ../evaluation/patterns/wiki2g.words.f1001_100k 2>> ../evaluation/results/slp.f1001_100k
+./SLPIndex -l ../evaluation/indexes/index.slp ../evaluation/text.DOCBOUNDARIES 1000 < ../evaluation/patterns/wiki2g.words.f1001_100k 2>> ../evaluation/results/slp.f1001_100k
 
 echo " --- Locating 2-word phrases..."
 echo "Index size;Doc index size;Occs;#1;#2;#3;#4;#5;#6;#7;#8;#9;#10;;Avg.Time" >> ../evaluation/results/slp.2_2
-./SLPIndex -l ../evaluation/indexes/index.slp 1000 ../evaluation/text.DOCBOUNDARIES < ../evaluation/patterns/wiki2g_2_2 2>> ../evaluation/results/slp.2_2
+./SLPIndex -l ../evaluation/indexes/index.slp ../evaluation/text.DOCBOUNDARIES 1000 < ../evaluation/patterns/wiki2g_2_2 2>> ../evaluation/results/slp.2_2
 
 echo " --- Locating 5-word phrases..."
 echo "Index size;Doc index size;Occs;#1;#2;#3;#4;#5;#6;#7;#8;#9;#10;;Avg.Time" >> ../evaluation/results/slp.5_5
-./SLPIndex -l ../evaluation/indexes/index.slp 1000 ../evaluation/text.DOCBOUNDARIES < ../evaluation/patterns/wiki2g_5_5 2>> ../evaluation/results/slp.5_5
+./SLPIndex -l ../evaluation/indexes/index.slp ../evaluation/text.DOCBOUNDARIES 1000 < ../evaluation/patterns/wiki2g_5_5 2>> ../evaluation/results/slp.5_5
 
 echo " --- Extracting small snippets..."
 echo "Index size;Extracted chars;#1;#2;#3;#4;#5;#6;#7;#8;#9;#10;;Avg.Time" >> ../evaluation/results/slp.snippets80
