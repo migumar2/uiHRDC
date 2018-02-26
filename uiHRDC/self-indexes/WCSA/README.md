@@ -2,9 +2,8 @@
 
 We include here source code for the WCSA used in our paper:
 
-"Universal Indexes for Highly Repetitive Document Collections"
-submitted to Information Systems Journal in April 2016 
-by Claude, F; Fariña, F.; Martinez-Prieto, M.; and Navarro, G.
+`F. Claude, A. Fariña, M.A. Martinez-Prieto, and G. Navarro. Universal Indexes for 
+Highly Repetitive Document Collections. Information Systems 61:1-23, 2016`. 
 
 It is an adaptation of the source code used in our paper:
 Brisaboa, N. R.; Fariña, A.; Navarro, G.; Paramá, J. R.: 
