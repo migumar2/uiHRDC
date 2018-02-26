@@ -1,0 +1,45 @@
+###############################################################################
+###############################################################################
+## DOCKER - BUILD - REPET-IMAGE considerations
+###############################################################################
+We have set up a Ubuntu 14.04 image that includes all the software
+we require. This image was called 'repet' in our -docker build- 
+command.
+
+This docker image has a root user with password 'userR1', but also 
+has a user named 'user' with password 'userR1' and sudo capabilities.
+
+In addition, we have included openssh-server and have EXPOSED port 22
+so that you can run a container 'repet-exp' based on this image as:
+
+  $ sudo docker run --name repet-exp -p 22222:22 -it repet 
+      <press CTRL+P, CTRL+Q to detach from docker container>
+
+By doing so, the container repet-exp permits you to conect by ssh/sftp
+to port 22222.
+  $ ssh user@localhost -p 22222
+  $ sftp -P 22222 user@localhost
+
+Now you can remotely from the host machine by ssh to run scripts, and 
+by ftp to transfer "result" files.
+
+**
+** We found issues when running scripts within the docker container with a
+** non-root user, so we recommend to:
+**   - connect by ssh with user 'user': $ ssh user@localhost -p 22222  <pass userR1>
+**   - then become root: $ sudo su                                     <pass userR1>
+**   -   now open screen-virtual-terminal console if you want
+**   - finally if you want to retrieve all the data in benchmark folder:
+**         chown user:user /home/user -R
+**         or tar czvf /home/user/benchmark.tar.gz /home/user/uiHRDC/benchmark
+**
+
+If you prefer not to connect by ssh remember you can user:
+  $docker attach repet-exp
+    docker-prompt> run scripts now 
+    docker-prompt> CTRL+P CTRL+Q to detach (keeping container repet-exp active)
+   
+###############################################################################
+###############################################################################
+
+
