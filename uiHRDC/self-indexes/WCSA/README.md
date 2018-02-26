@@ -42,7 +42,6 @@ Steps to run experiments.
 
 cd data
 sh go2gb.sh           --> sets links to data/patterns/intervals from root folder (dataset for INF. systems paper)
-## sh goEinstein.sh   --> would set links to data/patterns/intervals from root folder (test smaller dataset).
 cd ..
 cd sourceCode  --> makes source code.
 make
