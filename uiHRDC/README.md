@@ -11,7 +11,7 @@ compiling result files and obtain a final report of the experiment.
 Sub-directories are organized as follows:
 
   + `benchmark`: this directory contains some simple scripts to compile result files
-	   into different graphics which are then included in a $\LaTeX$ file. A final
+	   into different graphics which are then included in a LaTeX file. A final
 	   PDF report is obtaained.
 
   + `data`: this directory organizes all experimental data used in our evaluation. It
