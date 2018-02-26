@@ -28,6 +28,7 @@ in the folder "scripts.swcsa3.is"
   
 The resulting results will be saved in 
   (locate)
+
 	N.Wa_swcsa.dat  --> low freq words
 	N.Wb_swcsa.dat  --> high freq words
 	N.P2_swcsa.dat  --> 2-words phrases
