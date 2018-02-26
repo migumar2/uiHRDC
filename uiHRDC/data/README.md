@@ -7,7 +7,7 @@ Martinez-Prieto, M.; and Navarro, G.*. In addition, we provide some (small)
 additional files which allow to reproduce a comparable experimental evaluation in
 a less powerful computational configuration.
 
-+ The `text` folder contains different text collections (compressed with 7z) which 
++ The `texts` folder contains different text collections (compressed with 7z) which 
   can be indexed with all of our techniques:
   - `textwiki20gb` and `textwiki2gb` are the text collections used respectively for 
     evaluating non-positional and positional/self-indexes in our paper.
@@ -39,8 +39,7 @@ a less powerful computational configuration.
     text collections.
 
 
-
-For more information, please feel free to contact us:
+If you have any doubt or need more information, please feel free to contact us:
 
 - Francisco Claude: \<fclaude@recoded.cl\>
 - Antonio Fariña: \<fari@udc.es\>
