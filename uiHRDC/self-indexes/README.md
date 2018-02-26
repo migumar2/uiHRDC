@@ -1,4 +1,4 @@
-# indexes
+# self-indexes
 
 We include here source code + scripts for running our experiments for some self-indexes.
 
