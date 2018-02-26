@@ -62,6 +62,36 @@ int main(int argc, char** argv){
 	lz77index::static_selfindex* idx = lz77index::static_selfindex::load(argv[1]);
 	load_time += lz77index::utils::endTime();
 
+	if (argc == 3) {
+		// Positions will mapped to (document,offset).... the
+		// corresponding document boundaries must be loaded
+
+		// LOADING DOCUMENT BOUNDARIES
+		ifstream fdocs(argv[2]);
+		fdocs.seekg(0,ios_base::end);
+		uint ndocs = fdocs.tellg()/sizeof(int);
+		fdocs.seekg(0,ios_base::beg);
+
+		uint * doc_array = new uint[ndocs];
+		fdocs.read((char*)doc_array,ndocs*sizeof(uint));
+		fdocs.close();
+
+		// PRINTF Index Size
+		fprintf(stderr, "%u;%u;;", idx->size(), (uint)(ndocs*sizeof(unsigned int)));
+		fflush(stderr);
+	}
+	else {
+		// PRINTF Index Size
+		fprintf(stderr, "%u;;", idx->size());
+	}
+	
+
+
+
+
+
+
+
 	// LOADING PATTERNS
 	unsigned int numpatt;
 	pfile_info(&numpatt);
@@ -95,90 +125,35 @@ int main(int argc, char** argv){
 		vpatterns[i] = new unsigned char[length+1];
 		strcpy((char*)vpatterns[i], (char*)pattern);
 	}
+    
+	for (unsigned int i=0; i<RUNS; i++)
+	{
+		for (unsigned int j=0; j<numpatt; j++)
+		{
+			/* Locate */
+			lz77index::utils::startTime();
 
-	if (argc == 3) {
-		// Positions will mapped to (document,offset).... the
-		// corresponding document boundaries must be loaded
+			strcpy((char*)pattern, (char*)vpatterns[j]);
 
-		// LOADING DOCUMENT BOUNDARIES
-		ifstream fdocs(argv[2]);
-		fdocs.seekg(0,ios_base::end);
-		uint ndocs = fdocs.tellg()/sizeof(int);
-		fdocs.seekg(0,ios_base::beg);
+			occ_pos = idx->locate(pattern, vlengths[j], &numocc);			
+			uint *docs = doc_offset_exp(doc_array, ndocs, occ_pos->data(), numocc);
 
-		uint * doc_array = new uint[ndocs];
-		fdocs.read((char*)doc_array,ndocs*sizeof(uint));
-		fdocs.close();
+			delete occ_pos; delete [] docs;
+			tot_time += lz77index::utils::endTime();
 
-		// PRINTF Index Size
-		fprintf(stderr, "%u;%u;;", idx->size(), (uint)(ndocs*sizeof(unsigned int)));
+			tot_numocc += numocc;	
+		}
+
+		// PRINTF Occurrences
+		if (i==0) fprintf(stderr, "%u;;", tot_numocc);
+
+		// PRINTF Run locate time
+		fprintf(stderr, "%.2f;", tot_time);
 		fflush(stderr);
 
-		for (unsigned int i=0; i<RUNS; i++)
-		{
-			for (unsigned int j=0; j<numpatt; j++)
-			{
-				/* Locate */
-				lz77index::utils::startTime();
-
-				strcpy((char*)pattern, (char*)vpatterns[j]);
-
-				occ_pos = idx->locate(pattern, vlengths[j], &numocc);			
-				uint *docs = doc_offset_exp(doc_array, ndocs, occ_pos->data(), numocc);
-
-				delete occ_pos; delete [] docs;
-				tot_time += lz77index::utils::endTime();
-
-				tot_numocc += numocc;	
-			}
-
-			// PRINTF Occurrences
-			if (i==0) fprintf(stderr, "%u;;", tot_numocc);
-
-			// PRINTF Run locate time
-			fprintf(stderr, "%.2f;", tot_time);
-			fflush(stderr);
-
-			aggregated_time += tot_time;
-			tot_time = 0;
-			sleep(5);
-		}
-
-		delete [] doc_array;
-	}
-	else 
-	{
-		// PRINTF Index Size
-		fprintf(stderr, "%u;;", idx->size());
-
-		for (unsigned int i=0; i<RUNS; i++)
-		{
-			for (unsigned int j=0; j<numpatt; j++)
-			{
-				/* Locate */
-				lz77index::utils::startTime();
-
-				strcpy((char*)pattern, (char*)vpatterns[j]);
-
-				occ_pos = idx->locate(pattern, vlengths[j], &numocc);			
-
-				delete occ_pos; 
-				tot_time += lz77index::utils::endTime();
-
-				tot_numocc += numocc;	
-			}
-
-			// PRINTF Occurrences
-			if (i==0) fprintf(stderr, "%u;;", tot_numocc);
-
-			// PRINTF Run locate time
-			fprintf(stderr, "%.2f;", tot_time);
-			fflush(stderr);
-
-			aggregated_time += tot_time;
-			tot_time = 0;
-			sleep(5);
-		}
+		aggregated_time += tot_time;
+		tot_time = 0;
+		sleep(5);
 	}
 
 	// PRINTF Averaged locate time
@@ -195,7 +170,7 @@ int main(int argc, char** argv){
 
 	delete [] pattern;
 	for (unsigned int i=0; i<numpatt; i++) delete [] vpatterns[i];
-
+	delete [] doc_array;
 
     	return EXIT_SUCCESS;
 }

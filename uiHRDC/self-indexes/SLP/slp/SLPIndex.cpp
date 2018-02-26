@@ -84,10 +84,12 @@ usage()
 	cerr << "=================================================" << endl << endl;
 
 	cerr << "*** LOCATING ***" << endl;
-	cerr << "./SLPIndex -l <dest> <doc_boundaries> <number_of_patterns>" << endl;
+	cerr << "./SLPIndex -l <dest> <number_of_patterns> <doc_boundaries> " << endl;
 	cerr << "=================================================" << endl;
 	cerr << "It reads, one to one, the provided patterns and locates of all their" << endl;
-	cerr << " occurrences in the collection indexed in <dest>." << endl;
+	cerr << " occurrences in the collection indexed in <dest>." << endl << endl ;
+	cerr << " <doc_boundaries> is required if results must be mapped to pairs." << endl;
+	cerr << " (doc,offset) (otherwise, global positions will be delivered)." << endl;
 	cerr << "=================================================" << endl << endl;
 
 	cerr << "*** EXTRACTING ***" << endl;
@@ -155,7 +157,7 @@ main(int argc, char* argv[])
 
 			case 'l':
 			{
-				if (argc == 5)
+				if (argc >= 4)
 				{
 					// LOADING THE SLP INDEX
 					RePairSLPIndex *index;
@@ -163,17 +165,8 @@ main(int argc, char* argv[])
 
 					if (q != 0)
 					{
-						// LOADING DOCUMENT BOUNDARIES
-						ifstream fdocs(argv[3]);
-						fdocs.seekg(0,ios_base::end);
-						uint ndocs = fdocs.tellg()/sizeof(int);
-						fdocs.seekg(0,ios_base::beg);
-
-						uint * doc_array = loadValue<uint>(fdocs, ndocs);
-						fdocs.close();
-
 						// LOADING THE PATTERNS TO BE SEARCHED
-						int npatterns = atoi(argv[4]);
+						int npatterns = atoi(argv[3]);
 						int aux;
 
 						Pattern *patterns = new Pattern[npatterns];
@@ -192,43 +185,88 @@ main(int argc, char* argv[])
 							patterns[i].pattern = string((char*)pattern);
 						}
 
-						fprintf(stderr, "%u;%u;;", index->size(), (uint)(ndocs*sizeof(unsigned int)));
-						
 						double aggregated_time = 0;
 
-						for (uint j=0; j<RUNS; j++)
+						if (argc == 5) 
 						{
-							uint tot_occs = 0;
-							double time = getTime ();
+							// Positions will mapped to (document,offset).... the
+							// corresponding document boundaries must be loaded
 
-							for (int i=0; i<npatterns; i++)
+							// LOADING DOCUMENT BOUNDARIES
+							ifstream fdocs(argv[4]);
+							fdocs.seekg(0,ios_base::end);
+							uint ndocs = fdocs.tellg()/sizeof(int);
+							fdocs.seekg(0,ios_base::beg);
+
+							uint * doc_array = loadValue<uint>(fdocs, ndocs);
+							fdocs.close();
+
+							fprintf(stderr, "%u;%u;;", index->size(), (uint)(ndocs*sizeof(unsigned int)));
+
+							for (uint j=0; j<RUNS; j++)
 							{
-								uint occs;
-								vector<uint> *pos = index->RePairSLPIndex::locate((uchar*)(patterns[i].pattern).c_str(), patterns[i].length, &occs);
+								uint tot_occs = 0;
+								double time = getTime ();
 
-								uint *docs = doc_offset_exp(doc_array, ndocs, pos->data(), occs);
-								delete pos; delete [] docs;
-								tot_occs += occs;
+								for (int i=0; i<npatterns; i++)
+								{
+									uint occs;
+									vector<uint> *pos = index->RePairSLPIndex::locate((uchar*)(patterns[i].pattern).c_str(), patterns[i].length, &occs);
+
+									uint *docs = doc_offset_exp(doc_array, ndocs, pos->data(), occs);
+									delete pos; delete [] docs;
+									tot_occs += occs;
+								}
+
+								double tot_time = (getTime () - time);
+
+								// PRINTF Occurrences
+								if (j==0) fprintf(stderr, "%u;;", tot_occs);
+
+								// PRINTF Run locate time
+								fprintf(stderr, "%.2f;", tot_time);
+								fflush(stderr);
+
+								aggregated_time += tot_time;
+								sleep(5);
 							}
 
-							double tot_time = (getTime () - time);
-
-							// PRINTF Occurrences
-							if (j==0) fprintf(stderr, "%u;;", tot_occs);
-
-							// PRINTF Run locate time
-							fprintf(stderr, "%.2f;", tot_time);
-							fflush(stderr);
-
-							aggregated_time += tot_time;
-							sleep(5);
+							delete [] doc_array;
 						}
+						else
+						{
+							fprintf(stderr, "%u;;", index->size());
 
+							for (uint j=0; j<RUNS; j++)
+							{
+								uint tot_occs = 0;
+								double time = getTime ();
+
+								for (int i=0; i<npatterns; i++)
+								{
+									uint occs;
+									vector<uint> *pos = index->RePairSLPIndex::locate((uchar*)(patterns[i].pattern).c_str(), patterns[i].length, &occs);
+									delete pos;
+								}
+
+								double tot_time = (getTime () - time);
+
+								// PRINTF Occurrences
+								if (j==0) fprintf(stderr, "%u;;", tot_occs);
+
+								// PRINTF Run locate time
+								fprintf(stderr, "%.2f;", tot_time);
+								fflush(stderr);
+
+								aggregated_time += tot_time;
+								sleep(5);
+							}
+						}
+						
 						// PRINTF Averaged locate time
 						fprintf(stderr, ";%.2f \n", aggregated_time/RUNS);
 						fflush(stderr);
 
-						delete [] doc_array;
 						delete [] patterns;
 						delete index;
 					}
