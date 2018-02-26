@@ -1,0 +1,4 @@
+
+ Search: ./SEARCH indexes/wiki20gb: 50 int2=merge;intn=merge
+
+ Search: ./SEARCH indexes/wiki20gb: 50 int2=merge;intn=merge

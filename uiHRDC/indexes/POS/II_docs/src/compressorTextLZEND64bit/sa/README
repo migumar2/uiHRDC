@@ -1,0 +1,39 @@
+Introduction
+============
+This index implements a suffix array, using 32 bits for each entry.
+
+How to make
+===========
+To make the index just give the command 'make index', this will
+create 'SAu.a'.
+
+How to use the index
+====================
+Just follow the API presented in the site:
+http://pizzachili.dcc.uchile.cl
+And, include, in your program, interface.h located in
+http://pizzachili.dcc.uchile.cl/utils/
+
+
+How to compile using the index
+==============================
+To use this index you must compile your program linking 'SAu.a'
+For example:
+gcc your_program.c -o your_program SAu.a
+
+Special options and cases
+=========================
+-if build_option="copy_text" the index will copy the text
+an internal variable, and free it when the index is destroy.
+Otherwise the index will not own the text itself,
+then when you free the index the text will not be free.
+
+-if build_option="copy_text;free_text" the index will copy
+the text and free it immediately after copy it.
+
+-To save an index of a text file "xxxx", always give "xxxx" as
+filename. The index will create a file "xxxx.sa"
+
+-To load an index of a text file "xxxx", always give "xxxx" as
+filename, and it will load "xxxx" and "xxxx.sa" at search time.
+

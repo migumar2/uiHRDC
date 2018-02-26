@@ -1,0 +1,70 @@
+
+ Search sWCSA: ../indexes/cr_index
+	 ** Prog = ./SEARCHwcsa ../indexes/cr_index o 1  ** 
+	Index size = 19620527 bytes, ratio = 38.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=2: [0-0]
+	Total Num occs found = 729482
+	Locate time = 1.680000 sec
+	Locate_time/Num_occs = 0.002303 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.002303  msec/occs
+
+
+ Search sWCSA: ../indexes/cr_index
+	 ** Prog = ./SEARCHwcsa ../indexes/cr_index o 1  ** 
+	Index size = 19620527 bytes, ratio = 38.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=2: [0-0]
+	Total Num occs found = 729482
+	Locate time = 1.660000 sec
+	Locate_time/Num_occs = 0.002276 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.002276  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+        19620527	    1.660000000	    2.275587335	         729482	           1000	#cr_index
+
+ Search sWCSA: ../indexes/cr_index
+	 ** Prog = ./SEARCHwcsa ../indexes/cr_index o 1  ** 
+	Index size = 19620527 bytes, ratio = 38.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=2: [0-0]
+	Total Num occs found = 729482
+	Locate time = 1.700000 sec
+	Locate_time/Num_occs = 0.002330 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.002330  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+        19620527	    1.700000000	    2.330420764	         729482	           1000	#cr_index
+
+ Search sWCSA: ../indexes/cr_index
+	 ** Prog = ./SEARCHwcsa ../indexes/cr_index o 1  ** 
+	Index size = 19620527 bytes, ratio = 38.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=2: [0-0]
+	Total Num occs found = 729482
+	Locate time = 1.670000 sec
+	Locate_time/Num_occs = 0.002289 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.002289  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+        19620527	    1.670000000	    2.289295692	         729482	           1000	#cr_index
+
+ Search sWCSA: ../indexes/cr_index
+	 ** Prog = ./SEARCHwcsa ../indexes/cr_index o 1  ** 
+	Index size = 19620527 bytes, ratio = 38.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=2: [0-0]
+	Total Num occs found = 729482
+	Locate time = 1.690000 sec
+	Locate_time/Num_occs = 0.002317 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.002317  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+        19620527	    1.690000000	    2.316712407	         729482	           1000	#cr_index
+
+ Search sWCSA: ../indexes/cr_index
+	 ** Prog = ./SEARCHwcsa ../indexes/cr_index o 1  ** 
+	Index size = 19620527 bytes, ratio = 38.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=2: [0-0]
+	Total Num occs found = 729482
+	Locate time = 1.710000 sec
+	Locate_time/Num_occs = 0.002344 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.002344  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+        19620527	    1.710000000	    2.344129122	         729482	           1000	#cr_index

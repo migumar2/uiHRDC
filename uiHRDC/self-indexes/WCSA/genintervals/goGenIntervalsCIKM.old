@@ -1,0 +1,10 @@
+mkdir ../intervals
+
+./genIntervalsWords ../scripts.swcsa3.cikm/indexes/wiki2gb_sA16.sAi64.sPsi16.16k.se 20 100000 ../intervals/wiki2g.intervals.20words.txt
+./genIntervalsWords ../scripts.swcsa3.cikm/indexes/wiki2gb_sA16.sAi64.sPsi16.16k.se 3000 10000 ../intervals/wiki2g.intervals.3000words.txt
+
+
+
+
+
+

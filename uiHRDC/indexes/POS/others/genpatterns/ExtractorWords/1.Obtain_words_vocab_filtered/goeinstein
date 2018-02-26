@@ -1,0 +1,4 @@
+#Use:  ./EXTRACTWORDS  <in file>  <out file> <minFreq> <maxFreq> <minLen> <maxLen> <onlyWords>
+./EXTRACTWORDS ../../../../../../data/texts/einstein.en.txt ../einstein[5-25][f1-100].xt 1 100 4 25 1
+./EXTRACTWORDS ../../../../../../data/texts/einstein.en.txt ../einstein[5-25][f101-50k].xt 101 50000 4 25 1
+

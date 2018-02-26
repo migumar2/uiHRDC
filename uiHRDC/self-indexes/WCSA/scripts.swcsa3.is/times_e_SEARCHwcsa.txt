@@ -1,0 +1,1062 @@
+*****************************************************************************
+********************  Intervals Set 1                ************************
+*****************************************************************************
+*****************************************************************************
+********************  PATTERN SET B.words (Wb)       ************************
+*****************************************************************************
+*****************************************************************************
+********************  Intervals Set 1                ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 1061765698 bytes, ratio = 50.857
+	Total num chars extracted = 8512351
+	Extract time = 0.728000 secs
+	Extract_time/Num_chars_extracted = 0.000086 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000086 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+      1061765698	    50.857	           n.d.	    0.085522789	        8512351	           n.d.	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 374666518 bytes, ratio = 17.946
+	Total num chars extracted = 8512351
+	Extract time = 1.240000 secs
+	Extract_time/Num_chars_extracted = 0.000146 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000146 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       374666518	    17.946	           n.d.	    0.145670685	        8512351	           n.d.	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 331272214 bytes, ratio = 15.867
+	Total num chars extracted = 8512351
+	Extract time = 1.796000 secs
+	Extract_time/Num_chars_extracted = 0.000211 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000211 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       331272214	    15.867	           n.d.	    0.210987540	        8512351	           n.d.	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 231153918 bytes, ratio = 11.072
+	Total num chars extracted = 8512351
+	Extract time = 3.544000 secs
+	Extract_time/Num_chars_extracted = 0.000416 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000416 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       231153918	    11.072	           n.d.	    0.416336215	        8512351	           n.d.	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 196398722 bytes, ratio = 9.407
+	Total num chars extracted = 8512351
+	Extract time = 8.884000 secs
+	Extract_time/Num_chars_extracted = 0.001044 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.001044 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       196398722	     9.407	           n.d.	    1.043659971	        8512351	           n.d.	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 185646818 bytes, ratio = 8.892
+	Total num chars extracted = 8512351
+	Extract time = 73.896000 secs
+	Extract_time/Num_chars_extracted = 0.008681 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.008681 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       185646818	     8.892	           n.d.	    8.681033007	        8512351	           n.d.	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi16.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi16.sPsi16.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 622880230 bytes, ratio = 29.835
+	Total num chars extracted = 8512351
+	Extract time = 0.784000 secs
+	Extract_time/Num_chars_extracted = 0.000092 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000092 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       622880230	    29.835	           n.d.	    0.092101465	        8512351	           n.d.	#wiki2gb_sA16.sAi16.sPsi16.16k
+
+------------------------
+
+*****************************************************************************
+********************  PATTERN SET B.words (Wb)       ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 1061765698 bytes, ratio = 50.857
+	Total num chars extracted = 136111474
+	Extract time = 9.152000 secs
+	Extract_time/Num_chars_extracted = 0.000067 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000067 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+      1061765698	    50.857	           n.d.	    0.067239004	      136111474	           n.d.	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 374666518 bytes, ratio = 17.946
+	Total num chars extracted = 136111474
+	Extract time = 9.360000 secs
+	Extract_time/Num_chars_extracted = 0.000069 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000069 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       374666518	    17.946	           n.d.	    0.068767164	      136111474	           n.d.	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 331272214 bytes, ratio = 15.867
+	Total num chars extracted = 136111474
+	Extract time = 9.348000 secs
+	Extract_time/Num_chars_extracted = 0.000069 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000069 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       331272214	    15.867	           n.d.	    0.068679001	      136111474	           n.d.	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 231153918 bytes, ratio = 11.072
+	Total num chars extracted = 136111474
+	Extract time = 10.728000 secs
+	Extract_time/Num_chars_extracted = 0.000079 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000079 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       231153918	    11.072	           n.d.	    0.078817749	      136111474	           n.d.	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 196398722 bytes, ratio = 9.407
+	Total num chars extracted = 136111474
+	Extract time = 15.052000 secs
+	Extract_time/Num_chars_extracted = 0.000111 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000111 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       196398722	     9.407	           n.d.	    0.110585828	      136111474	           n.d.	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 185646818 bytes, ratio = 8.892
+	Total num chars extracted = 136111474
+	Extract time = 34.344000 secs
+	Extract_time/Num_chars_extracted = 0.000252 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000252 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       185646818	     8.892	           n.d.	    0.252322593	      136111474	           n.d.	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi16.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi16.sPsi16.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 622880230 bytes, ratio = 29.835
+	Total num chars extracted = 136111474
+	Extract time = 9.188000 secs
+	Extract_time/Num_chars_extracted = 0.000068 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000068 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       622880230	    29.835	           n.d.	    0.067503493	      136111474	           n.d.	#wiki2gb_sA16.sAi16.sPsi16.16k
+
+------------------------
+
+*****************************************************************************
+********************  Intervals Set 1                ************************
+*****************************************************************************
+*****************************************************************************
+********************  PATTERN SET B.words (Wb)       ************************
+*****************************************************************************
+*****************************************************************************
+********************  Intervals Set 1                ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 1061765698 bytes, ratio = 50.857
+	Total num chars extracted = 8512351
+	Extract time = 0.840000 secs
+	Extract_time/Num_chars_extracted = 0.000099 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000099 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+      1061765698	    50.857	           n.d.	    0.098680141	        8512351	           n.d.	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 374666518 bytes, ratio = 17.946
+	Total num chars extracted = 8512351
+	Extract time = 1.300000 secs
+	Extract_time/Num_chars_extracted = 0.000153 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000153 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       374666518	    17.946	           n.d.	    0.152719266	        8512351	           n.d.	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 331272214 bytes, ratio = 15.867
+	Total num chars extracted = 8512351
+	Extract time = 1.892000 secs
+	Extract_time/Num_chars_extracted = 0.000222 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000222 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       331272214	    15.867	           n.d.	    0.222265271	        8512351	           n.d.	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 231153918 bytes, ratio = 11.072
+	Total num chars extracted = 8512351
+	Extract time = 3.808000 secs
+	Extract_time/Num_chars_extracted = 0.000447 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000447 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       231153918	    11.072	           n.d.	    0.447349974	        8512351	           n.d.	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 196398722 bytes, ratio = 9.407
+	Total num chars extracted = 8512351
+	Extract time = 9.576000 secs
+	Extract_time/Num_chars_extracted = 0.001125 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.001125 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       196398722	     9.407	           n.d.	    1.124953612	        8512351	           n.d.	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 185646818 bytes, ratio = 8.892
+	Total num chars extracted = 8512351
+	Extract time = 78.280000 secs
+	Extract_time/Num_chars_extracted = 0.009196 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.009196 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       185646818	     8.892	           n.d.	    9.196049364	        8512351	           n.d.	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi16.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi16.sPsi16.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 622880230 bytes, ratio = 29.835
+	Total num chars extracted = 8512351
+	Extract time = 0.824000 secs
+	Extract_time/Num_chars_extracted = 0.000097 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000097 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       622880230	    29.835	           n.d.	    0.096800520	        8512351	           n.d.	#wiki2gb_sA16.sAi16.sPsi16.16k
+
+------------------------
+
+*****************************************************************************
+********************  PATTERN SET B.words (Wb)       ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 1061765698 bytes, ratio = 50.857
+	Total num chars extracted = 136111474
+	Extract time = 9.752000 secs
+	Extract_time/Num_chars_extracted = 0.000072 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000072 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+      1061765698	    50.857	           n.d.	    0.071647156	      136111474	           n.d.	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 374666518 bytes, ratio = 17.946
+	Total num chars extracted = 136111474
+	Extract time = 9.632000 secs
+	Extract_time/Num_chars_extracted = 0.000071 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000071 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       374666518	    17.946	           n.d.	    0.070765526	      136111474	           n.d.	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 331272214 bytes, ratio = 15.867
+	Total num chars extracted = 136111474
+	Extract time = 9.648000 secs
+	Extract_time/Num_chars_extracted = 0.000071 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000071 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       331272214	    15.867	           n.d.	    0.070883076	      136111474	           n.d.	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 231153918 bytes, ratio = 11.072
+	Total num chars extracted = 136111474
+	Extract time = 11.264000 secs
+	Extract_time/Num_chars_extracted = 0.000083 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000083 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       231153918	    11.072	           n.d.	    0.082755698	      136111474	           n.d.	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 196398722 bytes, ratio = 9.407
+	Total num chars extracted = 136111474
+	Extract time = 15.576000 secs
+	Extract_time/Num_chars_extracted = 0.000114 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000114 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       196398722	     9.407	           n.d.	    0.114435613	      136111474	           n.d.	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 185646818 bytes, ratio = 8.892
+	Total num chars extracted = 136111474
+	Extract time = 36.104000 secs
+	Extract_time/Num_chars_extracted = 0.000265 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000265 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       185646818	     8.892	           n.d.	    0.265253170	      136111474	           n.d.	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi16.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi16.sPsi16.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 622880230 bytes, ratio = 29.835
+	Total num chars extracted = 136111474
+	Extract time = 9.620000 secs
+	Extract_time/Num_chars_extracted = 0.000071 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000071 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       622880230	    29.835	           n.d.	    0.070677363	      136111474	           n.d.	#wiki2gb_sA16.sAi16.sPsi16.16k
+
+------------------------
+
+*****************************************************************************
+********************  Intervals Set 1                ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 1061765698 bytes, ratio = 50.857
+	Total num chars extracted = 8512351
+	Extract time = 0.656000 secs
+	Extract_time/Num_chars_extracted = 0.000077 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000077 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+      1061765698	    50.857	           n.d.	    0.077064491	        8512351	           n.d.	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 536091618 bytes, ratio = 25.678
+	Total num chars extracted = 8512351
+	Extract time = 1.240000 secs
+	Extract_time/Num_chars_extracted = 0.000146 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000146 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       536091618	    25.678	           n.d.	    0.145670685	        8512351	           n.d.	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 374666518 bytes, ratio = 17.946
+	Total num chars extracted = 8512351
+	Extract time = 1.240000 secs
+	Extract_time/Num_chars_extracted = 0.000146 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000146 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       374666518	    17.946	           n.d.	    0.145670685	        8512351	           n.d.	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 331272214 bytes, ratio = 15.867
+	Total num chars extracted = 8512351
+	Extract time = 1.816000 secs
+	Extract_time/Num_chars_extracted = 0.000213 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000213 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       331272214	    15.867	           n.d.	    0.213337068	        8512351	           n.d.	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 231153918 bytes, ratio = 11.072
+	Total num chars extracted = 8512351
+	Extract time = 3.532000 secs
+	Extract_time/Num_chars_extracted = 0.000415 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000415 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       231153918	    11.072	           n.d.	    0.414926499	        8512351	           n.d.	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 196398722 bytes, ratio = 9.407
+	Total num chars extracted = 8512351
+	Extract time = 8.948000 secs
+	Extract_time/Num_chars_extracted = 0.001051 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.001051 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       196398722	     9.407	           n.d.	    1.051178458	        8512351	           n.d.	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 185646818 bytes, ratio = 8.892
+	Total num chars extracted = 8512351
+	Extract time = 73.720000 secs
+	Extract_time/Num_chars_extracted = 0.008660 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.008660 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       185646818	     8.892	           n.d.	    8.660357168	        8512351	           n.d.	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+
+------------------------
+
+*****************************************************************************
+********************  PATTERN SET B.words (Wb)       ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 1061765698 bytes, ratio = 50.857
+	Total num chars extracted = 136111474
+	Extract time = 9.104000 secs
+	Extract_time/Num_chars_extracted = 0.000067 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000067 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+      1061765698	    50.857	           n.d.	    0.066886352	      136111474	           n.d.	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 536091618 bytes, ratio = 25.678
+	Total num chars extracted = 136111474
+	Extract time = 9.004000 secs
+	Extract_time/Num_chars_extracted = 0.000066 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000066 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       536091618	    25.678	           n.d.	    0.066151660	      136111474	           n.d.	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 374666518 bytes, ratio = 17.946
+	Total num chars extracted = 136111474
+	Extract time = 9.116000 secs
+	Extract_time/Num_chars_extracted = 0.000067 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000067 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       374666518	    17.946	           n.d.	    0.066974515	      136111474	           n.d.	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 331272214 bytes, ratio = 15.867
+	Total num chars extracted = 136111474
+	Extract time = 9.112000 secs
+	Extract_time/Num_chars_extracted = 0.000067 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000067 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       331272214	    15.867	           n.d.	    0.066945128	      136111474	           n.d.	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 231153918 bytes, ratio = 11.072
+	Total num chars extracted = 136111474
+	Extract time = 10.640000 secs
+	Extract_time/Num_chars_extracted = 0.000078 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000078 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       231153918	    11.072	           n.d.	    0.078171220	      136111474	           n.d.	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 196398722 bytes, ratio = 9.407
+	Total num chars extracted = 136111474
+	Extract time = 14.852000 secs
+	Extract_time/Num_chars_extracted = 0.000109 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000109 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       196398722	     9.407	           n.d.	    0.109116444	      136111474	           n.d.	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 185646818 bytes, ratio = 8.892
+	Total num chars extracted = 136111474
+	Extract time = 34.224000 secs
+	Extract_time/Num_chars_extracted = 0.000251 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000251 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       185646818	     8.892	           n.d.	    0.251440962	      136111474	           n.d.	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+
+------------------------
+
+*****************************************************************************
+**************  Intervals Set 1 (20words-approx 80chars)  *******************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k*****************************************************************************
+**************  Intervals Set 2 (3000words-approx 13000chars)  **************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k*****************************************************************************
+**************  Intervals Set 1 (20words-approx 80chars)  *******************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 1061765698 bytes, ratio = 50.857
+	Total num chars extracted = 8512351
+	Extract time = 0.472000 secs
+	Extract_time/Num_chars_extracted = 0.000055 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000055 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+      1061765698	    50.857	           n.d.	    0.055448841	        8512351	           n.d.	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 536091618 bytes, ratio = 25.678
+	Total num chars extracted = 8512351
+	Extract time = 0.752000 secs
+	Extract_time/Num_chars_extracted = 0.000088 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000088 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       536091618	    25.678	           n.d.	    0.088342222	        8512351	           n.d.	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 374666518 bytes, ratio = 17.946
+	Total num chars extracted = 8512351
+	Extract time = 0.840000 secs
+	Extract_time/Num_chars_extracted = 0.000099 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000099 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       374666518	    17.946	           n.d.	    0.098680141	        8512351	           n.d.	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 331272214 bytes, ratio = 15.867
+	Total num chars extracted = 8512351
+	Extract time = 1.220000 secs
+	Extract_time/Num_chars_extracted = 0.000143 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000144 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       331272214	    15.867	           n.d.	    0.143321158	        8512351	           n.d.	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 231153918 bytes, ratio = 11.072
+	Total num chars extracted = 8512351
+	Extract time = 2.424000 secs
+	Extract_time/Num_chars_extracted = 0.000285 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000285 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       231153918	    11.072	           n.d.	    0.284762694	        8512351	           n.d.	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 196398722 bytes, ratio = 9.407
+	Total num chars extracted = 8512351
+	Extract time = 6.652000 secs
+	Extract_time/Num_chars_extracted = 0.000781 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000781 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       196398722	     9.407	           n.d.	    0.781452738	        8512351	           n.d.	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k e  ** 
+	** Operation = e **,  numwords = 20, intervals = 100000 
+	Index size = 185646818 bytes, ratio = 8.892
+	Total num chars extracted = 8512351
+	Extract time = 53.788000 secs
+	Extract_time/Num_chars_extracted = 0.006319 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.006319 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       185646818	     8.892	           n.d.	    6.318818385	        8512351	           n.d.	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+
+------------------------
+
+*****************************************************************************
+**************  Intervals Set 2 (3000words-approx 13000chars)  **************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 1061765698 bytes, ratio = 50.857
+	Total num chars extracted = 136111474
+	Extract time = 6.072000 secs
+	Extract_time/Num_chars_extracted = 0.000045 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000045 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+      1061765698	    50.857	           n.d.	    0.044610493	      136111474	           n.d.	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 536091618 bytes, ratio = 25.678
+	Total num chars extracted = 136111474
+	Extract time = 6.068000 secs
+	Extract_time/Num_chars_extracted = 0.000045 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000045 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       536091618	    25.678	           n.d.	    0.044581106	      136111474	           n.d.	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 374666518 bytes, ratio = 17.946
+	Total num chars extracted = 136111474
+	Extract time = 6.180000 secs
+	Extract_time/Num_chars_extracted = 0.000045 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000045 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       374666518	    17.946	           n.d.	    0.045403961	      136111474	           n.d.	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 331272214 bytes, ratio = 15.867
+	Total num chars extracted = 136111474
+	Extract time = 6.268000 secs
+	Extract_time/Num_chars_extracted = 0.000046 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000046 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       331272214	    15.867	           n.d.	    0.046050489	      136111474	           n.d.	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 231153918 bytes, ratio = 11.072
+	Total num chars extracted = 136111474
+	Extract time = 7.212000 secs
+	Extract_time/Num_chars_extracted = 0.000053 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000053 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       231153918	    11.072	           n.d.	    0.052985981	      136111474	           n.d.	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 196398722 bytes, ratio = 9.407
+	Total num chars extracted = 136111474
+	Extract time = 10.432000 secs
+	Extract_time/Num_chars_extracted = 0.000077 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000077 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       196398722	     9.407	           n.d.	    0.076643061	      136111474	           n.d.	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+------------------------
+
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k e  ** 
+	** Operation = e **,  numwords = 3000, intervals = 10000 
+	Index size = 185646818 bytes, ratio = 8.892
+	Total num chars extracted = 136111474
+	Extract time = 24.092000 secs
+	Extract_time/Num_chars_extracted = 0.000177 msecs/chars
+
+	(Load_time+Extract_time)/Num_chars_extracted = 0.000177 msecs/chars
+
+
+
+# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
+       185646818	     8.892	           n.d.	    0.177001977	      136111474	           n.d.	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+
+------------------------
+

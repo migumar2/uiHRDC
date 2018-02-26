@@ -1,0 +1,2 @@
+./myILSearch cr_doc_s2 E 1000 1 "nosearchoptionsRequired" < ../pattscr.ids_1000_1
+#./myILSearch cr_doc_s2 E 1000 1 "int2=svs;fsearch=seqM" < ../pattscr.ids_1000_1

@@ -1,0 +1,25 @@
+./BUILD_PFORDELTA_PLAIN ../textos/CR.TXT indexes/cr.8.pfd  "pfdThreshold=100"
+
+#--------words--------
+#./SEARCH_PFORDELTA_PLAIN indexes/cr.8.pfd E 1 "int2=merge;intn=merge"     < ../patterns/crNoRep_2_1       
+##occs = 136478
+
+#./SEARCH_PFORDELTA_PLAIN indexes/cr.8.pfd E 1 "int2=merge;intn=merge"     < ../patterns/cr.xt100k_1
+##occs = 1712686 
+
+
+#--------phrases--------
+#./SEARCH_PFORDELTA_PLAIN indexes/cr.8.pfd N 1 "int2=merge;intn=merge" < ../patterns/crNoRep_2_4
+##occs = 10
+
+#./SEARCH_PFORDELTA_PLAIN indexes/cr.8.pfd N 1 "int2=merge;intn=merge" < ../patterns/cr.xt100k_2
+##occs = 364741
+
+#./SEARCH_PFORDELTA_PLAIN indexes/cr.8.pfd N 1 "int2=merge;intn=merge" < ../patterns/cr.xt100k_4
+##occs = 303546
+
+#./SEARCH_PFORDELTA_PLAIN indexes/cr.8.pfd N 1 "int2=merge;intn=merge" < ../patterns/crTheWhiteHouse
+##occs = 90
+
+#./SEARCH_PFORDELTA_PLAIN indexes/cr.8.pfd N 1 "int2=merge;intn=merge" < ../patterns/crWhiteHouse
+##occs = 784

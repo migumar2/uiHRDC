@@ -1,0 +1,3 @@
+#echo "sampleK=8" > FTB8.const.samplek
+./sampleK FTB8 8
+./myILSearch FTB8 N 10 1 "int2=lookup;intn=lookup" < patts/patterns10_4_file

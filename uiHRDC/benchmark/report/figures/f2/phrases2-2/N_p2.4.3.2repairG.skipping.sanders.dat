@@ -1,0 +1,4 @@
+#sizeIlist(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+        88518337	    2.879000000	    0.034617383	       83166310	           1000	#wiki20gb	#sampleK=64
+        44872821	    2.729000000	    0.032813768	       83166310	           1000	#wiki20gb	#sampleK=256
+        34024365	    2.847000000	    0.034232612	       83166310	           1000	#wiki20gb	#sampleK=1024

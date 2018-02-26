@@ -1,0 +1,3 @@
+#sizeIlist(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+       930817596	    0.014780000	    0.002745377	        5383595	           1000	#wiki20gb_bitmap8_k4
+       897782837	    0.013350000	    0.002479756	        5383595	           1000	#wiki20gb_bitmap8_k32

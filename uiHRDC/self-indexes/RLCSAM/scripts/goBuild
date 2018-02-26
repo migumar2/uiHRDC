@@ -1,0 +1,59 @@
+
+mkdir -p indexes
+
+#creates RLCSA index and includes sampling = {32,64,128,256,512,1024,2048}
+
+echo "CREATING RLCSA with samples= {32,64,128,256,512,1024,2048} (see rlcsa.cpp::writeTo())"
+
+#"Usage: build_rlcsa base_name buffer_size [block_size [sample_rate]]"
+./rlcsa_build ../data/text2gb/wiki_src2gb.txt 1950   32 
+                                     
+# cp ../data/text2gb/wiki_src2gb.txt.DOCBOUNDARIES          ./indexes/wiki2gb.txt.DOCBOUNDARIES        
+# cp ../data/text2gb/wiki_src2gb.txt.DOCBOUNDARIES.ul       ./indexes/wiki2gb.txt.DOCBOUNDARIES.ul     
+# cp ../data/text2gb/wiki_src2gb.txt.lens                   ./indexes/wiki2gb.txt.lens                 
+# cp ../data/text2gb/wiki_src2gb.txt                        ./indexes/wiki2gb.txt                      
+
+  cp ../data/text2gb/wiki_src2gb.txt.DOCBOUNDARIES          ./indexes/wiki2gb.txt.DOCBOUNDARIES    
+                                                   
+  mv ../data/text2gb/wiki_src2gb.txt.1024.rlcsa.sa_samples  ./indexes/wiki2gb.txt.1024.rlcsa.sa_samples
+  mv ../data/text2gb/wiki_src2gb.txt.128.rlcsa.sa_samples   ./indexes/wiki2gb.txt.128.rlcsa.sa_samples 
+  mv ../data/text2gb/wiki_src2gb.txt.2048.rlcsa.sa_samples  ./indexes/wiki2gb.txt.2048.rlcsa.sa_samples
+  mv ../data/text2gb/wiki_src2gb.txt.256.rlcsa.sa_samples   ./indexes/wiki2gb.txt.256.rlcsa.sa_samples 
+  mv ../data/text2gb/wiki_src2gb.txt.32.rlcsa.sa_samples    ./indexes/wiki2gb.txt.32.rlcsa.sa_samples  
+  mv ../data/text2gb/wiki_src2gb.txt.512.rlcsa.sa_samples   ./indexes/wiki2gb.txt.512.rlcsa.sa_samples 
+  mv ../data/text2gb/wiki_src2gb.txt.64.rlcsa.sa_samples    ./indexes/wiki2gb.txt.64.rlcsa.sa_samples  
+  mv ../data/text2gb/wiki_src2gb.txt.rlcsa.array            ./indexes/wiki2gb.txt.rlcsa.array          
+  mv ../data/text2gb/wiki_src2gb.txt.rlcsa.parameters       ./indexes/wiki2gb.txt.rlcsa.parameters     
+
+
+
+
+
+
+
+## #### build ##########################################
+## @github/self-indexes/rlcsaM/rlcsa$ ./rlcsa_build ../data/text2gb/wiki_src2gb.txt 1950   32
+## RLCSA_BLOCK_SIZE = 32
+## SAMPLE_RATE = 512
+## SUPPORT_DISPLAY = 1
+## SUPPORT_LOCATE = 1
+## 
+## Input: ../data/text2gb/wiki_src2gb.txt
+## Buffer size: 1950 MB
+## 
+## RLCSA
+## Allocating DeltaVector 2087768064
+## Delta Size: 224
+## Allocating first array bytes: 2087767850
+## Allocating second array
+## Builiding samples
+## Samples BUILT
+## RLCSA BUILT
+## WRITING ../data/text2gb/wiki_src2gb.txt.rlcsa.array
+## 1 sequences
+## 1991.05 megabytes in 932.64 seconds (2.13485 MB/s)
+## (build 931.928 s, search 0s, sort 0 s, merge 0 s)
+## Time: 932.64
+## #### build ends #####################################
+
+

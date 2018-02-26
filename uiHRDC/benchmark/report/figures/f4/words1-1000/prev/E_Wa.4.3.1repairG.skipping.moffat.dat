@@ -1,0 +1,5 @@
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	   sizeCT(byte)	sizeIlist(byte)	#indexBaseName
+       464317927	    0.008000000	    0.080622405	          99228	           1000	       25280492	      435475735	#wiki2gb	#sampleK=1
+#       451749843	    0.007500000	    0.075583505	          99228	           1000	       25280492	      422907651	#wiki2gb	#sampleK=4
+#       448745319	    0.009500000	    0.095739106	          99228	           1000	       25280492	      419903127	#wiki2gb	#sampleK=16
+       448037659	    0.008500000	    0.085661305	          99228	           1000	       25280492	      419195467	#wiki2gb	#sampleK=64

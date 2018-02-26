@@ -1,0 +1,57 @@
+
+ Building index qgrams: ./BUILD ../../text2gb/wiki_src2gb.txt indexes/wiki2gb_bitmap1_k16 samplerate=16;lenBitmapDiv=1
+	Building time: 660.588 secs
+	Input: 2087767849 bytes --> Output 781411374 bytes.
+	Overall compression --> 37.43% (2.99 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 104 bytes.
+	 number of diff words= 250550
+	 number of docs (ndocs)= 149761
+	 vocabulary of words = 2962548 bytes.
+	 Mapping Docs-2-wordposition = 599048 bytes.
+	 Inverted list-structure = 752569182 bytes.
+	 Text (compressed representation) = 25280492 bytes.
+	 Whole index = 781411374 bytes  ** Ratio = 37.428 % **
+ 
+=====================================
+
+ Building index qgrams: ./BUILD ../../text2gb/wiki_src2gb.txt indexes/wiki2gb_bitmap1_k64 samplerate=64;lenBitmapDiv=1
+	Building time: 638.988 secs
+	Input: 2087767849 bytes --> Output 746760985 bytes.
+	Overall compression --> 35.77% (2.86 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 104 bytes.
+	 number of diff words= 250550
+	 number of docs (ndocs)= 149761
+	 vocabulary of words = 2962548 bytes.
+	 Mapping Docs-2-wordposition = 599048 bytes.
+	 Inverted list-structure = 717918793 bytes.
+	 Text (compressed representation) = 25280492 bytes.
+	 Whole index = 746760985 bytes  ** Ratio = 35.768 % **
+ 
+=====================================
+
+ Building index qgrams: ./BUILD ../../text2gb/wiki_src2gb.txt indexes/wiki2gb_bitmap1_k128 samplerate=128;lenBitmapDiv=1
+	Building time: 626.592 secs
+	Input: 2087767849 bytes --> Output 741021161 bytes.
+	Overall compression --> 35.49% (2.84 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 104 bytes.
+	 number of diff words= 250550
+	 number of docs (ndocs)= 149761
+	 vocabulary of words = 2962548 bytes.
+	 Mapping Docs-2-wordposition = 599048 bytes.
+	 Inverted list-structure = 712178969 bytes.
+	 Text (compressed representation) = 25280492 bytes.
+	 Whole index = 741021161 bytes  ** Ratio = 35.493 % **
+ 
+=====================================

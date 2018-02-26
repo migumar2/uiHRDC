@@ -1,0 +1,2 @@
+./myILSearch ft_doc_s2 E 1000 1 "nosearchoptionsRequired" < ../pattersH_100000_1000
+#./myILSearch ft_doc_s2 E 1000 1 "int2=svs;fsearch=seqM" < ../pattersH_100000_1000  

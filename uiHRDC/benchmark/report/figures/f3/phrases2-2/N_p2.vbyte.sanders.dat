@@ -1,0 +1,4 @@
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	   sizeCT(byte)	sizeIlist(byte)	#indexBaseName
+       781411374	    1.393600000	    0.043642690	       31932037	           1000	       25280492	      752569182	#wiki2gb_bitmap1_k16
+       746760985	    1.388800000	    0.043492371	       31932037	           1000	       25280492	      717918793	#wiki2gb_bitmap1_k64
+       741021161	    1.431600000	    0.044832718	       31932037	           1000	       25280492	      712178969	#wiki2gb_bitmap1_k128

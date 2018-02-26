@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/22/trunk/Test7Zip
+END
+stdafx.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/10/trunk/Test7Zip/stdafx.h
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/22/trunk/Test7Zip/Makefile.in
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/10/trunk/Test7Zip/Makefile.am
+END
+Test7Zip.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/10/trunk/Test7Zip/Test7Zip.cpp
+END
+stdafx.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/Test7Zip/stdafx.cpp
+END
+Test7Zip.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/Test7Zip/Test7Zip.vcproj
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/Test7Zip/ReadMe.txt
+END

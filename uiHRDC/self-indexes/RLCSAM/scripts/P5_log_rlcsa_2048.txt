@@ -1,0 +1,42 @@
+RLCSA test
+Base name: ./indexes/wiki2gb.txt
+Sample: 2048
+Sequences:       1
+Original size:   1991.05 MB
+Block size:      32 bytes
+Sample rate:     2048
+
+RLCSA:           41.4879 MB
+  BWT only:      32.741 MB
+SA samples:      7.76045 MB
+Total size:      49.2484 MB
+
+time/occ:0.0570
+
+Patterns:    1000 (1.89799 / sec)
+Total size:  22771 bytes (43.2192 / sec)
+Matches:     9246505 (17549.8 / sec)
+Time:        526.872 seconds
+
+
+RLCSA test
+Base name: ./indexes/wiki2gb.txt
+Sample: 2048
+Sequences:       1
+Original size:   1991.05 MB
+Block size:      32 bytes
+Sample rate:     2048
+
+RLCSA:           41.4879 MB
+  BWT only:      32.741 MB
+SA samples:      7.76045 MB
+Total size:      49.2484 MB
+
+time/occ:0.0567
+
+Patterns:    1000 (1.9062 / sec)
+Total size:  22771 bytes (43.4061 / sec)
+Matches:     9246505 (17625.7 / sec)
+Time:        524.604 seconds
+
+

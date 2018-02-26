@@ -1,0 +1,8 @@
+#size(byte)	microsec/occ		occs	numpats		#indexBaseName
+  570551379		1.09		   0	   1000		wiki2GB.rlcsa.32
+  307343074	   	2.14		   0	   1000		wiki2GB.rlcsa.64
+  176071845	  	4.48		   0	   1000		wiki2GB.rlcsa.128
+  110184886	  	9.95		   0	   1000		wiki2GB.rlcsa.256
+   77073163	       23.33		   0	   1000		wiki2GB.rlcsa.512
+   60488571	       57.54		   0	   1000		wiki2GB.rlcsa.1024
+   52239696	      147.10		   0	   1000		wiki2GB.rlcsa.2048

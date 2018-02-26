@@ -1,0 +1,1 @@
+./BUILDINTINDEX ./indexes/cr_index "sB=32;sZ=512;stopfile=./src/english_stopwords.txt;sA=32;sAinv=32;sPsi=32; nsHuff=16;psiSF=4"

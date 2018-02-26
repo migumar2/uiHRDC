@@ -1,0 +1,26 @@
+
+ Search: ./SEARCH indexes/wiki2gb: 20 int2=merge;intn=merge
+	Load index time = 0.760000 sec
+	Index size = 418892350 bytes = (409074 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 20.064%
+	** Operation = N ** numpatts = 1000, wordsXpattern=0-0
+	**size_Index= 418892350 bytes, size_Inv-lists= 390050158 bytes, size_compText= 25280492 bytes
+	Total Num occs found = 99228
+	Locate time = 0.004600 sec
+	Locate time/Num_occs = 0.000046 msec/occss
+	Locate_time/pat = 0.00460000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.007705  msec/occs
+
+
+ Search: ./SEARCH indexes/wiki2gb: 20 int2=merge;intn=merge
+	Load index time = 0.736000 sec
+	Index size = 418892350 bytes = (409074 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 20.064%
+	** Operation = N ** numpatts = 1000, wordsXpattern=0-0
+	**size_Index= 418892350 bytes, size_Inv-lists= 390050158 bytes, size_compText= 25280492 bytes
+	Total Num occs found = 5701883
+	Locate time = 0.154800 sec
+	Locate time/Num_occs = 0.000027 msec/occss
+	Locate_time/pat = 0.15480000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000156  msec/occs
+

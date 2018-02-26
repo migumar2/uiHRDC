@@ -1,0 +1,1 @@
+ ./myILSearch ft_doc_s2  N 1 1 "intn=svs;fsearch=seqM" < patts/patterns.file13

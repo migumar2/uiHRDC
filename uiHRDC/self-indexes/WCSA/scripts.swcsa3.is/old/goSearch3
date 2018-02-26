@@ -1,0 +1,36 @@
+########################################################################################
+#### LOCATE OF PATTERNS (retrieving <doc-id,offset> pairs  #############################
+########################################################################################
+rm -f o.dat
+
+
+echo "*****************************************************************************" >>times_o_SEARCHwcsa.txt
+echo "********************  PATTERN SET A.words (Wa)       ************************" >>times_o_SEARCHwcsa.txt
+echo "*****************************************************************************" >>times_o_SEARCHwcsa.txt
+
+./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k    o  200 < ../../patterns/wiki2g.words.f1_1000
+
+mv o.dat N.Wa_swcsa.dat
+
+echo "*****************************************************************************" >>times_o_SEARCHwcsa.txt
+echo "********************  PATTERN SET B.words (Wb)       ************************" >>times_o_SEARCHwcsa.txt
+echo "*****************************************************************************" >>times_o_SEARCHwcsa.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k    o 20  < ../../patterns/wiki2g.words.f1001_100k
+
+mv o.dat N.Wb_swcsa.dat
+
+
+echo "*****************************************************************************" >>times_o_SEARCHwcsa.txt
+echo "********************  PATTERN SET phrases.2 (p2)     ************************" >>times_o_SEARCHwcsa.txt
+echo "*****************************************************************************" >>times_o_SEARCHwcsa.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k    o 5  < ../../patterns/wiki2g_2_2
+
+mv o.dat N.P2_swcsa.dat
+
+echo "*****************************************************************************" >>times_o_SEARCHwcsa.txt
+echo "********************  PATTERN SET phrases.5 (p5)     ************************" >>times_o_SEARCHwcsa.txt
+echo "*****************************************************************************" >>times_o_SEARCHwcsa.txt
+./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k    o 2  < ../../patterns/wiki2g_5_5
+
+mv o.dat N.P5_swcsa.dat
+

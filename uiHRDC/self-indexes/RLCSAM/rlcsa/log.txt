@@ -1,0 +1,20 @@
+Line-by-line RLCSA builder
+
+RLCSA_BLOCK_SIZE = 32
+SAMPLE_RATE = 512
+SUPPORT_DISPLAY = 1
+SUPPORT_LOCATE = 1
+
+Input: ../indexes/wiki2gb
+Buffer size: 1950 MB
+
+RLCSA
+Allocating DeltaVector 2087768064
+Delta Size: 224
+Allocating first array bytes: 2087767850
+Allocating second array
+1 sequences
+1991.05 megabytes in 2646.21 seconds (0.752416 MB/s)
+(build 2643.73 s, search 0s, sort 0 s, merge 0 s)
+Time: 2646.21
+

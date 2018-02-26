@@ -1,0 +1,114 @@
+
+ Building index qgrams: ./BUILD ../../text2gb/wiki_src2gb.txt indexes/wiki2gb no params
+	Building time: 674.836 secs
+	Input: 2087767849 bytes --> Output 733912785 bytes.
+	Overall compression --> 35.15% (2.81 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 104 bytes.
+	 number of diff words= 250550
+	 number of docs (ndocs)= 149761
+	 vocabulary of words = 2962548 bytes.
+	 Mapping Docs-2-wordposition = 599048 bytes.
+	 Inverted list-structure = 705070593 bytes.
+	 Text (compressed representation) = 25280492 bytes.
+	 Whole index = 733912785 bytes  ** Ratio = 35.153 % **
+ 
+=====================================
+
+ Building index qgrams: ./BUILD ../../text2gb/wiki_src2gb.txt indexes/wiki2gb_ts1 sample_ct=1
+	Building time: 661.364 secs
+	Input: 2087767849 bytes --> Output 735904701 bytes.
+	Overall compression --> 35.25% (2.82 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 104 bytes.
+	 number of diff words= 250550
+	 number of docs (ndocs)= 149761
+	 vocabulary of words = 2962548 bytes.
+	 Mapping Docs-2-wordposition = 599048 bytes.
+	 Inverted list-structure = 705070593 bytes.
+	 Text (compressed representation) = 27272408 bytes.
+	 Whole index = 735904701 bytes  ** Ratio = 35.248 % **
+ 
+=====================================
+
+ Building index qgrams: ./BUILD ../../text2gb/wiki_src2gb.txt indexes/wiki2gb_ts8 sample_ct=8
+	Building time: 647.748 secs
+	Input: 2087767849 bytes --> Output 734267993 bytes.
+	Overall compression --> 35.17% (2.81 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 104 bytes.
+	 number of diff words= 250550
+	 number of docs (ndocs)= 149761
+	 vocabulary of words = 2962548 bytes.
+	 Mapping Docs-2-wordposition = 599048 bytes.
+	 Inverted list-structure = 705070593 bytes.
+	 Text (compressed representation) = 25635700 bytes.
+	 Whole index = 734267993 bytes  ** Ratio = 35.170 % **
+ 
+=====================================
+
+ Building index qgrams: ./BUILD ../../text2gb/wiki_src2gb.txt indexes/wiki2gb_ts32 sample_ct=32
+	Building time: 648.148 secs
+	Input: 2087767849 bytes --> Output 734017801 bytes.
+	Overall compression --> 35.16% (2.81 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 104 bytes.
+	 number of diff words= 250550
+	 number of docs (ndocs)= 149761
+	 vocabulary of words = 2962548 bytes.
+	 Mapping Docs-2-wordposition = 599048 bytes.
+	 Inverted list-structure = 705070593 bytes.
+	 Text (compressed representation) = 25385508 bytes.
+	 Whole index = 734017801 bytes  ** Ratio = 35.158 % **
+ 
+=====================================
+
+ Building index qgrams: ./BUILD ../../text2gb/wiki_src2gb.txt indexes/wiki2gb_ts256 sample_ct=256
+	Building time: 604.964 secs
+	Input: 2087767849 bytes --> Output 733928213 bytes.
+	Overall compression --> 35.15% (2.81 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 104 bytes.
+	 number of diff words= 250550
+	 number of docs (ndocs)= 149761
+	 vocabulary of words = 2962548 bytes.
+	 Mapping Docs-2-wordposition = 599048 bytes.
+	 Inverted list-structure = 705070593 bytes.
+	 Text (compressed representation) = 25295920 bytes.
+	 Whole index = 733928213 bytes  ** Ratio = 35.154 % **
+ 
+=====================================
+
+ Building index qgrams: ./BUILD ../../text2gb/wiki_src2gb.txt indexes/wiki2gb_ts4k sample_ct=4096
+	Building time: 613.864 secs
+	Input: 2087767849 bytes --> Output 733913633 bytes.
+	Overall compression --> 35.15% (2.81 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 104 bytes.
+	 number of diff words= 250550
+	 number of docs (ndocs)= 149761
+	 vocabulary of words = 2962548 bytes.
+	 Mapping Docs-2-wordposition = 599048 bytes.
+	 Inverted list-structure = 705070593 bytes.
+	 Text (compressed representation) = 25281340 bytes.
+	 Whole index = 733913633 bytes  ** Ratio = 35.153 % **
+ 
+=====================================

@@ -1,0 +1,12 @@
+Código (y datos ver partitionedEF/go2gbQueriesCompostela.sh) usados para correr los índices ELIAS-FANO-PARTITIONED EN COMPOSTELA.
+Ojo, requiere:
+	g++-4.8
+	librerías extras.
+	Lo corrí en mi ubuntu 14.04 en disco externo.
+
+Los tiempos que devuelven son "sólo" de intersección, a esto hay que sumar el tiempo de "parsing" y el de "merge2occs", que se hace con una versión modificada de mi II-docs(posicionnal) con:
+  - código en sftp://fari@compostela.dc.fi.udc.es/home/fari/research/CIKM2011/positionalIndex/II_docs.EliasFano_formato[ver.leeme]
+  - script en sftp://fari@compostela.dc.fi.udc.es/home/fari/research/CIKM2011/positionalIndex/experiments.cikm/2.1.aaa
+
+
+Fari

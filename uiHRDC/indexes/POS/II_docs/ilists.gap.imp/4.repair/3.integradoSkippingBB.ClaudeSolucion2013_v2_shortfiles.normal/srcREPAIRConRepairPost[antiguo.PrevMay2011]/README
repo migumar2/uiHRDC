@@ -1,0 +1,134 @@
+Using Repair with skipping info to compress a set of posting lists (from a Doc-oriented inverted index).
+
+Steps.
+
+1. Create a Set of posting lists with the following format.
+    /** It is not a text-file --> it is a file of uint32 (no espaces --> just uints)
+      [Nwords=N][maxPostvalue]
+      [lenPost1][post11][post12]...[post1k´]  
+      [lenPost2][post21][post22]...[post2k´´]                         
+       ...                                                            
+      [lenPostN][postN1][postN2]...[postNk´´´]                        
+
+	Posting values range from 0 .. maxPostValue.
+
+2. Use convert program to convert such posting lists into a "repair-suitable" input file.
+   
+   **   INPUT FILE FORMAT...                              
+   **   #nodes #edges nodeId ed ed ed ed nodeId ed ed ... 
+   **     5000  23400     -1  2  3  4 76     -2 23 34 ... 
+   
+   Basically the first posting value is translated 1 position (into 1), and then multiplied by -1 (so that repair can not include it in a phrase).
+   
+      
+   	Usage: ./convert <in_name> <out_File>
+
+
+3. Use build_index program. 
+	Usage: ./build_index <GRAPH> <MEM> <K>
+		where:
+			* graph is the output basename.
+			* Mem should be > (number of postValues * 1.2). Be generous.
+			* K is a repair parameter (usually 10000, 100000) => effect in speed vs compression.
+			  (number of simultaneous substitutions == size of the heap used).
+
+
+4. Use compressDictionary.
+	Usage: ./compressDictionary <GRAPH>
+	
+	
+5. Searching ...
+
+	Usage:  ./search_re <index> <sampleK>  <type> <numPatts> <repetitions> [V] [search_opts] < patt_file	
+                                                                                                    
+        <type>   denotes the type of queries:                                                       
+                 E <numListsToExtract><iterations per list>                                         
+                     Extracts the values of the lists: memory is allocated                          
+                 U <numFrases><iterations per frase>                                                
+                     Intersection of two lists (Using Uncompress-fsearch)                           
+                 K <numFrases><iterations per frase>                                                
+                     Intersection of two lists (Using skipping)                                     
+                                                                                                    
+        [V]      with this option it reports on the standard output                                 
+                 the results of the queries. The results file might be                              
+                 compared with a trusted one by the compare program.     
+                 
+     **   SampleK is mandatory, but no-longer used (enter whatever you want for this parameter).
+                                   
+
+
+Other sample programs
+  ... rebuildPost --> recreates de original (converted) source posting-lists set.
+  ... usePost.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Originally from Fclaude and G Navarro.
+
+
+
+Compressed graph representation using Re-Pair
+=============================================
+
+Authors: Francisco Claude and Gonzalo Navarro
+
+Usage:
+
+build_index is used to compress the graph using Re-Pair. It needs 3 parameters, the graph, the memory used for the sequence + the hash table and how many replacements should the approximated version of Re-Pair try in every iteration. For example for the graph cnr-2000 (-rw-r--r-- 1 fclaude fclaude 14166844 2008-03-29 16:42 cnr-2000) using M=3895882 and K=1000 we get:
+
+---------------------------------------------------------------
+$ build_index cnr-2000 3895882 1000
+Nodes: 325557
+Edges: 3216152
+Nodes read: 325557
+It: 1 compressed: 71.4462%
+[...]
+It: 97 compressed: 27.6361%
+---------------------------------------------------------------
+
+NOTE: M is meassured in number of ints, so 3895882 equals four times that in bytes.
+
+This process generates three files:
+- cnr-2000.dict: uncompressed dictionary
+- cnr-2000.ptr: pointer for decompressing the adjacency lists
+- cnr-2000.rp: compressed sequence
+
+Next we need to compress the dictionary using compressDictionary:
+
+---------------------------------------------------------------
+$ compressDictionary cnr-2000
+[...]
+$ rebuild cnr-2000
+Nodes: 325557
+Edges: 3216152
+Graph size: 2115971
+Bits per link: 5.26336
+Max outdegree: 2716
+$ diff cnr-2000 cnr-2000.rebuilt 
+$
+---------------------------------------------------------------
+
+This second process generates 2 files:
+- cnr-2000.cdict: compressed dictionary
+- cnr-2000.crp: compressed sequence
+
+This two files and the .ptr are the final output of the compression (we do not need the .rp or .dict anymore). The binary rebuild writes the original graph (decompresses). The binary use allows to query interactively for the adjacency lists of a node.
+
+
+

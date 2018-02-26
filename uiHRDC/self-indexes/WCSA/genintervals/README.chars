@@ -1,0 +1,26 @@
+** GenIntervalsChars **
+Original version from pizza-chili site: 
+		http://pizzachili.dcc.uchile.cl/experiments.html
+====================================================================
+Generates a file with intervals of chars from a given text file.
+====================================================================
+
+It works exactly as pizza-chili "genintervals".
+
+Syntax:: GenIntervalsChars <inFile> <length> <number> <out intervals file>
+
+  * Input:
+    - <inFile> :: the source **text** file.
+    - <length> :: number of chars. Gives the width of the interval generated.
+    - <number> :: number of intervals that are generated.
+
+  * Output:
+    - <out intervals file> :: A file containing <number> intervals having 
+    <length> chars chosen at random from <inFile>. 
+    The output file starts with a line of the form:
+         # number=<number> length=<length> file=<filename>\n
+    Then  <number> lines having the form <from>,<to>\n follows.
+
+Example:
+	./genIntervalsChars /sitio/textos/CR.TXT 100 1000 intervals.chars.txt
+====================================================================

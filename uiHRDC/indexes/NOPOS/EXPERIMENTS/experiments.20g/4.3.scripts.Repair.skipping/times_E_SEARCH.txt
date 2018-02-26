@@ -1,0 +1,4 @@
+
+ Search: ./SEARCH indexes/wiki20gb: 50 int2=skip;intn=skip
+
+ Search: ./SEARCH indexes/wiki20gb: 50 int2=skip;intn=skip

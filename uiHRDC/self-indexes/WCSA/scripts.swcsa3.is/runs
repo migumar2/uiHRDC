@@ -1,0 +1,1537 @@
+---------------------------------------------------------------
+- Building WCSA indexes with several parameter configurations -
+---------------------------------------------------------------
+
+ parameters: "sA=8;sAinv=8;sPsi=8;   nsHuff=16;psiSF=4"
+
+ ndocs vale = 149761
+STARTING THE FIRST PASS...
+Hash Table initilized with: 2285443 elements
+
+STARTING THE SECOND PASS... 
+[destroying MemManager] ...Freed 67108864 bytes... RAM
+[destroying hash table]...Freed 54850664 bytes... RAM
+	 ** Building done! **
+
+ Process finished!
+
+	 parameters for iCSA: sampleA=8, sampleAinv=8, samplePsi=8
+	              : nsHuff=16384, psiSearchFactor = 4 --> jump = 32
+	 *BUILDING THE SUFFIX ARRAY over 462872598 integers... (with larsson-sadakane)
+	 ...... ended.
+	 Creating compressed Psi...
+	 Compressed Psi size = 435366668 bytes, with 16384 different symbols.
+	**** [iCSA built on 462872597 words. Size = 1057352058 bytes... RAM
+ Saving structures to disk: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k.*Input: 2087767849 bytes --> Output 1061765698 bytes.
+Overall compression --> 50.86% (4.07 bits per char).
+
+
+[destroying index] ...Freed 1061765698 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 435366668 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 231436304 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 231436300bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 1057352058 bytes... RAM
+	**** iCSA size = 1057352058 bytes 
+
+ parameters: "sA=16;sAinv=64;sPsi=16;   nsHuff=16;psiSF=4"
+
+ ndocs vale = 149761
+STARTING THE FIRST PASS...
+Hash Table initilized with: 2285443 elements
+
+STARTING THE SECOND PASS... 
+[destroying MemManager] ...Freed 67108864 bytes... RAM
+[destroying hash table]...Freed 54850664 bytes... RAM
+	 ** Building done! **
+
+ Process finished!
+
+	 parameters for iCSA: sampleA=16, sampleAinv=64, samplePsi=16
+	              : nsHuff=16384, psiSearchFactor = 4 --> jump = 64
+	 *BUILDING THE SUFFIX ARRAY over 462872598 integers... (with larsson-sadakane)
+	 ...... ended.
+	 Creating compressed Psi...
+	 Compressed Psi size = 227917496 bytes, with 16384 different symbols.
+	**** [iCSA built on 462872597 words. Size = 531677978 bytes... RAM
+ Saving structures to disk: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k.*Input: 2087767849 bytes --> Output 536091618 bytes.
+Overall compression --> 25.68% (2.05 bits per char).
+
+
+[destroying index] ...Freed 536091618 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 227917496 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 115718156 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 28929540bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 531677978 bytes... RAM
+	**** iCSA size = 531677978 bytes 
+
+ parameters: "sA=32;sAinv=64;sPsi=32;   nsHuff=16;psiSF=4"
+
+ ndocs vale = 149761
+STARTING THE FIRST PASS...
+Hash Table initilized with: 2285443 elements
+
+STARTING THE SECOND PASS... 
+[destroying MemManager] ...Freed 67108864 bytes... RAM
+[destroying hash table]...Freed 54850664 bytes... RAM
+	 ** Building done! **
+
+ Process finished!
+
+	 parameters for iCSA: sampleA=32, sampleAinv=64, samplePsi=32
+	              : nsHuff=16384, psiSearchFactor = 4 --> jump = 128
+	 *BUILDING THE SUFFIX ARRAY over 462872598 integers... (with larsson-sadakane)
+	 ...... ended.
+	 Creating compressed Psi...
+	 Compressed Psi size = 124351472 bytes, with 16384 different symbols.
+	**** [iCSA built on 462872597 words. Size = 370252878 bytes... RAM
+ Saving structures to disk: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k.*Input: 2087767849 bytes --> Output 374666518 bytes.
+Overall compression --> 17.95% (1.44 bits per char).
+
+
+[destroying index] ...Freed 374666518 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 124351472 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 57859080 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 28929540bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 370252878 bytes... RAM
+	**** iCSA size = 370252878 bytes 
+
+ parameters: "sA=64;sAinv=128;sPsi=32;  nsHuff=16;psiSF=4"
+
+ ndocs vale = 149761
+STARTING THE FIRST PASS...
+Hash Table initilized with: 2285443 elements
+
+STARTING THE SECOND PASS... 
+[destroying MemManager] ...Freed 67108864 bytes... RAM
+[destroying hash table]...Freed 54850664 bytes... RAM
+	 ** Building done! **
+
+ Process finished!
+
+	 parameters for iCSA: sampleA=64, sampleAinv=128, samplePsi=32
+	              : nsHuff=16384, psiSearchFactor = 4 --> jump = 128
+	 *BUILDING THE SUFFIX ARRAY over 462872598 integers... (with larsson-sadakane)
+	 ...... ended.
+	 Creating compressed Psi...
+	 Compressed Psi size = 124351472 bytes, with 16384 different symbols.
+	**** [iCSA built on 462872597 words. Size = 326858574 bytes... RAM
+ Saving structures to disk: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k.*Input: 2087767849 bytes --> Output 331272214 bytes.
+Overall compression --> 15.87% (1.27 bits per char).
+
+
+[destroying index] ...Freed 331272214 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 124351472 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 28929544 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 14464772bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 326858574 bytes... RAM
+	**** iCSA size = 326858574 bytes 
+
+ parameters: "sA=128;sAinv=256;sPsi=128; nsHuff=16;psiSF=4"
+
+ ndocs vale = 149761
+STARTING THE FIRST PASS...
+Hash Table initilized with: 2285443 elements
+
+STARTING THE SECOND PASS... 
+[destroying MemManager] ...Freed 67108864 bytes... RAM
+[destroying hash table]...Freed 54850664 bytes... RAM
+	 ** Building done! **
+
+ Process finished!
+
+	 parameters for iCSA: sampleA=128, sampleAinv=256, samplePsi=128
+	              : nsHuff=16384, psiSearchFactor = 4 --> jump = 512
+	 *BUILDING THE SUFFIX ARRAY over 462872598 integers... (with larsson-sadakane)
+	 ...... ended.
+	 Creating compressed Psi...
+	 Compressed Psi size = 45930328 bytes, with 16384 different symbols.
+	**** [iCSA built on 462872597 words. Size = 226740278 bytes... RAM
+ Saving structures to disk: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k.*Input: 2087767849 bytes --> Output 231153918 bytes.
+Overall compression --> 11.07% (0.89 bits per char).
+
+
+[destroying index] ...Freed 231153918 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 45930328 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 14464776 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 7232388bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 226740278 bytes... RAM
+	**** iCSA size = 226740278 bytes 
+
+ parameters: "sA=512;sAinv=512;sPsi=512; nsHuff=16;psiSF=4"
+
+ ndocs vale = 149761
+STARTING THE FIRST PASS...
+Hash Table initilized with: 2285443 elements
+
+STARTING THE SECOND PASS... 
+[destroying MemManager] ...Freed 67108864 bytes... RAM
+[destroying hash table]...Freed 54850664 bytes... RAM
+	 ** Building done! **
+
+ Process finished!
+
+	 parameters for iCSA: sampleA=512, sampleAinv=512, samplePsi=512
+	              : nsHuff=16384, psiSearchFactor = 4 --> jump = 2048
+	 *BUILDING THE SUFFIX ARRAY over 462872598 integers... (with larsson-sadakane)
+	 ...... ended.
+	 Creating compressed Psi...
+	 Compressed Psi size = 25639900 bytes, with 16384 different symbols.
+	**** [iCSA built on 462872597 words. Size = 191985082 bytes... RAM
+ Saving structures to disk: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k.*Input: 2087767849 bytes --> Output 196398722 bytes.
+Overall compression --> 9.41% (0.75 bits per char).
+
+
+[destroying index] ...Freed 196398722 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 25639900 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 3616200 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 3616196bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 191985082 bytes... RAM
+	**** iCSA size = 191985082 bytes 
+
+ parameters: "sA=2048;sAinv=2048;sPsi=2048; nsHuff=16;psiSF=4"
+
+ ndocs vale = 149761
+STARTING THE FIRST PASS...
+Hash Table initilized with: 2285443 elements
+
+STARTING THE SECOND PASS... 
+[destroying MemManager] ...Freed 67108864 bytes... RAM
+[destroying hash table]...Freed 54850664 bytes... RAM
+	 ** Building done! **
+
+ Process finished!
+
+	 parameters for iCSA: sampleA=2048, sampleAinv=2048, samplePsi=2048
+	              : nsHuff=16384, psiSearchFactor = 4 --> jump = 8192
+	 *BUILDING THE SUFFIX ARRAY over 462872598 integers... (with larsson-sadakane)
+	 ...... ended.
+	 Creating compressed Psi...
+	 Compressed Psi size = 20312284 bytes, with 16384 different symbols.
+	**** [iCSA built on 462872597 words. Size = 181233178 bytes... RAM
+ Saving structures to disk: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k.*Input: 2087767849 bytes --> Output 185646818 bytes.
+Overall compression --> 8.89% (0.71 bits per char).
+
+
+[destroying index] ...Freed 185646818 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 20312284 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 904056 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 904052bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 181233178 bytes... RAM
+	**** iCSA size = 181233178 bytes 
+---------------------------------------------------------------
+- Running Locate and extract experiments -
+---------------------------------------------------------------
+########################################################################################
+#### LOCATE OF PATTERNS (retrieving <doc-id,offset> pairs  #############################
+########################################################################################
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (57859076 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (57859075 samples)
+Sampling A Period T = 8, Sampling A inv Period TInv = 8
+Psi Bin Search Factor-Jump is = 32
+
+[destroying index] ...Freed 1061765698 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 435366668 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 231436304 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 231436300bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 1057352058 bytes... RAM
+	**** iCSA size = 1057352058 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (28929539 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (7232385 samples)
+Sampling A Period T = 16, Sampling A inv Period TInv = 64
+Psi Bin Search Factor-Jump is = 64
+
+[destroying index] ...Freed 536091618 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 227917496 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 115718156 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 28929540bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 531677978 bytes... RAM
+	**** iCSA size = 531677978 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (14464770 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (7232385 samples)
+Sampling A Period T = 32, Sampling A inv Period TInv = 64
+Psi Bin Search Factor-Jump is = 128
+
+[destroying index] ...Freed 374666518 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 124351472 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 57859080 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 28929540bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 370252878 bytes... RAM
+	**** iCSA size = 370252878 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (7232386 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (3616193 samples)
+Sampling A Period T = 64, Sampling A inv Period TInv = 128
+Psi Bin Search Factor-Jump is = 128
+
+[destroying index] ...Freed 331272214 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 124351472 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 28929544 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 14464772bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 326858574 bytes... RAM
+	**** iCSA size = 326858574 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (3616194 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (1808097 samples)
+Sampling A Period T = 128, Sampling A inv Period TInv = 256
+Psi Bin Search Factor-Jump is = 512
+
+[destroying index] ...Freed 231153918 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 45930328 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 14464776 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 7232388bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 226740278 bytes... RAM
+	**** iCSA size = 226740278 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (904050 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (904049 samples)
+Sampling A Period T = 512, Sampling A inv Period TInv = 512
+Psi Bin Search Factor-Jump is = 2048
+
+[destroying index] ...Freed 196398722 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 25639900 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 3616200 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 3616196bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 191985082 bytes... RAM
+	**** iCSA size = 191985082 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (226014 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (226013 samples)
+Sampling A Period T = 2048, Sampling A inv Period TInv = 2048
+Psi Bin Search Factor-Jump is = 8192
+
+[destroying index] ...Freed 185646818 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 20312284 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 904056 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 904052bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 181233178 bytes... RAM
+	**** iCSA size = 181233178 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (57859076 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (57859075 samples)
+Sampling A Period T = 8, Sampling A inv Period TInv = 8
+Psi Bin Search Factor-Jump is = 32
+
+[destroying index] ...Freed 1061765698 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 435366668 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 231436304 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 231436300bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 1057352058 bytes... RAM
+	**** iCSA size = 1057352058 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (28929539 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (7232385 samples)
+Sampling A Period T = 16, Sampling A inv Period TInv = 64
+Psi Bin Search Factor-Jump is = 64
+
+[destroying index] ...Freed 536091618 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 227917496 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 115718156 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 28929540bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 531677978 bytes... RAM
+	**** iCSA size = 531677978 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (14464770 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (7232385 samples)
+Sampling A Period T = 32, Sampling A inv Period TInv = 64
+Psi Bin Search Factor-Jump is = 128
+
+[destroying index] ...Freed 374666518 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 124351472 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 57859080 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 28929540bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 370252878 bytes... RAM
+	**** iCSA size = 370252878 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (7232386 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (3616193 samples)
+Sampling A Period T = 64, Sampling A inv Period TInv = 128
+Psi Bin Search Factor-Jump is = 128
+
+[destroying index] ...Freed 331272214 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 124351472 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 28929544 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 14464772bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 326858574 bytes... RAM
+	**** iCSA size = 326858574 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (3616194 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (1808097 samples)
+Sampling A Period T = 128, Sampling A inv Period TInv = 256
+Psi Bin Search Factor-Jump is = 512
+
+[destroying index] ...Freed 231153918 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 45930328 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 14464776 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 7232388bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 226740278 bytes... RAM
+	**** iCSA size = 226740278 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (904050 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (904049 samples)
+Sampling A Period T = 512, Sampling A inv Period TInv = 512
+Psi Bin Search Factor-Jump is = 2048
+
+[destroying index] ...Freed 196398722 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 25639900 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 3616200 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 3616196bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 191985082 bytes... RAM
+	**** iCSA size = 191985082 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (226014 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (226013 samples)
+Sampling A Period T = 2048, Sampling A inv Period TInv = 2048
+Psi Bin Search Factor-Jump is = 8192
+
+[destroying index] ...Freed 185646818 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 20312284 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 904056 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 904052bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 181233178 bytes... RAM
+	**** iCSA size = 181233178 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (57859076 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (57859075 samples)
+Sampling A Period T = 8, Sampling A inv Period TInv = 8
+Psi Bin Search Factor-Jump is = 32
+
+[destroying index] ...Freed 1061765698 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 435366668 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 231436304 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 231436300bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 1057352058 bytes... RAM
+	**** iCSA size = 1057352058 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (28929539 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (7232385 samples)
+Sampling A Period T = 16, Sampling A inv Period TInv = 64
+Psi Bin Search Factor-Jump is = 64
+
+[destroying index] ...Freed 536091618 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 227917496 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 115718156 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 28929540bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 531677978 bytes... RAM
+	**** iCSA size = 531677978 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (14464770 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (7232385 samples)
+Sampling A Period T = 32, Sampling A inv Period TInv = 64
+Psi Bin Search Factor-Jump is = 128
+
+[destroying index] ...Freed 374666518 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 124351472 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 57859080 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 28929540bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 370252878 bytes... RAM
+	**** iCSA size = 370252878 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (7232386 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (3616193 samples)
+Sampling A Period T = 64, Sampling A inv Period TInv = 128
+Psi Bin Search Factor-Jump is = 128
+
+[destroying index] ...Freed 331272214 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 124351472 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 28929544 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 14464772bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 326858574 bytes... RAM
+	**** iCSA size = 326858574 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (3616194 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (1808097 samples)
+Sampling A Period T = 128, Sampling A inv Period TInv = 256
+Psi Bin Search Factor-Jump is = 512
+
+[destroying index] ...Freed 231153918 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 45930328 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 14464776 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 7232388bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 226740278 bytes... RAM
+	**** iCSA size = 226740278 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (904050 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (904049 samples)
+Sampling A Period T = 512, Sampling A inv Period TInv = 512
+Psi Bin Search Factor-Jump is = 2048
+
+[destroying index] ...Freed 196398722 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 25639900 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 3616200 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 3616196bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 191985082 bytes... RAM
+	**** iCSA size = 191985082 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (226014 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (226013 samples)
+Sampling A Period T = 2048, Sampling A inv Period TInv = 2048
+Psi Bin Search Factor-Jump is = 8192
+
+[destroying index] ...Freed 185646818 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 20312284 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 904056 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 904052bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 181233178 bytes... RAM
+	**** iCSA size = 181233178 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (57859076 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (57859075 samples)
+Sampling A Period T = 8, Sampling A inv Period TInv = 8
+Psi Bin Search Factor-Jump is = 32
+
+[destroying index] ...Freed 1061765698 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 435366668 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 231436304 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 231436300bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 1057352058 bytes... RAM
+	**** iCSA size = 1057352058 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (28929539 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (7232385 samples)
+Sampling A Period T = 16, Sampling A inv Period TInv = 64
+Psi Bin Search Factor-Jump is = 64
+
+[destroying index] ...Freed 536091618 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 227917496 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 115718156 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 28929540bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 531677978 bytes... RAM
+	**** iCSA size = 531677978 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (14464770 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (7232385 samples)
+Sampling A Period T = 32, Sampling A inv Period TInv = 64
+Psi Bin Search Factor-Jump is = 128
+
+[destroying index] ...Freed 374666518 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 124351472 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 57859080 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 28929540bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 370252878 bytes... RAM
+	**** iCSA size = 370252878 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (7232386 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (3616193 samples)
+Sampling A Period T = 64, Sampling A inv Period TInv = 128
+Psi Bin Search Factor-Jump is = 128
+
+[destroying index] ...Freed 331272214 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 124351472 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 28929544 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 14464772bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 326858574 bytes... RAM
+	**** iCSA size = 326858574 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (3616194 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (1808097 samples)
+Sampling A Period T = 128, Sampling A inv Period TInv = 256
+Psi Bin Search Factor-Jump is = 512
+
+[destroying index] ...Freed 231153918 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 45930328 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 14464776 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 7232388bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 226740278 bytes... RAM
+	**** iCSA size = 226740278 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (904050 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (904049 samples)
+Sampling A Period T = 512, Sampling A inv Period TInv = 512
+Psi Bin Search Factor-Jump is = 2048
+
+[destroying index] ...Freed 196398722 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 25639900 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 3616200 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 3616196bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 191985082 bytes... RAM
+	**** iCSA size = 191985082 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (226014 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (226013 samples)
+Sampling A Period T = 2048, Sampling A inv Period TInv = 2048
+Psi Bin Search Factor-Jump is = 8192
+
+[destroying index] ...Freed 185646818 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 20312284 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 904056 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 904052bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 181233178 bytes... RAM
+	**** iCSA size = 181233178 bytes 
+################################################################################################
+#### EXTRACTION OF TEXT SNIPPETS (retrieving text)                                          ####
+####   to measure text extraction time for small and large snippets (aprox 80,13000 chars)  ####
+################################################################################################
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (57859076 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (57859075 samples)
+Sampling A Period T = 8, Sampling A inv Period TInv = 8
+Psi Bin Search Factor-Jump is = 32
+
+[destroying index] ...Freed 1061765698 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 435366668 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 231436304 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 231436300bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 1057352058 bytes... RAM
+	**** iCSA size = 1057352058 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (28929539 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (7232385 samples)
+Sampling A Period T = 16, Sampling A inv Period TInv = 64
+Psi Bin Search Factor-Jump is = 64
+
+[destroying index] ...Freed 536091618 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 227917496 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 115718156 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 28929540bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 531677978 bytes... RAM
+	**** iCSA size = 531677978 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (14464770 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (7232385 samples)
+Sampling A Period T = 32, Sampling A inv Period TInv = 64
+Psi Bin Search Factor-Jump is = 128
+
+[destroying index] ...Freed 374666518 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 124351472 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 57859080 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 28929540bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 370252878 bytes... RAM
+	**** iCSA size = 370252878 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (7232386 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (3616193 samples)
+Sampling A Period T = 64, Sampling A inv Period TInv = 128
+Psi Bin Search Factor-Jump is = 128
+
+[destroying index] ...Freed 331272214 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 124351472 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 28929544 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 14464772bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 326858574 bytes... RAM
+	**** iCSA size = 326858574 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (3616194 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (1808097 samples)
+Sampling A Period T = 128, Sampling A inv Period TInv = 256
+Psi Bin Search Factor-Jump is = 512
+
+[destroying index] ...Freed 231153918 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 45930328 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 14464776 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 7232388bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 226740278 bytes... RAM
+	**** iCSA size = 226740278 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (904050 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (904049 samples)
+Sampling A Period T = 512, Sampling A inv Period TInv = 512
+Psi Bin Search Factor-Jump is = 2048
+
+[destroying index] ...Freed 196398722 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 25639900 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 3616200 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 3616196bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 191985082 bytes... RAM
+	**** iCSA size = 191985082 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (226014 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (226013 samples)
+Sampling A Period T = 2048, Sampling A inv Period TInv = 2048
+Psi Bin Search Factor-Jump is = 8192
+
+[destroying index] ...Freed 185646818 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 20312284 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 904056 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 904052bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 181233178 bytes... RAM
+	**** iCSA size = 181233178 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (57859076 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (57859075 samples)
+Sampling A Period T = 8, Sampling A inv Period TInv = 8
+Psi Bin Search Factor-Jump is = 32
+
+[destroying index] ...Freed 1061765698 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 435366668 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 231436304 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 231436300bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 1057352058 bytes... RAM
+	**** iCSA size = 1057352058 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (28929539 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (7232385 samples)
+Sampling A Period T = 16, Sampling A inv Period TInv = 64
+Psi Bin Search Factor-Jump is = 64
+
+[destroying index] ...Freed 536091618 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 227917496 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 115718156 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 28929540bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 531677978 bytes... RAM
+	**** iCSA size = 531677978 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (14464770 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (7232385 samples)
+Sampling A Period T = 32, Sampling A inv Period TInv = 64
+Psi Bin Search Factor-Jump is = 128
+
+[destroying index] ...Freed 374666518 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 124351472 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 57859080 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 28929540bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 370252878 bytes... RAM
+	**** iCSA size = 370252878 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (7232386 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (3616193 samples)
+Sampling A Period T = 64, Sampling A inv Period TInv = 128
+Psi Bin Search Factor-Jump is = 128
+
+[destroying index] ...Freed 331272214 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 124351472 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 28929544 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 14464772bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 326858574 bytes... RAM
+	**** iCSA size = 326858574 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (3616194 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (1808097 samples)
+Sampling A Period T = 128, Sampling A inv Period TInv = 256
+Psi Bin Search Factor-Jump is = 512
+
+[destroying index] ...Freed 231153918 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 45930328 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 14464776 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 7232388bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 226740278 bytes... RAM
+	**** iCSA size = 226740278 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (904050 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (904049 samples)
+Sampling A Period T = 512, Sampling A inv Period TInv = 512
+Psi Bin Search Factor-Jump is = 2048
+
+[destroying index] ...Freed 196398722 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 25639900 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 3616200 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 3616196bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 191985082 bytes... RAM
+	**** iCSA size = 191985082 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (226014 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (226013 samples)
+Sampling A Period T = 2048, Sampling A inv Period TInv = 2048
+Psi Bin Search Factor-Jump is = 8192
+
+[destroying index] ...Freed 185646818 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 20312284 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 904056 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 904052bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 181233178 bytes... RAM
+	**** iCSA size = 181233178 bytes 
+########################################################################################
+#### AVG DOCUMENT EXTRACTION TIME ######################################################
+########################################################################################
+## --not needed -- (not used in Inf. Sci. paper)                                        
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (28929539 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (7232385 samples)
+Sampling A Period T = 16, Sampling A inv Period TInv = 64
+Psi Bin Search Factor-Jump is = 64
+
+ nids to extract = 149761 PROGRESS= 1497
+ [0.00%] to extrat doc =  27530, from pos [ 92751570 to  92751716]--> docLen = 647
+ [1.00%] to extrat doc =  46616, from pos [167895672 to 167901173]--> docLen = 25944
+ [2.00%] to extrat doc = 123119, from pos [390770914 to 390771573]--> docLen = 2605
+ [3.00%] to extrat doc = 136667, from pos [416092743 to 416094015]--> docLen = 6042
+ [4.00%] to extrat doc =  70203, from pos [240115471 to 240121052]--> docLen = 22131
+ [5.00%] to extrat doc =  28571, from pos [ 93815916 to  93817031]--> docLen = 4909
+ [6.00%] to extrat doc = 120266, from pos [362847279 to 362851279]--> docLen = 18718
+ [7.00%] to extrat doc =  57306, from pos [200156724 to 200159939]--> docLen = 11951
+ [8.00%] to extrat doc =  32000, from pos [ 99271207 to  99273027]--> docLen = 8748
+ [9.00%] to extrat doc =  43725, from pos [163730797 to 163731313]--> docLen = 2536
+ [10.00%] to extrat doc = 121327, from pos [372258076 to 372272949]--> docLen = 68837
+ [11.00%] to extrat doc =  14740, from pos [ 57782664 to  57783649]--> docLen = 4748
+ [12.00%] to extrat doc =  77391, from pos [263336663 to 263337748]--> docLen = 4951
+ [12.99%] to extrat doc = 122048, from pos [384358352 to 384374720]--> docLen = 74440
+ [13.99%] to extrat doc =  68318, from pos [237163931 to 237165738]--> docLen = 7988
+ [14.99%] to extrat doc =  36524, from pos [107754568 to 107755109]--> docLen = 2636
+ [15.99%] to extrat doc =  47744, from pos [170325511 to 170329155]--> docLen = 16060
+ [16.99%] to extrat doc =  42200, from pos [160943565 to 160944326]--> docLen = 2803
+ [17.99%] to extrat doc =  10207, from pos [ 52904858 to  52905987]--> docLen = 5331
+ [18.99%] to extrat doc =  47318, from pos [168927219 to 168929769]--> docLen = 12018
+ [19.99%] to extrat doc =  12030, from pos [ 54231067 to  54233172]--> docLen = 9502
+ [20.99%] to extrat doc =  58531, from pos [202917426 to 202924133]--> docLen = 34235
+ [21.99%] to extrat doc =  62204, from pos [216276145 to 216277352]--> docLen = 4952
+ [22.99%] to extrat doc =  97023, from pos [313745770 to 313751046]--> docLen = 24342
+ [23.99%] to extrat doc =   2846, from pos [ 28185328 to  28190058]--> docLen = 19609
+ [24.99%] to extrat doc = 144274, from pos [444841505 to 444842688]--> docLen = 6078
+ [25.99%] to extrat doc =  88164, from pos [288182332 to 288185831]--> docLen = 16920
+ [26.99%] to extrat doc =  53172, from pos [183462574 to 183466860]--> docLen = 17752
+ [27.99%] to extrat doc = 136441, from pos [415975585 to 415976226]--> docLen = 3130
+ [28.99%] to extrat doc =  56938, from pos [198189152 to 198191899]--> docLen = 12966
+ [29.99%] to extrat doc = 136341, from pos [415888492 to 415889376]--> docLen = 3724
+ [30.99%] to extrat doc =  44427, from pos [164243926 to 164244098]--> docLen = 956
+ [31.99%] to extrat doc =  60072, from pos [205703096 to 205703375]--> docLen = 1355
+ [32.99%] to extrat doc =  61577, from pos [215725508 to 215725600]--> docLen = 409
+ [33.99%] to extrat doc = 128237, from pos [399984424 to 399985073]--> docLen = 2700
+ [34.99%] to extrat doc =  18531, from pos [ 67857053 to  67857421]--> docLen = 1826
+ [35.99%] to extrat doc = 122667, from pos [390420529 to 390420650]--> docLen = 503
+ [36.98%] to extrat doc =  83066, from pos [277443787 to 277444627]--> docLen = 3533
+ [37.98%] to extrat doc =  47723, from pos [170252639 to 170256257]--> docLen = 15847
+ [38.98%] to extrat doc =  42194, from pos [160939117 to 160939857]--> docLen = 2710
+ [39.98%] to extrat doc = 135356, from pos [415226776 to 415226860]--> docLen = 378
+ [40.98%] to extrat doc = 134894, from pos [414840295 to 414840956]--> docLen = 3124
+ [41.98%] to extrat doc =  11096, from pos [ 53546217 to  53546494]--> docLen = 1368
+ [42.98%] to extrat doc = 111593, from pos [343428805 to 343429830]--> docLen = 4746
+ [43.98%] to extrat doc =  39273, from pos [132542304 to 132562672]--> docLen = 88921
+ [44.98%] to extrat doc =  75401, from pos [255783351 to 255788886]--> docLen = 19463
+ [45.98%] to extrat doc =  46156, from pos [167006814 to 167007773]--> docLen = 4585
+ [46.98%] to extrat doc =  85198, from pos [281064811 to 281066209]--> docLen = 6698
+ [47.98%] to extrat doc =  51504, from pos [179933832 to 179937687]--> docLen = 17578
+ [48.98%] to extrat doc = 122029, from pos [384043216 to 384059775]--> docLen = 74609
+ [49.98%] to extrat doc =  60942, from pos [211964975 to 211982888]--> docLen = 75204
+ [50.98%] to extrat doc = 113796, from pos [349822371 to 349822639]--> docLen = 1364
+ [51.98%] to extrat doc =  34535, from pos [104518865 to 104519242]--> docLen = 1698
+ [52.98%] to extrat doc =  53535, from pos [185258174 to 185262903]--> docLen = 19789
+ [53.98%] to extrat doc =  16005, from pos [ 59474947 to  59477784]--> docLen = 12175
+ [54.98%] to extrat doc = 112478, from pos [345331879 to 345332674]--> docLen = 3949
+ [55.98%] to extrat doc =  75350, from pos [255409903 to 255416440]--> docLen = 24993
+ [56.98%] to extrat doc =  48449, from pos [172583323 to 172585072]--> docLen = 7113
+ [57.98%] to extrat doc =  28633, from pos [ 93895312 to  93896763]--> docLen = 6235
+ [58.98%] to extrat doc = 139704, from pos [424260864 to 424269271]--> docLen = 41638
+ [59.98%] to extrat doc =   3857, from pos [ 32250497 to  32250893]--> docLen = 1878
+ [60.98%] to extrat doc =  37433, from pos [110198401 to 110202311]--> docLen = 19127
+ [61.97%] to extrat doc =   8033, from pos [ 49836569 to  49836664]--> docLen = 500
+ [62.97%] to extrat doc =   5646, from pos [ 37436278 to  37446037]--> docLen = 46738
+ [63.97%] to extrat doc = 136134, from pos [415713518 to 415715847]--> docLen = 10612
+ [64.97%] to extrat doc =  26819, from pos [ 91605781 to  91610696]--> docLen = 25309
+ [65.97%] to extrat doc =  71088, from pos [241453006 to 241454221]--> docLen = 5985
+ [66.97%] to extrat doc = 123907, from pos [392227786 to 392231875]--> docLen = 19917
+ [67.97%] to extrat doc =  31642, from pos [ 98879363 to  98879554]--> docLen = 823
+ [68.97%] to extrat doc =  47935, from pos [170999996 to 171003417]--> docLen = 15231
+ [69.97%] to extrat doc =  43189, from pos [162911226 to 162911975]--> docLen = 2658
+ [70.97%] to extrat doc =  23964, from pos [ 82120107 to  82120415]--> docLen = 1409
+ [71.97%] to extrat doc =  83777, from pos [278737671 to 278743119]--> docLen = 24319
+ [72.97%] to extrat doc =  47511, from pos [169509832 to 169512974]--> docLen = 14344
+ [73.97%] to extrat doc =  72776, from pos [243468588 to 243469647]--> docLen = 4867
+ [74.97%] to extrat doc =  98973, from pos [317703050 to 317711271]--> docLen = 34590
+ [75.97%] to extrat doc = 108549, from pos [336813437 to 336814578]--> docLen = 5735
+ [76.97%] to extrat doc = 129251, from pos [400787796 to 400791129]--> docLen = 15868
+ [77.97%] to extrat doc = 125282, from pos [395221416 to 395227073]--> docLen = 27271
+ [78.97%] to extrat doc =  13476, from pos [ 56333653 to  56335466]--> docLen = 9523
+ [79.97%] to extrat doc =  12199, from pos [ 54350273 to  54351158]--> docLen = 4391
+ [80.97%] to extrat doc = 114692, from pos [350669558 to 350674023]--> docLen = 14786
+ [81.97%] to extrat doc =  29636, from pos [ 96716811 to  96717705]--> docLen = 4441
+ [82.97%] to extrat doc =   7465, from pos [ 48100597 to  48100835]--> docLen = 1021
+ [83.97%] to extrat doc = 134883, from pos [414833741 to 414834439]--> docLen = 3042
+ [84.97%] to extrat doc =  48174, from pos [171881831 to 171886159]--> docLen = 19549
+ [85.96%] to extrat doc = 103848, from pos [329677397 to 329680085]--> docLen = 12242
+ [86.96%] to extrat doc =  97234, from pos [314184307 to 314184447]--> docLen = 640
+ [87.96%] to extrat doc =  18016, from pos [ 64358886 to  64359653]--> docLen = 3895
+ [88.96%] to extrat doc =  66245, from pos [233864376 to 233864787]--> docLen = 1994
+ [89.96%] to extrat doc =  40136, from pos [150848182 to 150868492]--> docLen = 86341
+ [90.96%] to extrat doc = 111608, from pos [343444691 to 343445769]--> docLen = 5036
+ [91.96%] to extrat doc =  99691, from pos [320319235 to 320323838]--> docLen = 22001
+ [92.96%] to extrat doc = 124668, from pos [393988897 to 393989854]--> docLen = 3602
+ [93.96%] to extrat doc = 102498, from pos [326833608 to 326836802]--> docLen = 15929
+ [94.96%] to extrat doc =   3439, from pos [ 31901949 to  31902651]--> docLen = 3971
+ [95.96%] to extrat doc =  25620, from pos [ 90124031 to  90124355]--> docLen = 2299
+ [96.96%] to extrat doc =  51343, from pos [179531159 to 179531194]--> docLen = 178
+ [97.96%] to extrat doc = 104861, from pos [330911277 to 330911738]--> docLen = 2197
+ [98.96%] to extrat doc =  37707, from pos [111331539 to 111336644]--> docLen = 25517
+ [99.96%] to extrat doc =  35670, from pos [106704529 to 106704614]--> docLen = 403
+[destroying index] ...Freed 536091618 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 227917496 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 115718156 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 28929540bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 531677978 bytes... RAM
+	**** iCSA size = 531677978 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (14464770 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (7232385 samples)
+Sampling A Period T = 32, Sampling A inv Period TInv = 64
+Psi Bin Search Factor-Jump is = 128
+
+ nids to extract = 149761 PROGRESS= 1497
+ [0.00%] to extrat doc =  27530, from pos [ 92751570 to  92751716]--> docLen = 647
+ [1.00%] to extrat doc =  46616, from pos [167895672 to 167901173]--> docLen = 25944
+ [2.00%] to extrat doc = 123119, from pos [390770914 to 390771573]--> docLen = 2605
+ [3.00%] to extrat doc = 136667, from pos [416092743 to 416094015]--> docLen = 6042
+ [4.00%] to extrat doc =  70203, from pos [240115471 to 240121052]--> docLen = 22131
+ [5.00%] to extrat doc =  28571, from pos [ 93815916 to  93817031]--> docLen = 4909
+ [6.00%] to extrat doc = 120266, from pos [362847279 to 362851279]--> docLen = 18718
+ [7.00%] to extrat doc =  57306, from pos [200156724 to 200159939]--> docLen = 11951
+ [8.00%] to extrat doc =  32000, from pos [ 99271207 to  99273027]--> docLen = 8748
+ [9.00%] to extrat doc =  43725, from pos [163730797 to 163731313]--> docLen = 2536
+ [10.00%] to extrat doc = 121327, from pos [372258076 to 372272949]--> docLen = 68837
+ [11.00%] to extrat doc =  14740, from pos [ 57782664 to  57783649]--> docLen = 4748
+ [12.00%] to extrat doc =  77391, from pos [263336663 to 263337748]--> docLen = 4951
+ [12.99%] to extrat doc = 122048, from pos [384358352 to 384374720]--> docLen = 74440
+ [13.99%] to extrat doc =  68318, from pos [237163931 to 237165738]--> docLen = 7988
+ [14.99%] to extrat doc =  36524, from pos [107754568 to 107755109]--> docLen = 2636
+ [15.99%] to extrat doc =  47744, from pos [170325511 to 170329155]--> docLen = 16060
+ [16.99%] to extrat doc =  42200, from pos [160943565 to 160944326]--> docLen = 2803
+ [17.99%] to extrat doc =  10207, from pos [ 52904858 to  52905987]--> docLen = 5331
+ [18.99%] to extrat doc =  47318, from pos [168927219 to 168929769]--> docLen = 12018
+ [19.99%] to extrat doc =  12030, from pos [ 54231067 to  54233172]--> docLen = 9502
+ [20.99%] to extrat doc =  58531, from pos [202917426 to 202924133]--> docLen = 34235
+ [21.99%] to extrat doc =  62204, from pos [216276145 to 216277352]--> docLen = 4952
+ [22.99%] to extrat doc =  97023, from pos [313745770 to 313751046]--> docLen = 24342
+ [23.99%] to extrat doc =   2846, from pos [ 28185328 to  28190058]--> docLen = 19609
+ [24.99%] to extrat doc = 144274, from pos [444841505 to 444842688]--> docLen = 6078
+ [25.99%] to extrat doc =  88164, from pos [288182332 to 288185831]--> docLen = 16920
+ [26.99%] to extrat doc =  53172, from pos [183462574 to 183466860]--> docLen = 17752
+ [27.99%] to extrat doc = 136441, from pos [415975585 to 415976226]--> docLen = 3130
+ [28.99%] to extrat doc =  56938, from pos [198189152 to 198191899]--> docLen = 12966
+ [29.99%] to extrat doc = 136341, from pos [415888492 to 415889376]--> docLen = 3724
+ [30.99%] to extrat doc =  44427, from pos [164243926 to 164244098]--> docLen = 956
+ [31.99%] to extrat doc =  60072, from pos [205703096 to 205703375]--> docLen = 1355
+ [32.99%] to extrat doc =  61577, from pos [215725508 to 215725600]--> docLen = 409
+ [33.99%] to extrat doc = 128237, from pos [399984424 to 399985073]--> docLen = 2700
+ [34.99%] to extrat doc =  18531, from pos [ 67857053 to  67857421]--> docLen = 1826
+ [35.99%] to extrat doc = 122667, from pos [390420529 to 390420650]--> docLen = 503
+ [36.98%] to extrat doc =  83066, from pos [277443787 to 277444627]--> docLen = 3533
+ [37.98%] to extrat doc =  47723, from pos [170252639 to 170256257]--> docLen = 15847
+ [38.98%] to extrat doc =  42194, from pos [160939117 to 160939857]--> docLen = 2710
+ [39.98%] to extrat doc = 135356, from pos [415226776 to 415226860]--> docLen = 378
+ [40.98%] to extrat doc = 134894, from pos [414840295 to 414840956]--> docLen = 3124
+ [41.98%] to extrat doc =  11096, from pos [ 53546217 to  53546494]--> docLen = 1368
+ [42.98%] to extrat doc = 111593, from pos [343428805 to 343429830]--> docLen = 4746
+ [43.98%] to extrat doc =  39273, from pos [132542304 to 132562672]--> docLen = 88921
+ [44.98%] to extrat doc =  75401, from pos [255783351 to 255788886]--> docLen = 19463
+ [45.98%] to extrat doc =  46156, from pos [167006814 to 167007773]--> docLen = 4585
+ [46.98%] to extrat doc =  85198, from pos [281064811 to 281066209]--> docLen = 6698
+ [47.98%] to extrat doc =  51504, from pos [179933832 to 179937687]--> docLen = 17578
+ [48.98%] to extrat doc = 122029, from pos [384043216 to 384059775]--> docLen = 74609
+ [49.98%] to extrat doc =  60942, from pos [211964975 to 211982888]--> docLen = 75204
+ [50.98%] to extrat doc = 113796, from pos [349822371 to 349822639]--> docLen = 1364
+ [51.98%] to extrat doc =  34535, from pos [104518865 to 104519242]--> docLen = 1698
+ [52.98%] to extrat doc =  53535, from pos [185258174 to 185262903]--> docLen = 19789
+ [53.98%] to extrat doc =  16005, from pos [ 59474947 to  59477784]--> docLen = 12175
+ [54.98%] to extrat doc = 112478, from pos [345331879 to 345332674]--> docLen = 3949
+ [55.98%] to extrat doc =  75350, from pos [255409903 to 255416440]--> docLen = 24993
+ [56.98%] to extrat doc =  48449, from pos [172583323 to 172585072]--> docLen = 7113
+ [57.98%] to extrat doc =  28633, from pos [ 93895312 to  93896763]--> docLen = 6235
+ [58.98%] to extrat doc = 139704, from pos [424260864 to 424269271]--> docLen = 41638
+ [59.98%] to extrat doc =   3857, from pos [ 32250497 to  32250893]--> docLen = 1878
+ [60.98%] to extrat doc =  37433, from pos [110198401 to 110202311]--> docLen = 19127
+ [61.97%] to extrat doc =   8033, from pos [ 49836569 to  49836664]--> docLen = 500
+ [62.97%] to extrat doc =   5646, from pos [ 37436278 to  37446037]--> docLen = 46738
+ [63.97%] to extrat doc = 136134, from pos [415713518 to 415715847]--> docLen = 10612
+ [64.97%] to extrat doc =  26819, from pos [ 91605781 to  91610696]--> docLen = 25309
+ [65.97%] to extrat doc =  71088, from pos [241453006 to 241454221]--> docLen = 5985
+ [66.97%] to extrat doc = 123907, from pos [392227786 to 392231875]--> docLen = 19917
+ [67.97%] to extrat doc =  31642, from pos [ 98879363 to  98879554]--> docLen = 823
+ [68.97%] to extrat doc =  47935, from pos [170999996 to 171003417]--> docLen = 15231
+ [69.97%] to extrat doc =  43189, from pos [162911226 to 162911975]--> docLen = 2658
+ [70.97%] to extrat doc =  23964, from pos [ 82120107 to  82120415]--> docLen = 1409
+ [71.97%] to extrat doc =  83777, from pos [278737671 to 278743119]--> docLen = 24319
+ [72.97%] to extrat doc =  47511, from pos [169509832 to 169512974]--> docLen = 14344
+ [73.97%] to extrat doc =  72776, from pos [243468588 to 243469647]--> docLen = 4867
+ [74.97%] to extrat doc =  98973, from pos [317703050 to 317711271]--> docLen = 34590
+ [75.97%] to extrat doc = 108549, from pos [336813437 to 336814578]--> docLen = 5735
+ [76.97%] to extrat doc = 129251, from pos [400787796 to 400791129]--> docLen = 15868
+ [77.97%] to extrat doc = 125282, from pos [395221416 to 395227073]--> docLen = 27271
+ [78.97%] to extrat doc =  13476, from pos [ 56333653 to  56335466]--> docLen = 9523
+ [79.97%] to extrat doc =  12199, from pos [ 54350273 to  54351158]--> docLen = 4391
+ [80.97%] to extrat doc = 114692, from pos [350669558 to 350674023]--> docLen = 14786
+ [81.97%] to extrat doc =  29636, from pos [ 96716811 to  96717705]--> docLen = 4441
+ [82.97%] to extrat doc =   7465, from pos [ 48100597 to  48100835]--> docLen = 1021
+ [83.97%] to extrat doc = 134883, from pos [414833741 to 414834439]--> docLen = 3042
+ [84.97%] to extrat doc =  48174, from pos [171881831 to 171886159]--> docLen = 19549
+ [85.96%] to extrat doc = 103848, from pos [329677397 to 329680085]--> docLen = 12242
+ [86.96%] to extrat doc =  97234, from pos [314184307 to 314184447]--> docLen = 640
+ [87.96%] to extrat doc =  18016, from pos [ 64358886 to  64359653]--> docLen = 3895
+ [88.96%] to extrat doc =  66245, from pos [233864376 to 233864787]--> docLen = 1994
+ [89.96%] to extrat doc =  40136, from pos [150848182 to 150868492]--> docLen = 86341
+ [90.96%] to extrat doc = 111608, from pos [343444691 to 343445769]--> docLen = 5036
+ [91.96%] to extrat doc =  99691, from pos [320319235 to 320323838]--> docLen = 22001
+ [92.96%] to extrat doc = 124668, from pos [393988897 to 393989854]--> docLen = 3602
+ [93.96%] to extrat doc = 102498, from pos [326833608 to 326836802]--> docLen = 15929
+ [94.96%] to extrat doc =   3439, from pos [ 31901949 to  31902651]--> docLen = 3971
+ [95.96%] to extrat doc =  25620, from pos [ 90124031 to  90124355]--> docLen = 2299
+ [96.96%] to extrat doc =  51343, from pos [179531159 to 179531194]--> docLen = 178
+ [97.96%] to extrat doc = 104861, from pos [330911277 to 330911738]--> docLen = 2197
+ [98.96%] to extrat doc =  37707, from pos [111331539 to 111336644]--> docLen = 25517
+ [99.96%] to extrat doc =  35670, from pos [106704529 to 106704614]--> docLen = 403
+[destroying index] ...Freed 374666518 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 124351472 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 57859080 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 28929540bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 370252878 bytes... RAM
+	**** iCSA size = 370252878 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (7232386 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (3616193 samples)
+Sampling A Period T = 64, Sampling A inv Period TInv = 128
+Psi Bin Search Factor-Jump is = 128
+
+ nids to extract = 149761 PROGRESS= 1497
+ [0.00%] to extrat doc =  27530, from pos [ 92751570 to  92751716]--> docLen = 647
+ [1.00%] to extrat doc =  46616, from pos [167895672 to 167901173]--> docLen = 25944
+ [2.00%] to extrat doc = 123119, from pos [390770914 to 390771573]--> docLen = 2605
+ [3.00%] to extrat doc = 136667, from pos [416092743 to 416094015]--> docLen = 6042
+ [4.00%] to extrat doc =  70203, from pos [240115471 to 240121052]--> docLen = 22131
+ [5.00%] to extrat doc =  28571, from pos [ 93815916 to  93817031]--> docLen = 4909
+ [6.00%] to extrat doc = 120266, from pos [362847279 to 362851279]--> docLen = 18718
+ [7.00%] to extrat doc =  57306, from pos [200156724 to 200159939]--> docLen = 11951
+ [8.00%] to extrat doc =  32000, from pos [ 99271207 to  99273027]--> docLen = 8748
+ [9.00%] to extrat doc =  43725, from pos [163730797 to 163731313]--> docLen = 2536
+ [10.00%] to extrat doc = 121327, from pos [372258076 to 372272949]--> docLen = 68837
+ [11.00%] to extrat doc =  14740, from pos [ 57782664 to  57783649]--> docLen = 4748
+ [12.00%] to extrat doc =  77391, from pos [263336663 to 263337748]--> docLen = 4951
+ [12.99%] to extrat doc = 122048, from pos [384358352 to 384374720]--> docLen = 74440
+ [13.99%] to extrat doc =  68318, from pos [237163931 to 237165738]--> docLen = 7988
+ [14.99%] to extrat doc =  36524, from pos [107754568 to 107755109]--> docLen = 2636
+ [15.99%] to extrat doc =  47744, from pos [170325511 to 170329155]--> docLen = 16060
+ [16.99%] to extrat doc =  42200, from pos [160943565 to 160944326]--> docLen = 2803
+ [17.99%] to extrat doc =  10207, from pos [ 52904858 to  52905987]--> docLen = 5331
+ [18.99%] to extrat doc =  47318, from pos [168927219 to 168929769]--> docLen = 12018
+ [19.99%] to extrat doc =  12030, from pos [ 54231067 to  54233172]--> docLen = 9502
+ [20.99%] to extrat doc =  58531, from pos [202917426 to 202924133]--> docLen = 34235
+ [21.99%] to extrat doc =  62204, from pos [216276145 to 216277352]--> docLen = 4952
+ [22.99%] to extrat doc =  97023, from pos [313745770 to 313751046]--> docLen = 24342
+ [23.99%] to extrat doc =   2846, from pos [ 28185328 to  28190058]--> docLen = 19609
+ [24.99%] to extrat doc = 144274, from pos [444841505 to 444842688]--> docLen = 6078
+ [25.99%] to extrat doc =  88164, from pos [288182332 to 288185831]--> docLen = 16920
+ [26.99%] to extrat doc =  53172, from pos [183462574 to 183466860]--> docLen = 17752
+ [27.99%] to extrat doc = 136441, from pos [415975585 to 415976226]--> docLen = 3130
+ [28.99%] to extrat doc =  56938, from pos [198189152 to 198191899]--> docLen = 12966
+ [29.99%] to extrat doc = 136341, from pos [415888492 to 415889376]--> docLen = 3724
+ [30.99%] to extrat doc =  44427, from pos [164243926 to 164244098]--> docLen = 956
+ [31.99%] to extrat doc =  60072, from pos [205703096 to 205703375]--> docLen = 1355
+ [32.99%] to extrat doc =  61577, from pos [215725508 to 215725600]--> docLen = 409
+ [33.99%] to extrat doc = 128237, from pos [399984424 to 399985073]--> docLen = 2700
+ [34.99%] to extrat doc =  18531, from pos [ 67857053 to  67857421]--> docLen = 1826
+ [35.99%] to extrat doc = 122667, from pos [390420529 to 390420650]--> docLen = 503
+ [36.98%] to extrat doc =  83066, from pos [277443787 to 277444627]--> docLen = 3533
+ [37.98%] to extrat doc =  47723, from pos [170252639 to 170256257]--> docLen = 15847
+ [38.98%] to extrat doc =  42194, from pos [160939117 to 160939857]--> docLen = 2710
+ [39.98%] to extrat doc = 135356, from pos [415226776 to 415226860]--> docLen = 378
+ [40.98%] to extrat doc = 134894, from pos [414840295 to 414840956]--> docLen = 3124
+ [41.98%] to extrat doc =  11096, from pos [ 53546217 to  53546494]--> docLen = 1368
+ [42.98%] to extrat doc = 111593, from pos [343428805 to 343429830]--> docLen = 4746
+ [43.98%] to extrat doc =  39273, from pos [132542304 to 132562672]--> docLen = 88921
+ [44.98%] to extrat doc =  75401, from pos [255783351 to 255788886]--> docLen = 19463
+ [45.98%] to extrat doc =  46156, from pos [167006814 to 167007773]--> docLen = 4585
+ [46.98%] to extrat doc =  85198, from pos [281064811 to 281066209]--> docLen = 6698
+ [47.98%] to extrat doc =  51504, from pos [179933832 to 179937687]--> docLen = 17578
+ [48.98%] to extrat doc = 122029, from pos [384043216 to 384059775]--> docLen = 74609
+ [49.98%] to extrat doc =  60942, from pos [211964975 to 211982888]--> docLen = 75204
+ [50.98%] to extrat doc = 113796, from pos [349822371 to 349822639]--> docLen = 1364
+ [51.98%] to extrat doc =  34535, from pos [104518865 to 104519242]--> docLen = 1698
+ [52.98%] to extrat doc =  53535, from pos [185258174 to 185262903]--> docLen = 19789
+ [53.98%] to extrat doc =  16005, from pos [ 59474947 to  59477784]--> docLen = 12175
+ [54.98%] to extrat doc = 112478, from pos [345331879 to 345332674]--> docLen = 3949
+ [55.98%] to extrat doc =  75350, from pos [255409903 to 255416440]--> docLen = 24993
+ [56.98%] to extrat doc =  48449, from pos [172583323 to 172585072]--> docLen = 7113
+ [57.98%] to extrat doc =  28633, from pos [ 93895312 to  93896763]--> docLen = 6235
+ [58.98%] to extrat doc = 139704, from pos [424260864 to 424269271]--> docLen = 41638
+ [59.98%] to extrat doc =   3857, from pos [ 32250497 to  32250893]--> docLen = 1878
+ [60.98%] to extrat doc =  37433, from pos [110198401 to 110202311]--> docLen = 19127
+ [61.97%] to extrat doc =   8033, from pos [ 49836569 to  49836664]--> docLen = 500
+ [62.97%] to extrat doc =   5646, from pos [ 37436278 to  37446037]--> docLen = 46738
+ [63.97%] to extrat doc = 136134, from pos [415713518 to 415715847]--> docLen = 10612
+ [64.97%] to extrat doc =  26819, from pos [ 91605781 to  91610696]--> docLen = 25309
+ [65.97%] to extrat doc =  71088, from pos [241453006 to 241454221]--> docLen = 5985
+ [66.97%] to extrat doc = 123907, from pos [392227786 to 392231875]--> docLen = 19917
+ [67.97%] to extrat doc =  31642, from pos [ 98879363 to  98879554]--> docLen = 823
+ [68.97%] to extrat doc =  47935, from pos [170999996 to 171003417]--> docLen = 15231
+ [69.97%] to extrat doc =  43189, from pos [162911226 to 162911975]--> docLen = 2658
+ [70.97%] to extrat doc =  23964, from pos [ 82120107 to  82120415]--> docLen = 1409
+ [71.97%] to extrat doc =  83777, from pos [278737671 to 278743119]--> docLen = 24319
+ [72.97%] to extrat doc =  47511, from pos [169509832 to 169512974]--> docLen = 14344
+ [73.97%] to extrat doc =  72776, from pos [243468588 to 243469647]--> docLen = 4867
+ [74.97%] to extrat doc =  98973, from pos [317703050 to 317711271]--> docLen = 34590
+ [75.97%] to extrat doc = 108549, from pos [336813437 to 336814578]--> docLen = 5735
+ [76.97%] to extrat doc = 129251, from pos [400787796 to 400791129]--> docLen = 15868
+ [77.97%] to extrat doc = 125282, from pos [395221416 to 395227073]--> docLen = 27271
+ [78.97%] to extrat doc =  13476, from pos [ 56333653 to  56335466]--> docLen = 9523
+ [79.97%] to extrat doc =  12199, from pos [ 54350273 to  54351158]--> docLen = 4391
+ [80.97%] to extrat doc = 114692, from pos [350669558 to 350674023]--> docLen = 14786
+ [81.97%] to extrat doc =  29636, from pos [ 96716811 to  96717705]--> docLen = 4441
+ [82.97%] to extrat doc =   7465, from pos [ 48100597 to  48100835]--> docLen = 1021
+ [83.97%] to extrat doc = 134883, from pos [414833741 to 414834439]--> docLen = 3042
+ [84.97%] to extrat doc =  48174, from pos [171881831 to 171886159]--> docLen = 19549
+ [85.96%] to extrat doc = 103848, from pos [329677397 to 329680085]--> docLen = 12242
+ [86.96%] to extrat doc =  97234, from pos [314184307 to 314184447]--> docLen = 640
+ [87.96%] to extrat doc =  18016, from pos [ 64358886 to  64359653]--> docLen = 3895
+ [88.96%] to extrat doc =  66245, from pos [233864376 to 233864787]--> docLen = 1994
+ [89.96%] to extrat doc =  40136, from pos [150848182 to 150868492]--> docLen = 86341
+ [90.96%] to extrat doc = 111608, from pos [343444691 to 343445769]--> docLen = 5036
+ [91.96%] to extrat doc =  99691, from pos [320319235 to 320323838]--> docLen = 22001
+ [92.96%] to extrat doc = 124668, from pos [393988897 to 393989854]--> docLen = 3602
+ [93.96%] to extrat doc = 102498, from pos [326833608 to 326836802]--> docLen = 15929
+ [94.96%] to extrat doc =   3439, from pos [ 31901949 to  31902651]--> docLen = 3971
+ [95.96%] to extrat doc =  25620, from pos [ 90124031 to  90124355]--> docLen = 2299
+ [96.96%] to extrat doc =  51343, from pos [179531159 to 179531194]--> docLen = 178
+ [97.96%] to extrat doc = 104861, from pos [330911277 to 330911738]--> docLen = 2197
+ [98.96%] to extrat doc =  37707, from pos [111331539 to 111336644]--> docLen = 25517
+ [99.96%] to extrat doc =  35670, from pos [106704529 to 106704614]--> docLen = 403
+[destroying index] ...Freed 331272214 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 124351472 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 28929544 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 14464772bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 326858574 bytes... RAM
+	**** iCSA size = 326858574 bytes 
+Number of indexed elements (suffix array size) = 462872598
+Bit vector D loaded (462872598 bits)
+Rank1 Directory for D loaded (1808097 superblocks, 14464769 blocks)
+Suffix array samples loaded (3616194 samples)
+Bit vector BA loaded (462872598 bits)
+Rank1 Directory for BA loaded (1808097 superblocks, 14464769 blocks)
+Suffix array inverse samples loaded (1808097 samples)
+Sampling A Period T = 128, Sampling A inv Period TInv = 256
+Psi Bin Search Factor-Jump is = 512
+
+ nids to extract = 149761 PROGRESS= 1497
+ [0.00%] to extrat doc =  27530, from pos [ 92751570 to  92751716]--> docLen = 647
+ [1.00%] to extrat doc =  46616, from pos [167895672 to 167901173]--> docLen = 25944
+ [2.00%] to extrat doc = 123119, from pos [390770914 to 390771573]--> docLen = 2605
+ [3.00%] to extrat doc = 136667, from pos [416092743 to 416094015]--> docLen = 6042
+ [4.00%] to extrat doc =  70203, from pos [240115471 to 240121052]--> docLen = 22131
+ [5.00%] to extrat doc =  28571, from pos [ 93815916 to  93817031]--> docLen = 4909
+ [6.00%] to extrat doc = 120266, from pos [362847279 to 362851279]--> docLen = 18718
+ [7.00%] to extrat doc =  57306, from pos [200156724 to 200159939]--> docLen = 11951
+ [8.00%] to extrat doc =  32000, from pos [ 99271207 to  99273027]--> docLen = 8748
+ [9.00%] to extrat doc =  43725, from pos [163730797 to 163731313]--> docLen = 2536
+ [10.00%] to extrat doc = 121327, from pos [372258076 to 372272949]--> docLen = 68837
+ [11.00%] to extrat doc =  14740, from pos [ 57782664 to  57783649]--> docLen = 4748
+ [12.00%] to extrat doc =  77391, from pos [263336663 to 263337748]--> docLen = 4951
+ [12.99%] to extrat doc = 122048, from pos [384358352 to 384374720]--> docLen = 74440
+ [13.99%] to extrat doc =  68318, from pos [237163931 to 237165738]--> docLen = 7988
+ [14.99%] to extrat doc =  36524, from pos [107754568 to 107755109]--> docLen = 2636
+ [15.99%] to extrat doc =  47744, from pos [170325511 to 170329155]--> docLen = 16060
+ [16.99%] to extrat doc =  42200, from pos [160943565 to 160944326]--> docLen = 2803
+ [17.99%] to extrat doc =  10207, from pos [ 52904858 to  52905987]--> docLen = 5331
+ [18.99%] to extrat doc =  47318, from pos [168927219 to 168929769]--> docLen = 12018
+ [19.99%] to extrat doc =  12030, from pos [ 54231067 to  54233172]--> docLen = 9502
+ [20.99%] to extrat doc =  58531, from pos [202917426 to 202924133]--> docLen = 34235
+ [21.99%] to extrat doc =  62204, from pos [216276145 to 216277352]--> docLen = 4952
+ [22.99%] to extrat doc =  97023, from pos [313745770 to 313751046]--> docLen = 24342
+ [23.99%] to extrat doc =   2846, from pos [ 28185328 to  28190058]--> docLen = 19609
+ [24.99%] to extrat doc = 144274, from pos [444841505 to 444842688]--> docLen = 6078
+ [25.99%] to extrat doc =  88164, from pos [288182332 to 288185831]--> docLen = 16920
+ [26.99%] to extrat doc =  53172, from pos [183462574 to 183466860]--> docLen = 17752
+ [27.99%] to extrat doc = 136441, from pos [415975585 to 415976226]--> docLen = 3130
+ [28.99%] to extrat doc =  56938, from pos [198189152 to 198191899]--> docLen = 12966
+ [29.99%] to extrat doc = 136341, from pos [415888492 to 415889376]--> docLen = 3724
+ [30.99%] to extrat doc =  44427, from pos [164243926 to 164244098]--> docLen = 956
+ [31.99%] to extrat doc =  60072, from pos [205703096 to 205703375]--> docLen = 1355
+ [32.99%] to extrat doc =  61577, from pos [215725508 to 215725600]--> docLen = 409
+ [33.99%] to extrat doc = 128237, from pos [399984424 to 399985073]--> docLen = 2700
+ [34.99%] to extrat doc =  18531, from pos [ 67857053 to  67857421]--> docLen = 1826
+ [35.99%] to extrat doc = 122667, from pos [390420529 to 390420650]--> docLen = 503
+ [36.98%] to extrat doc =  83066, from pos [277443787 to 277444627]--> docLen = 3533
+ [37.98%] to extrat doc =  47723, from pos [170252639 to 170256257]--> docLen = 15847
+ [38.98%] to extrat doc =  42194, from pos [160939117 to 160939857]--> docLen = 2710
+ [39.98%] to extrat doc = 135356, from pos [415226776 to 415226860]--> docLen = 378
+ [40.98%] to extrat doc = 134894, from pos [414840295 to 414840956]--> docLen = 3124
+ [41.98%] to extrat doc =  11096, from pos [ 53546217 to  53546494]--> docLen = 1368
+ [42.98%] to extrat doc = 111593, from pos [343428805 to 343429830]--> docLen = 4746
+ [43.98%] to extrat doc =  39273, from pos [132542304 to 132562672]--> docLen = 88921
+ [44.98%] to extrat doc =  75401, from pos [255783351 to 255788886]--> docLen = 19463
+ [45.98%] to extrat doc =  46156, from pos [167006814 to 167007773]--> docLen = 4585
+ [46.98%] to extrat doc =  85198, from pos [281064811 to 281066209]--> docLen = 6698
+ [47.98%] to extrat doc =  51504, from pos [179933832 to 179937687]--> docLen = 17578
+ [48.98%] to extrat doc = 122029, from pos [384043216 to 384059775]--> docLen = 74609
+ [49.98%] to extrat doc =  60942, from pos [211964975 to 211982888]--> docLen = 75204
+ [50.98%] to extrat doc = 113796, from pos [349822371 to 349822639]--> docLen = 1364
+ [51.98%] to extrat doc =  34535, from pos [104518865 to 104519242]--> docLen = 1698
+ [52.98%] to extrat doc =  53535, from pos [185258174 to 185262903]--> docLen = 19789
+ [53.98%] to extrat doc =  16005, from pos [ 59474947 to  59477784]--> docLen = 12175
+ [54.98%] to extrat doc = 112478, from pos [345331879 to 345332674]--> docLen = 3949
+ [55.98%] to extrat doc =  75350, from pos [255409903 to 255416440]--> docLen = 24993
+ [56.98%] to extrat doc =  48449, from pos [172583323 to 172585072]--> docLen = 7113
+ [57.98%] to extrat doc =  28633, from pos [ 93895312 to  93896763]--> docLen = 6235
+ [58.98%] to extrat doc = 139704, from pos [424260864 to 424269271]--> docLen = 41638
+ [59.98%] to extrat doc =   3857, from pos [ 32250497 to  32250893]--> docLen = 1878
+ [60.98%] to extrat doc =  37433, from pos [110198401 to 110202311]--> docLen = 19127
+ [61.97%] to extrat doc =   8033, from pos [ 49836569 to  49836664]--> docLen = 500
+ [62.97%] to extrat doc =   5646, from pos [ 37436278 to  37446037]--> docLen = 46738
+ [63.97%] to extrat doc = 136134, from pos [415713518 to 415715847]--> docLen = 10612
+ [64.97%] to extrat doc =  26819, from pos [ 91605781 to  91610696]--> docLen = 25309
+ [65.97%] to extrat doc =  71088, from pos [241453006 to 241454221]--> docLen = 5985
+ [66.97%] to extrat doc = 123907, from pos [392227786 to 392231875]--> docLen = 19917
+ [67.97%] to extrat doc =  31642, from pos [ 98879363 to  98879554]--> docLen = 823
+ [68.97%] to extrat doc =  47935, from pos [170999996 to 171003417]--> docLen = 15231
+ [69.97%] to extrat doc =  43189, from pos [162911226 to 162911975]--> docLen = 2658
+ [70.97%] to extrat doc =  23964, from pos [ 82120107 to  82120415]--> docLen = 1409
+ [71.97%] to extrat doc =  83777, from pos [278737671 to 278743119]--> docLen = 24319
+ [72.97%] to extrat doc =  47511, from pos [169509832 to 169512974]--> docLen = 14344
+ [73.97%] to extrat doc =  72776, from pos [243468588 to 243469647]--> docLen = 4867
+ [74.97%] to extrat doc =  98973, from pos [317703050 to 317711271]--> docLen = 34590
+ [75.97%] to extrat doc = 108549, from pos [336813437 to 336814578]--> docLen = 5735
+ [76.97%] to extrat doc = 129251, from pos [400787796 to 400791129]--> docLen = 15868
+ [77.97%] to extrat doc = 125282, from pos [395221416 to 395227073]--> docLen = 27271
+ [78.97%] to extrat doc =  13476, from pos [ 56333653 to  56335466]--> docLen = 9523
+ [79.97%] to extrat doc =  12199, from pos [ 54350273 to  54351158]--> docLen = 4391
+ [80.97%] to extrat doc = 114692, from pos [350669558 to 350674023]--> docLen = 14786
+ [81.97%] to extrat doc =  29636, from pos [ 96716811 to  96717705]--> docLen = 4441
+ [82.97%] to extrat doc =   7465, from pos [ 48100597 to  48100835]--> docLen = 1021
+ [83.97%] to extrat doc = 134883, from pos [414833741 to 414834439]--> docLen = 3042
+ [84.97%] to extrat doc =  48174, from pos [171881831 to 171886159]--> docLen = 19549
+ [85.96%] to extrat doc = 103848, from pos [329677397 to 329680085]--> docLen = 12242
+ [86.96%] to extrat doc =  97234, from pos [314184307 to 314184447]--> docLen = 640
+ [87.96%] to extrat doc =  18016, from pos [ 64358886 to  64359653]--> docLen = 3895
+ [88.96%] to extrat doc =  66245, from pos [233864376 to 233864787]--> docLen = 1994
+ [89.96%] to extrat doc =  40136, from pos [150848182 to 150868492]--> docLen = 86341
+ [90.96%] to extrat doc = 111608, from pos [343444691 to 343445769]--> docLen = 5036
+ [91.96%] to extrat doc =  99691, from pos [320319235 to 320323838]--> docLen = 22001
+ [92.96%] to extrat doc = 124668, from pos [393988897 to 393989854]--> docLen = 3602
+ [93.96%] to extrat doc = 102498, from pos [326833608 to 326836802]--> docLen = 15929
+ [94.96%] to extrat doc =   3439, from pos [ 31901949 to  31902651]--> docLen = 3971
+ [95.96%] to extrat doc =  25620, from pos [ 90124031 to  90124355]--> docLen = 2299
+ [96.96%] to extrat doc =  51343, from pos [179531159 to 179531194]--> docLen = 178
+ [97.96%] to extrat doc = 104861, from pos [330911277 to 330911738]--> docLen = 2197
+ [98.96%] to extrat doc =  37707, from pos [111331539 to 111336644]--> docLen = 25517
+ [99.96%] to extrat doc =  35670, from pos [106704529 to 106704614]--> docLen = 403
+[destroying index] ...Freed 231153918 bytes... RAM
+	[destroying  SA: compressed PSI structure] ...Freed 45930328 bytes... RAM
+	[destroying  SA: D vector] ...Freed 57859076 bytes... RAM
+	[destroying  Samples A: A   ] ...Freed 14464776 bytes... RAM
+	[destroying  Samples AInv: A   ] ...Freed 7232388bytes... RAM
+	[destroying  rank bit D   ] ...Freed 21697205 bytes... RAM
+	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
+	**** [the whole iCSA ocuppied ... 226740278 bytes... RAM
+	**** iCSA size = 226740278 bytes 

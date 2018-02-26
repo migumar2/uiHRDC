@@ -1,0 +1,27 @@
+
+
+#echo "sampleK=1" > FTB8.const.samplek
+./sampleK FTB8 1
+./myILSearch FTB8 I 500 1 "int2=lookup;intn=lookup" < patts/patterns500\(0_1000\)_2.file
+
+#echo "sampleK=4" > FTB8.const.samplek
+./sampleK FTB8 4
+./myILSearch FTB8 I 500 1 "int2=lookup;intn=lookup" < patts/patterns500\(0_1000\)_2.file
+
+
+#echo "sampleK=16" > FTB8.const.samplek
+./sampleK FTB8 16
+./myILSearch FTB8 I 500 1 "int2=lookup;intn=lookup" < patts/patterns500\(0_1000\)_2.file
+
+
+#echo "sampleK=64" > FTB8.const.samplek
+./sampleK FTB8 64
+./myILSearch FTB8 I 500 1 "int2=lookup;intn=lookup" < patts/patterns500\(0_1000\)_2.file
+
+#echo "sampleK=256" > FTB8.const.samplek
+./sampleK FTB8 256
+./myILSearch FTB8 I 500 1 "int2=lookup;intn=lookup" < patts/patterns500\(0_1000\)_2.file
+
+#echo "sampleK=1024" > FTB8.const.samplek
+./sampleK FTB8 1024
+./myILSearch FTB8 I 500 1 "int2=lookup;intn=lookup" < patts/patterns500\(0_1000\)_2.file

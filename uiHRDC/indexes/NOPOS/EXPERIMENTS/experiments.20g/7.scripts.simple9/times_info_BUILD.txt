@@ -1,0 +1,18 @@
+
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb nooptions; 7.simple9
+	Building time: 270.476 secs
+	Input: 20971541599 bytes --> Output 249031106 bytes.
+	Overall compression --> 1.19% (0.09 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 96 bytes.
+	 number of diff words= 534120
+	 number of docs (ndocs)= 881802
+	 vocabulary of words = 6189846 bytes.
+	 Inverted list-structure = 242841164 bytes.
+	 Text (compressed representation) = 0 bytes.
+	 Whole index = 249031106 bytes  ** Ratio = 1.187 % **
+ 
+=====================================

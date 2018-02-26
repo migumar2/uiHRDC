@@ -1,0 +1,126 @@
+*****************************************************************************
+********************  Intervals Set 1                ************************
+*****************************************************************************
+
+ Search: ./SEARCH ./indexes/wiki2gb_ts1: noopts
+	Load index time = 0.004000 sec
+	Index size = 735904701 bytes = (718656 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.248%
+	** Operation = m ** 
+**size_Index= 735904701 bytes, size_Inv-lists= 705070593 bytes, size_compText= 27272408 bytes
+Total Num chars extracted found = 8000000
+Extract time = 18.40000000 sec 
+Extract_time/chars = 0.00230000 msec/char
+(Load_time+Extract_time)/char = 0.00230050 msec/char
+
+
+ Search: ./SEARCH ./indexes/wiki2gb_ts8: noopts
+	Load index time = 0.000000 sec
+	Index size = 734267993 bytes = (717058 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.170%
+	** Operation = m ** 
+**size_Index= 734267993 bytes, size_Inv-lists= 705070593 bytes, size_compText= 25635700 bytes
+Total Num chars extracted found = 8000000
+Extract time = 64.19600000 sec 
+Extract_time/chars = 0.00802450 msec/char
+(Load_time+Extract_time)/char = 0.00802450 msec/char
+
+
+ Search: ./SEARCH ./indexes/wiki2gb_ts32: noopts
+	Load index time = 0.000000 sec
+	Index size = 734017801 bytes = (716814 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.158%
+	** Operation = m ** 
+**size_Index= 734017801 bytes, size_Inv-lists= 705070593 bytes, size_compText= 25385508 bytes
+Total Num chars extracted found = 8000000
+Extract time = 180.32000000 sec 
+Extract_time/chars = 0.02254000 msec/char
+(Load_time+Extract_time)/char = 0.02254000 msec/char
+
+
+ Search: ./SEARCH ./indexes/wiki2gb_ts256: noopts
+	Load index time = 0.004000 sec
+	Index size = 733928213 bytes = (716726 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.154%
+	** Operation = m ** 
+**size_Index= 733928213 bytes, size_Inv-lists= 705070593 bytes, size_compText= 25295920 bytes
+Total Num chars extracted found = 8000000
+Extract time = 1111.59200000 sec 
+Extract_time/chars = 0.13894900 msec/char
+(Load_time+Extract_time)/char = 0.13894950 msec/char
+
+
+ Search: ./SEARCH ./indexes/wiki2gb_ts4k: noopts
+	Load index time = 0.000000 sec
+	Index size = 733913633 bytes = (716712 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.153%
+	** Operation = m ** 
+**size_Index= 733913633 bytes, size_Inv-lists= 705070593 bytes, size_compText= 25281340 bytes
+Total Num chars extracted found = 8000000
+Extract time = 12382.34800000 sec 
+Extract_time/chars = 1.54779350 msec/char
+(Load_time+Extract_time)/char = 1.54779350 msec/char
+
+*****************************************************************************
+********************  Intervals Set 2                ************************
+*****************************************************************************
+
+ Search: ./SEARCH ./indexes/wiki2gb_ts1: noopts
+	Load index time = 0.000000 sec
+	Index size = 735904701 bytes = (718656 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.248%
+	** Operation = m ** 
+**size_Index= 735904701 bytes, size_Inv-lists= 705070593 bytes, size_compText= 27272408 bytes
+Total Num chars extracted found = 130000000
+Extract time = 3.91200000 sec 
+Extract_time/chars = 0.00003009 msec/char
+(Load_time+Extract_time)/char = 0.00003009 msec/char
+
+
+ Search: ./SEARCH ./indexes/wiki2gb_ts8: noopts
+	Load index time = 0.000000 sec
+	Index size = 734267993 bytes = (717058 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.170%
+	** Operation = m ** 
+**size_Index= 734267993 bytes, size_Inv-lists= 705070593 bytes, size_compText= 25635700 bytes
+Total Num chars extracted found = 130000000
+Extract time = 8.38000000 sec 
+Extract_time/chars = 0.00006446 msec/char
+(Load_time+Extract_time)/char = 0.00006446 msec/char
+
+
+ Search: ./SEARCH ./indexes/wiki2gb_ts32: noopts
+	Load index time = 0.000000 sec
+	Index size = 734017801 bytes = (716814 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.158%
+	** Operation = m ** 
+**size_Index= 734017801 bytes, size_Inv-lists= 705070593 bytes, size_compText= 25385508 bytes
+Total Num chars extracted found = 130000000
+Extract time = 20.16400000 sec 
+Extract_time/chars = 0.00015511 msec/char
+(Load_time+Extract_time)/char = 0.00015511 msec/char
+
+
+ Search: ./SEARCH ./indexes/wiki2gb_ts256: noopts
+	Load index time = 0.000000 sec
+	Index size = 733928213 bytes = (716726 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.154%
+	** Operation = m ** 
+**size_Index= 733928213 bytes, size_Inv-lists= 705070593 bytes, size_compText= 25295920 bytes
+Total Num chars extracted found = 130000000
+Extract time = 113.80000000 sec 
+Extract_time/chars = 0.00087538 msec/char
+(Load_time+Extract_time)/char = 0.00087538 msec/char
+
+
+ Search: ./SEARCH ./indexes/wiki2gb_ts4k: noopts
+	Load index time = 0.000000 sec
+	Index size = 733913633 bytes = (716712 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.153%
+	** Operation = m ** 
+**size_Index= 733913633 bytes, size_Inv-lists= 705070593 bytes, size_compText= 25281340 bytes
+Total Num chars extracted found = 130000000
+Extract time = 1266.39600000 sec 
+Extract_time/chars = 0.00974151 msec/char
+(Load_time+Extract_time)/char = 0.00974151 msec/char
+

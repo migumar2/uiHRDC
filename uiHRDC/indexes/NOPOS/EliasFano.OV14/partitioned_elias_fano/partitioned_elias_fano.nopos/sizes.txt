@@ -1,0 +1,5 @@
+2018-01-27 23:25:25: Documents: 132564440 bytes, 0.901107 bits per element
+2018-01-27 23:25:47: Documents: 317511232 bytes, 2.15828 bits per element
+2018-01-27 23:26:51: Documents: 186571256 bytes, 1.26822 bits per element
+2018-01-27 23:27:15: Documents: 1413491548 bytes, 9.60821 bits per element
+2018-01-27 23:29:43: Documents: 148238980 bytes, 1.00765 bits per element

@@ -1,0 +1,72 @@
+
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/torsen20gb_ds04 nooptions;lzend555; delta_sampling=4
+	Building time: 2776.540 secs
+	Input: 20971541599 bytes --> Output 53812352 bytes.
+	Overall compression --> 0.26% (0.02 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 96 bytes.
+	 number of diff words= 534120
+	 number of docs (ndocs)= 881802
+	 vocabulary of words = 6189846 bytes.
+	 Inverted list-structure = 47622410 bytes.
+	 Text (compressed representation) = 0 bytes.
+	 Whole index = 53812352 bytes  ** Ratio = 0.257 % **
+ 
+=====================================
+
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/torsen20gb_ds16 nooptions;lzend555; delta_sampling=16
+	Building time: 2788.732 secs
+	Input: 20971541599 bytes --> Output 46298428 bytes.
+	Overall compression --> 0.22% (0.02 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 96 bytes.
+	 number of diff words= 534120
+	 number of docs (ndocs)= 881802
+	 vocabulary of words = 6189846 bytes.
+	 Inverted list-structure = 40108486 bytes.
+	 Text (compressed representation) = 0 bytes.
+	 Whole index = 46298428 bytes  ** Ratio = 0.221 % **
+ 
+=====================================
+
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/torsen20gb_ds64 nooptions;lzend555; delta_sampling=64
+	Building time: 2957.716 secs
+	Input: 20971541599 bytes --> Output 44419948 bytes.
+	Overall compression --> 0.21% (0.02 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 96 bytes.
+	 number of diff words= 534120
+	 number of docs (ndocs)= 881802
+	 vocabulary of words = 6189846 bytes.
+	 Inverted list-structure = 38230006 bytes.
+	 Text (compressed representation) = 0 bytes.
+	 Whole index = 44419948 bytes  ** Ratio = 0.212 % **
+ 
+=====================================
+
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/torsen20gb_ds256 nooptions;lzend555; delta_sampling=256
+	Building time: 3471.788 secs
+	Input: 20971541599 bytes --> Output 43950328 bytes.
+	Overall compression --> 0.21% (0.02 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 96 bytes.
+	 number of diff words= 534120
+	 number of docs (ndocs)= 881802
+	 vocabulary of words = 6189846 bytes.
+	 Inverted list-structure = 37760386 bytes.
+	 Text (compressed representation) = 0 bytes.
+	 Whole index = 43950328 bytes  ** Ratio = 0.210 % **
+ 
+=====================================

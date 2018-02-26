@@ -1,0 +1,54 @@
+
+ ./myILSearch ft_doc_s64 I 1000 100 "int2=svs;fsearch=seqM" < ../pattersH_100000_1000
+  mv moffat_ft_doc_s64.m ssvsSeqMk64H.m
+
+ ./myILSearch ft_doc_s32 I 1000 100 "int2=svs;fsearch=seqM" < ../pattersH_100000_1000
+  mv moffat_ft_doc_s32.m ssvsSeqMk32H.m
+
+ ./myILSearch ft_doc_s16 I 1000 100 "int2=svs;fsearch=seqM" < ../pattersH_100000_1000
+  mv moffat_ft_doc_s16.m ssvsSeqMk16H.m
+
+ ./myILSearch ft_doc_s8 I 1000 100 "int2=svs;fsearch=seqM" < ../pattersH_100000_1000
+  mv moffat_ft_doc_s8.m ssvsSeqMk8H.m
+
+ ./myILSearch ft_doc_s2 I 1000 100 "int2=svs;fsearch=seqM" < ../pattersH_100000_1000
+  mv moffat_ft_doc_s2.m ssvsSeqMk2H.m
+
+ ############
+
+ ./myILSearch ft_doc_s64 I 1000 10000 "int2=svs;fsearch=seqM" < ../pattersH_100_1
+  mv moffat_ft_doc_s64.m ssvsSeqMk64L.m
+
+ ./myILSearch ft_doc_s32 I 1000 10000 "int2=svs;fsearch=seqM" < ../pattersH_100_1
+  mv moffat_ft_doc_s32.m ssvsSeqMk32L.m
+
+ ./myILSearch ft_doc_s16 I 1000 10000 "int2=svs;fsearch=seqM" < ../pattersH_100_1
+  mv moffat_ft_doc_s16.m ssvsSeqMk16L.m
+
+ ./myILSearch ft_doc_s8 I 1000 10000 "int2=svs;fsearch=seqM" < ../pattersH_100_1
+  mv moffat_ft_doc_s8.m ssvsSeqMk8L.m
+
+ ./myILSearch ft_doc_s2 I 1000 10000 "int2=svs;fsearch=seqM" < ../pattersH_100_1
+  mv moffat_ft_doc_s2.m ssvsSeqMk2L.m
+
+ ############
+
+ ./myILSearch ft_doc_s64 I 1000 1000 "int2=merge;fsearch=seqM" < ../pattersH_100000_1000
+  mv moffat_ft_doc_s64.m sMergek64H.m
+
+ ./myILSearch ft_doc_s64 I 1000 10000 "int2=svs;fsearch=seqM" < ../pattersH_100_1
+  mv moffat_ft_doc_s64.m sMergek64L.m 
+
+
+###########
+ ./myILSearch ft_doc_s32 I 1000 100 "int2=svs;fsearch=bin" < ../pattersH_100000_1000
+  mv moffat_ft_doc_s32.m ssvsBink32H.m
+
+./myILSearch ft_doc_s32 I 1000 10000 "int2=svs;fsearch=bin" < ../pattersH_100_1
+  mv moffat_ft_doc_s32.m ssvsBink32L.m
+
+ ./myILSearch ft_doc_s2 I 1000 100 "int2=svs;fsearch=bin" < ../pattersH_100000_1000
+  mv moffat_ft_doc_s2.m ssvsBink2H.m
+
+./myILSearch ft_doc_s2 I 1000 5000 "int2=svs;fsearch=bin" < ../pattersH_100_1
+  mv moffat_ft_doc_s2.m ssvsBink2L.m

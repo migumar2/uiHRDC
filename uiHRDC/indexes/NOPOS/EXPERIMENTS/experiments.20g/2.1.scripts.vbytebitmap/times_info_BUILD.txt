@@ -1,0 +1,36 @@
+
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb_bitmap8 lenBitmapDiv=8; 2.1.scripts.vbytebitmap8
+	Building time: 271.136 secs
+	Input: 20971541599 bytes --> Output 897778004 bytes.
+	Overall compression --> 4.28% (0.34 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 96 bytes.
+	 number of diff words= 534120
+	 number of docs (ndocs)= 881802
+	 vocabulary of words = 6189846 bytes.
+	 Inverted list-structure = 891588062 bytes.
+	 Text (compressed representation) = 0 bytes.
+	 Whole index = 897778004 bytes  ** Ratio = 4.281 % **
+ 
+=====================================
+
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb_bitmap1 lenBitmapDiv=1; 2.1.scripts.vbytebitmap1
+	Building time: 270.784 secs
+	Input: 20971541599 bytes --> Output 1192223009 bytes.
+	Overall compression --> 5.68% (0.45 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 96 bytes.
+	 number of diff words= 534120
+	 number of docs (ndocs)= 881802
+	 vocabulary of words = 6189846 bytes.
+	 Inverted list-structure = 1186033067 bytes.
+	 Text (compressed representation) = 0 bytes.
+	 Whole index = 1192223009 bytes  ** Ratio = 5.685 % **
+ 
+=====================================

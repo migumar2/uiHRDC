@@ -1,0 +1,251 @@
+General Information
+===================
+
+This is an implementation of the Run-Length Compressed Suffix Array (RLCSA) [1,2,3] and its incremental construction [3]. The implementation includes experimental support for LCP information [4].
+
+Copyright 2007 - 2010, Jouni Siren, except when otherwise noted. See LICENSE for further information.
+
+This package contains an implementation of the algorithm presented in "Faster Suffix Sorting" by N. Jesper Larsson (jesper@cs.lth.se) and Kunihiko Sadakane (sada@is.s.u-tokyo.ac.jp). Copyright 1999, N. Jesper Larsson.
+
+
+Compiling
+---------
+
+The code should compile in both 32-bit and 64-bit environments. Uncomment SIZE_FLAGS in the makefile to use 64-bit integers in the 64-bit version. The parallel version can be compiled by setting MCSTL_ROOT and uncommenting PARALLEL_FLAGS. GCC 4.2 or newer and MCSTL are required to compile the parallel version. It should be easy to use libstdc++ Parallel Mode instead of MCSTL.
+
+32-bit integers limit the size of the collection to less than 4 gigabytes. The size of individual files is limited to less than 2 gigabytes in both 32-bit and 64-bit versions.
+
+Note that if 32-bit integers are used, then the bit-aligned arrays are limited to less than 512 megabytes (2^32 bits) in size. Hence if n is the collection size in characters and d is the sample rate, then (n / d) log ceil(n / d) must be less than 2^32. Otherwise the suffix array samples cannot be stored.
+
+
+Index Construction
+------------------
+
+The naming conventions for files are:
+
+  base_name - the sequences
+  base_name.rlcsa.array - most of the CSA
+  base_name.rlcsa.sa_samples - suffix array samples for locate and display
+  base_name.rlcsa.parameters - some of the index parameters
+  base_name.lcp_samples - sampled LCP array
+  base_name.plcp - run-length encoded PLCP array
+
+A typical parameter file looks like:
+
+  RLCSA_BLOCK_SIZE = 32
+  SAMPLE_RATE = 64
+  SUPPORT_DISPLAY = 1
+  SUPPORT_LOCATE = 1
+
+parallel_build is used to construct the index, as described in [3]. The program takes two or three parameters:
+
+  a list of input files (a text file, one file name per line)
+  base name of the output
+  number of threads to use
+
+The default parameters are 32 bytes for block size and 512 for sample rate. To modify these, one should create the parameter file before running the construction program. Each input file should be a concatenation of C-style '\0'-terminated strings. The files must be smaller than 2 GB each.
+
+build_rlcsa indexes a text file using a single thread. The program takes 2-4 parameters:
+
+  name of the input file
+  buffer size (in megabytes)
+  block size (optional)
+  sample rate (optional)
+
+Every line is inserted as a separate sequence. The lines must not contain character '\0'. The buffer size must be less than 2 gigabytes.
+
+
+Operations
+----------
+
+A number of operations have been implemented. The most important ones are the following:
+
+  pair_type count(const std::string& pattern)
+  Returns the suffix array range corresponding to the matches of the pattern. The range is reported as a closed interval.
+
+  usint* locate(pair_type range)
+  usint* locate(pair_type range, usint* data)
+  usint locate(usint index)
+  These return the suffix array values at given range/position. The user is responsible for the allocated data.
+
+  uchar* display(usint sequence)
+  uchar* display(usint sequence, pair_type range)
+  uchar* display(usint sequence, pair_type range, uchar* data)
+  These return a substring of the given sequence, as determined by the closed interval 'range'. The user is responsible for the allocated data.
+
+  uchar* display(usint position, usint len, usint context)
+  This is intended for displaying an occurrence of a pattern of length 'len' at position 'position' with 'context' extra characters on both sides.
+
+  uchar* readBWT()
+  uchar* readBWT(pair_type range)
+  Returns the BWT of the collection or a part of it. The user is responsible for the allocated string. Note that unlike the suffix array, the BWT includes all end markers.
+
+  pair_type getSequenceRange(usint number)
+  T^{number} -> [sp, ep], where T^{number} === T[sp, ep]
+
+  pair_type getSequenceRangeForPosition(usint value)
+  [sp, ep], where sp <= value <= ep
+
+  usint getSequenceForPosition(usint value)
+  i, where T^{i} === T[sp, ep] and sp <= value <= ep
+
+  usint* getSequenceForPosition(usint* value, usint length)
+  As above, but for multiple positions at once.
+
+  pair_type getRelativePosition(usint value)
+  (i, offset), where T^{i}[offset] === T[value]
+
+Locate and display can only be used when the corresponding parameter (SUPPORT_LOCATE or SUPPORT_DISPLAY) has value 1 and the suffix array samples have been created during the construction. If both of the parameters are missing or have value 0, the suffix array samples will not be loaded into memory.
+
+These operations are const and hence thread-safe.
+
+
+Construction Interface
+----------------------
+
+Class RLCSABuilder provides other possibilities for index construction. The constructor takes four parameters:
+
+  block size for the Psi vectors in bytes
+  suffix array sample rate
+  buffer size for construction in bytes
+  number of threads to use
+
+If suffix array sample rate is set to 0, the samples will not be created. The buffer size must be less than 2 gigabytes.
+
+Function insertSequence is called to insert a new sequence into the collection. The parameters are:
+
+  sequence as a char array
+  length of the sequence (not including the trailing 0, if present)
+  should we free the memory used by the sequence
+
+Function insertFromFile can be used to merge existing indexes into the collection. It takes the base name of the index as a parameter. The sequences and the index should both be available.
+
+Function getRLCSA is used to finish the construction and get the final index. After the call, the builder no longer contains the index. The caller is responsible for freeing the index.
+
+For example, the following inserts the sequences into the collection one at a time:
+
+  // Use a buffer of n megabytes.
+  RLCSABuilder builder(block_size, sample_rate, n * MEGABYTE, threads);
+
+  // For each sequence:
+  builder.insertSequence(sequence, length, false);
+
+  // If succesful, write the index to disk.
+  if(builder.isOk())
+  {
+    RLCSA* rlcsa = builder.getRLCSA();
+    rlcsa->writeTo(base_name);
+    delete rlcsa;
+  }
+
+
+Incremental construction for multiple sequences
+-----------------------------------------------
+
+When there are multiple sequences in one increment, character '\0' is assumed to represent the end of sequence marker. Hence the sequences themselves cannot contain character '\0'. This is always the case when using RLCSABuilder to build the partial indexes.
+
+If there is just one sequence in the increment, character '\0' is considered a normal character. This requires setting multiple_sequences = false in the RLCSA constructor. Note that RLCSABuilder cannot be used to merge these indexes, as it assumes character '\0' an end of sequence marker.
+
+
+LCP Support
+-----------
+
+The implementation includes experimental support for two representations of the LCP array: run-length encoded PLCP array and the sampled LCP array. sample_lcp and build_plcp can be used to build the representations. lcp_test was used in the experiments reported in [4].
+
+
+Other Programs
+--------------
+
+extract_sequence can be used to extract individual sequences from the index.
+
+rlcsa_grep is an example program offering limited grep-like functionality on indexes built with build_rlcsa.
+
+rlcsa_test and display_test were used in the experiments reported in [3]. Some small modifications have been required to use the current interface.
+
+The rest of the programs have not been used recently. They might no longer work correctly.
+
+
+Technical Information
+=====================
+
+A collection of sequences
+-------------------------
+
+The index contains a collection C of sequences T1, T2, ..., Tr. When constructing the index, each Ti is assumed to be followed by an implicit end of sequence marker $. The markers are assumed to be less than any character in the alphabet, and their mutual order is defined by the sequences they are following.
+
+The end of sequence markers are not included in the sequences or their suffix arrays. They are implicitly included in the values of Psi array as the first r values. If Psi(i) = j, then the pointer to the suffix starting at position SA[i] + 1 is stored at SA[Psi(i) - r]. These values are not stored in the index, however, making the Psi array effectively a collection of cycles instead of a single cycle.
+
+We use a bit vector E to mark the ending positions of each sequence. The indexed sequence is implicitly padded with empty characters so that each sequence starts at a position divisible by sample rate d. The starting position of sequence k > 0 is d * ((E.select(k - 1) / d) + 1).
+
+
+Suffix array samples
+--------------------
+
+For a given sample rate d, we store the positions of each sequence divisible by d. The sampled positions of suffix array are marked in a bit vector S, while the multipliers of d are stored in an array A in the same order. Another array B contains the inverse permutation of A.
+
+When locating, we can use S.valueAfter(i - r) to get (j, k = S.rank(j) - 1) for the first sampled j >= i - r in the suffix array order. If j == i - r, we can get the suffix array value as d * A[k]. If i < r, we have reached the implicit end of sequence marker. In this case, the suffix array value is E.select(i) + 1 (this value should only be used to derive SA values for earlier positions). Note that i is a value of Psi, not an index of the suffix array.
+
+When displaying text starting from position i, j = B[i / d] gives us the sample used as a starting point. The sample is located in position k = S.select(j) of suffix array corresponding to position k + r of Psi.
+
+
+Data formats
+------------
+
+.rlcsa.array
+  distribution of characters (CHARS * sizeof(usint) bytes)
+  RLEVector for each character appearing in the text
+  DeltaVector E
+  sample rate d (sizeof(usint) bytes)
+
+.rlcsa.sa_samples
+  DeltaVector S
+  array A (number_of_samples items of length(number_of_samples - 1) bits)
+
+Any bit vector
+  universe size (sizeof(usint) bytes)
+  item count (sizeof(usint) bytes)
+  number of blocks (sizeof(usint) bytes)
+  block size in words (sizeof(usint) bytes)
+  block data (number_of_blocks * block_size words)
+  sample array (2 * (number_of_blocks + 1) items of length(size) bits)
+
+
+LCP Information
+---------------
+
+The (P)LCP representations have been genralized to support multiple sequences. As the end markers are not included in the collection, the LCP values corresponding to the last characters of the sequences can be 1 or 0. The padding characters between the sequences are also assigned LCP values in the PLCP representation to ease its use. The sampled LCP array is used in a similar way as the SA samples in locate.
+
+Data formats:
+
+.lcp_samples
+  DeltaVector for the sampled positions
+  Array for the sampled values
+
+.plcp
+  DeltaVector
+
+Array
+  item count (sizeof(usint bytes))
+  number of blocks (sizeof(usint) bytes)
+  block size in words (sizeof(usint) bytes)
+  block data (number_of_blocks * block_size words)
+  file.write((char*)&(this->number_of_blocks), sizeof(this->number_of_blocks));
+  file.write((char*)&(this->block_size), sizeof(this->block_size));
+  file.write((char*)(this->array), this->block_size * this->number_of_blocks * sizeof(usint));
+  sample array (number_of_blocks + 1 items of length(items) bits)
+
+
+References
+==========
+
+[1] Jouni Sirén, Niko Välimäki, Veli Mäkinen, and Gonzalo Navarro: Run-Length Compressed Indexes Are Superior for Highly Repetitive Sequence Collections.
+In SPIRE 2008, Springer LNCS 5280, pp. 164-175, Melbourne, Australia, November 10-12, 2008.
+
+[2] Veli Mäkinen, Gonzalo Navarro, Jouni Sirén, and Niko Välimäki: Storage and Retrieval of Individual Genomes.
+In RECOMB 2009, Springer LNCS 5541, pp. 121-137, Tucson, Arizona, USA, May 18-21, 2009.
+
+[3] Jouni Sirén: Compressed Suffix Arrays for Massive Data.
+In SPIRE 2009, Springer LNCS 5721, pp. 63-74, Saariselkä, Finland, August 25-27, 2009.
+
+[4] Jouni Sirén: Sampled Longest Common Prefix Array.
+Manuscript, 2010.

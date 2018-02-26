@@ -1,0 +1,2 @@
+./BUILDUNCOMPRESS indexes/cr_index cr.txt
+cmp cr.txt.source2 /sitio/textos/CR.TXT

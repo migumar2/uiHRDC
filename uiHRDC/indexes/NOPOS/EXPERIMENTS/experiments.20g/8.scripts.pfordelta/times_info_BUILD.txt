@@ -1,0 +1,18 @@
+
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb pfdThreshold=100 ; 8.pfordelta
+	Building time: 397.624 secs
+	Input: 20971541599 bytes --> Output 255465234 bytes.
+	Overall compression --> 1.22% (0.10 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 96 bytes.
+	 number of diff words= 534120
+	 number of docs (ndocs)= 881802
+	 vocabulary of words = 6189846 bytes.
+	 Inverted list-structure = 249275292 bytes.
+	 Text (compressed representation) = 0 bytes.
+	 Whole index = 255465234 bytes  ** Ratio = 1.218 % **
+ 
+=====================================

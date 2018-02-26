@@ -1,0 +1,52 @@
+
+ Search: ./SEARCH indexes/wiki2gb_bitmap1_k4: 200 int2=svs;intn=svs;fsearch=expM
+	Load index time = 0.000000 sec
+	Index size = 763912594 bytes = (746008 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 36.590%
+	** Operation = N ** numpatts = 1000, wordsXpattern=0-0
+	**size_Index= 763912594 bytes, size_Inv-lists= 735070402 bytes, size_compText= 25280492 bytes
+	Total Num occs found = 99228
+	Locate time = 0.001700 sec
+	Locate time/Num_occs = 0.000017 msec/occss
+	Locate_time/pat = 0.00170000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000017  msec/occs
+
+
+ Search: ./SEARCH indexes/wiki2gb_bitmap1_k32: 200 int2=svs;intn=svs;fsearch=expM
+	Load index time = 0.000000 sec
+	Index size = 738661872 bytes = (721349 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.380%
+	** Operation = N ** numpatts = 1000, wordsXpattern=0-0
+	**size_Index= 738661872 bytes, size_Inv-lists= 709819680 bytes, size_compText= 25280492 bytes
+	Total Num occs found = 99228
+	Locate time = 0.001520 sec
+	Locate time/Num_occs = 0.000015 msec/occss
+	Locate_time/pat = 0.00152000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000015  msec/occs
+
+
+ Search: ./SEARCH indexes/wiki2gb_bitmap1_k4: 200 int2=svs;intn=svs;fsearch=expM
+	Load index time = 0.004000 sec
+	Index size = 763912594 bytes = (746008 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 36.590%
+	** Operation = N ** numpatts = 1000, wordsXpattern=0-0
+	**size_Index= 763912594 bytes, size_Inv-lists= 735070402 bytes, size_compText= 25280492 bytes
+	Total Num occs found = 5701883
+	Locate time = 0.034220 sec
+	Locate time/Num_occs = 0.000006 msec/occss
+	Locate_time/pat = 0.03422000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000007  msec/occs
+
+
+ Search: ./SEARCH indexes/wiki2gb_bitmap1_k32: 200 int2=svs;intn=svs;fsearch=expM
+	Load index time = 0.000000 sec
+	Index size = 738661872 bytes = (721349 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 35.380%
+	** Operation = N ** numpatts = 1000, wordsXpattern=0-0
+	**size_Index= 738661872 bytes, size_Inv-lists= 709819680 bytes, size_compText= 25280492 bytes
+	Total Num occs found = 5701883
+	Locate time = 0.034360 sec
+	Locate time/Num_occs = 0.000006 msec/occss
+	Locate_time/pat = 0.03436000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000006  msec/occs
+

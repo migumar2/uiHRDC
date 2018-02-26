@@ -1,0 +1,1 @@
+./myIL ../ftall_doc_lower.post  FTB8 "filename=FTB8; lenBitmapDiv=8; maxMemRepair=500000000; replacesPerIter = 1000; repairBreak=0.005; path2convert=./srcREPAIR/convert; path2build_bitmap=./srcREPAIR/build_bitmap; path2irepairgonzalo=srcREPAIR/repairGonzalo.srcs/irepair; path2build_index=./srcREPAIR/build_index_gonzalo; path2compress_dictionary=./srcREPAIR/compressDictionary"

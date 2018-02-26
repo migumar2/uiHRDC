@@ -1,0 +1,42 @@
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=merge;intn=merge
+	 occs =   2142386 :: time = 1990.00000000 msecs 
+	    avg time per pattern = 3.98000000 msecs 
+	      avg time per occur = 0.00092887 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 500 1 int2=merge;intn=merge
+	 occs =  12967527 :: time = 820.00000000 msecs 
+	    avg time per pattern = 1.64000000 msecs 
+	      avg time per occur = 0.00006323 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=merge;intn=merge
+	 occs =   2142386 :: time = 1310.00000000 msecs 
+	    avg time per pattern = 2.62000000 msecs 
+	      avg time per occur = 0.00061147 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=merge;intn=merge
+	 occs =   2142386 :: time = 350.00000000 msecs 
+	    avg time per pattern = 0.70000000 msecs 
+	      avg time per occur = 0.00016337 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=merge;intn=merge
+	 occs =   2142386 :: time = 586.72700000 msecs 
+	    avg time per pattern = 1.17345400 msecs 
+	      avg time per occur = 0.00027387 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=merge;intn=merge
+	 occs =   2142386 :: time = 572.82800000 msecs 
+	    avg time per pattern = 1.14565600 msecs 
+	      avg time per occur = 0.00026738 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 10 1 int2=skip;intn=skip
+ Searching!!: ./myILSearch FTB8 N 10 1 int2=merge;intn=merge
+	 occs =    127360 :: time = 4.21200000 msecs 
+	    avg time per pattern = 0.42120000 msecs 
+	      avg time per occur = 0.00003307 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 10 1 int2=merge;intn=merge
+	 occs =    127360 :: time = 2.20400000 msecs 
+	    avg time per pattern = 0.22040000 msecs 
+	      avg time per occur = 0.00001731 msecs 

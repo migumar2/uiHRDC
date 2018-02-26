@@ -1,0 +1,5 @@
+./create_freq_index opt tmp/out 20gb.opt --check
+./create_freq_index uniform tmp/out 20gb.uniform --check
+./create_freq_index block_optpfor tmp/out 20gb.block_optpfor --check
+./create_freq_index block_varint tmp/out 20gb.block_varint --check
+./create_freq_index block_interpolative tmp/out 20gb.block_interpolative --check

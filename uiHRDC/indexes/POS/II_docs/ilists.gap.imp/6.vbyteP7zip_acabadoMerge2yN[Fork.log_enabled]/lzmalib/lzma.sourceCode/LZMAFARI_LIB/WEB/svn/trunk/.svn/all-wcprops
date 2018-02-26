@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/22/trunk
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/22/trunk/configure
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/22/trunk/Makefile.in
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/22/trunk/configure.ac
+END
+7Zip.sln
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/2/trunk/7Zip.sln
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/10/trunk/Makefile.am
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/22/trunk/aclocal.m4
+END

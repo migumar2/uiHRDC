@@ -1,0 +1,26 @@
+
+ Search: ./SEARCH indexes/wiki20gb: 5 int2=merge;intn=merge
+	Load index time = 0.004000 sec
+	Index size = 60185788 bytes = (58775 Kbytes)
+	 source size = 20971541599 bytes ==> ratio = 0.287%
+	** Operation = I ** numpatts = 1000, wordsXpattern=2-2
+	**size_Index= 60185788 bytes, size_Inv-lists= 53995846 bytes, size_compText= 0 bytes
+	Total Num occs found = 83166310
+	Extract:Intersect:Intersect time = 1.308800 sec
+	Extract:Intersect/Num_occs = 0.000016 msec/occss
+	Extract:Intersect_time/pat = 1.30880000 msec/pat
+		(Load_time+Extract:Intersect)/Num_occs = 0.000016  msec/occs
+
+
+ Search: ./SEARCH indexes/wiki20gb: 5 int2=merge;intn=merge
+	Load index time = 0.004000 sec
+	Index size = 60185788 bytes = (58775 Kbytes)
+	 source size = 20971541599 bytes ==> ratio = 0.287%
+	** Operation = N ** numpatts = 1000, wordsXpattern=5-5
+	**size_Index= 60185788 bytes, size_Inv-lists= 53995846 bytes, size_compText= 0 bytes
+	Total Num occs found = 17179908
+	Extract:Intersect:Intersect time = 3.021600 sec
+	Extract:Intersect/Num_occs = 0.000176 msec/occss
+	Extract:Intersect_time/pat = 3.02160000 msec/pat
+		(Load_time+Extract:Intersect)/Num_occs = 0.000176  msec/occs
+

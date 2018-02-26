@@ -1,0 +1,1 @@
+./BUILDFACADE dna.1MB.txt DNA "blocksize=32;qgram=8;samplerate=16;lenBitmapDiv=8; int2=svs;intn=svs;fsearch=seqM"

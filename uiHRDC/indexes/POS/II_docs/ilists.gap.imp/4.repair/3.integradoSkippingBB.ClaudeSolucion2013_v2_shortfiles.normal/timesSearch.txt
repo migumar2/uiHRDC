@@ -1,0 +1,946 @@
+
+ Searching!!: srcREPAIR/search_re FTB8 8 X 1 1
+ Searching!!: srcREPAIR/search_re FTB8 8 X 1 1
+ Searching!!: srcREPAIR/search_re FTB8 8 X 1 1
+ Searching!!: srcREPAIR/search_re FTB8 32 X 1 1
+ Searching!!: srcREPAIR/search_re FTB8 8 K 1 1
+	 occs =    191505 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+	      index size = 56.0254 Mbytes 
+
+ Searching!!: srcREPAIR/search_re FTB8 8 K 1 1
+ Searching!!: srcREPAIR/search_re FTB8 8 K 1 1
+	 occs =    191505 :: time = 540.00000000 msecs 
+	    avg time per pattern = 27.00000000 msecs 
+	      avg time per occur = 0.00281977 msecs 
+
+	      index size = 61.7285 Mbytes 
+
+ Searching!!: srcREPAIR/search_re FTB8 8 K 1 1
+	 occs =    191505 :: time = 540.00000000 msecs 
+	    avg time per pattern = 27.00000000 msecs 
+	      avg time per occur = 0.00281977 msecs 
+
+	      index size = 61.7285 Mbytes 
+
+ Searching!!: srcREPAIR/search_re FTB8 8 K 1 1
+	 occs =    191505 :: time = 570.00000000 msecs 
+	    avg time per pattern = 28.50000000 msecs 
+	      avg time per occur = 0.00297642 msecs 
+
+	      index size = 61.7285 Mbytes 
+
+ Searching!!: srcREPAIR/search_re FTB8 8 K 1 1
+	 occs =    191505 :: time = 10.00000000 msecs 
+	    avg time per pattern = 0.50000000 msecs 
+	      avg time per occur = 0.00005222 msecs 
+
+	      index size = 61.7285 Mbytes 
+
+ Searching!!: ./myILSearch FTB8 E 1 1 int2=skip;intn=skip
+	 occs =    210139 :: time = 10.00000000 msecs 
+	    avg time per pattern = 10.00000000 msecs 
+	      avg time per occur = 0.00004759 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1 1 int2=skip;intn=skip
+	 occs =    201863 :: time = 20.00000000 msecs 
+	    avg time per pattern = 1.00000000 msecs 
+	      avg time per occur = 0.00009908 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip;intn=skip
+	 occs =        61 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=svs;intn=skip
+	 occs =        61 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: srcREPAIR/search_re FTB8 2 K 1 1
+	 occs =    191505 :: time = 20.00000000 msecs 
+	    avg time per pattern = 1.00000000 msecs 
+	      avg time per occur = 0.00010444 msecs 
+
+	      index size = 61.7285 Mbytes 
+
+ Searching!!: srcREPAIR/search_re FTB8 2 K 1 1
+	 occs =         0 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = -nan msecs 
+
+	      index size = 61.7285 Mbytes 
+
+ Searching!!: srcREPAIR/search_re FTB8 2 U 1 1
+	 occs =         0 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = -nan msecs 
+
+	      index size = 61.7285 Mbytes 
+
+ Searching!!: srcREPAIR/search_re FTB8 1 U 1 1
+	 occs =         0 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = -nan msecs 
+
+	      index size = 61.7285 Mbytes 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=svs;intn=skip
+	 occs =        61 :: time = 120.00000000 msecs 
+	    avg time per pattern = 0.01200000 msecs 
+	      avg time per occur = 1.96721311 msecs 
+
+ Searching!!: srcREPAIR/search_re FTB8 1 U 1 1
+	 occs =         0 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = -nan msecs 
+
+	      index size = 61.7285 Mbytes 
+
+ Searching!!: srcREPAIR/search_re FTB8 1 K 1 1
+	 occs =    191505 :: time = 20.00000000 msecs 
+	    avg time per pattern = 1.00000000 msecs 
+	      avg time per occur = 0.00010444 msecs 
+
+	      index size = 61.7285 Mbytes 
+
+ Searching!!: srcREPAIR/search_re FTB8 1 K 1 1
+	 occs =         0 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = -nan msecs 
+
+	      index size = 61.7285 Mbytes 
+
+ Searching!!: srcREPAIR/search_re FTB8 1 K 1 1
+	 occs =         0 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = -nan msecs 
+
+	      index size = 61.7285 Mbytes 
+
+ Searching!!: srcREPAIR/search_re FTB8 2 K 1 1
+	 occs =         0 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = -nan msecs 
+
+	      index size = 61.7285 Mbytes 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip;intn=skip
+	 occs =    192028 :: time = 280.00000000 msecs 
+	    avg time per pattern = 0.02800000 msecs 
+	      avg time per occur = 0.00145812 msecs 
+
+ Searching!!: srcREPAIR/search_re FTB8 2 U 1 1
+	 occs =       524 :: time = 1770.00000000 msecs 
+	    avg time per pattern = 0.17700000 msecs 
+	      avg time per occur = 3.37786260 msecs 
+
+	      index size = 61.7285 Mbytes 
+
+ Searching!!: srcREPAIR/search_re FTB8 2 U 1 1 
+	 occs =       524 :: time = 1780.00000000 msecs 
+	    avg time per pattern = 0.17800000 msecs 
+	      avg time per occur = 3.39694656 msecs 
+
+	      index size = 61.7285 Mbytes 
+
+ Searching!!: ./srcREPAIR/search_re FTB8 32 K 1 1
+	 occs =    191505 :: time = 10.00000000 msecs 
+	    avg time per pattern = 0.50000000 msecs 
+	      avg time per occur = 0.00005222 msecs 
+
+	      index size = 61.7285 Mbytes 
+
+ Searching!!: ./srcREPAIR/search_re FTB8 32 K 1 1
+	 occs =         0 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = -nan msecs 
+
+	      index size = 61.7285 Mbytes 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip;intn=skip
+	 occs =    192028 :: time = 300.00000000 msecs 
+	    avg time per pattern = 0.03000000 msecs 
+	      avg time per occur = 0.00156227 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=svs;intn=skip
+	 occs =        61 :: time = 160.00000000 msecs 
+	    avg time per pattern = 0.01600000 msecs 
+	      avg time per occur = 2.62295082 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1 1 int2=svs;intn=skip
+	 occs =        77 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1 1 int2=svs;intn=skip
+	 occs =        77 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./srcREPAIR/search_re FTB8 32 K 1 1
+	 occs =       524 :: time = 10.00000000 msecs 
+	    avg time per pattern = 0.00100000 msecs 
+	      avg time per occur = 0.01908397 msecs 
+
+	      index size = 61.7285 Mbytes 
+
+ Searching!!: ./srcREPAIR/search_re FTB8 32 U 1 1
+	 occs =       524 :: time = 1750.00000000 msecs 
+	    avg time per pattern = 0.17500000 msecs 
+	      avg time per occur = 3.33969466 msecs 
+
+	      index size = 61.7285 Mbytes 
+
+ Searching!!: ./srcREPAIR/search_re FTB8 32 U 1 1
+	 occs =         0 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = -nan msecs 
+
+	      index size = 61.7285 Mbytes 
+
+ Searching!!: ./myILSearch FTB8 E 1 1 int2=svs;intn=skip
+	 occs =        77 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1 1 int2=svs;intn=skip
+	 occs =         0 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = -nan msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1 1 int2=skip;intn=skip
+	 occs =         0 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = -nan msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1 1 int2=skip;intn=skip
+	 occs =    201863 :: time = 10.00000000 msecs 
+	    avg time per pattern = 0.50000000 msecs 
+	      avg time per occur = 0.00004954 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1 1 int2=skip;intn=skip
+	 occs =    201863 :: time = 10.00000000 msecs 
+	    avg time per pattern = 0.50000000 msecs 
+	      avg time per occur = 0.00004954 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1 1 int2=skip;intn=skip
+	 occs =    201863 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1 1 
+ Searching!!: ./srcREPAIR/search_re FTB8 32 K 1 1
+	 occs =    191505 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+	      index size = 56.2930 Mbytes 
+
+ Searching!!: ./srcREPAIR/search_re FTB8 0 E 1000 1
+ Searching!!: ./srcREPAIR/search_re FTB8 32 X 1000 1
+ Searching!!: ./srcREPAIR/search_re FTB8 32 K 1000 1
+ Searching!!: ./srcREPAIR/search_re FTB8 32 K 1 1
+	 occs =    191505 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+	      index size = 56.2930 Mbytes 
+
+ Searching!!: ./srcREPAIR/search_re FTB8 32 K 10 1
+	 occs =    295478 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+	      index size = 56.2930 Mbytes 
+
+ Searching!!: ./srcREPAIR/search_re FTB8 32 K 20 1
+	 occs =   1066008 :: time = 20.00000000 msecs 
+	    avg time per pattern = 1.00000000 msecs 
+	      avg time per occur = 0.00001876 msecs 
+
+	      index size = 56.2930 Mbytes 
+
+ Searching!!: ./srcREPAIR/search_re FTB8 32 K 1 1
+	 occs =      1042 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+	      index size = 56.2930 Mbytes 
+
+ Searching!!: ./srcREPAIR/search_re FTB8 32 K 10 1
+	 occs =     40310 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+	      index size = 56.2930 Mbytes 
+
+ Searching!!: ./srcREPAIR/search_re FTB8 32 K 100 1
+	 occs =    444673 :: time = 30.00000000 msecs 
+	    avg time per pattern = 0.00300000 msecs 
+	      avg time per occur = 0.00006747 msecs 
+
+	      index size = 56.2930 Mbytes 
+
+ Searching!!: ./srcREPAIR/search_re FTB8 32 K 500 1
+	 occs =   1943764 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+	      index size = 56.2930 Mbytes 
+
+ Searching!!: ./srcREPAIR/search_re FTB8 32 K 1000 1
+	 occs =   3757496 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+	      index size = 56.2930 Mbytes 
+
+ Searching!!: ./myILSearch FTB8 I 1 1 int2=skip
+	 occs =      2036 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip
+	 occs =   5524189 :: time = 250.00000000 msecs 
+	    avg time per pattern = 0.02500000 msecs 
+	      avg time per occur = 0.00004526 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip
+	 occs =   3757496 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./srcREPAIR/search_re FTB8 32 K 1000 1
+	 occs =   3757496 :: time = 120.00000000 msecs 
+	    avg time per pattern = 0.01200000 msecs 
+	      avg time per occur = 0.00003194 msecs 
+
+	      index size = 56.2930 Mbytes 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip
+	 occs =   3757496 :: time = 7650.00000000 msecs 
+	    avg time per pattern = 0.76500000 msecs 
+	      avg time per occur = 0.00203593 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip
+	 occs =   3757496 :: time = 9470.00000000 msecs 
+	    avg time per pattern = 0.94700000 msecs 
+	      avg time per occur = 0.00252030 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip make
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip
+	 occs =   3757496 :: time = 8330.00000000 msecs 
+	    avg time per pattern = 0.83300000 msecs 
+	      avg time per occur = 0.00221690 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip
+	 occs =   3757496 :: time = 6910.00000000 msecs 
+	    avg time per pattern = 0.69100000 msecs 
+	      avg time per occur = 0.00183899 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip
+	 occs =   3757496 :: time = 7560.00000000 msecs 
+	    avg time per pattern = 0.75600000 msecs 
+	      avg time per occur = 0.00201198 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip
+	 occs =   3757496 :: time = 7320.00000000 msecs 
+	    avg time per pattern = 0.73200000 msecs 
+	      avg time per occur = 0.00194811 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip
+	 occs =   3757496 :: time = 7660.00000000 msecs 
+	    avg time per pattern = 0.76600000 msecs 
+	      avg time per occur = 0.00203859 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip
+	 occs =   4206563 :: time = 7120.00000000 msecs 
+	    avg time per pattern = 0.71200000 msecs 
+	      avg time per occur = 0.00169259 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip
+	 occs =   3757496 :: time = 530.00000000 msecs 
+	    avg time per pattern = 0.05300000 msecs 
+	      avg time per occur = 0.00014105 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1000 1 int2=skip
+ Searching!!: ./myILSearch FTB8 E 1000 1 int2=skip
+	 occs =   6347761 :: time = 280.00000000 msecs 
+	    avg time per pattern = 0.28000000 msecs 
+	      avg time per occur = 0.00004411 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1000 1 int2=skip
+	 occs =   6347761 :: time = 320.00000000 msecs 
+	    avg time per pattern = 0.32000000 msecs 
+	      avg time per occur = 0.00005041 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1000 1 int2=skip
+	 occs =   6347761 :: time = 370.00000000 msecs 
+	    avg time per pattern = 0.37000000 msecs 
+	      avg time per occur = 0.00005829 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1000 1 int2=skip
+	 occs =   6347761 :: time = 330.00000000 msecs 
+	    avg time per pattern = 0.33000000 msecs 
+	      avg time per occur = 0.00005199 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1 1 int2=skip
+	 occs =      9837 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1 1 int2=skip
+	 occs =      9837 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1 1 int2=skip
+	 occs =      9837 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1 1 int2=skip
+	 occs =       524 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1 1 int2=skip
+	 occs =       524 :: time = 10.00000000 msecs 
+	    avg time per pattern = 0.00100000 msecs 
+	      avg time per occur = 0.01908397 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1 1 int2=skip
+	 occs =       524 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1 1 int2=skip
+	 occs =       524 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1 1 int2=skip
+	 occs =       524 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1 1 int2=svs
+	 occs =       524 :: time = 2860.00000000 msecs 
+	    avg time per pattern = 0.28600000 msecs 
+	      avg time per occur = 5.45801527 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1 1 int2=svs
+	 occs =       524 :: time = 2930.00000000 msecs 
+	    avg time per pattern = 0.29300000 msecs 
+	      avg time per occur = 5.59160305 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1 1 int2=skip
+	 occs =       524 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 2 1 int2=skip
+	 occs =       638 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 2 1 int2=svs
+	 occs =       639 :: time = 4180.00000000 msecs 
+	    avg time per pattern = 0.41800000 msecs 
+	      avg time per occur = 6.54147105 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 2 1 int2=skip
+	 occs =       638 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 2 1 int2=skip
+	 occs =       639 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 100 1 int2=skip
+	 occs =     18847 :: time = 60.00000000 msecs 
+	    avg time per pattern = 0.00600000 msecs 
+	      avg time per occur = 0.00318353 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip
+	 occs =    195159 :: time = 450.00000000 msecs 
+	    avg time per pattern = 0.04500000 msecs 
+	      avg time per occur = 0.00230581 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip
+	 occs =   3757496 :: time = 200.00000000 msecs 
+	    avg time per pattern = 0.02000000 msecs 
+	      avg time per occur = 0.00005323 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1 1 int2=skip
+	 occs =      1042 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1 1 int2=skip
+	 occs =      1042 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1 1 int2=skip
+	 occs =      9837 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1 1 int2=skip
+	 occs =      9837 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1 1 int2=skip
+	 occs =      9837 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1 1 int2=skip
+	 occs =      9837 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1 1 int2=skip
+	 occs =      9837 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip
+	 occs =    195159 :: time = 260.00000000 msecs 
+	    avg time per pattern = 0.02600000 msecs 
+	      avg time per occur = 0.00133225 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip
+	 occs =   3757496 :: time = 200.00000000 msecs 
+	    avg time per pattern = 0.02000000 msecs 
+	      avg time per occur = 0.00005323 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1 1 int2=skip
+	 occs =      9837 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 1000 1 int2=skip;intn=skip make
+ Searching!!: ./myILSearch FTB8 N 1000 1 int2=skip;intn=skip make
+	 occs =   3757496 :: time = 10330.00000000 msecs 
+	    avg time per pattern = 1.03300000 msecs 
+	      avg time per occur = 0.00274917 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 1000 1 int2=skip;intn=skip
+	 occs =    197342 :: time = 470.00000000 msecs 
+	    avg time per pattern = 0.04700000 msecs 
+	      avg time per occur = 0.00238165 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 1000 1 int2=skip;intn=skip make
+	 occs =    197342 :: time = 460.00000000 msecs 
+	    avg time per pattern = 0.04600000 msecs 
+	      avg time per occur = 0.00233098 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 1000 1 int2=skip;intn=skip make
+	 occs =    195159 :: time = 470.00000000 msecs 
+	    avg time per pattern = 0.04700000 msecs 
+	      avg time per occur = 0.00240829 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 1000 1 int2=skip;intn=skip make
+	 occs =    195159 :: time = 500.00000000 msecs 
+	    avg time per pattern = 0.05000000 msecs 
+	      avg time per occur = 0.00256201 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 10 1 int2=skip;intn=skip
+	 occs =    127360 :: time = 10.00000000 msecs 
+	    avg time per pattern = 1.00000000 msecs 
+	      avg time per occur = 0.00007852 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 10 1 int2=skip;intn=skip
+	 occs =    127360 :: time = 30.00000000 msecs 
+	    avg time per pattern = 3.00000000 msecs 
+	      avg time per occur = 0.00023555 msecs 
+
+ Searching!!: ./srcREPAIR/search_re FTB8 32 K 1000 1
+	 occs =   3757496 :: time = 10.00000000 msecs 
+	    avg time per pattern = 0.00100000 msecs 
+	      avg time per occur = 0.00000266 msecs 
+
+	      index size = 56.2930 Mbytes 
+
+ Searching!!: ./myILSearch FTB8 N 10 1 int2=skip;intn=skip
+	 occs =    127360 :: time = 10.00000000 msecs 
+	    avg time per pattern = 1.00000000 msecs 
+	      avg time per occur = 0.00007852 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 10 1 int2=skip;intn=skip
+	 occs =    127360 :: time = 10.00000000 msecs 
+	    avg time per pattern = 1.00000000 msecs 
+	      avg time per occur = 0.00007852 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 10 1 int2=skip;intn=skip
+	 occs =     50666 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 500 1 int2=skip;intn=skip
+	 occs =   2142386 :: time = 350.00000000 msecs 
+	    avg time per pattern = 0.70000000 msecs 
+	      avg time per occur = 0.00016337 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 10 1 int2=skip;intn=skip
+	 occs =    295478 :: time = 10.00000000 msecs 
+	    avg time per pattern = 0.50000000 msecs 
+	      avg time per occur = 0.00003384 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 10 1 int2=skip;intn=skip
+	 occs =    127360 :: time = 10.00000000 msecs 
+	    avg time per pattern = 1.00000000 msecs 
+	      avg time per occur = 0.00007852 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =   2142386 :: time = 360.00000000 msecs 
+	    avg time per pattern = 0.72000000 msecs 
+	      avg time per occur = 0.00016804 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =   2142386 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =   2142386 :: time = 440.00000000 msecs 
+	    avg time per pattern = 0.88000000 msecs 
+	      avg time per occur = 0.00020538 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =   2142386 :: time = 210.00000000 msecs 
+	    avg time per pattern = 0.42000000 msecs 
+	      avg time per occur = 0.00009802 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 10 1 int2=skip;intn=skip
+	 occs =    127360 :: time = 10.00000000 msecs 
+	    avg time per pattern = 1.00000000 msecs 
+	      avg time per occur = 0.00007852 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip;intn=skip
+	 occs =   3757496 :: time = 590.00000000 msecs 
+	    avg time per pattern = 0.05900000 msecs 
+	      avg time per occur = 0.00015702 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip;intn=skip
+	 occs =   3757496 :: time = 7360.00000000 msecs 
+	    avg time per pattern = 0.73600000 msecs 
+	      avg time per occur = 0.00195875 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=merge;intn=merge
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =   2142386 :: time = 160.00000000 msecs 
+	    avg time per pattern = 0.32000000 msecs 
+	      avg time per occur = 0.00007468 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 500 1 int2=skip;intn=skip
+ Searching!!: ./myILSearch FTB8 E 10 1 int2=skip;intn=skip
+	 occs =    923909 :: time = 10.00000000 msecs 
+	    avg time per pattern = 1.00000000 msecs 
+	      avg time per occur = 0.00001082 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1 1 int2=skip;intn=skip
+	 occs =    210139 :: time = 10.00000000 msecs 
+	    avg time per pattern = 10.00000000 msecs 
+	      avg time per occur = 0.00004759 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1 1 int2=skip;intn=skip
+	 occs =    210139 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1 1 int2=skip;intn=skip
+	 occs =    210139 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 10 1 int2=skip;intn=skip
+	 occs =    295478 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 10 1 int2=skip;intn=skip
+	 occs =    295478 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 10 1 int2=skip;intn=skip
+	 occs =    295478 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 10 1 int2=skip;intn=skip
+	 occs =    923909 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 10 1 int2=skip;intn=skip
+	 occs =    923909 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 10 1 int2=skip;intn=skip
+	 occs =    906408 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 10 1 int2=skip;intn=skip
+	 occs =     63055 :: time = 10.00000000 msecs 
+	    avg time per pattern = 1.00000000 msecs 
+	      avg time per occur = 0.00015859 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1 1 int2=skip;intn=skip
+	 occs =    210139 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1 1 int2=skip;intn=skip
+	 occs =    210139 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1 1 int2=skip;intn=skip
+	 occs =     96387 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1 1 int2=skip;intn=skip
+	 occs =     96387 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1 1 int2=skip;intn=skip
+	 occs =      1042 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 5 1 int2=skip;intn=skip
+	 occs =    402596 :: time = 10.00000000 msecs 
+	    avg time per pattern = 0.50000000 msecs 
+	      avg time per occur = 0.00002484 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 5 1 int2=skip;intn=skip
+	 occs =    133901 :: time = 10.00000000 msecs 
+	    avg time per pattern = 0.50000000 msecs 
+	      avg time per occur = 0.00007468 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1000 1 int2=skip;intn=skip
+	 occs =     75218 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1000 1 int2=skip;intn=skip
+	 occs =   6347761 :: time = 280.00000000 msecs 
+	    avg time per pattern = 0.28000000 msecs 
+	      avg time per occur = 0.00004411 msecs 
+
+ Searching!!: ./myILSearch FTB8 E 1000 1 int2=skip;intn=skip
+	 occs =  52394252 :: time = 860.00000000 msecs 
+	    avg time per pattern = 0.86000000 msecs 
+	      avg time per occur = 0.00001641 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip;intn=skip
+	 occs =   3757496 :: time = 310.00000000 msecs 
+	    avg time per pattern = 0.03100000 msecs 
+	      avg time per occur = 0.00008250 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip;intn=skip
+	 occs =    195159 :: time = 220.00000000 msecs 
+	    avg time per pattern = 0.02200000 msecs 
+	      avg time per occur = 0.00112729 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 1000 1 int2=skip;intn=skip
+	 occs =        59 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 1000 1 int2=skip;intn=skip
+	 occs =        59 :: time = 10.00000000 msecs 
+	    avg time per pattern = 0.00100000 msecs 
+	      avg time per occur = 0.16949153 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 1000 1 int2=skip;intn=skip
+	 occs =        59 :: time = 0.00000000 msecs 
+	    avg time per pattern = 0.00000000 msecs 
+	      avg time per occur = 0.00000000 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 1000 1 int2=skip;intn=skip
+	 occs =    195159 :: time = 280.00000000 msecs 
+	    avg time per pattern = 0.02800000 msecs 
+	      avg time per occur = 0.00143473 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 1000 1 int2=skip;intn=skip
+	 occs =   3757496 :: time = 280.00000000 msecs 
+	    avg time per pattern = 0.02800000 msecs 
+	      avg time per occur = 0.00007452 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 10000 1 int2=skip;intn=skip
+	 occs =  65618188 :: time = 18560.00000000 msecs 
+	    avg time per pattern = 1.85600000 msecs 
+	      avg time per occur = 0.00028285 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 10000 1 int2=skip;intn=skip
+	 occs =  35460997 :: time = 2600.00000000 msecs 
+	    avg time per pattern = 0.26000000 msecs 
+	      avg time per occur = 0.00007332 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 10000 1 int2=skip;intn=skip
+	 occs =  35460997 :: time = 1370.00000000 msecs 
+	    avg time per pattern = 0.13700000 msecs 
+	      avg time per occur = 0.00003863 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 10000 1 int2=skip;intn=skip
+	 occs =  35460997 :: time = 670.00000000 msecs 
+	    avg time per pattern = 0.06700000 msecs 
+	      avg time per occur = 0.00001889 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =   2142386 :: time = 40.00000000 msecs 
+	    avg time per pattern = 0.08000000 msecs 
+	      avg time per occur = 0.00001867 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =   2142386 :: time = 560.00000000 msecs 
+	    avg time per pattern = 1.12000000 msecs 
+	      avg time per occur = 0.00026139 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =   3805177 :: time = 290.00000000 msecs 
+	    avg time per pattern = 0.58000000 msecs 
+	      avg time per occur = 0.00007621 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =   2142386 :: time = 420.00000000 msecs 
+	    avg time per pattern = 0.84000000 msecs 
+	      avg time per occur = 0.00019604 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =   2142386 :: time = 580.00000000 msecs 
+	    avg time per pattern = 1.16000000 msecs 
+	      avg time per occur = 0.00027073 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =   2142386 :: time = 570.00000000 msecs 
+	    avg time per pattern = 1.14000000 msecs 
+	      avg time per occur = 0.00026606 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =   2142386 :: time = 320.00000000 msecs 
+	    avg time per pattern = 0.64000000 msecs 
+	      avg time per occur = 0.00014937 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =   2142386 :: time = 650.00000000 msecs 
+	    avg time per pattern = 1.30000000 msecs 
+	      avg time per occur = 0.00030340 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =   2142386 :: time = 420.00000000 msecs 
+	    avg time per pattern = 0.84000000 msecs 
+	      avg time per occur = 0.00019604 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 10 1 int2=skip;intn=skip
+	 occs =    127360 :: time = 50.00000000 msecs 
+	    avg time per pattern = 5.00000000 msecs 
+	      avg time per occur = 0.00039259 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 10 1 int2=skip;intn=skip
+	 occs =    544584 :: time = 50.00000000 msecs 
+	    avg time per pattern = 5.00000000 msecs 
+	      avg time per occur = 0.00009181 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =   2142386 :: time = 210.00000000 msecs 
+	    avg time per pattern = 0.42000000 msecs 
+	      avg time per occur = 0.00009802 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =   2142386 :: time = 270.00000000 msecs 
+	    avg time per pattern = 0.54000000 msecs 
+	      avg time per occur = 0.00012603 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =   2142386 :: time = 340.00000000 msecs 
+	    avg time per pattern = 0.68000000 msecs 
+	      avg time per occur = 0.00015870 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 10 1 int2=skip;intn=skip
+	 occs =    127360 :: time = 40.00000000 msecs 
+	    avg time per pattern = 4.00000000 msecs 
+	      avg time per occur = 0.00031407 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 10 100 int2=skip;intn=skipE
+ Searching!!: ./myILSearch FTB8 N 10 100 int2=skip;intn=skip
+	 occs =    127360 :: time = 41.60000000 msecs 
+	    avg time per pattern = 4.16000000 msecs 
+	      avg time per occur = 0.00032663 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 10 100 int2=skip;intn=skip
+	 occs =    127360 :: time = 41.80000000 msecs 
+	    avg time per pattern = 4.18000000 msecs 
+	      avg time per occur = 0.00032820 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 10 100 int2=skip;intn=skip
+	 occs =    127360 :: time = 4.30000000 msecs 
+	    avg time per pattern = 0.43000000 msecs 
+	      avg time per occur = 0.00003376 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =   1886795 :: time = 447.73900000 msecs 
+	    avg time per pattern = 0.89547800 msecs 
+	      avg time per occur = 0.00023730 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =   1886795 :: time = 462.16500000 msecs 
+	    avg time per pattern = 0.92433000 msecs 
+	      avg time per occur = 0.00024495 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =    317040 :: time = 4602.41900000 msecs 
+	    avg time per pattern = 9.20483800 msecs 
+	      avg time per occur = 0.01451684 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =    317040 :: time = 442.84700000 msecs 
+	    avg time per pattern = 0.88569400 msecs 
+	      avg time per occur = 0.00139682 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 10 1 int2=skip;intn=skip
+	 occs =         0 :: time = 2.14600000 msecs 
+	    avg time per pattern = 0.21460000 msecs 
+	      avg time per occur = inf msecs 
+
+ Searching!!: ./myILSearch FTB8 N 10 1 int2=skip;intn=skip
+	 occs =         0 :: time = 1.86100000 msecs 
+	    avg time per pattern = 0.18610000 msecs 
+	      avg time per occur = inf msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =   1886795 :: time = 782.21000000 msecs 
+	    avg time per pattern = 1.56442000 msecs 
+	      avg time per occur = 0.00041457 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 10 1 int2=skip;intn=skip
+	 occs =    109932 :: time = 48.93500000 msecs 
+	    avg time per pattern = 4.89350000 msecs 
+	      avg time per occur = 0.00044514 msecs 
+
+ Searching!!: ./myILSearch FTB8 N 10 1 int2=skip;intn=skip
+	 occs =    109932 :: time = 45.32400000 msecs 
+	    avg time per pattern = 4.53240000 msecs 
+	      avg time per occur = 0.00041229 msecs 
+
+ Searching!!: ./myILSearch FTB8 I 500 1 int2=skip;intn=skip
+	 occs =   1886795 :: time = 715.72200000 msecs 
+	    avg time per pattern = 1.43144400 msecs 
+	      avg time per occur = 0.00037933 msecs 

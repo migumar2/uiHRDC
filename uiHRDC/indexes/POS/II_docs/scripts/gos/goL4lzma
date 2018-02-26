@@ -1,0 +1,4 @@
+./SEARCH_VBYTE_LZMA_PLAIN DNA1MBq4   L 1 "nooptions " < extractor/dna1m.q4
+./SEARCH_VBYTE_LZMA_PLAIN DNA100MBq4 L 1 "nooptions " < extractor/dna1m.q4
+
+

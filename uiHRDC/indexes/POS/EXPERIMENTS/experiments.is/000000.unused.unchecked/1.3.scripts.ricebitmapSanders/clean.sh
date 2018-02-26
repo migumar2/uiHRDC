@@ -1,0 +1,3 @@
+rm SEARCH
+rm BUILD
+

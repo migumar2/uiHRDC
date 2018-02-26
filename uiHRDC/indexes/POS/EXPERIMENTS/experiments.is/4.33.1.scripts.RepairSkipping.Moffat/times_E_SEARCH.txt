@@ -1,0 +1,52 @@
+
+ Search: ./SEARCH indexes/wiki2gb: 20 int2=skipE;intn=skipE
+	Load index time = 64.812000 sec
+	Index size = 464317927 bytes = (453435 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 22.240%
+	** Operation = N ** numpatts = 1000, wordsXpattern=0-0
+	**size_Index= 464317927 bytes, size_Inv-lists= 435475735 bytes, size_compText= 25280492 bytes
+	Total Num occs found = 99228
+	Locate time = 0.003800 sec
+	Locate time/Num_occs = 0.000038 msec/occss
+	Locate_time/pat = 0.00380000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.653201  msec/occs
+
+
+ Search: ./SEARCH indexes/wiki2gb: 20 int2=skipE;intn=skipE
+	Load index time = 63.436000 sec
+	Index size = 448037659 bytes = (437536 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 21.460%
+	** Operation = N ** numpatts = 1000, wordsXpattern=0-0
+	**size_Index= 448037659 bytes, size_Inv-lists= 419195467 bytes, size_compText= 25280492 bytes
+	Total Num occs found = 99228
+	Locate time = 0.003400 sec
+	Locate time/Num_occs = 0.000034 msec/occss
+	Locate_time/pat = 0.00340000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.639330  msec/occs
+
+
+ Search: ./SEARCH indexes/wiki2gb: 20 int2=skipE;intn=skipE
+	Load index time = 63.600000 sec
+	Index size = 464317927 bytes = (453435 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 22.240%
+	** Operation = N ** numpatts = 1000, wordsXpattern=0-0
+	**size_Index= 464317927 bytes, size_Inv-lists= 435475735 bytes, size_compText= 25280492 bytes
+	Total Num occs found = 5701883
+	Locate time = 0.128000 sec
+	Locate time/Num_occs = 0.000022 msec/occss
+	Locate_time/pat = 0.12800000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.011177  msec/occs
+
+
+ Search: ./SEARCH indexes/wiki2gb: 20 int2=skipE;intn=skipE
+	Load index time = 64.140000 sec
+	Index size = 448037659 bytes = (437536 Kbytes)
+	 source size = 2087767849 bytes ==> ratio = 21.460%
+	** Operation = N ** numpatts = 1000, wordsXpattern=0-0
+	**size_Index= 448037659 bytes, size_Inv-lists= 419195467 bytes, size_compText= 25280492 bytes
+	Total Num occs found = 5701883
+	Locate time = 0.127000 sec
+	Locate time/Num_occs = 0.000022 msec/occss
+	Locate_time/pat = 0.12700000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.011271  msec/occs
+

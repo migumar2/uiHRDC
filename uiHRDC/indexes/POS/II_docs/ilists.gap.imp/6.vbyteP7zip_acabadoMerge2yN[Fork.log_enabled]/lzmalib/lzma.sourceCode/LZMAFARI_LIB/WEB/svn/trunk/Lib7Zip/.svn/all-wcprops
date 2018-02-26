@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/22/trunk/Lib7Zip
+END
+7zipLibrary.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/22/trunk/Lib7Zip/7zipLibrary.cpp
+END
+HelperFuncs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/17/trunk/Lib7Zip/HelperFuncs.cpp
+END
+Lib7Zip.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/21/trunk/Lib7Zip/Lib7Zip.vcproj
+END
+Lib7Zip - VS2008.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/7/trunk/Lib7Zip/Lib7Zip%20-%20VS2008.vcproj
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/22/trunk/Lib7Zip/Makefile.in
+END
+HelperFuncs.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/17/trunk/Lib7Zip/HelperFuncs.h
+END
+lib7zip.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/16/trunk/Lib7Zip/lib7zip.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/10/trunk/Lib7Zip/Makefile.am
+END
+7ZipArchiveItem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/15/trunk/Lib7Zip/7ZipArchiveItem.cpp
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/Lib7Zip/ReadMe.txt
+END
+7ZipArchive.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/15/trunk/Lib7Zip/7ZipArchive.cpp
+END

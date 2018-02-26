@@ -1,0 +1,3 @@
+./SEARCHwcsa ../indexes/cr_index l 0 1 < ../various/pattsCR/cr.xt100k_2
+#./SEARCHwcsa ../indexes/cr_index l 0 1 < ../various/pattsCR/cr.xt100k_4
+

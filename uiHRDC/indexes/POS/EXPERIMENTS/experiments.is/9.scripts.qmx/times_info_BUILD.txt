@@ -1,0 +1,19 @@
+
+ Building index qgrams: ./BUILD ../../text2gb/wiki_src2gb.txt indexes/wiki2gb QMXnoparamsForBuild
+	Building time: 661.220 secs
+	Input: 2087767849 bytes --> Output 2857657448 bytes.
+	Overall compression --> 136.88% (10.95 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 104 bytes.
+	 number of diff words= 250550
+	 number of docs (ndocs)= 149761
+	 vocabulary of words = 2962548 bytes.
+	 Mapping Docs-2-wordposition = 599048 bytes.
+	 Inverted list-structure = 2828815256 bytes.
+	 Text (compressed representation) = 25280492 bytes.
+	 Whole index = 2857657448 bytes  ** Ratio = 136.876 % **
+ 
+=====================================

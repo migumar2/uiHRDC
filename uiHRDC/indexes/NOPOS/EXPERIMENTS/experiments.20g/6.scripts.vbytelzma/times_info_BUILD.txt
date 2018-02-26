@@ -1,0 +1,40 @@
+
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb path2lzmaencoder=./lib/lzmaEncoder; minbcssize=10
+
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb path2lzmaencoder=./lib/lzmaEncoder; minbcssize=10
+
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb path2lzmaencoder=./lib/lzmaEncoder; minbcssize=10
+
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb path2lzmaencoder=./lib/lzmaEncoder; minbcssize=10
+
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb path2lzmaencoder=./lib/lzmaEncoder; minbcssize=10
+
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb path2lzmaencoder=./lib/lzmaEncoder; minbcssize=10
+
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb path2lzmaencoder=./lib/lzmaEncoder; minbcssize=10
+
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb path2lzmaencoder=./lib/lzmaEncoder; minbcssize=10
+
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb path2lzmaencoder=./lib/lzmaEncoder; minbcssize=10
+
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb path2lzmaencoder=./lib/lzmaEncoder; minbcssize=10
+
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb path2lzmaencoder=./lib/lzmaEncoder; minbcssize=10
+
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb path2lzmaencoder=./lib/lzmaEncoder; minbcssize=10
+	Building time: 274.452 secs
+	Input: 20971541599 bytes --> Output 60185788 bytes.
+	Overall compression --> 0.29% (0.02 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 96 bytes.
+	 number of diff words= 534120
+	 number of docs (ndocs)= 881802
+	 vocabulary of words = 6189846 bytes.
+	 Inverted list-structure = 53995846 bytes.
+	 Text (compressed representation) = 0 bytes.
+	 Whole index = 60185788 bytes  ** Ratio = 0.287 % **
+ 
+=====================================

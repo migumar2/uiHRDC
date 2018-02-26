@@ -1,0 +1,104 @@
+
+ Search: ./SEARCH indexes/torsen20gb_ds04: 4 int2=merge;intn=merge
+	Load index time = 1.532000 sec
+	Index size = 53812352 bytes = (52551 Kbytes)
+	 source size = 20971541599 bytes ==> ratio = 0.257%
+	** Operation = I ** numpatts = 1000, wordsXpattern=2-2
+	**size_Index= 53812352 bytes, size_Inv-lists= 47622410 bytes, size_compText= 0 bytes
+	Total Num occs found = 83166310
+	Extract:Intersect:Intersect time = 38.092000 sec
+	Extract:Intersect/Num_occs = 0.000458 msec/occss
+	Extract:Intersect_time/pat = 38.09200000 msec/pat
+		(Load_time+Extract:Intersect)/Num_occs = 0.000476  msec/occs
+
+
+ Search: ./SEARCH indexes/torsen20gb_ds16: 4 int2=merge;intn=merge
+	Load index time = 1.504000 sec
+	Index size = 46298428 bytes = (45213 Kbytes)
+	 source size = 20971541599 bytes ==> ratio = 0.221%
+	** Operation = I ** numpatts = 1000, wordsXpattern=2-2
+	**size_Index= 46298428 bytes, size_Inv-lists= 40108486 bytes, size_compText= 0 bytes
+	Total Num occs found = 83166310
+	Extract:Intersect:Intersect time = 48.587000 sec
+	Extract:Intersect/Num_occs = 0.000584 msec/occss
+	Extract:Intersect_time/pat = 48.58700000 msec/pat
+		(Load_time+Extract:Intersect)/Num_occs = 0.000602  msec/occs
+
+
+ Search: ./SEARCH indexes/torsen20gb_ds64: 2 int2=merge;intn=merge
+	Load index time = 1.496000 sec
+	Index size = 44419948 bytes = (43378 Kbytes)
+	 source size = 20971541599 bytes ==> ratio = 0.212%
+	** Operation = I ** numpatts = 1000, wordsXpattern=2-2
+	**size_Index= 44419948 bytes, size_Inv-lists= 38230006 bytes, size_compText= 0 bytes
+	Total Num occs found = 83166310
+	Extract:Intersect:Intersect time = 102.324000 sec
+	Extract:Intersect/Num_occs = 0.001230 msec/occss
+	Extract:Intersect_time/pat = 102.32400000 msec/pat
+		(Load_time+Extract:Intersect)/Num_occs = 0.001248  msec/occs
+
+
+ Search: ./SEARCH indexes/torsen20gb_ds256: 2 int2=merge;intn=merge
+	Load index time = 1.496000 sec
+	Index size = 43950328 bytes = (42920 Kbytes)
+	 source size = 20971541599 bytes ==> ratio = 0.210%
+	** Operation = I ** numpatts = 1000, wordsXpattern=2-2
+	**size_Index= 43950328 bytes, size_Inv-lists= 37760386 bytes, size_compText= 0 bytes
+	Total Num occs found = 83166310
+	Extract:Intersect:Intersect time = 311.826000 sec
+	Extract:Intersect/Num_occs = 0.003749 msec/occss
+	Extract:Intersect_time/pat = 311.82600000 msec/pat
+		(Load_time+Extract:Intersect)/Num_occs = 0.003767  msec/occs
+
+
+ Search: ./SEARCH indexes/torsen20gb_ds04: 4 int2=merge;intn=merge
+	Load index time = 1.528000 sec
+	Index size = 53812352 bytes = (52551 Kbytes)
+	 source size = 20971541599 bytes ==> ratio = 0.257%
+	** Operation = N ** numpatts = 1000, wordsXpattern=5-5
+	**size_Index= 53812352 bytes, size_Inv-lists= 47622410 bytes, size_compText= 0 bytes
+	Total Num occs found = 17179908
+	Extract:Intersect:Intersect time = 98.264000 sec
+	Extract:Intersect/Num_occs = 0.005720 msec/occss
+	Extract:Intersect_time/pat = 98.26400000 msec/pat
+		(Load_time+Extract:Intersect)/Num_occs = 0.005809  msec/occs
+
+
+ Search: ./SEARCH indexes/torsen20gb_ds16: 4 int2=merge;intn=merge
+	Load index time = 1.508000 sec
+	Index size = 46298428 bytes = (45213 Kbytes)
+	 source size = 20971541599 bytes ==> ratio = 0.221%
+	** Operation = N ** numpatts = 1000, wordsXpattern=5-5
+	**size_Index= 46298428 bytes, size_Inv-lists= 40108486 bytes, size_compText= 0 bytes
+	Total Num occs found = 17179908
+	Extract:Intersect:Intersect time = 126.720000 sec
+	Extract:Intersect/Num_occs = 0.007376 msec/occss
+	Extract:Intersect_time/pat = 126.72000000 msec/pat
+		(Load_time+Extract:Intersect)/Num_occs = 0.007464  msec/occs
+
+
+ Search: ./SEARCH indexes/torsen20gb_ds64: 2 int2=merge;intn=merge
+	Load index time = 1.492000 sec
+	Index size = 44419948 bytes = (43378 Kbytes)
+	 source size = 20971541599 bytes ==> ratio = 0.212%
+	** Operation = N ** numpatts = 1000, wordsXpattern=5-5
+	**size_Index= 44419948 bytes, size_Inv-lists= 38230006 bytes, size_compText= 0 bytes
+	Total Num occs found = 17179908
+	Extract:Intersect:Intersect time = 262.808000 sec
+	Extract:Intersect/Num_occs = 0.015297 msec/occss
+	Extract:Intersect_time/pat = 262.80800000 msec/pat
+		(Load_time+Extract:Intersect)/Num_occs = 0.015384  msec/occs
+
+
+ Search: ./SEARCH indexes/torsen20gb_ds256: 2 int2=merge;intn=merge
+	Load index time = 1.500000 sec
+	Index size = 43950328 bytes = (42920 Kbytes)
+	 source size = 20971541599 bytes ==> ratio = 0.210%
+	** Operation = N ** numpatts = 1000, wordsXpattern=5-5
+	**size_Index= 43950328 bytes, size_Inv-lists= 37760386 bytes, size_compText= 0 bytes
+	Total Num occs found = 17179908
+	Extract:Intersect:Intersect time = 812.284000 sec
+	Extract:Intersect/Num_occs = 0.047281 msec/occss
+	Extract:Intersect_time/pat = 812.28400000 msec/pat
+		(Load_time+Extract:Intersect)/Num_occs = 0.047368  msec/occs
+

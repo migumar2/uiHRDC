@@ -1,0 +1,86 @@
+Sequences:       1
+Original size:   1991.05 MB
+Block size:      32 bytes
+Sample rate:     128
+
+RLCSA:           41.4879 MB
+  BWT only:      32.741 MB
+SA samples:      125.856 MB
+Total size:      167.344 MB
+
+mchars/s:3.5446
+Total num chars extracted = 130000000
+Extract time = 36.68 secs
+Extract_time/Num_chars_extracted = 0.0003 msecs/chars
+Num_chars_extracted/extract_time = 3544552.2958 chars/sec
+(Load_time+Extract_time)/Num_chars_extracted = 0.0003 msecs/chars
+Num_chars_extracted/(Load_time+Extract_time) = 3490495.1133 chars/sec
+Sequences:       1
+Original size:   1991.05 MB
+Block size:      32 bytes
+Sample rate:     128
+
+RLCSA:           41.4879 MB
+  BWT only:      32.741 MB
+SA samples:      125.856 MB
+Total size:      167.344 MB
+
+mchars/s:3.5675
+Total num chars extracted = 130000000
+Extract time = 36.44 secs
+Extract_time/Num_chars_extracted = 0.0003 msecs/chars
+Num_chars_extracted/extract_time = 3567508.2327 chars/sec
+(Load_time+Extract_time)/Num_chars_extracted = 0.0003 msecs/chars
+Num_chars_extracted/(Load_time+Extract_time) = 3519220.3573 chars/sec
+Sequences:       1
+Original size:   1991.05 MB
+Block size:      32 bytes
+Sample rate:     128
+
+RLCSA:           41.4879 MB
+  BWT only:      32.741 MB
+SA samples:      125.856 MB
+Total size:      167.344 MB
+
+mchars/s:3.6640
+Total num chars extracted = 130000000
+Extract time = 35.48 secs
+Extract_time/Num_chars_extracted = 0.0003 msecs/chars
+Num_chars_extracted/extract_time = 3664036.0767 chars/sec
+(Load_time+Extract_time)/Num_chars_extracted = 0.0003 msecs/chars
+Num_chars_extracted/(Load_time+Extract_time) = 3614725.8369 chars/sec
+Sequences:       1
+Original size:   1991.05 MB
+Block size:      32 bytes
+Sample rate:     128
+
+RLCSA:           41.4879 MB
+  BWT only:      32.741 MB
+SA samples:      125.856 MB
+Total size:      167.344 MB
+
+mchars/s:3.6509
+Total num chars extracted = 130000000
+Extract time = 35.61 secs
+Extract_time/Num_chars_extracted = 0.0003 msecs/chars
+Num_chars_extracted/extract_time = 3650864.9742 chars/sec
+(Load_time+Extract_time)/Num_chars_extracted = 0.0003 msecs/chars
+Num_chars_extracted/(Load_time+Extract_time) = 3598317.0948 chars/sec
+Sequences:       1
+Original size:   1991.05 MB
+Block size:      32 bytes
+Sample rate:     128
+
+RLCSA:           41.4879 MB
+  BWT only:      32.741 MB
+SA samples:      125.856 MB
+Total size:      167.344 MB
+
+mchars/s:3.7572
+Total num chars extracted = 130000000
+Extract time = 34.60 secs
+Extract_time/Num_chars_extracted = 0.0003 msecs/chars
+Num_chars_extracted/extract_time = 3757225.4335 chars/sec
+(Load_time+Extract_time)/Num_chars_extracted = 0.0003 msecs/chars
+Num_chars_extracted/(Load_time+Extract_time) = 3703703.7037 chars/sec
+#################################

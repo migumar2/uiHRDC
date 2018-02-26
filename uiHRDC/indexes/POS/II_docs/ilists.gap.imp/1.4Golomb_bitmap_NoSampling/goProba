@@ -1,0 +1,5 @@
+
+
+./myILSearch ft_doc10_s64 I 100 10 "int2=svs;fsearch=exp" < ../pattersH_100000_1000
+./myILSearch ft_doc10_s2 I 100 1 "int2=svs;fsearch=exp" < ../pattersH_100000_1000
+

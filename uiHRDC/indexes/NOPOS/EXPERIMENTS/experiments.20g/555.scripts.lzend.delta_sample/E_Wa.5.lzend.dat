@@ -1,0 +1,5 @@
+#sizeIlist(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+        47622410	    0.014000000	    0.153812349	          91020	           1000	#torsen20gb_ds04
+        40108486	    0.014000000	    0.153812349	          91020	           1000	#torsen20gb_ds16
+        38230006	    0.027600000	    0.303230059	          91020	           1000	#torsen20gb_ds64
+        37760386	    0.080400000	    0.883322347	          91020	           1000	#torsen20gb_ds256

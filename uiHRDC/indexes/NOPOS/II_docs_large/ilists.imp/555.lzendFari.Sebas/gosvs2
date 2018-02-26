@@ -1,0 +1,3 @@
+./myILSearch cr_doc_s2 I 100 1 "int2=svs;fsearch=seqM" < ../pattscr.ids_1000_2
+#./myILSearch cr_doc_s2 I 100 1 "int2=svs;fsearch=seqM" < ../pattscr_1k_10[50_50000] 
+

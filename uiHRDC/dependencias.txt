@@ -1,0 +1,25 @@
+
+##7za is needed to uncompress de Datasets.
+sudo apt-get install p7zip-full
+
+##Needed for VBYTE-LZMA (lzmaEncoder program requieres it)
+sudo apt-get install	gcc-multilib
+sudo apt-get install	g++-multilib
+
+
+##needed by OTTAVIANO-and-VENTURINI SRC'S
+  #- cmake 2.8.12.2
+  #- g++ 4.8.2
+  #- libboost 1.46.1
+  #- snappy-1.1.1
+
+	sudo apt-get install cmake     
+	sudo apt-get install libboost-all-dev
+
+	cd indexes/NOPOS/EliasFano.OV14/partitioned_elias_fano/snappy-1.1.1
+			./configure
+			sudo make install		
+			cd ../../../../..
+
+
+

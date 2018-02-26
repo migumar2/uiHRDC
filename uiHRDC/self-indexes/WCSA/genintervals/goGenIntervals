@@ -1,0 +1,5 @@
+./genIntervalsWords ../indexes/cr_index.se 1000 1000 ../pizza/CR.intervals.1000words.txt
+./genIntervalsWords ../indexes/cr_index.se 10000 1000 ../pizza/CR.intervals.10000words.txt
+./genIntervalsChars /sitio/textos/CR.TXT 1000 1000 ../pizza/CR.intervals.1000chars.txt
+./genIntervalsChars /sitio/textos/CR.TXT 100000 1000 ../pizza/CR.intervals.100000chars.txt
+

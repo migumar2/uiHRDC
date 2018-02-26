@@ -1,0 +1,16 @@
+./genIntervalsWords ../swcsa3/scripts.swcsa3/indexes/all_sA16.sAi64.sPsi16.16k.se 10 1000000 ../intervals/ALL.intervals.10words.txt
+./genIntervalsWords ../swcsa3/scripts.swcsa3/indexes/all_sA16.sAi64.sPsi16.16k.se 100 100000 ../intervals/ALL.intervals.100words.txt
+./genIntervalsWords ../swcsa3/scripts.swcsa3/indexes/all_sA16.sAi64.sPsi16.16k.se 1000 10000 ../intervals/ALL.intervals.1000words.txt
+
+#./genIntervalsWords ../_FLEXIBLES/FWCSA.Porter/scripts.fwcsa/indexes/all_sA16.sAi64.sPsi16.16k.se 10 1000000 ../intervals/ALL.flexible.intervals.10words.txt
+#./genIntervalsWords ../_FLEXIBLES/FWCSA.Porter/scripts.fwcsa/indexes/all_sA16.sAi64.sPsi16.16k.se 100 100000 ../intervals/ALL.flexible.intervals.100words.txt
+#./genIntervalsWords ../_FLEXIBLES/FWCSA.Porter/scripts.fwcsa/indexes/all_sA16.sAi64.sPsi16.16k.se 1000 10000 ../intervals/ALL.flexible.intervals.1000words.txt
+
+## FLEXIBLE WITH HALF THE NUMBER OF WORDS --> +- THE SAME CHARACTERS
+./genIntervalsWords ../_FLEXIBLES/FWCSA.Porter/scripts.fwcsa/indexes/all_sA16.sAi64.sPsi16.16k.se 6 1000000 ../intervals/ALL.flexible.intervals.10words.txt
+./genIntervalsWords ../_FLEXIBLES/FWCSA.Porter/scripts.fwcsa/indexes/all_sA16.sAi64.sPsi16.16k.se 51 100000 ../intervals/ALL.flexible.intervals.100words.txt
+./genIntervalsWords ../_FLEXIBLES/FWCSA.Porter/scripts.fwcsa/indexes/all_sA16.sAi64.sPsi16.16k.se 501 10000 ../intervals/ALL.flexible.intervals.1000words.txt
+
+
+
+

@@ -1,0 +1,10 @@
+#                  text                 outfile      n   min max onlyWords  stopwords_file
+./EXTRACTPHRASES /hdd2/fari/wikipedia_torsen/torsen.text200mb.txt ./torsen200mb_1_1  1000 1 1  1 src/english_stopwords.txt
+./EXTRACTPHRASES /hdd2/fari/wikipedia_torsen/torsen.text200mb.txt ./torsen200mb_2_2  1000 2 2  1 src/english_stopwords.txt
+./EXTRACTPHRASES /hdd2/fari/wikipedia_torsen/torsen.text200mb.txt ./torsen200mb_2_2_10k  10000 2 2  1 src/english_stopwords.txt
+./EXTRACTPHRASES /hdd2/fari/wikipedia_torsen/torsen.text200mb.txt ./torsen200mb_2_2_100k  100000 2 2  1 src/english_stopwords.txt
+./EXTRACTPHRASES /hdd2/fari/wikipedia_torsen/torsen.text200mb.txt ./torsen200mb_2_5  1000 2 5  1 src/english_stopwords.txt
+
+#./EXTRACTPHRASES /hdd2/fari/wikipedia_torsen/torsen.text200mb.txt ./torsen200mb_2_5  1000 2 5  0
+
+
