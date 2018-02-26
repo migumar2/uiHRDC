@@ -2,9 +2,9 @@
 
 __uiHRDC__ is a C/C++ reproducibility framework which comprises a varied set of techniques 
 for indexing highly repetitive document collections, and all scripts required to 
-replicate the experimental setup proposed in __F. Claude, A. Fariña, M.A. Martinez-Prieto, 
+replicate the experimental setup proposed in `F. Claude, A. Fariña, M.A. Martinez-Prieto, 
 and G. Navarro. Universal Indexes for Highly Repetitive Document Collections. Information 
-Systems 61:1-23, 2016__. 
+Systems 61:1-23, 2016`. 
 
 uiHRDC includes non-positional and positional inverted indexes, which perform multiple forms 
 of compression, and three families of self-indexes.  A more detailled description of all 
