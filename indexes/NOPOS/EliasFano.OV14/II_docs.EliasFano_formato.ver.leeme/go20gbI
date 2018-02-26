@@ -1,1 +1,0 @@
-./SEARCH_VBYTE_NOTEXT indexes/torsen20gb_bitmap1 I 1 "int2=merge;intn=svs;fsearch=seqM" < ../experiments2gb/patterns/torsen2000mb_2_2_10k 

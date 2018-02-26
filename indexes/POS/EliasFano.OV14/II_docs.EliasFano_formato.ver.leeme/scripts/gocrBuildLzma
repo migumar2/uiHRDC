@@ -1,1 +1,0 @@
-./BUILD_VBYTE_LZMA_PLAIN CR.TXT crlzma "path2lzmaencoder=./lib/lzmaEncoder; minbcssize=1000"

@@ -1,4 +1,0 @@
-./myILSearch idxcrB_8  N 800 1 "int2=merge;intn=svs;fsearch=seqM" <  samplePosting/pattscr.ids_1000_2
-./myILSearch idxcrB_8  N 500 1 "int2=merge;intn=svs;fsearch=seqM" <  samplePosting/pattscr.ids_1000_4
-./myILSearch idxcrB_8  N 200 1 "int2=merge;intn=svs;fsearch=seqM" <  samplePosting/pattscr.ids_1000_8
-

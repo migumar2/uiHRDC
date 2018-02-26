@@ -1,5 +1,0 @@
-
-
-# totaSize(byte)	 ratio (%)	       msec/doc	      usec/char	          chars	          ndocs	#indexBaseName
-        19620527	    38.407	    0.750132066	    0.166779076	       51085545	          11358	#cr_index
-        19620527	    38.407	    0.734284205	    0.163255575	       51085545	          11358	#cr_index

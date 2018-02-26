@@ -1,4 +1,0 @@
-#Use:  ./EXTRACTWORDS  <in file>  <out file> <minFreq> <maxFreq> <minLen> <maxLen> <onlyWords>
-./EXTRACTWORDS ../../text2gb/wiki_src2gb.txt ../wiki2g[5-25][f1-1000].xt 1 1000 4 25 1
-./EXTRACTWORDS ../../text2gb/wiki_src2gb.txt ../wiki2g[5-25][f1001-100k].xt 1001 100000 4 25 1
-

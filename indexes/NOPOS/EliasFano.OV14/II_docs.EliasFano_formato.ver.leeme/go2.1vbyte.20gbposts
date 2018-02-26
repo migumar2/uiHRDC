@@ -1,8 +1,0 @@
-#./BUILD_VBYTE_NOTEXT ../textos/text20gb.txt indexes/torsen20gb_bitmap1 "lenBitmapDiv=1"
-
-
-./BUILDP_VBYTE_NOTEXT postings20gb indexes/I20gVbyte.bitmap8 "lenBitmapDiv=8"
-./BUILDP_VBYTE_NOTEXT postings20gb indexes/I20gVbyte.bitmap1 "lenBitmapDiv=1"
-
-
-

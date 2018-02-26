@@ -1,8 +1,0 @@
-#Usage: ./RANDOMCHOOSER <AllPatternsFile> <outPrefix> <MaxIters> <numPatterns1> [<numPatterns2>] [<numPatterns3>] ... 
-
-./RANDOMCHOOSER ../einstein[5-25][f1-100].xt   einstein.words.f1_100   1000 1
-./RANDOMCHOOSER ../einstein[5-25][f101-50k].xt einstein.words.f101_50k 1000 1
-
-mv tmp/einstein.words.f1_100_Iter1000_Pats1 ../einstein.words_f1_100
-mv tmp/einstein.words.f101_50k_Iter1000_Pats1 ../einstein.words_f101_50k
-

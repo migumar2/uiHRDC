@@ -1,7 +1,0 @@
-Ha fallado la búsqueda de phrase de 5 palabras al usar samplerate (B) = 32,,64,128...
-el fallo se produce en el patrón 420!
-
-SOLUCIÓN DE emergencia.
-Buscar sólo 990 patrones (quité los que fallaban y estos patrones están en el dir actual)
-El fichero modificado está en este directorio.
-

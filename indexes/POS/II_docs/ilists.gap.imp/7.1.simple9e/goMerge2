@@ -1,3 +1,0 @@
-./myILSearch ft_doc_s2 I 10 100 "int2=mergeS9" < ./patts/patterns.file
-./myILSearch ft_doc_s2 I 10 100 "int2=merge" < ./patts/patterns.file
-#./myILSearch ft_doc_s2 I 1000 100 "int2=merge" < ../pattersH_100_1 

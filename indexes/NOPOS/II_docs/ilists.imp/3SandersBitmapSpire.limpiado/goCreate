@@ -1,8 +1,0 @@
-  ./myIL ../ftall_doc_lower.post  ft_doc_s4 "samplerate=4;lenBitmapDiv=8"
-  ./myIL ../ftall_doc_lower.post  ft_doc_s8 "samplerate=8;lenBitmapDiv=8"
-  ./myIL ../ftall_doc_lower.post  ft_doc_s16 "samplerate=16;lenBitmapDiv=8"
-  ./myIL ../ftall_doc_lower.post  ft_doc_s32 "samplerate=32;lenBitmapDiv=8"
-  ./myIL ../ftall_doc_lower.post  ft_doc_s64 "samplerate=64;lenBitmapDiv=8"
-  ./myIL ../ftall_doc_lower.post  ft_doc_s128 "samplerate=128;lenBitmapDiv=8"
-  ./myIL ../ftall_doc_lower.post  ft_doc_s256 "samplerate=256;lenBitmapDiv=8"
-  ./myIL ../ftall_doc_lower.post  ft_doc_s1024 "samplerate=1024;lenBitmapDiv=8"

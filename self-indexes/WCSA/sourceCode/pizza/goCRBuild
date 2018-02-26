@@ -1,1 +1,0 @@
- ./BUILDwcsa /sitio/textos/CR.TXT ../indexes/cr_index "sA=32;sAinv=32;sPsi=32; nsHuff=16;psiSF=4"

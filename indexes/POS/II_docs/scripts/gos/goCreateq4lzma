@@ -1,3 +1,0 @@
-./BUILD_VBYTE_LZMA_PLAIN dna.1MB.txt DNA1MBq4                               "blocksize=8192;qgram=4; path2lzmaencoder=./lzmaEncoder; minbcssize=1"
-./BUILD_VBYTE_LZMA_PLAIN dna.100MB.0001\[1Mb_replicado100veces\] DNA100MBq4 "blocksize=8192;qgram=4; path2lzmaencoder=./lzmaEncoder; minbcssize=4000"
-

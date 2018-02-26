@@ -1,7 +1,0 @@
-./genIntervalsWordsFraction ../swcsa3/scripts.swcsa3/indexes/all_sA16.sAi64.sPsi16.16k.se 1     10000 ../intervals/ALL.intervals.words.frac1.txt
-./genIntervalsWordsFraction ../swcsa3/scripts.swcsa3/indexes/all_sA16.sAi64.sPsi16.16k.se 10    10000 ../intervals/ALL.intervals.words.frac10.txt
-./genIntervalsWordsFraction ../swcsa3/scripts.swcsa3/indexes/all_sA16.sAi64.sPsi16.16k.se 100   10000 ../intervals/ALL.intervals.words.frac100.txt
-./genIntervalsWordsFraction ../swcsa3/scripts.swcsa3/indexes/all_sA16.sAi64.sPsi16.16k.se 1000  10000 ../intervals/ALL.intervals.words.frac1000.txt
-./genIntervalsWordsFraction ../swcsa3/scripts.swcsa3/indexes/all_sA16.sAi64.sPsi16.16k.se 10000 10000 ../intervals/ALL.intervals.words.frac10000.txt
-
-

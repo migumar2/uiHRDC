@@ -1,2 +1,0 @@
-./myILSearch ft_doc_s1  I 10 1 "int2=merge;fsearch=bin" < patts/patterns.file
-

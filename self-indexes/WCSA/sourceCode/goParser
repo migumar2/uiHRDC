@@ -1,2 +1,0 @@
-mkdir indexes
-./BUILDPARSER /sitio/textos/CR.TXT ./indexes/cr_index 

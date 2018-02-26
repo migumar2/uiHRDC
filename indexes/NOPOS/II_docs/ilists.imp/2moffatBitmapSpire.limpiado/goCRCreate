@@ -1,3 +1,0 @@
-  ./myIL ./samplePosting/cr_doc_lower.post  idxcrB_8 "samplerate=8"
-  ./myIL ./samplePosting/cr_doc_lower.post  idxcrB_64 "samplerate=64"
-  ./myIL ./samplePosting/cr_doc_lower.post  idxcrB_128 "samplerate=128"

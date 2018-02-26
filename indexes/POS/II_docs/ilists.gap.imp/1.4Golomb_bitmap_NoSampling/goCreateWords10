@@ -1,5 +1,0 @@
-./myIL ../ftall_doc10_lower.post  ft_doc10_s2  "samplerate=2"
-./myIL ../ftall_doc10_lower.post  ft_doc10_s4  "samplerate=4"
-./myIL ../ftall_doc10_lower.post  ft_doc10_s8  "samplerate=8"
-./myIL ../ftall_doc10_lower.post  ft_doc10_s16  "samplerate=16"
-./myIL ../ftall_doc10_lower.post  ft_doc10_s32  "samplerate=32"

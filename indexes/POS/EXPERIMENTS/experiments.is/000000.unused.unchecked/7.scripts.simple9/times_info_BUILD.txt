@@ -1,2 +1,0 @@
-
- Building index qgrams: ./BUILD ../../text2gb/wiki_src2gb.txt indexes/wiki2gb s9noparamsForBuild

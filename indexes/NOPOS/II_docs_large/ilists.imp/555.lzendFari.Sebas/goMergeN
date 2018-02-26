@@ -1,3 +1,0 @@
-./myILSearch cr_doc_s2 N 100 1 "intn=merge" < ../pattscr.ids_1000_2
-./myILSearch cr_doc_s2 N 100 1 "intn=merge" < ../pattscr.ids_1000_4
-./myILSearch cr_doc_s2 N 100 1 "intn=merge" < ../pattscr.ids_1000_8

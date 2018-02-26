@@ -1,37 +1,0 @@
-8
-
-dir
-22
-http://lib7zip.googlecode.com/svn
-http://lib7zip.googlecode.com/svn
-
-
-
-2009-02-25T07:05:48.776343Z
-22
-jingnan.si
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-6f23fa6e-fc0f-11dd-a8e2-f7cb3c35fcff
-
-trunk
-dir
-
-branches
-dir
-
-tags
-dir
-
