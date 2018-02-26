@@ -286,9 +286,6 @@ namespace cds_static
             delete ret;
             return NULL;
         }
-
-	ret->max_mapped_v = ret->am->unmap(ret->max_v);
-
         return ret;
     }
 
@@ -549,20 +546,12 @@ namespace cds_static
 	
 	bool WaveletTreeNoptrs::check(uint symbol)
 	{
-		if (symbol <= max_mapped_v)
-			return am->check(symbol);
-		else 
-			return false;
+		return am->check(symbol);
 	}
 	
 	uint WaveletTreeNoptrs::getMaxV()
 	{
 		return max_v;
-	}
-
-	uint WaveletTreeNoptrs::getMaxMappedV()
-	{
-		return max_mapped_v;
 	}
 
 	uint WaveletTreeNoptrs::getN()

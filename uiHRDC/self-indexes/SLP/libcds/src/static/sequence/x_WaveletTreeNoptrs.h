@@ -82,7 +82,6 @@ namespace cds_static
 
 	    BitSequence* getBitstring(uint level);
 	    uint getMaxV();
-	    uint getMaxMappedV();
 	    uint getN();
 	    Mapper * getMapper();
 
@@ -97,7 +96,7 @@ namespace cds_static
             size_t n;
 
             /** Height of the Wavelet Tree. */
-            uint height, max_v, max_mapped_v;
+            uint height, max_v;
 
             /** Obtains the maximum value from the string
              * symbols of length n */
