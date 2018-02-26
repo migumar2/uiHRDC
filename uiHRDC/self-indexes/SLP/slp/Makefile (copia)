@@ -9,7 +9,7 @@ OBJECTS_UTILS=Utils/SuffixArray.o Utils/deltacodes.o
 OBJECTS_BINREL=BinRel/BinaryRelation.o BinRel/LabeledBinaryRelation.o
 
 OBJECTS=$(OBJECTS_SAMPLINGS) $(OBJECTS_REPAIR) $(OBJECTS_UTILS) $(OBJECTS_BINREL) RePairSLPIndex.o SLPIndex.o
-BIN=SLPIndex cSLPIndex
+BIN=SLPIndex
 
 %.o: %.cpp
 	@echo " [C++] Compiling $<"
@@ -19,9 +19,6 @@ all: 	$(OBJECTS) $(BIN)
 
 SLPIndex:	
 	$(CPP) $(CPPFLAGS) $(LDFLAGS) $(FLAGS) -o SLPIndex $(OBJECTS) ${LIB}
-
-cSLPIndex:	
-	$(CPP) $(CPPFLAGS) $(LDFLAGS) $(FLAGS) -o cSLPIndex $(OBJECTS) ${LIB}
 
 clean:
 	@echo " [CLN] Removing object files"

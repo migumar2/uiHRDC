@@ -51,7 +51,6 @@ class Sampling
     size_t getSize();
     size_t getBlocks();
     size_t getMaxLength();
-    uint getTerminals();
 
     void save(ofstream & fp);
     static Sampling* load(ifstream & fp);

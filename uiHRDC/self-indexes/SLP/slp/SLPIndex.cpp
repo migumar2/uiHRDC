@@ -2,7 +2,7 @@
  * Copyright (C) 2012, Miguel A. Martinez-Prieto
  * all rights reserved.
  *
- * Main program for indexing and querying biological collections
+ * Main program for indexing and querying repetitive document collections
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public

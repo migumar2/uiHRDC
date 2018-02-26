@@ -276,11 +276,7 @@ namespace cds_static
 	uint
 	LabeledBinaryRelation::nRowsPerColumnNoBitSeq(uint column)
 	{
-		if ((((WaveletTreeNoptrs*)Sb)->check(column)) == true) 
-		{
-			return Sb->rank(column, nrows-1);
-		}
-
+		if ((((WaveletTreeNoptrs*)Sb)->check(column)) == true) return Sb->rank(column, nrows-1);
 		return 0;
 	}
 
@@ -453,21 +449,16 @@ namespace cds_static
 		trq.results = 0;
 		
 		if (trq.rows.r >= trq.rows.l)
-		{	
-			if (rq.rows.l <= ((WaveletTreeNoptrs*)Sb)->getMaxMappedV())
-			{
-				// Mapping values
-				trq.columns.l = ((WaveletTreeNoptrs*)Sb)->map(rq.rows.l);
-				if ((((WaveletTreeNoptrs*)Sb)->check(rq.rows.l)) == false) trq.columns.l++;
-				trq.columns.r = ((WaveletTreeNoptrs*)Sb)->map(rq.rows.r);
+		{				
+			// Mapping values
+			trq.columns.l = ((WaveletTreeNoptrs*)Sb)->map(rq.rows.l);
+			if ((((WaveletTreeNoptrs*)Sb)->check(rq.rows.l)) == false) trq.columns.l++;
+			trq.columns.r = ((WaveletTreeNoptrs*)Sb)->map(rq.rows.r);
 
-				if (trq.columns.r >= trq.columns.l)
-					return Range(trq, 0, sigma, 0, npoints, 0, labels);
-				else
-					return 0;
-			} else  {
+			if (trq.columns.r >= trq.columns.l)
+				return Range(trq, 0, sigma, 0, npoints, 0, labels);
+			else
 				return 0;
-			}
 		}
 		else
 		{

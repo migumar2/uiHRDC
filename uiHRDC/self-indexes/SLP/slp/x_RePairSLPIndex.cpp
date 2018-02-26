@@ -456,8 +456,6 @@ namespace cds_static
 		vector <uint> *occs = new vector<unsigned int>();
 		*numocc = 0;
 
-		
-
 		for (uint i=0; i<q.length-1; i++)
 		{
 			if ((rq[i].rows.l != NOTFOUND) && (rq[i].columns.l != NOTFOUND))

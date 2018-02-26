@@ -36,15 +36,15 @@ in the bin `folder`:
 - `<index>` refers to the path of the index files in the filesystem.
 - `<docs>` refers to the path of the file containing document positions. Note 
       that this parameter is requiered for seaching document text collections,
-      but it would not be necessary in other scenarios (the current SLP
+      but it would not be necessary in other scenarios (the current LZ
       implementation is tuned for natural language).
 
 The file containing the patterns to be searched are redirected from the input.
 
 
 ###### Snippet Extraction
-Snippet extraction can be also easily evaluated using SLPIndex and wSLPindex
-binaries. In this case, the instruction is similar in both cases:
+Snippet extraction can be also easily evaluated using LZ77 and LZend self-indexes.
+In this case, the instruction is similar in both cases:
 
   `./extract <index> `
 

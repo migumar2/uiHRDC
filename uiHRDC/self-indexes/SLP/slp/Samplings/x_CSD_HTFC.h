@@ -151,7 +151,7 @@ class CSD_HTFC : public CSD
 	@return: a boolean value pointing if the string is located (this only
 	 occurs when 's' is the first string in 'block').
     */
-    bool locateBlock(uchar *s, uint slen, int *block);
+    bool locateBlock(uchar *s, uint slen, uint *block);
 
 
     /** Locates the limit blocks (left and right) in where all strings prefixed
@@ -162,7 +162,7 @@ class CSD_HTFC : public CSD
 	@left: the candidate left block.
 	@right: the candidate right block.
     */
-    void locateLimitBlocks(uchar *s, uint slen, int *left, int *right);
+    void locateLimitBlocks(uchar *s, uint slen, uint *left, uint *right);
 
     /** Locates the offset for 's' in 'block' (returning its global ID) or 
 	return 0 if it is  not exist 
