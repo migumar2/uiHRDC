@@ -39,24 +39,20 @@ The resulting results will be saved in
 
 
 -----
+
 Steps to run experiments.
 
-cd data
+	cd data
+	sh go2gb.sh           --> sets links to data/patterns/intervals from root folder (dataset for INF. systems paper)
+	cd ..
+	cd sourceCode  --> makes source code.
+	make
+	cd ..
+	cd scripts.swcsa3.is
+	sh goAll.sh    --> runs experiments.
 
-sh go2gb.sh           --> sets links to data/patterns/intervals from root folder (dataset for INF. systems paper)
 
-cd ..
-
-cd sourceCode  --> makes source code.
-
-make
-
-cd ..
-
-cd scripts.swcsa3.is
-
-sh goAll.sh    --> runs experiments.
- 
+-----
 
 
 
