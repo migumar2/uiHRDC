@@ -247,6 +247,7 @@ main(int argc, char* argv[])
 									uint occs;
 									vector<uint> *pos = index->RePairSLPIndex::locate((uchar*)(patterns[i].pattern).c_str(), patterns[i].length, &occs);
 									delete pos;
+									tot_occs += occs;
 								}
 
 								double tot_time = (getTime () - time);
