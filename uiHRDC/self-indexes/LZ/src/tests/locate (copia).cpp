@@ -62,35 +62,19 @@ int main(int argc, char** argv){
 	lz77index::static_selfindex* idx = lz77index::static_selfindex::load(argv[1]);
 	load_time += lz77index::utils::endTime();
 
-	if (argc == 3) {
-		// Positions will mapped to (document,offset).... the
-		// corresponding document boundaries must be loaded
+	// LOADING DOCUMENT BOUNDARIES
+	ifstream fdocs(argv[2]);
+	fdocs.seekg(0,ios_base::end);
+	uint ndocs = fdocs.tellg()/sizeof(int);
+	fdocs.seekg(0,ios_base::beg);
 
-		// LOADING DOCUMENT BOUNDARIES
-		ifstream fdocs(argv[2]);
-		fdocs.seekg(0,ios_base::end);
-		uint ndocs = fdocs.tellg()/sizeof(int);
-		fdocs.seekg(0,ios_base::beg);
+	uint * doc_array = new uint[ndocs];
+	fdocs.read((char*)doc_array,ndocs*sizeof(uint));
+	fdocs.close();
 
-		uint * doc_array = new uint[ndocs];
-		fdocs.read((char*)doc_array,ndocs*sizeof(uint));
-		fdocs.close();
-
-		// PRINTF Index Size
-		fprintf(stderr, "%u;%u;;", idx->size(), (uint)(ndocs*sizeof(unsigned int)));
-		fflush(stderr);
-	}
-	else {
-		// PRINTF Index Size
-		fprintf(stderr, "%u;;", idx->size());
-	}
-	
-
-
-
-
-
-
+	// PRINTF Index Size
+	fprintf(stderr, "%u;%u;;", idx->size(), (uint)(ndocs*sizeof(unsigned int)));
+	fflush(stderr);
 
 	// LOADING PATTERNS
 	unsigned int numpatt;
