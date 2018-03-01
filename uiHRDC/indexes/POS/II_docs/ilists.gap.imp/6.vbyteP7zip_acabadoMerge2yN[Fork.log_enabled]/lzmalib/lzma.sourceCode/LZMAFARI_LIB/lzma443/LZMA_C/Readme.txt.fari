@@ -1,6 +1,0 @@
-
-I include here a basic API, used to apply LZMA compression to inverted posting lists.
-
-** Compression **
-I use the same LZMAencoder that is a part of the p7zip software (programed by Igor Pavlov).
-
