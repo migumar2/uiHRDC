@@ -1,0 +1,113 @@
+8
+
+dir
+22
+http://lib7zip.googlecode.com/svn/trunk
+http://lib7zip.googlecode.com/svn
+
+
+
+2009-02-25T07:05:48.776343Z
+22
+jingnan.si
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6f23fa6e-fc0f-11dd-a8e2-f7cb3c35fcff
+
+Lib7Zip
+dir
+
+configure
+file
+
+
+
+
+2009-09-17T17:04:16.000000Z
+dae5243d792a2268afd39fa86338e06d
+2009-02-25T07:05:48.776343Z
+22
+jingnan.si
+has-props
+
+Makefile.in
+file
+
+
+
+
+2009-09-17T17:04:16.000000Z
+d716e6c1ea29fec38b41a4ea1382bea5
+2009-02-25T07:05:48.776343Z
+22
+jingnan.si
+
+configure.ac
+file
+
+
+
+
+2009-09-17T17:04:16.000000Z
+ed893fc556127c6b5cf1db50f3e259a5
+2009-02-25T07:05:48.776343Z
+22
+jingnan.si
+
+7Zip.sln
+file
+
+
+
+
+2009-09-17T17:04:16.000000Z
+2391822d0819d9ca1de92a78b3f13b2c
+2009-02-16T09:56:39.818190Z
+2
+jingnan.si
+
+includes
+dir
+
+lib
+dir
+
+Test7Zip
+dir
+
+Makefile.am
+file
+
+
+
+
+2009-09-17T17:04:16.000000Z
+2a8ccb95b734a6040fddceb092c3bb24
+2009-02-18T03:30:02.895633Z
+10
+jingnan.si
+
+aclocal.m4
+file
+
+
+
+
+2009-09-17T17:04:16.000000Z
+6efbad6283b29f3ed4e1949a3b4b5753
+2009-02-25T07:05:48.776343Z
+22
+jingnan.si
+

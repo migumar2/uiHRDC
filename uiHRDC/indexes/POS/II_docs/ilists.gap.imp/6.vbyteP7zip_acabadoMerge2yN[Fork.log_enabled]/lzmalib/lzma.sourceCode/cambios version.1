@@ -1,0 +1,12 @@
+Versión v.0 (antes de 2011).
+No era posible llamar 2 veces al "encodeLZMA" de la api desde el mismo directorio
+(simultáneamente y por 2 procesos diferentes), pues se creaban 2 ficheros 
+temporales con el mismo nombre.
+
+
+Versión v.1 (enero 2011).
+Corrige lo marcado arriba en la v.0. Ahora el nombre de los ficheros temporales 
+incluyen un getpid().
+
+
+

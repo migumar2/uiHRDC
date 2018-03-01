@@ -1,0 +1,2 @@
+7.524469 seconds (acumulated compression user-time of lzma coder)
+1.884118 seconds (*last run* compression user-time of lzma coder)
