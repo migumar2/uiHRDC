@@ -31,7 +31,7 @@ sudo docker attach repet-exp
 #there is an user 'user' (with sudo capabilities). His password is 'user1'
 # you can connect to docker machine as:
  ssh user@localhost -p 22222 
-#     enter password 'user1' when prompted
+#     enter password 'userR1' when prompted
 #
 
 #**

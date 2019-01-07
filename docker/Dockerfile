@@ -34,9 +34,12 @@ RUN apt-get update && apt-get install -y \
 	texlive-latex-base \
 	texlive-fonts-recommended \
 	ghostscript \
-	gnuplot-qt \	
 	openssh-server
 
+	#we do not install gnuplot with apt because gnuplot4.4.3 is required to obtain
+	#the exact figures of our "parent paper" in Information Systems.
+	#gnuplot-qt \	
+	
 	#texlive-latex-extra
 	#sudo apt-get install texlive-fonts-recommended 
 
@@ -83,6 +86,14 @@ COPY docker /home/user/docker
 # Clone git repository
 	#RUN cd /home/user  && git clone https://github.com/migumar2/uiHRDC.git
 
+
+########################################################################
+# Installs gnuplot4.4.3 (the version used in the parent paper to generate the figures)
+	RUN mkdir toInstallGnuplot
+	RUN cp /home/user/uiHRDC/benchmark/software/gnuplot-4.4.3.tar.gz toInstallGnuplot/gnuplot-4.4.3.tar.gz
+	RUN cd toInstallGnuplot && tar xzvf gnuplot-4.4.3.tar.gz && cd gnuplot-4.4.3 && ./configure && make install 
+	RUN rm -rf toInstallGnuplot
+
 ########################################################################
 # Installs snappy-1.1.1
 	RUN mkdir toInstall 
@@ -90,7 +101,6 @@ COPY docker /home/user/docker
 		#COPY snappy-1.1.1.tar.gz toInstall/snappy-1.1.1.tar.gz
 	RUN  cd toInstall && tar xzvf snappy-1.1.1.tar.gz && cd snappy-1.1.1 && ./configure && make install 
 	RUN rm -rf /toInstall
-
 
 ########################################################################
 #Sets user 'user' password 'userR1'

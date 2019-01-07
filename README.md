@@ -2,9 +2,11 @@
 
 __uiHRDC__ is a C/C++ reproducibility framework which comprises a varied set of techniques 
 for indexing highly repetitive document collections, and all scripts required to 
-replicate the experimental setup proposed in `F. Claude, A. Fariña, M.A. Martinez-Prieto, 
-and G. Navarro. Universal Indexes for Highly Repetitive Document Collections. Information 
-Systems 61:1-23, 2016`. 
+replicate the experimental setup proposed in:
+
+- F. Claude, A. Fariña, M.A. Martinez-Prieto, and G. Navarro. Universal Indexes for Highly 
+Repetitive Document Collections. Information Systems 61:1-23, 2016. 
+(https://doi.org/10.1016/j.is.2016.04.002)
 
 uiHRDC includes non-positional and positional inverted indexes, which perform multiple forms 
 of compression, and three families of self-indexes.  A more detailled description of all 
@@ -18,7 +20,19 @@ collections and query patterns to evaluate different retrieval operations.
 More information about each proposed technique can be found in its directory. Nevertheless, 
 if you have any doubt or need more information, please feel free to contact us:
 
-- Francisco Claude: \<fclaude@recoded.cl\>
-- Antonio Fariña: \<fari@udc.es\>
-- Miguel A. Martínez-Prieto: \<migumar2@infor.uva.es\>
-- Gonzalo Navarro:  \<gnavarro@dcc.uchile.cl\>
+- Antonio Fariña:              fari@udc.es
+- Miguel A. Martínez-Prieto:   migumar2@infor.uva.es
+- Gonzalo Navarro:             gnavarro@dcc.uchile.cl
+- Francisco Claude:            fclaude@recoded.cl
+
+
+---------
+NOTE: We have also been invited to write reproducibility companion paper in Information Systems. In 
+this second paper we give a brief summary of the techniques in the previous paper, and
+include further details regarding how our experiments can be reproduced by using our __uiHRDC__ 
+framework. For more details please see/cite: 
+
+- A. Fariña, M.A. Martinez-Prieto, F. Claude, and G. Navarro. On the Reproducibility of 
+Experiments of Indexing Repetitive Document Collections. Information Systems. To appear, 2019.
+
+
