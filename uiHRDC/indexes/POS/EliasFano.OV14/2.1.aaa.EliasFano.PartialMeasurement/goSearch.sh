@@ -12,19 +12,19 @@ echo "   .. and computing parsing [a] and merge2occs [c] times from our    "
 echo "      source code. (Recall ../Readme.howto.txt)                      "
 echo "#####################################################################" 
 
-./SEARCH indexes/wiki2gb_ts1 E 1 "int2=merge;intn=svs;fsearch=seqM" < ../patterns/wiki2g.words.f1_1000
+./SEARCH indexes/wiki2gb_ts1 E 200 "int2=merge;intn=svs;fsearch=seqM" < ../patterns/wiki2g.words.f1_1000
 mv E.dat E_Wa.2.1.vbyte.dat
 mv fids.pat 2gb.wa.pat
 
-./SEARCH indexes/wiki2gb_ts1 E 1 "int2=merge;intn=svs;fsearch=seqM" < ../patterns/wiki2g.words.f1001_100k
+./SEARCH indexes/wiki2gb_ts1 E 200 "int2=merge;intn=svs;fsearch=seqM" < ../patterns/wiki2g.words.f1001_100k
 mv E.dat E_Wb.2.1.vbyte.dat
 mv fids.pat 2gb.wb.pat
 
-./SEARCH indexes/wiki2gb_ts1 N 1 "int2=merge;intn=svs;fsearch=seqM" < ../patterns/wiki2g_2_2
+./SEARCH indexes/wiki2gb_ts1 N 3 "int2=merge;intn=svs;fsearch=seqM" < ../patterns/wiki2g_2_2
 mv N.dat N_p2.2.1.vbyte.dat
 mv fids.pat 2gb.p2.pat
 
-./SEARCH indexes/wiki2gb_ts1 N 1 "int2=merge;intn=svs;fsearch=seqM" < ../patterns/wiki2g_5_5
+./SEARCH indexes/wiki2gb_ts1 N 3 "int2=merge;intn=svs;fsearch=seqM" < ../patterns/wiki2g_5_5
 mv N.dat N_p5.2.1.vbyte.dat
 mv fids.pat 2gb.p5.pat
 

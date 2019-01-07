@@ -1018,8 +1018,8 @@ int merge_2_uncompressFstSIMD (void *ail, uint id1, uint id2,  uint *noccs, uint
     register uint i, n = *noccs;
     for (i=0;i<n;i++) res[i] -=GAP1;
     
-    //free(arr1);
-    //free(arr2);
+    free(arr1);   //FARI 2018 DECEMBRO - UNCOMMENTED THIS TWO LINES!
+    free(arr2);
 
     return 0;
 }
@@ -1204,6 +1204,7 @@ int merge_N_SIMD (void *ail, uint *ids, uint nids, uint *noccs, uint **occs){
     uint* auxArr;
     uint auxLen;
     
+    
     //merge_2_uncompressFst(ail, lengths[0].pos, lengths[1].pos, &auxLen, &auxArr);
     uint GAP= lengths[0].gap;
     extractList_gap_il(ail,lengths[0].pos, &auxArr, &auxLen,GAP);
@@ -1212,12 +1213,24 @@ int merge_N_SIMD (void *ail, uint *ids, uint nids, uint *noccs, uint **occs){
     for(unsigned int i=1;(i<nids)&&(auxLen);i++){
         uint len;
         uint* arr;
+        uint *res;
         GAP= lengths[i].gap;
         extractList_gap_il(ail, lengths[i].pos, &arr, &len, GAP);
-        auxArr = intersect_aux_simd(auxArr,auxLen,arr,len,&auxLen);
-    	//printf("\n next merge = %lu occs (len1=%u, len2=%u)",auxLen, auxLen, len);
+   
+   //     auxArr = intersect_aux_simd(auxArr,auxLen,arr,len,&auxLen);
+   // 	free(arr);
+
+        res = intersect_aux_simd(auxArr,auxLen,arr,len,&auxLen);    //MODIFIED BY FARI ON DEC-2018 (AVOID HUGE MEMORY LEAK !!)
     	free(arr);
+    	free(auxArr);
+    	auxArr= res;
+
+
     }
+
+
+
+
     
     
     free(lengths);

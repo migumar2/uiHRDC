@@ -11,117 +11,12 @@ RLCSA:           41.4879 MB
 SA samples:      125.856 MB
 Total size:      167.344 MB
 
-time/occ:0.0022
+time/occ:0.0020
 
-Patterns:    1000 (9.80123 / sec)
-Total size:  9945 bytes (97.4732 / sec)
-Matches:     47408141 (464658 / sec)
-Time:        102.028 seconds
-
-
-RLCSA test
-Base name: ./indexes/wiki2gb.txt
-Sample: 128
-Sequences:       1
-Original size:   1991.05 MB
-Block size:      32 bytes
-Sample rate:     128
-
-RLCSA:           41.4879 MB
-  BWT only:      32.741 MB
-SA samples:      125.856 MB
-Total size:      167.344 MB
-
-time/occ:0.0021
-
-Patterns:    1000 (9.85727 / sec)
-Total size:  9945 bytes (98.0305 / sec)
-Matches:     47408141 (467315 / sec)
-Time:        101.448 seconds
-
-
-RLCSA test
-Base name: ./indexes/wiki2gb.txt
-Sample: 128
-Sequences:       1
-Original size:   1991.05 MB
-Block size:      32 bytes
-Sample rate:     128
-
-RLCSA:           41.4879 MB
-  BWT only:      32.741 MB
-SA samples:      125.856 MB
-Total size:      167.344 MB
-
-time/occ:0.0022
-
-Patterns:    1000 (9.74355 / sec)
-Total size:  9945 bytes (96.8996 / sec)
-Matches:     47408141 (461924 / sec)
-Time:        102.632 seconds
-
-
-RLCSA test
-Base name: ./indexes/wiki2gb.txt
-Sample: 128
-Sequences:       1
-Original size:   1991.05 MB
-Block size:      32 bytes
-Sample rate:     128
-
-RLCSA:           41.4879 MB
-  BWT only:      32.741 MB
-SA samples:      125.856 MB
-Total size:      167.344 MB
-
-time/occ:0.0021
-
-Patterns:    1000 (9.94708 / sec)
-Total size:  9945 bytes (98.9237 / sec)
-Matches:     47408141 (471573 / sec)
-Time:        100.532 seconds
-
-
-RLCSA test
-Base name: ./indexes/wiki2gb.txt
-Sample: 128
-Sequences:       1
-Original size:   1991.05 MB
-Block size:      32 bytes
-Sample rate:     128
-
-RLCSA:           41.4879 MB
-  BWT only:      32.741 MB
-SA samples:      125.856 MB
-Total size:      167.344 MB
-
-time/occ:0.0021
-
-Patterns:    1000 (9.88299 / sec)
-Total size:  9945 bytes (98.2863 / sec)
-Matches:     47408141 (468534 / sec)
-Time:        101.184 seconds
-
-
-RLCSA test
-Base name: ./indexes/wiki2gb.txt
-Sample: 128
-Sequences:       1
-Original size:   1991.05 MB
-Block size:      32 bytes
-Sample rate:     128
-
-RLCSA:           41.4879 MB
-  BWT only:      32.741 MB
-SA samples:      125.856 MB
-Total size:      167.344 MB
-
-time/occ:0.0022
-
-Patterns:    1000 (9.68917 / sec)
-Total size:  9945 bytes (96.3588 / sec)
-Matches:     47408141 (459346 / sec)
-Time:        103.208 seconds
+Patterns:    1000 (10.6883 / sec)
+Total size:  9945 bytes (106.295 / sec)
+Matches:     47408141 (506714 / sec)
+Time:        93.56 seconds
 
 
 RLCSA test
@@ -139,10 +34,10 @@ Total size:      167.344 MB
 
 time/occ:0.0020
 
-Patterns:    1000 (10.8108 / sec)
-Total size:  9945 bytes (107.514 / sec)
-Matches:     47408141 (512520 / sec)
-Time:        92.5 seconds
+Patterns:    1000 (10.6628 / sec)
+Total size:  9945 bytes (106.042 / sec)
+Matches:     47408141 (505504 / sec)
+Time:        93.784 seconds
 
 
 RLCSA test
@@ -160,10 +55,10 @@ Total size:      167.344 MB
 
 time/occ:0.0020
 
-Patterns:    1000 (10.7559 / sec)
-Total size:  9945 bytes (106.968 / sec)
-Matches:     47408141 (509918 / sec)
-Time:        92.972 seconds
+Patterns:    1000 (10.4149 / sec)
+Total size:  9945 bytes (103.576 / sec)
+Matches:     47408141 (493753 / sec)
+Time:        96.016 seconds
 
 
 RLCSA test
@@ -181,10 +76,10 @@ Total size:      167.344 MB
 
 time/occ:0.0020
 
-Patterns:    1000 (10.595 / sec)
-Total size:  9945 bytes (105.367 / sec)
-Matches:     47408141 (502290 / sec)
-Time:        94.384 seconds
+Patterns:    1000 (10.6943 / sec)
+Total size:  9945 bytes (106.355 / sec)
+Matches:     47408141 (506996 / sec)
+Time:        93.508 seconds
 
 
 RLCSA test
@@ -202,10 +97,115 @@ Total size:      167.344 MB
 
 time/occ:0.0020
 
-Patterns:    1000 (10.8001 / sec)
-Total size:  9945 bytes (107.407 / sec)
-Matches:     47408141 (512011 / sec)
-Time:        92.592 seconds
+Patterns:    1000 (10.5157 / sec)
+Total size:  9945 bytes (104.579 / sec)
+Matches:     47408141 (498529 / sec)
+Time:        95.096 seconds
+
+
+RLCSA test
+Base name: ./indexes/wiki2gb.txt
+Sample: 128
+Sequences:       1
+Original size:   1991.05 MB
+Block size:      32 bytes
+Sample rate:     128
+
+RLCSA:           41.4879 MB
+  BWT only:      32.741 MB
+SA samples:      125.856 MB
+Total size:      167.344 MB
+
+time/occ:0.0020
+
+Patterns:    1000 (10.6469 / sec)
+Total size:  9945 bytes (105.883 / sec)
+Matches:     47408141 (504750 / sec)
+Time:        93.924 seconds
+
+
+RLCSA test
+Base name: ./indexes/wiki2gb.txt
+Sample: 128
+Sequences:       1
+Original size:   1991.05 MB
+Block size:      32 bytes
+Sample rate:     128
+
+RLCSA:           41.4879 MB
+  BWT only:      32.741 MB
+SA samples:      125.856 MB
+Total size:      167.344 MB
+
+time/occ:0.0020
+
+Patterns:    1000 (10.6924 / sec)
+Total size:  9945 bytes (106.336 / sec)
+Matches:     47408141 (506909 / sec)
+Time:        93.524 seconds
+
+
+RLCSA test
+Base name: ./indexes/wiki2gb.txt
+Sample: 128
+Sequences:       1
+Original size:   1991.05 MB
+Block size:      32 bytes
+Sample rate:     128
+
+RLCSA:           41.4879 MB
+  BWT only:      32.741 MB
+SA samples:      125.856 MB
+Total size:      167.344 MB
+
+time/occ:0.0020
+
+Patterns:    1000 (10.5887 / sec)
+Total size:  9945 bytes (105.305 / sec)
+Matches:     47408141 (501992 / sec)
+Time:        94.44 seconds
+
+
+RLCSA test
+Base name: ./indexes/wiki2gb.txt
+Sample: 128
+Sequences:       1
+Original size:   1991.05 MB
+Block size:      32 bytes
+Sample rate:     128
+
+RLCSA:           41.4879 MB
+  BWT only:      32.741 MB
+SA samples:      125.856 MB
+Total size:      167.344 MB
+
+time/occ:0.0020
+
+Patterns:    1000 (10.6103 / sec)
+Total size:  9945 bytes (105.519 / sec)
+Matches:     47408141 (503015 / sec)
+Time:        94.248 seconds
+
+
+RLCSA test
+Base name: ./indexes/wiki2gb.txt
+Sample: 128
+Sequences:       1
+Original size:   1991.05 MB
+Block size:      32 bytes
+Sample rate:     128
+
+RLCSA:           41.4879 MB
+  BWT only:      32.741 MB
+SA samples:      125.856 MB
+Total size:      167.344 MB
+
+time/occ:0.0020
+
+Patterns:    1000 (10.6234 / sec)
+Total size:  9945 bytes (105.65 / sec)
+Matches:     47408141 (503635 / sec)
+Time:        94.132 seconds
 
 
 #################################

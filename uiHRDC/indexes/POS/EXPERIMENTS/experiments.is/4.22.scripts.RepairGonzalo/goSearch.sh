@@ -1,3 +1,6 @@
+rm -f S-LOG.dat*
+python ../../../../../utils-py/starttime.py  S-LOG.dat "Search-starts!"   ##LOGS-ELAPSED-TIMES
+
 #ln -s ../../II_docs/SEARCH_REPAIR_NOSKIP_NOTEXT SEARCH
 ln -s ../../II_docs/lib lib
 
@@ -22,3 +25,5 @@ mv N.dat N_p2.4.2.repairG.dat
 mv N.dat N_p5.4.2.repairG.dat
 
 echo "################################################################"
+
+python ../../../../../utils-py/endtime.py    S-LOG.dat                  ##LOGS-ELAPSED-TIMES

@@ -1,3 +1,8 @@
+rm -f S-E-LOG.dat*
+python ../../../../../utils-py/starttime.py  S-E-LOG.dat "Search-starts!"   ##LOGS-ELAPSED-TIMES (search + extract intervals)
+
+rm -f S-LOG.dat*
+python ../../../../../utils-py/starttime.py  S-LOG.dat "Search-starts!"   ##LOGS-ELAPSED-TIMES
 
 echo "################################################################" 
 rm -f E.dat
@@ -23,5 +28,8 @@ mv N.dat N_p5.2.1.vbyte.dat
 #cp N.dat N.2.1.vbyte.dat
 
 echo "################################################################"
+
+
+python ../../../../../utils-py/endtime.py    S-LOG.dat                  ##LOGS-ELAPSED-TIMES
 
 

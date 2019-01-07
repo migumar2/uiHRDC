@@ -22,7 +22,7 @@
  Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb path2lzmaencoder=./lib/lzmaEncoder; minbcssize=10
 
  Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb path2lzmaencoder=./lib/lzmaEncoder; minbcssize=10
-	Building time: 274.452 secs
+	Building time: 300.264 secs
 	Input: 20971541599 bytes --> Output 60185788 bytes.
 	Overall compression --> 0.29% (0.02 bits per char).
 

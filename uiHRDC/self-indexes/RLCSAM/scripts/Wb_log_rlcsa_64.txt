@@ -13,10 +13,10 @@ Total size:      292.534 MB
 
 time/occ:0.0011
 
-Patterns:    1000 (92.6612 / sec)
-Total size:  7288 bytes (675.315 / sec)
-Matches:     9644188 (893642 / sec)
-Time:        10.792 seconds
+Patterns:    1000 (98.0008 / sec)
+Total size:  7288 bytes (714.23 / sec)
+Matches:     9644188 (945138 / sec)
+Time:        10.204 seconds
 
 
 RLCSA test
@@ -34,10 +34,10 @@ Total size:      292.534 MB
 
 time/occ:0.0011
 
-Patterns:    1000 (91.4746 / sec)
-Total size:  7288 bytes (666.667 / sec)
-Matches:     9644188 (882198 / sec)
-Time:        10.932 seconds
+Patterns:    1000 (98.1547 / sec)
+Total size:  7288 bytes (715.351 / sec)
+Matches:     9644188 (946622 / sec)
+Time:        10.188 seconds
 
 
 RLCSA test
@@ -55,10 +55,10 @@ Total size:      292.534 MB
 
 time/occ:0.0011
 
-Patterns:    1000 (90.876 / sec)
-Total size:  7288 bytes (662.305 / sec)
-Matches:     9644188 (876426 / sec)
-Time:        11.004 seconds
+Patterns:    1000 (97.3899 / sec)
+Total size:  7288 bytes (709.778 / sec)
+Matches:     9644188 (939247 / sec)
+Time:        10.268 seconds
 
 
 RLCSA test
@@ -76,10 +76,10 @@ Total size:      292.534 MB
 
 time/occ:0.0011
 
-Patterns:    1000 (93.0752 / sec)
-Total size:  7288 bytes (678.332 / sec)
-Matches:     9644188 (897635 / sec)
-Time:        10.744 seconds
+Patterns:    1000 (98.3865 / sec)
+Total size:  7288 bytes (717.041 / sec)
+Matches:     9644188 (948858 / sec)
+Time:        10.164 seconds
 
 
 RLCSA test
@@ -97,10 +97,10 @@ Total size:      292.534 MB
 
 time/occ:0.0011
 
-Patterns:    1000 (91.3409 / sec)
-Total size:  7288 bytes (665.692 / sec)
-Matches:     9644188 (880909 / sec)
-Time:        10.948 seconds
+Patterns:    1000 (97.8474 / sec)
+Total size:  7288 bytes (713.112 / sec)
+Matches:     9644188 (943658 / sec)
+Time:        10.22 seconds
 
 
 RLCSA test
@@ -118,10 +118,10 @@ Total size:      292.534 MB
 
 time/occ:0.0011
 
-Patterns:    1000 (90.3506 / sec)
-Total size:  7288 bytes (658.475 / sec)
-Matches:     9644188 (871358 / sec)
-Time:        11.068 seconds
+Patterns:    1000 (97.6944 / sec)
+Total size:  7288 bytes (711.997 / sec)
+Matches:     9644188 (942183 / sec)
+Time:        10.236 seconds
 
 
 RLCSA test
@@ -139,10 +139,10 @@ Total size:      292.534 MB
 
 time/occ:0.0011
 
-Patterns:    1000 (91.3409 / sec)
-Total size:  7288 bytes (665.692 / sec)
-Matches:     9644188 (880909 / sec)
-Time:        10.948 seconds
+Patterns:    1000 (97.2763 / sec)
+Total size:  7288 bytes (708.949 / sec)
+Matches:     9644188 (938151 / sec)
+Time:        10.28 seconds
 
 
 RLCSA test
@@ -160,10 +160,10 @@ Total size:      292.534 MB
 
 time/occ:0.0011
 
-Patterns:    1000 (91.878 / sec)
-Total size:  7288 bytes (669.607 / sec)
-Matches:     9644188 (886089 / sec)
-Time:        10.884 seconds
+Patterns:    1000 (94.4109 / sec)
+Total size:  7288 bytes (688.066 / sec)
+Matches:     9644188 (910516 / sec)
+Time:        10.592 seconds
 
 
 RLCSA test
@@ -181,10 +181,10 @@ Total size:      292.534 MB
 
 time/occ:0.0011
 
-Patterns:    1000 (91.4411 / sec)
-Total size:  7288 bytes (666.423 / sec)
-Matches:     9644188 (881875 / sec)
-Time:        10.936 seconds
+Patterns:    1000 (97.6944 / sec)
+Total size:  7288 bytes (711.997 / sec)
+Matches:     9644188 (942183 / sec)
+Time:        10.236 seconds
 
 
 RLCSA test
@@ -202,10 +202,10 @@ Total size:      292.534 MB
 
 time/occ:0.0011
 
-Patterns:    1000 (90.4814 / sec)
-Total size:  7288 bytes (659.428 / sec)
-Matches:     9644188 (872619 / sec)
-Time:        11.052 seconds
+Patterns:    1000 (98.3091 / sec)
+Total size:  7288 bytes (716.477 / sec)
+Matches:     9644188 (948111 / sec)
+Time:        10.172 seconds
 
 
 #################################

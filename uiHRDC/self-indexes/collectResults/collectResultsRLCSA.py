@@ -233,7 +233,7 @@ for pref in prefixesL:
     outputFile = basename+"/"+pref+"_"+basename
     if os.path.exists(outputFile):
         os.remove(outputFile)
-        addDataToLog(outputFile,header)
+    addDataToLog(outputFile,header)
 
     for s in samples:
         inputfile= srcdir + "/" + pref+"_log_"+basename+"_"+str(s)+".txt"
@@ -258,7 +258,7 @@ for pref in prefixesE:
     outputFile = basename+"/"+pref+"_"+basename
     if os.path.exists(outputFile):
         os.remove(outputFile)
-        addDataToLog(outputFile,header)
+    addDataToLog(outputFile,header)
     
     for s in samples:
         inputfile= srcdir + "/" + pref+"_log_"+basename+"_E"+str(s)+".txt"

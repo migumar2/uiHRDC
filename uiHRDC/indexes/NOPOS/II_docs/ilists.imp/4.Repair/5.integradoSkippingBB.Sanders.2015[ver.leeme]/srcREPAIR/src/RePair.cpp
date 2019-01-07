@@ -236,8 +236,10 @@ bool RePair::save(uint nodes) {
 
 bool RePair::saveRPFile(uint nodes) {
   nodes++;
-  const char * fname = (basename+".rp").data();
-	FILE * fp = fopen64(fname,"w");
+// const char * fname = (basename+".rp").data();
+//	FILE * fp = fopen64(fname,"w");                     //@ failed in ubuntu18 (gcc 5.4)
+	FILE * fp = fopen64((basename+".rp").data(),"w");   //@ fari @2018! corrected
+
 	assert(fp!=NULL);
 	fwrite(&mini,sizeof(uint),1,fp);
 	fwrite(&max_value,sizeof(uint),1,fp);

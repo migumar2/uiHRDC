@@ -1,0 +1,9 @@
+
+
+f1 --> Corresponds to f3  in the parent paper, i.e.: ii-no-pos (traditional iis)
+f2 --> Corresponds to f4  in the parent paper, i.e.: ii-no-pos (best ones from state-of-the-art VS OUR new variants)
+f3 --> Corresponds to f6  in the parent paper, i.e.: ii-positional (best traditional iis)
+f4 --> Corresponds to f9  in the parent paper, i.e.: ii-positional VS self-indexes)
+f5 --> Corresponds to f10 in the parent paper, i.e.: extracting times (Repair-text VS self-index.extract() )
+
+

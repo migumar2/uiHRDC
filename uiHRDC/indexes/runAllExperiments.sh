@@ -55,15 +55,23 @@ echo "---------------------------------------------------------------------"
 echo ""
 
 
+rm -f NOPOS/NOPOS-LOG*
+python ../utils-py/starttime.py  NOPOS/NOPOS-LOG.dat "Build-starts!"   ##LOGS-ELAPSED-TIMES
+ cd NOPOS
+   sh compileAllSources.sh
+	  sh runExperiments.sh
+	  cd ..
+python ../utils-py/endtime.py  NOPOS/NOPOS-LOG.dat                     ##LOGS-ELAPSED-TIMES
 
-cd NOPOS
-	sh compileAllSources.sh
-	sh runExperiments.sh
-	cd ..
+
+rm -f POS/POS-LOG*
+python ../utils-py/starttime.py  POS/POS-LOG.dat "Build-starts!"       ##LOGS-ELAPSED-TIMES
 cd POS
-	sh compileAllSources.sh
-	sh runExperiments.sh
-	cd ..
+ 	sh compileAllSources.sh
+ 	sh runExperiments.sh
+ 	cd ..
+python ../utils-py/endtime.py  POS/POS-LOG.dat                         ##LOGS-ELAPSED-TIMES
+
 
 
 ##   echo "NON-POSITIONAL"; ls -lR NOPOS |grep E_Wa ;sleep 5; echo "POSITIONAL"; ls -lR POS |grep E_Wa

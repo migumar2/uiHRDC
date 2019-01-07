@@ -1,2 +1,2 @@
 #   totalSize(byte)	  msec/pat	  usec/occ	     occs	numpats	#indexbasename
-         793299511	  ????????	  0.060997	  9032540	   1000	#13.varint.dat
+         793299511	  ????????	0.071665773	  9032540	   1000	#13.varint.dat

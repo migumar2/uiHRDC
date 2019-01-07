@@ -4,6 +4,9 @@ ln -s ../../II_docs/SEARCH_REPAIR_SKIP_NOTEXT SEARCH
 ln -s ../../II_docs/lib lib
 mkdir indexes
 
+rm -f B-LOG.dat*
+python ../../../../../utils-py/starttime.py  B-LOG.dat "Build-starts!"   ##LOGS-ELAPSED-TIMES
+
 echo "################################################################" 
 
 
@@ -14,3 +17,4 @@ echo "################################################################"
 ./BUILD ../../textos/text20gb.txt indexes/wiki20gb "filename=indexes/wiki20gb; lenBitmapDiv=1; maxMemRepair=2000000000; replacesPerIter = 1000; repairBreak=0.0004; path2convert=./lib/convert; path2build_bitmap=./lib/build_bitmap; path2build_index=./lib/build_index; path2compress_dictionary=./lib/compressDictionary"
 
 echo "################################################################"
+python ../../../../../utils-py/endtime.py    B-LOG.dat                  ##LOGS-ELAPSED-TIMES

@@ -172,7 +172,7 @@ int main (int argc, char *argv[])
 					fprintf(gnuFile,"#%15s\t%15s\t%15s\t%15s\t%15s\t%s\n","totaSize(byte)","msec/pat","usec/occ","occs","numpats","#indexBaseName");
 				}
 				else {
-					fprintf(gnuFile,"\n\n#%15s\t%10s\t%15s\t%15s\t%15s\t%15s\t%s\n","totaSize(byte)", "ratio (%)","msec/doc","usec/char","chars","ndocs",  "#indexBaseName");
+					fprintf(gnuFile,"#%15s\t%10s\t%15s\t%15s\t%15s\t%15s\t%s\n","totaSize(byte)", "ratio (%)","msec/doc","usec/char","chars","ndocs",  "#indexBaseName");
 
 		  
 				}

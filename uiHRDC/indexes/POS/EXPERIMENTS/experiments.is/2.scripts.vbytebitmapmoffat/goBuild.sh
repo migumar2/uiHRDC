@@ -2,6 +2,9 @@ ln -s ../../II_docs/BUILD_VBYTE_MOFFAT_REPAIR_T   BUILD
 ln -s ../../II_docs/SEARCH_VBYTE_MOFFAT_REPAIR_T  SEARCH
 mkdir indexes
 
+rm -f B-LOG.dat*
+python ../../../../../utils-py/starttime.py  B-LOG.dat "Build-starts!"   ##LOGS-ELAPSED-TIMES
+
 
 echo "################################################################" 
  
@@ -10,4 +13,5 @@ echo "################################################################"
 
 echo "################################################################"
 
-sleep 50
+python ../../../../../utils-py/endtime.py    B-LOG.dat                  ##LOGS-ELAPSED-TIMES
+

@@ -1,3 +1,7 @@
+rm -f S-LOG.dat*
+python ../../../../../utils-py/starttime.py  S-LOG.dat "Search-starts!"   ##LOGS-ELAPSED-TIMES
+
+
 #!/bin/bash
 rm -f E.dat
 rm -f N.dat
@@ -13,8 +17,8 @@ echo "################################################################"
 
 
 #SAMPLEK="2 4 16 64 256"
-SAMPLEK="16  256"
-#SAMPLEK="16"
+#SAMPLEK="16  256"
+SAMPLEK=" 256"
 
 ###
 	for i in $SAMPLEK;
@@ -30,8 +34,8 @@ SAMPLEK="16  256"
 echo "################################################################"
 
 #SAMPLEK="2 4 16 64 256"
-SAMPLEK="16  256"
-#SAMPLEK="16"
+#SAMPLEK="16  256"
+SAMPLEK=" 256"
 
 ###
 	for i in $SAMPLEK;
@@ -48,8 +52,8 @@ echo "################################################################"
 
 
 #SAMPLEK="2 4 16 64 256"
-SAMPLEK="16  256"
-#SAMPLEK="16"
+#SAMPLEK="16  256"
+SAMPLEK=" 256"
 
 ###
 	for i in $SAMPLEK;
@@ -66,8 +70,8 @@ echo "################################################################"
 
 
 #SAMPLEK="2 4 16 64 256"
-SAMPLEK="16  256"
-#SAMPLEK="16"
+#SAMPLEK="16  256"
+SAMPLEK=" 256"
 
 ###
 	for i in $SAMPLEK;
@@ -84,5 +88,4 @@ SAMPLEK="16  256"
 echo "################################################################"
 
 
-
-
+python ../../../../../utils-py/endtime.py    S-LOG.dat                  ##LOGS-ELAPSED-TIMES

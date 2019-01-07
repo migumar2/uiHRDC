@@ -1,0 +1,18 @@
+
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb filename=indexes/wiki20gb; lenBitmapDiv=1; maxMemRepair=2000000000; replacesPerIter = 1000; repairBreak=0.0004; path2convert=./lib/convert; path2build_bitmap=./lib/build_bitmap; path2build_index=./lib/build_index; path2compress_dictionary=./lib/compressDictionary
+	Building time: 301.864 secs
+	Input: 20971541599 bytes --> Output 40653578 bytes.
+	Overall compression --> 0.19% (0.02 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 96 bytes.
+	 number of diff words= 534120
+	 number of docs (ndocs)= 881802
+	 vocabulary of words = 6189846 bytes.
+	 Inverted list-structure = 34463636 bytes.
+	 Text (compressed representation) = 0 bytes.
+	 Whole index = 40653578 bytes  ** Ratio = 0.194 % **
+ 
+=====================================

@@ -1,26 +1,26 @@
 
- Search: ./SEARCH indexes/wiki20gb: 5 int2=merge;intn=merge
+ Search: ./SEARCH indexes/wiki20gb: 100 int2=merge;intn=merge
 	Load index time = 0.000000 sec
 	Index size = 92563242 bytes = (90393 Kbytes)
 	 source size = 20971541599 bytes ==> ratio = 0.441%
 	** Operation = I ** numpatts = 1000, wordsXpattern=2-2
 	**size_Index= 92563242 bytes, size_Inv-lists= 86373300 bytes, size_compText= 0 bytes
 	Total Num occs found = 83166310
-	Extract:Intersect:Intersect time = 0.922400 sec
-	Extract:Intersect/Num_occs = 0.000011 msec/occss
-	Extract:Intersect_time/pat = 0.92240000 msec/pat
-		(Load_time+Extract:Intersect)/Num_occs = 0.000011  msec/occs
+	Extract:Intersect:Intersect time = 0.839800 sec
+	Extract:Intersect/Num_occs = 0.000010 msec/occss
+	Extract:Intersect_time/pat = 0.83980000 msec/pat
+		(Load_time+Extract:Intersect)/Num_occs = 0.000010  msec/occs
 
 
- Search: ./SEARCH indexes/wiki20gb: 5 int2=merge;intn=merge
+ Search: ./SEARCH indexes/wiki20gb: 100 int2=merge;intn=merge
 	Load index time = 0.000000 sec
 	Index size = 92563242 bytes = (90393 Kbytes)
 	 source size = 20971541599 bytes ==> ratio = 0.441%
 	** Operation = N ** numpatts = 1000, wordsXpattern=5-5
 	**size_Index= 92563242 bytes, size_Inv-lists= 86373300 bytes, size_compText= 0 bytes
 	Total Num occs found = 17179908
-	Extract:Intersect:Intersect time = 2.186400 sec
-	Extract:Intersect/Num_occs = 0.000127 msec/occss
-	Extract:Intersect_time/pat = 2.18640000 msec/pat
-		(Load_time+Extract:Intersect)/Num_occs = 0.000127  msec/occs
+	Extract:Intersect:Intersect time = 2.126080 sec
+	Extract:Intersect/Num_occs = 0.000124 msec/occss
+	Extract:Intersect_time/pat = 2.12608000 msec/pat
+		(Load_time+Extract:Intersect)/Num_occs = 0.000124  msec/occs
 

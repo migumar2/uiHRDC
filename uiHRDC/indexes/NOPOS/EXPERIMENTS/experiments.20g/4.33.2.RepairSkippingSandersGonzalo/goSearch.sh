@@ -1,4 +1,8 @@
 #!/bin/bash
+
+rm -f S-LOG.dat*
+python ../../../../../utils-py/starttime.py  S-LOG.dat "Search-starts!"   ##LOGS-ELAPSED-TIMES
+
 rm -f E.dat
 rm -f N.dat
 ln -s ../../II_docs/SEARCH_REPAIR_SKIP_SANDERS_NOTEXT SEARCH
@@ -6,7 +10,8 @@ ln -s ../../II_docs/lib lib
 echo "################################################################" 
 
 #SAMPLEK="8 16 64 256 1024"
-SAMPLEK=" 64 256 1024"
+#SAMPLEK=" 64 256 1024"
+SAMPLEK="1024"
 
 ###
 	for i in $SAMPLEK;
@@ -33,7 +38,7 @@ SAMPLEK=" 64 256 1024"
 	do
 		echo "- [P2]-- II-REPAIR-SKIPPING-SAMPLING-SANDERS SAMPLEK = $i -----------------------"
 		./sampleK indexes/wiki20gb $i
-		./SEARCH indexes/wiki20gb N   4 "int2=lookup;intn=lookup" < ../../patterns/wiki20g_2_2
+		./SEARCH indexes/wiki20gb N   50 "int2=lookup;intn=lookup" < ../../patterns/wiki20g_2_2
 		./appendLastLine N.dat sampleK=$i
 	done
 	mv  N.dat N_p2.4.3.2repairG.skipping.sanders.dat 
@@ -43,7 +48,7 @@ SAMPLEK=" 64 256 1024"
 	do
 		echo "- [P4]-- II-REPAIR-SKIPPING-SAMPLING-SANDERS SAMPLEK = $i -----------------------"
 		./sampleK indexes/wiki20gb $i
-		./SEARCH indexes/wiki20gb N   4 "int2=lookup;intn=lookup" < ../../patterns/wiki20g_5_5
+		./SEARCH indexes/wiki20gb N   50 "int2=lookup;intn=lookup" < ../../patterns/wiki20g_5_5
 		./appendLastLine N.dat sampleK=$i
 	done
 	mv  N.dat N_p5.4.3.2repairG.skipping.sanders.dat 
@@ -65,3 +70,7 @@ echo "################################################################"
 #cp E.dat E.4.3.repair.skipping.dat
 #cp I.dat I.4.3.repair.skipping.dat
 #cp N.dat N.4.3.repair.skipping.dat
+
+
+
+python ../../../../../utils-py/endtime.py    S-LOG.dat                  ##LOGS-ELAPSED-TIMES

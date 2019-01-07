@@ -12,11 +12,11 @@ RePair::RePair(uint * buff, uint datalen, uint _bufflen, char * _basename, uint 
 	long maxi = data_tmp[0];
 	for(uint i=1;i<m;i++) {
 		if(mini>data_tmp[i]) mini=data_tmp[i];  //** minimo valor en el buff.
-		if(maxi<data_tmp[i]) maxi=data_tmp[i];  //** mï¿½ximo valor en el buff
+		if(maxi<data_tmp[i]) maxi=data_tmp[i];  //** máximo valor en el buff
 	}
 	mini--;
 	for(uint i=0;i<datalen;i++) 
-		data[i]=data[i]-mini;   //** valores a assignar son trasladados de n, n' --> n-mini, n' -mini (alguno serï¿½ zero)
+		data[i]=data[i]-mini;   //** valores a assignar son trasladados de n, n' --> n-mini, n' -mini (alguno será zero)
 	max_assigned = maxi-mini;  
 	max_value = max_assigned;   //**
 	
@@ -37,7 +37,7 @@ RePair::~RePair() {
 	fclose(fpDict);
 }
 
-//** mete en "heap" los k pares mï¿½s frecuentes   { <pos_1, freq_1>  <pos_2, freq_2>...<pos_k, freq_k> }
+//** mete en "heap" los k pares más frecuentes   { <pos_1, freq_1>  <pos_2, freq_2>...<pos_k, freq_k> }
 void RePair::fillHeap() {
   if(heap!=NULL) {
     delete heap;
@@ -68,19 +68,19 @@ void RePair::fillHeap() {
 	} while(pos!=blastpos);
 
 	int * hasharray = (int*)(data+m+1);
-	for(uint i=0;i<hashsize;i++)         //** INSERCIï¿½N EN EL HEAP ==> ya calcula los K mï¿½s frecuentes.
-		if(hasharray[2*i]>=0)   //** slot ocupado (pues es != -1)  --> insertar en la heap (se queda con los k mï¿½s frecuentes)
+	for(uint i=0;i<hashsize;i++)         //** INSERCIÓN EN EL HEAP ==> ya calcula los K más frecuentes.
+		if(hasharray[2*i]>=0)   //** slot ocupado (pues es != -1)  --> insertar en la heap (se queda con los k más frecuentes)
 		  heap->insert(new pair<uint,uint>((uint)hasharray[2*i],(uint)hasharray[2*i+1]));
 	delete hpos;
 }
 
 uint RePair::replacePairs() {
-  fillHeap();   //** Heap contendrï¿½ los K pares <posInic, contador> mï¿½s frecuentes. Ojo, alguno podrï¿½a quedar con "contador =1" !!
+  fillHeap();   //** Heap contendrá los K pares <posInic, contador> más frecuentes. Ojo, alguno podría quedar con "contador =1" !!
 	uint c = 0;
   uint countR = 0;
 	uint hashsize = (bufflen-m-1)/2;
 
-	for(uint i=1;i<heap->inserted;i++)   //** cuenta el nï¿½mero de pares con freq > 1
+	for(uint i=1;i<heap->inserted;i++)   //** cuenta el número de pares con freq > 1
 		if(heap->elements[i]!=NULL && heap->elements[i]->second>1) 
 			c++;
 
@@ -91,7 +91,7 @@ uint RePair::replacePairs() {
 	}
 
 
-	//** ***** PASO 3: Reemplazo simultï¿½neo en una ï¿½nica pasada sobre data. *****
+	//** ***** PASO 3: Reemplazo simultáneo en una única pasada sobre data. *****
 	
   uint _c = c;
 	pair<uint,uint> ** ret = new pair<uint,uint>*[c];  //** defino array de c "pares" <pos, count>
@@ -100,7 +100,7 @@ uint RePair::replacePairs() {
 		if(heap->elements[i]!=NULL && heap->elements[i]->second>1) {
 			uint pos = heap->elements[i]->first;             //** mete los pares en la hash table de Pares (orden decreciente de freq)
 			ret[--c] = new pair<uint,uint>(pos,NOT_SEEN);  //** lo pone como "not_seen"
-			hpairs->insert(data[pos],data[pos+1],c);  // c es el nï¿½mero de par!!
+			hpairs->insert(data[pos],data[pos+1],c);  // c es el número de par!!
 		}
 
 
@@ -113,7 +113,7 @@ uint RePair::replacePairs() {
 				case NOT_SEEN: ret[c]->first = i;
 				               ret[c]->second = FIRST;
 											 break;
-				case FIRST: 	if(data[ret[c]->first]==data[i] && data[ret[c]->first+1]==data[i+1]) {  //**si aï¿½n es posible aï¿½adirlo
+				case FIRST: 	if(data[ret[c]->first]==data[i] && data[ret[c]->first+1]==data[i+1]) {  //**si aún es posible añadirlo
 											if(i==ret[c]->first+1) break;
 											addRule(++max_assigned,data[i],data[i+1]);
 											ret[c]->second = max_assigned;
@@ -146,7 +146,7 @@ uint RePair::replacePairs() {
 }
 
 
-//compacta vector (quitando los segundos elementos "invï¿½lidos == 0"
+//compacta vector (quitando los segundos elementos "inválidos == 0"
 void RePair::rearrange() {
 	uint rptr=0;
 	for(uint i=0;i<m;i++) {
@@ -188,8 +188,8 @@ void RePair::compress(uint nodes) {
     cout << "m vale = " << m << endl;
     while(replacePairs()>0) {  //** mientras se hayan hecho reemplazos...
       //cout.setw(2);
-      //cout << "Repair.compress: It: " << i++ << " compressed: " << 100.*m/n << "%" << " m=" << m << endl;
       cout << "Repair.compress: It: " << i++ << " compressed: " << 100.*m/n << "%" << " m=" << m <<  ", diff prev iter =" << (prevRatio - (100.0*m/n)) << endl;
+
    	  //cout << "Repair.compress: It: " << i++ << " compressed: " << 100.*m/n << "%" << " m=" << m << endl;
 	  
 	  //if ((100.*m/n)<43.0) break;	  
@@ -199,9 +199,9 @@ void RePair::compress(uint nodes) {
 	  //if ((100.*m/n)<45.0) break;
 	  //if ((100.*m/n)<47.0) break;
 	//  if ((100.*m/n)< CORTE_REPAIR) break;	    //con break_bitmap=8
-	  
-	//if  (  ((prevRatio - (100.*m/n)) < 0.00005 )  ||  ((100.*m/n)< CORTE_REPAIR) ) break;
-	//if  (  ((prevRatio - (100.*m/n)) < 0.00005 )  ||  (((prevRatio - (100.*m/n)) < CORTE_REPAIR) ) ) break;
+	//  if  (  ((prevRatio - (100.*m/n)) < 0.0005 )  ||  ((100.*m/n)< CORTE_REPAIR) ) break;
+	//  if  (  ((prevRatio - (100.*m/n)) < 0.00000005 )  ||  (((prevRatio - (100.*m/n)) < CORTE_REPAIR) ) ) break;
+	  	  
 	  if  (((prevRatio - (100.*m/n)) < CORTE_REPAIR) )  break;
 	  prevRatio = (100.*m/n);
 
@@ -210,10 +210,9 @@ void RePair::compress(uint nodes) {
     
     cout << "lasti vale " << lasti << " i vale " << i ;  //** fari **/
     if(lasti<=i) break;
-
     	
     	
-    uint sorted=0;                           //** Normalmente no entra aquï¿½ !!! **/
+    uint sorted=0;                           //** Normalmente no entra aquí !!! **/
     cout << "Reordering symbols: ";
     cout.flush();
     for(uint j=0;j<m;j++) {
@@ -237,8 +236,10 @@ bool RePair::save(uint nodes) {
 
 bool RePair::saveRPFile(uint nodes) {
   nodes++;
-  const char * fname = (basename+".rp").data();
-	FILE * fp = fopen64(fname,"w");
+// const char * fname = (basename+".rp").data();
+//	FILE * fp = fopen64(fname,"w");                     //@ failed in ubuntu18 (gcc 5.4)
+	FILE * fp = fopen64((basename+".rp").data(),"w");   //@ fari @2018! corrected
+
 	assert(fp!=NULL);
 	fwrite(&mini,sizeof(uint),1,fp);
 	fwrite(&max_value,sizeof(uint),1,fp);
@@ -248,16 +249,16 @@ bool RePair::saveRPFile(uint nodes) {
   fwrite(&nodes,sizeof(uint),1,fp);
   uint writ = 0;
 	for(uint i=0;i<m;i++) {
-	    if(data[i]>nodes) {                           //** sï¿½lo escribe en "rp" los "edges".
+	    if(data[i]>nodes) {                           //** sólo escribe en "rp" los "edges".
 	      data[i]-=(nodes);                           //** resta "nodes" a todos los ejes  **
 	  		fwrite(&data[i],sizeof(uint),1,fp);
-	      writ++;                                     //** cuenta el nï¿½mero de elementos escritos.
+	      writ++;                                     //** cuenta el número de elementos escritos.
 	    }
 	}
   fwrite(&data[m],sizeof(uint),1,fp);
   fseeko64(fp,3*sizeof(uint),SEEK_SET);          //** reemplaza el valor "max_assigned".
 	fwrite(&writ,sizeof(uint),1,fp);
-  n -= (m-writ);                                  //** tamaï¿½o real del texto comprimido quitando "nodos"
+  n -= (m-writ);                                  //** tamaño real del texto comprimido quitando "nodos"
 	fwrite(&n,sizeof(uint),1,fp);                //** reemplaza el valor "m".
 	fclose(fp);
   return true;

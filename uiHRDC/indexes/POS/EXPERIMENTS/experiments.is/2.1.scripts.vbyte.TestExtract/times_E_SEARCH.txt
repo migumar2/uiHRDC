@@ -1,15 +1,15 @@
 
  Search: ./SEARCH indexes/wiki2gb: 200 int2=merge;intn=svs;fsearch=seqM
-	Load index time = 0.000000 sec
+	Load index time = 0.004000 sec
 	Index size = 733912785 bytes = (716711 Kbytes)
 	 source size = 2087767849 bytes ==> ratio = 35.153%
 	** Operation = N ** numpatts = 1000, wordsXpattern=0-0
 	**size_Index= 733912785 bytes, size_Inv-lists= 705070593 bytes, size_compText= 25280492 bytes
 	Total Num occs found = 99228
-	Locate time = 0.001640 sec
-	Locate time/Num_occs = 0.000017 msec/occss
-	Locate_time/pat = 0.00164000 msec/pat
-		(Load_time+locate time)/Num_occs = 0.000017  msec/occs
+	Locate time = 0.001280 sec
+	Locate time/Num_occs = 0.000013 msec/occss
+	Locate_time/pat = 0.00128000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000053  msec/occs
 
 
  Search: ./SEARCH indexes/wiki2gb: 200 int2=merge;intn=svs;fsearch=seqM
@@ -19,8 +19,8 @@
 	** Operation = N ** numpatts = 1000, wordsXpattern=0-0
 	**size_Index= 733912785 bytes, size_Inv-lists= 705070593 bytes, size_compText= 25280492 bytes
 	Total Num occs found = 5701883
-	Locate time = 0.025160 sec
+	Locate time = 0.023640 sec
 	Locate time/Num_occs = 0.000004 msec/occss
-	Locate_time/pat = 0.02516000 msec/pat
+	Locate_time/pat = 0.02364000 msec/pat
 		(Load_time+locate time)/Num_occs = 0.000004  msec/occs
 

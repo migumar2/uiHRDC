@@ -6,10 +6,10 @@
 	** Operation = I ** numpatts = 1000, wordsXpattern=2-2
 	**size_Index= 2857657448 bytes, size_Inv-lists= 2828815256 bytes, size_compText= 25280492 bytes
 	Total Num occs found = 31932037
-	Locate time = 1.576000 sec
-	Locate time/Num_occs = 0.000049 msec/occss
-	Locate_time/pat = 1.57600000 msec/pat
-		(Load_time+locate time)/Num_occs = 0.000049  msec/occs
+	Locate time = 1.828000 sec
+	Locate time/Num_occs = 0.000057 msec/occss
+	Locate_time/pat = 1.82800000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000057  msec/occs
 
 
  Search: ./SEARCH indexes/wiki2gb: 2 int2=merge;intn=merge
@@ -19,8 +19,8 @@
 	** Operation = N ** numpatts = 1000, wordsXpattern=5-5
 	**size_Index= 2857657448 bytes, size_Inv-lists= 2828815256 bytes, size_compText= 25280492 bytes
 	Total Num occs found = 9032540
-	Locate time = 4.726000 sec
-	Locate time/Num_occs = 0.000523 msec/occss
-	Locate_time/pat = 4.72600000 msec/pat
-		(Load_time+locate time)/Num_occs = 0.000523  msec/occs
+	Locate time = 4.914000 sec
+	Locate time/Num_occs = 0.000544 msec/occss
+	Locate_time/pat = 4.91400000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000544  msec/occs
 

@@ -1,3 +1,6 @@
+rm -f S-LOG.dat*
+python ../../../utils-py/starttime.py  S-LOG.dat "Search-starts!"   ##LOGS-ELAPSED-TIMES
+
 echo "---------------------------------------------------------------"
 echo "- Running Locate and extract experiments -"
 echo "---------------------------------------------------------------"
@@ -138,3 +141,7 @@ echo "**************************************************************************
 ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k M
 
 mv M.dat M.swcsa.dat
+
+
+
+python ../../../utils-py/endtime.py    S-LOG.dat                  ##LOGS-ELAPSED-TIMES

@@ -813,6 +813,7 @@ FILE *FLOG = fopen(flogname,"w");
 	/********* timing on *******************/	
 	atime = getTime ();
 
+	fprintf(stderr,"\n#iter %d of %d # ",1,REPETITIONS_INTERSECT);   
 	int j;
 	for (j=0;j<REPETITIONS_INTERSECT;j++) {
 	  tot_numocc=0;
@@ -835,7 +836,7 @@ FILE *FLOG = fopen(flogname,"w");
 
 		  
 		  if (occ) free (occ);	
-		  fprintf(stderr,"@"); 			
+		  //fprintf(stderr,"@"); 			
 
 			#ifdef DO_LOG_OUTPUT
 			fprintf(FLOG,"\n #iter %d of %d: pattern = \"%s\" ",i, numpatt, pattern);
@@ -844,7 +845,9 @@ FILE *FLOG = fopen(flogname,"w");
 
 	  }
 	  
-	fprintf(stderr,"#iter %d of %d finishes# ",j+1,REPETITIONS_INTERSECT);
+	//fprintf(stderr,"#iter %d of %d finishes# ",j+1,REPETITIONS_INTERSECT);
+	fprintf(stderr,"\r#iter %d of %d finished# ",j+1,REPETITIONS_INTERSECT);   
+
 	}
 	
    
@@ -852,7 +855,7 @@ FILE *FLOG = fopen(flogname,"w");
 	tot_time /= (double) REPETITIONS_INTERSECT;		
 	
 	/************ timing off *******************/
-	
+	fprintf(stderr,"\n");		
 	fflush(stdout);fflush(stderr);
 
 

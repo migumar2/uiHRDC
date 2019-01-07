@@ -1,6 +1,6 @@
 
  Building index qgrams: ./BUILD ../../text2gb/wiki_src2gb.txt indexes/wiki2gb no params
-	Building time: 674.836 secs
+	Building time: 723.120 secs
 	Input: 2087767849 bytes --> Output 733912785 bytes.
 	Overall compression --> 35.15% (2.81 bits per char).
 
@@ -19,7 +19,7 @@
 =====================================
 
  Building index qgrams: ./BUILD ../../text2gb/wiki_src2gb.txt indexes/wiki2gb_ts1 sample_ct=1
-	Building time: 661.364 secs
+	Building time: 717.112 secs
 	Input: 2087767849 bytes --> Output 735904701 bytes.
 	Overall compression --> 35.25% (2.82 bits per char).
 
@@ -37,8 +37,27 @@
  
 =====================================
 
+ Building index qgrams: ./BUILD ../../text2gb/wiki_src2gb.txt indexes/wiki2gb_ts2 sample_ct=2
+	Building time: 728.896 secs
+	Input: 2087767849 bytes --> Output 735062837 bytes.
+	Overall compression --> 35.21% (2.82 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 104 bytes.
+	 number of diff words= 250550
+	 number of docs (ndocs)= 149761
+	 vocabulary of words = 2962548 bytes.
+	 Mapping Docs-2-wordposition = 599048 bytes.
+	 Inverted list-structure = 705070593 bytes.
+	 Text (compressed representation) = 26430544 bytes.
+	 Whole index = 735062837 bytes  ** Ratio = 35.208 % **
+ 
+=====================================
+
  Building index qgrams: ./BUILD ../../text2gb/wiki_src2gb.txt indexes/wiki2gb_ts8 sample_ct=8
-	Building time: 647.748 secs
+	Building time: 725.612 secs
 	Input: 2087767849 bytes --> Output 734267993 bytes.
 	Overall compression --> 35.17% (2.81 bits per char).
 
@@ -57,7 +76,7 @@
 =====================================
 
  Building index qgrams: ./BUILD ../../text2gb/wiki_src2gb.txt indexes/wiki2gb_ts32 sample_ct=32
-	Building time: 648.148 secs
+	Building time: 723.628 secs
 	Input: 2087767849 bytes --> Output 734017801 bytes.
 	Overall compression --> 35.16% (2.81 bits per char).
 
@@ -75,8 +94,27 @@
  
 =====================================
 
+ Building index qgrams: ./BUILD ../../text2gb/wiki_src2gb.txt indexes/wiki2gb_ts64 sample_ct=64
+	Building time: 715.732 secs
+	Input: 2087767849 bytes --> Output 733968573 bytes.
+	Overall compression --> 35.16% (2.81 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 104 bytes.
+	 number of diff words= 250550
+	 number of docs (ndocs)= 149761
+	 vocabulary of words = 2962548 bytes.
+	 Mapping Docs-2-wordposition = 599048 bytes.
+	 Inverted list-structure = 705070593 bytes.
+	 Text (compressed representation) = 25336280 bytes.
+	 Whole index = 733968573 bytes  ** Ratio = 35.156 % **
+ 
+=====================================
+
  Building index qgrams: ./BUILD ../../text2gb/wiki_src2gb.txt indexes/wiki2gb_ts256 sample_ct=256
-	Building time: 604.964 secs
+	Building time: 716.712 secs
 	Input: 2087767849 bytes --> Output 733928213 bytes.
 	Overall compression --> 35.15% (2.81 bits per char).
 
@@ -95,7 +133,7 @@
 =====================================
 
  Building index qgrams: ./BUILD ../../text2gb/wiki_src2gb.txt indexes/wiki2gb_ts4k sample_ct=4096
-	Building time: 613.864 secs
+	Building time: 717.844 secs
 	Input: 2087767849 bytes --> Output 733913633 bytes.
 	Overall compression --> 35.15% (2.81 bits per char).
 

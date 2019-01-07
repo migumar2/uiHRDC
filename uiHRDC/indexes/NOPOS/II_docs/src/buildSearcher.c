@@ -75,6 +75,65 @@ double getTime (void)
 	return (usertime );
 }
 
+int showResolutionClock() {
+	int rc;
+	struct timespec res;
+	rc = clock_getres(CLOCK_MONOTONIC, &res);
+	if (!rc)
+		printf("CLOCK_MONOTONIC: %ldns\n", res.tv_nsec); 
+	rc = clock_getres(CLOCK_MONOTONIC_COARSE, &res);
+	if (!rc)
+		printf("CLOCK_MONOTONIC_COARSE: %ldns\n", res.tv_nsec); 	
+	rc = clock_getres(CLOCK_PROCESS_CPUTIME_ID, &res);
+	if (!rc)
+		printf("CLOCK_PROCESS_CPUTIME_ID: %ldns\n", res.tv_nsec); 	
+}
+
+#define BILLION  1000000000L;
+int getTimeNano(struct timespec *instant) {
+	return clock_gettime(CLOCK_PROCESS_CPUTIME_ID, instant);
+
+
+//clock_getres()
+	//  printf("result: %i\n", result);
+	//  printf("tp.tv_sec: %lld\n", tp.tv_sec);
+	//  printf("tp.tv_nsec: %ld\n", tp.tv_nsec);	
+
+	//	{
+	//
+	//	  int result;
+	//	  struct timespec tp;
+	//	  clockid_t clk_id;
+	//
+	//	//  clk_id = CLOCK_REALTIME;
+	//	  clk_id = CLOCK_MONOTONIC;
+	//	//  clk_id = CLOCK_BOOTTIME;
+	//	//  clk_id = CLOCK_PROCESS_CPUTIME_ID;
+	//
+	//	  // int clock_gettime(clockid_t clk_id, struct timespec *tp);
+	//	  result = clock_gettime(clk_id, &tp);
+	//	  printf("result: %i\n", result);
+	//	  printf("tp.tv_sec: %lld\n", tp.tv_sec);
+	//	  printf("tp.tv_nsec: %ld\n", tp.tv_nsec);
+	//
+	//	  result = clock_getres(clk_id, &tp);
+	//	  printf("result: %i\n", result);
+	//	  printf("tp.tv_sec: %lld\n", tp.tv_sec);
+	//	  printf("tp.tv_nsec: %ld\n", tp.tv_nsec);
+	//
+	//	}
+	
+}
+
+double getTotalTimeNano(struct timespec start, struct timespec stop) {
+	return ( stop.tv_sec - start.tv_sec )
+          + (1.0* stop.tv_nsec - start.tv_nsec )
+            / BILLION;
+	
+}
+
+
+
 
 
 /*
@@ -721,9 +780,15 @@ do_extract_intersect (void *Index)
 	fprintf(stderr," ** extract/intersect: repetitions = %d\n",REPETITIONS_INTERSECT);
 	#endif	
 		
+
+
+struct timespec t1,t2;
+getTimeNano(&t1);
+
 	atime = getTime ();
 
 	#ifdef WITHREPETITIONS
+	fprintf(stderr,"\n#iter %d of %d # ",1,REPETITIONS_INTERSECT);   
 	uint j;
 	for (j=0;j<REPETITIONS_INTERSECT;j++) {
 		//fprintf(stderr,"\n iter %d of %d",j,REPETITIONS_INTERSECT);
@@ -765,17 +830,22 @@ do_extract_intersect (void *Index)
 		  
 		  if (occ) free (occ);	
 		  //fprintf(stderr,"@%u@",i); 			
-		  fprintf(stderr,"@"); 			
+		  //fprintf(stderr,"@"); 			
 		  
 
 	  }
 	  
    #ifdef WITHREPETITIONS
-	fprintf(stderr,"#iter %d of %d finishes# ",j+1,REPETITIONS_INTERSECT);   
+	fprintf(stderr,"\r#iter %d of %d finished# ",j+1,REPETITIONS_INTERSECT);   
 	}
    #endif
 	tot_time += (getTime () - atime);
 	tot_time /= (double) REPETITIONS_INTERSECT;		
+
+getTimeNano(&t2);
+double t2_t1 = getTotalTimeNano(t1,t2);
+t2_t1/= (double) REPETITIONS_INTERSECT;
+	fprintf(stderr,"\n");	
 	
 	fflush(stdout);fflush(stderr);
 	//free patterns and lens arrays.
@@ -824,7 +894,12 @@ do_extract_intersect (void *Index)
 	/**/	fprintf(gnuFile,"%15s\t",timeperocc);
 	/**/	fprintf(gnuFile,"%15lu\t",tot_numocc);
 	/**/	fprintf(gnuFile,"%15u\t",numpatt);
-	/**/	fprintf(gnuFile,"#%s\n",indexbasename);
+//	/**/	fprintf(gnuFile,"#%s\n",indexbasename);
+	/**/	fprintf(gnuFile,"#%s\t",indexbasename);
+
+	/**/    char timeperoccnano[50]=""; sprintf(timeperoccnano,"(nanotime= %5.9f usec/occ)", (t2_t1 * MSEC_TIME_DIVIDER *1000) / tot_numocc);//, MSEC_TIME_UNIT);  // TIMES IN usec/occ
+	/**/	fprintf(gnuFile," %s\n",timeperoccnano);
+
 	
 	#endif
 

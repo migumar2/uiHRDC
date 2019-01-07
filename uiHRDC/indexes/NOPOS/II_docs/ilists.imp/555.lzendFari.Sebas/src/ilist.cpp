@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <cstring>
 #include "utils.h"
+#include "copyfile.cpp"
 
 
 #define DOCid_ADD (1)
@@ -594,22 +595,64 @@ int save_il (void *ail, char *filebasename){
 //    snprintf(fn_doclen,2048,"cp tmp_filename_il.doclen %s.doclen",filebasename);
 //    snprintf(fn_encodedlen,2048,"cp tmp_filename_il.doclen %s.encodedlen",filebasename);
 
-    snprintf(fn_base,2048,"cp %s %s",tmp_filename,filebasename);
-    snprintf(fn_start,2048,"cp %s %s.start",tmp_filename_sources, filebasename);
-    snprintf(fn_len,2048,"cp %s %s.len",tmp_filename_len, filebasename);
-    snprintf(fn_chars,2048,"cp %s %s.char",tmp_filename_char,filebasename);
-////    snprintf(fn_doclen,2048,"cp %s %s.doclen",tmp_filename_doc,filebasename);
-    snprintf(fn_encodedlen,2048,"cp %s %s.encodedlen",tmp_filename_encodedlen,filebasename);
 
+	if(0)  //failed fari-2018
+	{
+			snprintf(fn_base,2048,"cp %s %s",tmp_filename,filebasename);
+			snprintf(fn_start,2048,"cp %s %s.start",tmp_filename_sources, filebasename);
+			snprintf(fn_len,2048,"cp %s %s.len",tmp_filename_len, filebasename);
+			snprintf(fn_chars,2048,"cp %s %s.char",tmp_filename_char,filebasename);
+			////    snprintf(fn_doclen,2048,"cp %s %s.doclen",tmp_filename_doc,filebasename);
+			snprintf(fn_encodedlen,2048,"cp %s %s.encodedlen",tmp_filename_encodedlen,filebasename);
 
+			int ret;
+			ret = system(fn_base);
+			ret = system(fn_start);
+			ret = system(fn_len);
+			ret = system(fn_chars);
+			////    ret = system(fn_doclen);
+			ret = system(fn_encodedlen);
+	}
+    
+	if(1){ //fari dec 2018
 
-    int ret;
-    ret = system(fn_base);
-    ret = system(fn_start);
-    ret = system(fn_len);
-    ret = system(fn_chars);
-////    ret = system(fn_doclen);
-    ret = system(fn_encodedlen);
+		snprintf(fn_base,2048,"%s",filebasename);
+		snprintf(fn_start,2048,"%s.start", filebasename);
+		snprintf(fn_len,2048,"%s.len", filebasename);
+		snprintf(fn_chars,2048,"%s.char",filebasename);
+		snprintf(fn_encodedlen,2048,"%s.encodedlen",filebasename);
+
+			
+		ssize_t totalbytes; char *dst,*src;
+			
+		src=tmp_filename;dst=fn_base; 
+			totalbytes=cp_file(src,dst);
+			if (-1==totalbytes) {printf("\n cp-file failed: %s to %s",src,dst);	exit(0);} 
+			else {printf("\n copy succeedded (%zd bytes): %s to %s",totalbytes,src,dst);}  
+
+		src=tmp_filename_sources;dst= fn_start;
+			totalbytes=cp_file(src,dst);
+			if (-1==totalbytes) {printf("\n cp-file failed: %s to %s",src,dst);	exit(0);}    
+			else {printf("\n copy succeedded (%zd bytes): %s to %s",totalbytes,src,dst);} 
+						
+		src=tmp_filename_len;dst= fn_len;  
+			totalbytes=cp_file(src,dst);
+			if (-1==totalbytes) {printf("\n cp-file failed: %s to %s",src,dst);	exit(0);}    
+			else {printf("\n copy succeedded (%zd bytes): %s to %s",totalbytes,src,dst);} 
+								
+		src=tmp_filename_char;dst=fn_chars;  
+			totalbytes=cp_file(src,dst);
+			if (-1==totalbytes) {printf("\n cp-file failed: %s to %s",src,dst);	exit(0);}    
+			else {printf("\n copy succeedded (%zd bytes): %s to %s",totalbytes,src,dst);} 
+			
+		src=tmp_filename_encodedlen;dst=fn_encodedlen; 
+			totalbytes=cp_file(src,dst);
+			if (-1==totalbytes) {printf("\n cp-file failed: %s to %s",src,dst);	exit(0);}    
+			else {printf("\n copy succeedded (%zd bytes): %s to %s",totalbytes,src,dst);} 	
+			fflush(stdout);fflush(stderr);			
+	}    
+		
+
     
     //writes out "delta_sampling" parameter
     {

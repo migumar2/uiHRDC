@@ -3,6 +3,9 @@ ln -s ../../II_docs/BUILD_LZEND_IL_NOTEXT  BUILD
 ln -s ../../II_docs/SEARCH_LZEND_IL_NOTEXT SEARCH
 mkdir indexes
 
+rm -f B-LOG.dat*
+python ../../../../../utils-py/starttime.py  B-LOG.dat "Build-starts!"   ##LOGS-ELAPSED-TIMES
+
 echo "################################################################" 
 
 #./BUILD ../textos/torsen.text200mb.txt  indexes/torsen200mb  "nooptions"
@@ -26,5 +29,6 @@ rm tmp_filename_il*
 
 
 echo "################################################################"
+python ../../../../../utils-py/endtime.py    B-LOG.dat                  ##LOGS-ELAPSED-TIMES
 
 

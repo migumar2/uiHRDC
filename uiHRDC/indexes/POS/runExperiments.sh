@@ -56,7 +56,9 @@ cd partitioned_elias_fano/partitioned.EF.pos
 	sh go2gbPOS.sh 1>>output.experiments.txt 2>>output.experiments.txt
 	grep "Documents" output.experiments.txt
 	grep "Time per occ" output.experiments.txt
-	sh goCollectResults.sh 
+
+	#sh goCollectResults.sh     ##this would not include the sum of the partial times
+	sh goCollectResultsTotal.sh	
 	rm -rf indexes 
 	sh clean.sh
 	cd ../../

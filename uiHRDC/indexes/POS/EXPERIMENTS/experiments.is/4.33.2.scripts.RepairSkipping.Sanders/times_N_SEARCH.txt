@@ -1,52 +1,26 @@
 
  Search: ./SEARCH indexes/wiki2gb: 5 int2=lookup;intn=lookup
-	Load index time = 70.412000 sec
-	Index size = 560238319 bytes = (547107 Kbytes)
-	 source size = 2087767849 bytes ==> ratio = 26.834%
-	** Operation = I ** numpatts = 1000, wordsXpattern=2-2
-	**size_Index= 560238319 bytes, size_Inv-lists= 531396127 bytes, size_compText= 25280492 bytes
-	Total Num occs found = 31932037
-	Locate time = 4.764800 sec
-	Locate time/Num_occs = 0.000149 msec/occss
-	Locate_time/pat = 4.76480000 msec/pat
-		(Load_time+locate time)/Num_occs = 0.002354  msec/occs
-
-
- Search: ./SEARCH indexes/wiki2gb: 5 int2=lookup;intn=lookup
-	Load index time = 70.500000 sec
+	Load index time = 75.472000 sec
 	Index size = 453996991 bytes = (443356 Kbytes)
 	 source size = 2087767849 bytes ==> ratio = 21.746%
 	** Operation = I ** numpatts = 1000, wordsXpattern=2-2
 	**size_Index= 453996991 bytes, size_Inv-lists= 425154799 bytes, size_compText= 25280492 bytes
 	Total Num occs found = 31932037
-	Locate time = 4.484800 sec
-	Locate time/Num_occs = 0.000140 msec/occss
-	Locate_time/pat = 4.48480000 msec/pat
-		(Load_time+locate time)/Num_occs = 0.002348  msec/occs
+	Locate time = 4.576800 sec
+	Locate time/Num_occs = 0.000143 msec/occss
+	Locate_time/pat = 4.57680000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.002507  msec/occs
 
 
  Search: ./SEARCH indexes/wiki2gb: 5 int2=lookup;intn=lookup
-	Load index time = 70.128000 sec
-	Index size = 560238319 bytes = (547107 Kbytes)
-	 source size = 2087767849 bytes ==> ratio = 26.834%
-	** Operation = N ** numpatts = 1000, wordsXpattern=5-5
-	**size_Index= 560238319 bytes, size_Inv-lists= 531396127 bytes, size_compText= 25280492 bytes
-	Total Num occs found = 9032540
-	Locate time = 3.324000 sec
-	Locate time/Num_occs = 0.000368 msec/occss
-	Locate_time/pat = 3.32400000 msec/pat
-		(Load_time+locate time)/Num_occs = 0.008132  msec/occs
-
-
- Search: ./SEARCH indexes/wiki2gb: 5 int2=lookup;intn=lookup
-	Load index time = 71.332000 sec
+	Load index time = 71.516000 sec
 	Index size = 453996991 bytes = (443356 Kbytes)
 	 source size = 2087767849 bytes ==> ratio = 21.746%
 	** Operation = N ** numpatts = 1000, wordsXpattern=5-5
 	**size_Index= 453996991 bytes, size_Inv-lists= 425154799 bytes, size_compText= 25280492 bytes
 	Total Num occs found = 9032540
-	Locate time = 3.217600 sec
-	Locate time/Num_occs = 0.000356 msec/occss
-	Locate_time/pat = 3.21760000 msec/pat
-		(Load_time+locate time)/Num_occs = 0.008253  msec/occs
+	Locate time = 3.199200 sec
+	Locate time/Num_occs = 0.000354 msec/occss
+	Locate_time/pat = 3.19920000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.008272  msec/occs
 

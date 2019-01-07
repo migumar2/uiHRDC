@@ -441,27 +441,32 @@ int save_il (void *ail, char *filebasename){
 	{
 		uint size    = il->nlists * sizeof(uint);
 
-		write(file, &(il->nlists), sizeof(uint));		
-		write(file, il->lenList, size);
-		write(file, il->clen, size);
+		ssize_t err;
+		err= write(file, &(il->nlists), sizeof(uint));		
+		err= write(file, il->lenList, size);
+		err= write(file, il->clen, size);
 	}
 	
-	write(file, &il->padUints, sizeof(ulong) );  //count of uints used as padding info
+	{
+		ssize_t err;
+		err=write(file, &il->padUints, sizeof(ulong) );  //count of uints used as padding info
+	}
 	
 	/** Saving the postings lists using bytecodes. */
 	{
+		ssize_t err;
 		//fprintf(stderr,"\n saving size ucompressed = %lu!!!!",il->sizeUncompressed);
-		write(file, &(il->sizeUncompressed), sizeof(uint));		
-		write(file, &(il->bcsSize), sizeof(uint));
+		err=write(file, &(il->sizeUncompressed), sizeof(uint));		
+		err=write(file, &(il->bcsSize), sizeof(uint));
 
-		write(file, &(il->cdataSize), sizeof(uint));			
-		write(file, &(il->numPFD), sizeof(uint));			
-		write(file, &(il->pfdThreshold), sizeof(uint));			
+		err=write(file, &(il->cdataSize), sizeof(uint));			
+		err=write(file, &(il->numPFD), sizeof(uint));			
+		err=write(file, &(il->pfdThreshold), sizeof(uint));			
 
-		write(file, il->occs, (il->nlists +1) * sizeof(uint));		
-		write(file, il->bcs, il->bcsSize * sizeof(byte));
+		err=write(file, il->occs, (il->nlists +1) * sizeof(uint));		
+		err=write(file, il->bcs, il->bcsSize * sizeof(byte));
 		
-		write(file, il->cdata, il->cdataSize * sizeof(uint));							
+		err=write(file, il->cdata, il->cdataSize * sizeof(uint));							
 	}
 	
 	close(file);				
@@ -491,13 +496,14 @@ int load_il (char *filebasename, void **ail) {
 
 	/* loading nlists variable and lenList vector */
 	{	
-		read(file, &(il->nlists), sizeof(uint)); // number of posting lists 
+		ssize_t err;		
+		err=read(file, &(il->nlists), sizeof(uint)); // number of posting lists 
 	
 		il->lenList = (uint *) malloc ( (il->nlists) * sizeof(uint));  // the lenList array
-		read(file, il->lenList, ((il->nlists) * sizeof(uint)) );
+		err=read(file, il->lenList, ((il->nlists) * sizeof(uint)) );
 
 		il->clen = (uint *) malloc ( (il->nlists) * sizeof(uint));  // the lenList array
-		read(file, il->clen, ((il->nlists) * sizeof(uint)) );
+		err=read(file, il->clen, ((il->nlists) * sizeof(uint)) );
 	}
 
 	read(file, &il->padUints, sizeof(ulong) );  //count of uints used as padding info
@@ -505,27 +511,28 @@ int load_il (char *filebasename, void **ail) {
 	/* loading the posting lists using bytecodes*/
 	{		
 		//some integers
-		read(file, &(il->sizeUncompressed), sizeof(uint));					
+		ssize_t err;
+		err=read(file, &(il->sizeUncompressed), sizeof(uint));					
 
-		read(file, &(il->bcsSize), sizeof(uint));		
+		err=read(file, &(il->bcsSize), sizeof(uint));		
 
 
-		read(file, &(il->cdataSize), sizeof(uint));			
-		read(file, &(il->numPFD), sizeof(uint));			
-		read(file, &(il->pfdThreshold), sizeof(uint));					
+		err=read(file, &(il->cdataSize), sizeof(uint));			
+		err=read(file, &(il->numPFD), sizeof(uint));			
+		err=read(file, &(il->pfdThreshold), sizeof(uint));					
 		
 		//vector occs.
 		il->occs = (uint *) malloc ((il->nlists+1) * sizeof(uint) );		
-		read(file, il->occs, (il->nlists +1) * sizeof(uint)); //wcsa->nwords was loading in "loadVocabulary"
+		err=read(file, il->occs, (il->nlists +1) * sizeof(uint)); //wcsa->nwords was loading in "loadVocabulary"
 
 		//vector bcs.
 		il->bcs = (byte *) malloc (il->bcsSize * sizeof(byte));		
-		read(file, il->bcs, il->bcsSize * sizeof(byte));		
+		err=read(file, il->bcs, il->bcsSize * sizeof(byte));		
 				
 		//vector cdata.
 		il->cdata = (uint *) malloc (il->cdataSize * sizeof(uint));		
 		il->cdata[il->cdataSize -1] = 0000;
-		read(file, il->cdata, il->cdataSize * sizeof(uint));					
+		err=read(file, il->cdata, il->cdataSize * sizeof(uint));					
 	}		
 	
 	close(file);			
@@ -888,6 +895,7 @@ uint* intersect_aux(uint* arr1, uint len1, uint* arr2, uint len2, uint* len){
 
 uint* intersect_aux_simd(uint* arr1, uint len1, uint* arr2, uint len2, uint* len){
 	uint maxle = mmmax(len1,len2) + QMX_BS2;
+	//printf("*** %d ****", maxle);
     uint* intersect = (uint *) malloc (maxle * sizeof(uint));
 
 	*len = SIMDintersection(arr1, len1, arr2,len2, intersect);
@@ -941,8 +949,8 @@ int merge_2_uncompressFstSIMD (void *ail, uint id1, uint id2,  uint *noccs, uint
     uint* arr2;
     extractList_il(ail, id2, &arr2, &len2);
     *occs = intersect_aux_simd(arr1,len1,arr2,len2,noccs);
-    //free(arr1);
-    //free(arr2);
+    free(arr1);
+    free(arr2);
 
     return 0;
 }

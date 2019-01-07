@@ -12,8 +12,8 @@ set pointsize 1.5
 set logscale x
 set logscale y
 #set yr [0.01:100]
-#set xr [1:50]
-#set xtics ("1" 1, "2" 2, "3" 3, "4" 4,"5" 5,"6" 6,"7" 7,"8" 8,""9, "10" 10,"20" 20, "30" 30,"40"40, "50" 50,"60"60,""70, "80"80, "30" 30,""90, "100"100)
+set xr [1:51]
+set xtics ("1" 1, "2" 2, "3" 3, "4" 4,"5" 5,"6" 6,"7" 7,"8" 8,""9, "10" 10,"20" 20, "30" 30,"40"40, "50" 50,"60"60,""70, "80"80, "30" 30,""90, "100"100)
 plot\
   "m.iip.repairT.dat" using (100*$7/2087767849):($4) title "RePair" with linespoints lt 3 pt 11 lc rgb 'red',\
   "lz77.dat" using (100*$1/2087767849):($2) title "LZ77-Index" with linespoints ls 24 lc rgb 'blue',\

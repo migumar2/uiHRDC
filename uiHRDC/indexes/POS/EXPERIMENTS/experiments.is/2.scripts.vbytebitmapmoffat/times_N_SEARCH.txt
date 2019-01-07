@@ -6,10 +6,10 @@
 	** Operation = I ** numpatts = 1000, wordsXpattern=2-2
 	**size_Index= 763912594 bytes, size_Inv-lists= 735070402 bytes, size_compText= 25280492 bytes
 	Total Num occs found = 31932037
-	Locate time = 2.674400 sec
-	Locate time/Num_occs = 0.000084 msec/occss
-	Locate_time/pat = 2.67440000 msec/pat
-		(Load_time+locate time)/Num_occs = 0.000084  msec/occs
+	Locate time = 2.606400 sec
+	Locate time/Num_occs = 0.000082 msec/occss
+	Locate_time/pat = 2.60640000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000082  msec/occs
 
 
  Search: ./SEARCH indexes/wiki2gb_bitmap1_k32: 5 int2=svs;intn=svs;fsearch=expM
@@ -19,10 +19,10 @@
 	** Operation = I ** numpatts = 1000, wordsXpattern=2-2
 	**size_Index= 738661872 bytes, size_Inv-lists= 709819680 bytes, size_compText= 25280492 bytes
 	Total Num occs found = 31932037
-	Locate time = 2.719200 sec
-	Locate time/Num_occs = 0.000085 msec/occss
-	Locate_time/pat = 2.71920000 msec/pat
-		(Load_time+locate time)/Num_occs = 0.000085  msec/occs
+	Locate time = 2.657600 sec
+	Locate time/Num_occs = 0.000083 msec/occss
+	Locate_time/pat = 2.65760000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000083  msec/occs
 
 
  Search: ./SEARCH indexes/wiki2gb_bitmap1_k4: 5 int2=svs;intn=svs;fsearch=expM
@@ -32,10 +32,10 @@
 	** Operation = N ** numpatts = 1000, wordsXpattern=5-5
 	**size_Index= 763912594 bytes, size_Inv-lists= 735070402 bytes, size_compText= 25280492 bytes
 	Total Num occs found = 9032540
-	Locate time = 1.986400 sec
-	Locate time/Num_occs = 0.000220 msec/occss
-	Locate_time/pat = 1.98640000 msec/pat
-		(Load_time+locate time)/Num_occs = 0.000220  msec/occs
+	Locate time = 2.016000 sec
+	Locate time/Num_occs = 0.000223 msec/occss
+	Locate_time/pat = 2.01600000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000223  msec/occs
 
 
  Search: ./SEARCH indexes/wiki2gb_bitmap1_k32: 5 int2=svs;intn=svs;fsearch=expM
@@ -45,8 +45,8 @@
 	** Operation = N ** numpatts = 1000, wordsXpattern=5-5
 	**size_Index= 738661872 bytes, size_Inv-lists= 709819680 bytes, size_compText= 25280492 bytes
 	Total Num occs found = 9032540
-	Locate time = 2.185600 sec
-	Locate time/Num_occs = 0.000242 msec/occss
-	Locate_time/pat = 2.18560000 msec/pat
-		(Load_time+locate time)/Num_occs = 0.000242  msec/occs
+	Locate time = 2.040800 sec
+	Locate time/Num_occs = 0.000226 msec/occss
+	Locate_time/pat = 2.04080000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000226  msec/occs
 

@@ -11,12 +11,12 @@ RLCSA:           41.4879 MB
 SA samples:      7.76045 MB
 Total size:      49.2484 MB
 
-time/occ:0.0849
+time/occ:0.0741
 
-Patterns:    1000 (10.062 / sec)
-Total size:  8033 bytes (80.8279 / sec)
-Matches:     1171124 (11783.8 / sec)
-Time:        99.384 seconds
+Patterns:    1000 (11.5282 / sec)
+Total size:  8033 bytes (92.6058 / sec)
+Matches:     1171124 (13500.9 / sec)
+Time:        86.744 seconds
 
 
 RLCSA test
@@ -32,12 +32,12 @@ RLCSA:           41.4879 MB
 SA samples:      7.76045 MB
 Total size:      49.2484 MB
 
-time/occ:0.0857
+time/occ:0.0748
 
-Patterns:    1000 (9.96254 / sec)
-Total size:  8033 bytes (80.0291 / sec)
-Matches:     1171124 (11667.4 / sec)
-Time:        100.376 seconds
+Patterns:    1000 (11.4088 / sec)
+Total size:  8033 bytes (91.6465 / sec)
+Matches:     1171124 (13361.1 / sec)
+Time:        87.652 seconds
 
 
 #################################

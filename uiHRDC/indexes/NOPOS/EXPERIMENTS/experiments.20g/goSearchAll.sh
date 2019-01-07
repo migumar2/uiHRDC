@@ -4,12 +4,15 @@ cd 2.1.scripts.vbytebitmap             ; sh goSearch.sh ; cd ..
 cd 2.scripts.vbytebitmapmoffat         ; sh goSearch.sh ; cd ..
 cd 3.scripts.vbytebitmapSanders        ; sh goSearch.sh ; cd ..
 
-cd 4.2.scripts.Repair                  ; sh goSearch.sh ; cd ..
-cd 4.3.scripts.Repair.skipping         ; sh goSearch.sh ; cd ..
+##NOT-USED in paper. Yet they actually work  (Fclaude's aprox Repair)                                            
+#cd 4.2.scripts.Repair                  ; sh goSearch.sh ; cd ..
+#cd 4.3.scripts.Repair.skipping         ; sh goSearch.sh ; cd ..
+##NOT-USED in paper. Yet they actually work (Gonzalo's Balanced Repair)
+#cd 4.22.scripts.RepairGonzalo_bal      ; sh goSearch.sh ; cd ..
+#cd 4.33.RepairSkippingGonzalo_bal      ; sh goSearch.sh ; cd ..
+
 cd 4.22.scripts.RepairGonzalo          ; sh goSearch.sh ; cd ..
 cd 4.33.RepairSkippingGonzalo          ; sh goSearch.sh ; cd ..
-cd 4.22.scripts.RepairGonzalo_bal      ; sh goSearch.sh ; cd ..
-cd 4.33.RepairSkippingGonzalo_bal      ; sh goSearch.sh ; cd ..
 cd 4.33.1.RepairSkippingMoffatGonzalo  ; sh goSearch.sh ; cd ..
 cd 4.33.2.RepairSkippingSandersGonzalo ; sh goSearch.sh ; cd ..
 

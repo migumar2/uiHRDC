@@ -1,3 +1,6 @@
+rm -f S-LOG.dat*
+python ../../../../../utils-py/starttime.py  S-LOG.dat "Search-starts!"   ##LOGS-ELAPSED-TIMES
+
 rm -f E.dat
 rm -f N.dat
 
@@ -18,3 +21,4 @@ mv N.dat N_p2.2.vbyte.moffat.dat
 mv N.dat N_p5.2.vbyte.moffat.dat
 
 
+python ../../../../../utils-py/endtime.py    S-LOG.dat                  ##LOGS-ELAPSED-TIMES

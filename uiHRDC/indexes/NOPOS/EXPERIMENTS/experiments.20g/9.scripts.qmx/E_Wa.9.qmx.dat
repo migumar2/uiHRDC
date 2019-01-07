@@ -1,2 +1,2 @@
 #sizeIlist(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
-      1298623228	    0.000235200	    0.002584047	          91020	           1000	#wiki20gb
+      1298623228	    0.000123840	    0.001360580	          91020	           1000	#wiki20gb	 (nanotime= 0.001387556 usec/occ)

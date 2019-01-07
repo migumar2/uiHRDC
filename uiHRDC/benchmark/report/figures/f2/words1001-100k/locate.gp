@@ -13,8 +13,8 @@ set pointsize 1.5
 set logscale x
 set logscale y
 #set  yrange [0.0005:3]
-#set xr [0.1:1]
-#set xtics ("0.1" 0.1, "0.2" 0.2, "0.3" 0.3, "0.4" 0.4,"0.5" 0.5,"0.6" 0.6,"" 0.7,"0.8" 0.8,""0.9, "1" 1)
+set xr [0.1:1]
+set xtics ("0.1" 0.1, "0.2" 0.2, "0.3" 0.3, "0.4" 0.4,"0.5" 0.5,"0.6" 0.6,"" 0.7,"0.8" 0.8,""0.9, "1" 1)
 plot\
   "E_Wb.7.simple9.dat" using (100*$1/26597454863):3 title "Simple9" 				with linespoints ls 2 lc rgb 'blue',\
   "E_Wb.10.eliasfanopart.dat" using (100*$1/26597454863):3 title "EF-opt*" 			with linespoints ls 19,\

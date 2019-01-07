@@ -31,16 +31,24 @@ cd evaluation
     ln -s ../../../../data/intervals/wiki2g* .
     cd ../../
 
+
+rm -f evaluation/results/Blz*-LOG.dat*
 echo " \n ------------------------"
 echo " --- LZ77 indexing... ---"
 echo " ------------------------\n"
 
+python ../../utils-py/starttime.py  evaluation/results/Blz77-LOG.dat "Build-starts!"   ##LOGS-ELAPSED-TIMES
 ./src/bin/build_lz77 evaluation/text evaluation/indexes/index.lz77 bsst brev
+python ../../utils-py/endtime.py    evaluation/results/Blz77-LOG.dat                  ##LOGS-ELAPSED-TIMES
 
 echo " \n -------------------------"
 echo " --- LZend indexing... ---"
 echo " -------------------------\n"
+
+python ../../utils-py/starttime.py  evaluation/results/Blzend-LOG.dat "Build-starts!"   ##LOGS-ELAPSED-TIMES
 ./src/bin/build_lzend evaluation/text evaluation/indexes/index.lzend bsst brev
+python ../../utils-py/endtime.py    evaluation/results/Blzend-LOG.dat                  ##LOGS-ELAPSED-TIMES
+
 rm evaluation/*alph*
 
 echo " \n =========================================================="

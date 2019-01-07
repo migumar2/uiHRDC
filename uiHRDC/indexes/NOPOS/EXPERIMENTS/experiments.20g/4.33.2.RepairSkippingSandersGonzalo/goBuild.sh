@@ -3,8 +3,15 @@ ln -s ../../II_docs/BUILD_REPAIR_SKIP_SANDERS_NOTEXT  BUILD
 ln -s ../../II_docs/SEARCH_REPAIR_SKIP_SANDERS_NOTEXT SEARCH
 ln -s ../../II_docs/lib lib
 mkdir indexes
-gcc  -o  sampleK sampleK.c
 
+echo "################################################################" 
+echo "compiling sampleK.c and appendLastLine.c used at query-time"
+gcc  -o appendLastLine appendLastLine.c
+gcc  -o sampleK sampleK.c
+echo "################################################################" 
+
+rm -f B-LOG.dat*
+python ../../../../../utils-py/starttime.py  B-LOG.dat "Build-starts!"   ##LOGS-ELAPSED-TIMES
 
 echo "################################################################" 
 
@@ -24,3 +31,4 @@ echo "################################################################"
 #mv E.dat E.sizes.dat
 
 echo "################################################################"
+python ../../../../../utils-py/endtime.py    B-LOG.dat                  ##LOGS-ELAPSED-TIMES

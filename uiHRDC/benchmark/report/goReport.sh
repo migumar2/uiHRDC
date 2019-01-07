@@ -21,6 +21,8 @@ echo $SSIZEPOS
 
 cd figures; bash goCreateFigures.sh; cd ..
 
+cd summaryTables; bash goGenerateTables.sh; cd ..
+
 
 
 rm -f report.pdf

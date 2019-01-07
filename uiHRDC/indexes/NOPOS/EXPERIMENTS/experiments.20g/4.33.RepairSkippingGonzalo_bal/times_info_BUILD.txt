@@ -1,6 +1,6 @@
 
  Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb filename=indexes/wiki20gb; lenBitmapDiv=1; maxMemRepair=2000000000; replacesPerIter = 1000; repairBreak=0.0000004; path2convert=./lib/convert; path2build_bitmap=./lib/build_bitmap;  path2build_index=./lib/build_index_gonzalo; path2irepairgonzalo=./lib/irepair_bal; path2compress_dictionary=./lib/compressDictionary
-	Building time: 268.216 secs
+	Building time: 300.300 secs
 	Input: 20971541599 bytes --> Output 35357028 bytes.
 	Overall compression --> 0.17% (0.01 bits per char).
 

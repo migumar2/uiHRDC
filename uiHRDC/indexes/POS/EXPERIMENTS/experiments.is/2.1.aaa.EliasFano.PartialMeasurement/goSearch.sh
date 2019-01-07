@@ -1,3 +1,6 @@
+rm -f S-LOG.dat*
+python ../../../../../utils-py/starttime.py  S-LOG.dat "Search-starts!"   ##LOGS-ELAPSED-TIMES
+
 
 echo "################################################################" 
 rm -f E.dat
@@ -29,3 +32,4 @@ mv fids.pat 2gb.p5.pat
 echo "################################################################"
 
 
+python ../../../../../utils-py/endtime.py    S-LOG.dat                  ##LOGS-ELAPSED-TIMES

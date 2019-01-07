@@ -1,2 +1,2 @@
 #   totalSize(byte)	  msec/pat	  usec/occ	     occs	numpats	#indexbasename
-         623866892	  ????????	  0.011912	    99228	   1000	#12.interpolative.dat
+         623866892	  ????????	0.023928105	    99228	   1000	#12.interpolative.dat

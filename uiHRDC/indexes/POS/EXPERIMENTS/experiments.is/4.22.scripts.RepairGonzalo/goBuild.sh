@@ -6,6 +6,9 @@ ln -s ../../II_docs/SEARCH_REPAIR_NOSKIP_REPAIR_T  SEARCH
 ln -s ../../II_docs/lib lib
 mkdir indexes
 
+rm -f B-LOG.dat*
+python ../../../../../utils-py/starttime.py  B-LOG.dat "Build-starts!"   ##LOGS-ELAPSED-TIMES
+
 echo "################################################################" 
 
 
@@ -15,9 +18,5 @@ echo "################################################################"
 
 echo "################################################################"
 
-
-
-
-
-
+python ../../../../../utils-py/endtime.py    B-LOG.dat                  ##LOGS-ELAPSED-TIMES
 

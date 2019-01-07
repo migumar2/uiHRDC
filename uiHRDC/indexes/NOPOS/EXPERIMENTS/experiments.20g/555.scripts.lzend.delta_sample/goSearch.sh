@@ -1,4 +1,7 @@
+rm -f S-LOG.dat*
+python ../../../../../utils-py/starttime.py  S-LOG.dat "Search-starts!"   ##LOGS-ELAPSED-TIMES
 
+##REPETITIONS NOT INCREASED X10 times. It is too slow!!
 echo "################################################################" 
 #./SEARCH indexes/torsen200mb I 1  "int2=merge;intn=merge" < ../patterns/torsen200mb_1_1
 
@@ -29,4 +32,5 @@ mv N.dat N_p5.5.lzend.dat
 echo "################################################################"
 
 
+python ../../../../../utils-py/endtime.py    S-LOG.dat                  ##LOGS-ELAPSED-TIMES
 

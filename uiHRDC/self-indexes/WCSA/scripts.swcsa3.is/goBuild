@@ -1,3 +1,5 @@
+rm -f B-LOG.dat*
+python ../../../utils-py/starttime.py  B-LOG.dat "Build-starts!"   ##LOGS-ELAPSED-TIMES
 
 echo "---------------------------------------------------------------"
 echo "- Building WCSA indexes with several parameter configurations -"
@@ -15,3 +17,4 @@ echo "---------------------------------------------------------------"
 ./BUILDwcsa ../data/text2gb/wiki_src2gb.txt ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k    "sA=512;sAinv=512;sPsi=512; nsHuff=16;psiSF=4"
 ./BUILDwcsa ../data/text2gb/wiki_src2gb.txt ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k "sA=2048;sAinv=2048;sPsi=2048; nsHuff=16;psiSF=4"
 
+python ../../../utils-py/endtime.py    B-LOG.dat                  ##LOGS-ELAPSED-TIMES

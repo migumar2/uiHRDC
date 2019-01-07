@@ -1,15 +1,15 @@
 
  Search: ./SEARCH indexes/wiki2gb_bitmap1: 200 int2=merge;intn=svs;fsearch=seqM
-	Load index time = 0.008000 sec
+	Load index time = 0.000000 sec
 	Index size = 768245308 bytes = (750239 Kbytes)
 	 source size = 2087767849 bytes ==> ratio = 36.797%
 	** Operation = N ** numpatts = 1000, wordsXpattern=0-0
 	**size_Index= 768245308 bytes, size_Inv-lists= 739403116 bytes, size_compText= 25280492 bytes
 	Total Num occs found = 99228
-	Locate time = 0.002020 sec
-	Locate time/Num_occs = 0.000020 msec/occss
-	Locate_time/pat = 0.00202000 msec/pat
-		(Load_time+locate time)/Num_occs = 0.000101  msec/occs
+	Locate time = 0.001500 sec
+	Locate time/Num_occs = 0.000015 msec/occss
+	Locate_time/pat = 0.00150000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000015  msec/occs
 
 
  Search: ./SEARCH indexes/wiki2gb_bitmap1: 200 int2=merge;intn=svs;fsearch=seqM
@@ -19,8 +19,8 @@
 	** Operation = N ** numpatts = 1000, wordsXpattern=0-0
 	**size_Index= 768245308 bytes, size_Inv-lists= 739403116 bytes, size_compText= 25280492 bytes
 	Total Num occs found = 5701883
-	Locate time = 0.037040 sec
+	Locate time = 0.034240 sec
 	Locate time/Num_occs = 0.000006 msec/occss
-	Locate_time/pat = 0.03704000 msec/pat
+	Locate_time/pat = 0.03424000 msec/pat
 		(Load_time+locate time)/Num_occs = 0.000006  msec/occs
 

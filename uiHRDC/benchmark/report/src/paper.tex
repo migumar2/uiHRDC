@@ -59,6 +59,8 @@
 \usepackage{colortbl}
 \usepackage[usenames]{xcolor}
 
+\usepackage{amssymb}
+
 \newcommand{\highlight}[1]{\textcolor{red}{#1}}
 
 
@@ -81,8 +83,6 @@
 	\author[uchile]{Gonzalo Navarro}
 	\ead{gnavarro@dcc.uchile.cl}
 	
-	\author[ny]{Fernando Chirigati}
-	\ead{fchirigati@nyu.edu}
 
 	\cortext[cor1]{Corresponding author}	
 
@@ -91,11 +91,10 @@
 	\address[uva]{DataWeb Research, Department of Computer Science, University of Valladolid, Spain.}		
 	\address[uchile]{Department of Computer Science, University of Chile, Chile.}
 
-	\address[ny] {Department of Computer Science and Engineering, New York University, New York City, NY, United States.}
 
 	\begin{abstract}
 We include in this report the main figures reproduced for paper \cite{CFMNis16.3} from the experimental data and source codes obtained by
-running our build, search, and report scripts from our original paper, and described in detail in our reproducibility paper: {``\em Reproducible Research about Indexing Repetitive Document Collections''}.
+running our build, search, and report scripts from our {\em parent} paper, and described in detail in our reproducibility paper: {``\em On the Reproducibility of Experiments of Indexing Repetitive DocumentCollections''}.
 \bigskip
 \noindent
 
@@ -108,7 +107,7 @@ running our build, search, and report scripts from our original paper, and descr
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-\section{Experimental Framework and Results}
+\section{Experimental Framework and Results} 
 
 We experimentally study the space/time tradeoffs obtained with the described 
 inverted list representations, in both the non-positional and positional 
@@ -116,7 +115,7 @@ scenarios. In the positional scenario we also add a comparison with the
 self-indexes proposed.
 
 \subsection{Test Data} \label{sec:testdata}
-Within \uilib\ we provide in \texttt{data} directory, both the document collections and the query sets used in the experimental setup of our original paper.
+Within \uilib\ we provide in \texttt{data} directory, both the document collections and the query sets used in the experimental setup of our parent paper.
 They are described below.
 
 \subsubsection{Document Collections}
@@ -159,7 +158,7 @@ also included in Table~\ref{tab:coll}.
 %the 1.94 GB subcollection is similar to the global collection.
 
 
-\subsubsection{Query sets}
+\subsubsection{Query sets}\label{sec:querysets}
 
 Since the experiments target at providing space/time for the different indexing alternatives 
 when performing \texttt{locate(pattern)} and \texttt{extract(interval)} queries we provided two types
@@ -176,7 +175,7 @@ of query sets for each document subcollection.
 	collection) characters, we generated: {\em i)} a set of 10,000 intervals of width 13,000 characters from the {\tt POS} text collection, and {\em ii)}  a set containing
 	100,000 intervals of width 80 characters. Since these intervals are not suitable for our word-based self-indexes (\wcsa\ and \wslp), and assuming that the average word length 
 	is around $4$ in our datasets, we also generated two additional sets composed respectively of 10,000 intervals containing $3,000$ words each, and	
-	and 100,000 intervals containing $80$ words each.
+	and 100,000 intervals containing $20$ words each.
 \end{itemize}
 
 
@@ -194,28 +193,28 @@ The techniques included  in this Report are summarized in Table~\ref{tab:techniq
 	\textbf{NON POSITIONAL INV. INDEXES} & \textbf{POSITIONAL INV. INDEXES} & \textbf{SELF-INDEXES} \\ \hline
 	\hline
 	\hline
-	RICE                      &  RICE                    & WCSA \\ \hline
-	RICE-B              &                          & RLCSA \\ \hline
-	VBYTE                     &  VBYTE                   & SLP \\ \hline
-	VBYTE-CM                  &  VBYTE-CM                & WSLP \\ \hline
-	VBYTE-ST                  &  VBYTE-ST                & LZ77-Index \\ \hline
-	VBYTE-B              &                          & LZEnd-Index \\ \hline
-	VBYTE-CM-B           &                          & \multicolumn{1}{c|}{} \\ \hline
-	VBYTE-ST-B &                          &  \\ \hline
-	SIMPLE-9                  &  SIMPLE-9e                &  \\ \hline
-	PFORDELTA                 &                          &  \\ \hline
-	QMX-SIMD                  &  QMX-SIMD                &  \\ \hline
-	*ELIAS-FANO-OPT           &  *ELIAS-FANO-OPT         &  \\ \hline
-	*OPT-PFD                  &  *OPT-PFD                &  \\ \hline
-	*INTERPOLATIVE            &  *INTERPOLATIVE          &  \\ \hline
-	*VARINT-G8IU              &  *VARINT-G8IU            &  \\ \hline
-	RICE-RLE                  &                          &  \\ \hline
-	VBYTE-LZMA                &  VBYTE-LZMA              &  \\ \hline
-	VBYTE-LZEND               &                          &  \\ \hline
-	REPAIR                    &  REPAIR                  &  \\ \hline
-	REPAIR-SKIPPING           &  REPAIR-SKIPPING         &  \\ \hline
-	REPAIR-SKIPPING-CM        &  REPAIR-SKIPPING-CM      &  \\ \hline
-	REPAIR-SKIPPING-ST        &  REPAIR-SKIPPING-ST      &  \\ \hline
+	RICE                      &  RICE                    & WCSA        \\ \hline
+	RICE-B                    &                          & RLCSA       \\ \hline
+	VBYTE                     &  VBYTE                   & SLP         \\ \hline
+	VBYTE-CM                  &  VBYTE-CM                & WSLP        \\ \hline
+	VBYTE-ST                  &  VBYTE-ST                & LZ77-Index  \\ \hline
+	VBYTE-B                   &                          & LZEnd-Index \\ \hline
+	VBYTE-CM-B                &                          &             \\ \hline
+	VBYTE-ST-B                &                          &             \\ \hline
+	SIMPLE-9                  &  SIMPLE-9e               &             \\ \hline
+	PFORDELTA                 &                          &             \\ \hline
+	QMX-SIMD                  &  QMX-SIMD                &             \\ \hline
+	*ELIAS-FANO-OPT           &  *ELIAS-FANO-OPT         &             \\ \hline
+	*OPT-PFD                  &  *OPT-PFD                &             \\ \hline
+	*INTERPOLATIVE            &  *INTERPOLATIVE          &             \\ \hline
+	*VARINT-G8IU              &  *VARINT-G8IU            &             \\ \hline
+	RICE-RLE                  &                          &             \\ \hline
+	VBYTE-LZMA                &  VBYTE-LZMA              &             \\ \hline
+	VBYTE-LZEND               &                          &             \\ \hline
+	REPAIR                    &  REPAIR                  &             \\ \hline
+	REPAIR-SKIPPING           &  REPAIR-SKIPPING         &             \\ \hline
+	REPAIR-SKIPPING-CM        &  REPAIR-SKIPPING-CM      &             \\ \hline
+	REPAIR-SKIPPING-ST        &  REPAIR-SKIPPING-ST      &             \\ \hline
 	\hline
 	\textit{(text not included, only intersections)} & \textit{(text compressed with Re-pair)} &  \\ 
 		\hline
@@ -237,7 +236,7 @@ non-positional inverted indexes over the highly repetitive 24.77 GB subcollectio
  %
 We also include two alternatives using \vbyte\ coupled with list sampling \cite{CM10} (\vbyteCM) with $k=\{4,32\}$, or domain sampling \cite{TS10} (\vbyteST) with $B=\{16,128\}$. In addition, we include the hybrid variant of \vbyteCM\ that uses bitmaps to represent the largest inverted lists (\vbyteCMB) \cite{CM10}. For completeness we used the same approach on \vbyteST, to build \vbyteSTB, and also included variants \vbyteB\ and \riceB\ with no sampling.
  %
-We also tested the novel \qmx\footnote{\url{http://www.cs.otago.ac.nz/homepages/andrew/papers/QMX.zip}. } technique \cite{trotman2014} that uses SIMD-instructions to boost decoding of large lists, and coupled it with an intersection algorithm \cite{Lemire2015:simdInt} that also benefits from SIMD-instructions.\footnote{ \url{https://github.com/lemire/SIMDCompressionAndIntersection}. In this case we had to use \texttt{g++} version 4.7 with the \texttt{-O3 -msse4} flags, according to authors' sources.}
+We also tested the novel \qmx\footnote{\url{http://www.cs.otago.ac.nz/homepages/andrew/papers/QMX.zip}. } technique \cite{trotman2014} that uses SIMD-instructions to boost decoding of large lists, and coupled it with an intersection algorithm \cite{Lemire2015:simdInt} that also benefits from SIMD-instructions.\footnote{ \url{https://github.com/lemire/SIMDCompressionAndIntersection}. }
  %
  %/usr/bin/g++-4.7 -O3 -msse4 -mavx -std=c++11  -Weffc++  -ggdb -DDEBUG=1 -D_GLIBCXX_DEBUG 
  % gcc version 4.7.3
@@ -252,9 +251,9 @@ From  the same authors \cite{OV14}, we also included in our experiments the vari
  % gcc version 4.8.2
 
 
-We compare all those techniques in Section~\ref{exp:nopos:others}, to determine which of the traditional techniques perform best in the repetitive scenario. 
+We compare all those techniques in Section~\ref{exp:nopos:others}, to determine which are the most successful the traditional techniques  in the repetitive scenario. 
 Then, in Section~\ref{exp:nopos:ours} we compare them with the new variants designed to deal with repetitive data we proposed. In particular, we include \riceRuns,
-\vbyteLZMA,  \vbyteLzend, \repairNo, \repairSkip. We add no sampling to them. Therefore, only \repairSkip\ can benefit of additional data to boost the intersections (which are performed sequentially). In addition, we show the \repair\ variants using sampling, \repairSkipCM\ (with $k=\{1,64\}$) and \repairSkipST\ (with $B=\{16, 256, 1024\}$). For \vbyteLzend\ we will obtain different space/time tradeoffs by tuning its {\em delta-codes-sampling} parameter $ds$ (see \cite{KNtcs12} for details) to $ds=\{4,16,64,256\}$.
+\vbyteLZMA,  \vbyteLzend, \repairNo, \repairSkip. We add no sampling to them. Therefore, only \repairSkip\ can benefit of additional data to boost the intersections (which are performed sequentially). In addition, we show the \repair\ variants using sampling, \repairSkipCM\ (with $k=\{1,64\}$) and \repairSkipST\ (with $B=\{ 1024\}$). For \vbyteLzend\ we will obtain different space/time tradeoffs by tuning its {\em delta-codes-sampling} parameter $ds$ (see \cite{KNtcs12} for details) to $ds=\{4,16,64,256\}$.
 
 Finally, note that the space results reported for the indexes are shown as a percentage 
 of the index size with respect to the size of the original [sub]collection in plain text
@@ -279,7 +278,7 @@ non-positional indexes using those techniques to represent posting lists.
 \includegraphics[angle=-90,width=0.49\textwidth]{../figures/f1/phrases2-2/nopos-2_2.eps}
 \includegraphics[angle=-90,width=0.49\textwidth]{../figures/f1/phrases5-5/nonpos-5_5.eps}
 \caption{Space/time tradeoffs for non-positional indexes using traditional
-techniques. Logscale.}
+techniques. Logscale. This figure corresponds to Figure 3 in the parent paper \cite{CFMNis16.3}.}
 \label{fig:nonpos}
 \end{center}
 \end{figure}
@@ -324,7 +323,7 @@ Our next experiments compare our proposals with the best counterparts from the p
 \includegraphics[angle=-90,width=0.49\textwidth]{../figures/f2/phrases2-2/nopos-2_2.eps}
 \includegraphics[angle=-90,width=0.49\textwidth]{../figures/f2/phrases5-5/nonpos-5_5.eps}
 \caption{Space/time tradeoffs for non-positional indexes, comparing the best
-classical techniques with our new ones. Logscale.}
+classical techniques with our new ones. Logscale. This figure corresponds to Figure 4 in the parent paper \cite{CFMNis16.3}.}
 \label{fig:nonpos2}
 \end{center}
 \end{figure}
@@ -425,19 +424,19 @@ arise in the positional setting.
 %We used sampling parameters $k=\{4,\underline{32}\}$ for \vbyteCMB\ and $B=\{16,\underline{64}\}$ for \vbyteSTB. Yet, for clarity, we show only the underlined values in the plots.
 
 We did not include \vbyteLzend, as it was clearly overcome by \vbyteLZMA\ and our \repair\ variants.
-For the variants of \repair\ using sampling, we set the sampling parameters to $k=\{1,64\}$ for \repairSkipCM\ and $B=\{4,256\}$ for \repairSkipST\ (yet we will again show only results for $B=256$, as using $B=4$ doubled the space and brought no time improvements).
+For the variants of \repair\ using sampling, we set the sampling parameters to $k=\{1,64\}$ for \repairSkipCM\ and $B=\{256\}$ for \repairSkipST.
 
 To compete in similar conditions with self-indexes, positional inverted indexes
-must be enhanced with an efficient decoding mechanism that allows any portion
-of the text to be efficiently reproduced. We choose \repair\ for this purpose because 
+must be enhanced with an efficient extraction/decompression mechanism that allows any portion
+of the source text to be efficiently reproduced; i.e. we need a representation of the source text. We choose \repair\ for this purpose because 
 it is well-suited for highly repetitive collections and supports fast direct access 
 to the text. Because the text in this way represents a very small fraction 
-of the total space, we will represent the rules as pairs of integers to speed up text 
+of the total space, we  represent the rules as pairs of integers to speed up text 
 extraction, instead of the slower $R_B$ and $R_S$ based implementation. This adds up to 
 $1.21\%$ of the original text size. To further improve extraction performance, we add a regular 
 sampling of the array $C$, which increases space up to $1.3\%$ for the densest sampling. As 
 a comparison, {\tt p7zip} (from {\tt www.7-zip.org}), the best compressor for this type 
-of repetitive texts, achieved 0.52\% space on this subcollection (albeit not providing 
+for repetitive texts, achieved 0.52\% space on this subcollection (albeit not providing 
 direct access).
 
 
@@ -454,9 +453,8 @@ Then, in Section~\ref{exp:pos:ours} we compare the best
 state-of-the art representations and our new representations of positional
 inverted lists, plus the tuned self-indexing alternatives.
 %
-Our final experiments, in Section~\ref{exp:pos:extract}, study the speed to
-extract snippets and recover the original documents.
-
+Our final experiments, in Section~\ref{exp:pos:extract}, study the performance when we
+extract snippets from the original document collection.
 \subsubsection{Traditional inverted list representations} \label{exp:pos:others}
 
 \begin{figure}[t]
@@ -465,14 +463,15 @@ extract snippets and recover the original documents.
 \includegraphics[angle=-90,width=0.49\textwidth]{../figures/f3/words1001-100k/locate-words1001-100k.eps}
 \includegraphics[angle=-90,width=0.49\textwidth]{../figures/f3/phrases2-2/locate-2_2.eps}
 \includegraphics[angle=-90,width=0.49\textwidth]{../figures/f3/phrases5-5/locate-5_5.eps}
-\caption{Space/time tradeoffs for traditional representations of positional indexes. Logscale.}
+\caption{Space/time tradeoffs for traditional representations of positional indexes. Logscale. This figure corresponds to Figure 6 in the parent paper \cite{CFMNis16.3}.}
 \label{fig:pos}
 \end{center}
 \end{figure}
 
 Figure \ref{fig:pos} shows the space/time tradeoffs achieved, for the four
 types of queries, with traditional inverted index representations.
-All classical inverted indexes achieve similar space, ranging from 30\% to 40\% of the text size. From those, \interpolative\ obtains the best compression, with a slight gap over \efopt\ and \optpfd. 
+All classical inverted indexes achieve similar space, ranging from 30\% to 40\% of the text size.  From those, \optpfd \footnote{Recall that in the companion reproducibility paper (Section 2.2.1) we indicated that there was a fix here, because in the parent paper, the space/time values for \optpfd\ were wrong. }  obtains the best compression, with a slight gap over \efopt\ and \interpolative. 
+
 
 % \simplen\ is slightly faster than \vbyte\ for decompressing (i.e., 
 % for one-word queries), yet \vbyte\ becomes faster on phrases.
@@ -497,7 +496,7 @@ All classical inverted indexes achieve similar space, ranging from 30\% to 40\% 
 \subsubsection{Comparing positional inverted indexes with self-indexes} \label{exp:pos:ours}
 
 We compare the best traditional inverted indexes with the variants we developed to exploit repetitiveness. In addition,
-we include the self-indexes (tuned as shown above) in the comparison. Figure~\ref{fig:pos2.2} shows the results.
+we include the self-indexes (tuned as shown in the companion reproducibility paper) in the comparison. Figure~\ref{fig:pos2.2} shows the results.
 
 \begin{figure}[t]
 \begin{center}
@@ -505,7 +504,7 @@ we include the self-indexes (tuned as shown above) in the comparison. Figure~\re
 \includegraphics[angle=-90,width=0.49\textwidth]{../figures/f4/words1001-100k/locate-words1001-100k.eps}
 \includegraphics[angle=-90,width=0.49\textwidth]{../figures/f4/phrases2-2/locate-2_2.eps}
 \includegraphics[angle=-90,width=0.49\textwidth]{../figures/f4/phrases5-5/locate-5_5.eps}
-\caption{Space/time tradeoffs for positional indexes. Logscale.}
+\caption{Space/time tradeoffs for positional indexes. Logscale. This figure corresponds to Figure 9 in the parent paper \cite{CFMNis16.3}.}
 \label{fig:pos2.2}
 \end{center}
 \end{figure}
@@ -514,8 +513,8 @@ we include the self-indexes (tuned as shown above) in the comparison. Figure~\re
 
 \repairNo\ and \repairSkip\ achieve almost the same space, %slightly below 30\%, 
 close to 20\%,
-and the latter is always faster for the same reasons as on
-non-positional indexes. While for words \repairSkip\ is slower than the 
+and the latter is always faster for the same reasons as in
+non-positional indexes. While for words, \repairSkip\ is slower than the 
 classical methods, its times become similar to those of \simplen\ on phrases. Adding sampling on 
 top of \repairSkip\ clearly outperforms \simplen\ on phrases. 
 Yet, \repairSkipST\ and \repairSkipCM\ are still clearly slower than the \efopt, \optpfd, and \varint, which obtain the best performance at phrase queries.
@@ -536,7 +535,7 @@ compression ratio. This important reduction in space compared to the 10\% of
 a sharp increase in search times. On words, they are up to two orders of magnitude slower 
 than \vbyteLZMA. However, this gap decreases as longer patterns are used. Actually, they could obtain comparable times to \vbyteLZMA\ on 5-word queries. This is because, these self-indexes are mostly 
 insensitive to the number of words in the query, whereas inverted indexes become 
-much slower when looking for longer phrases. Thus, for long queries, 
+much slower when looking for long phrases. Thus, for long queries, 
 \slp\ and \wslp\ are very attractive alternatives.
 
 %The \rlcsa\ offers a wide space/time tradeoff that goes from roughly the 
@@ -570,13 +569,13 @@ much slower when looking for longer phrases. Thus, for long queries,
 Since self-indexes represent the text as a part of the index, it is relevant
 to measure how fast they are at extracting an arbitrary text snippet. For
 fairness we have added to our inverted indexes a \repair-compressed version
-of the text. In order to support snippet extraction, we add a regular
-sampling over the $C$ vector, which indicates the text position where the
+of the text. In order to support snippet extraction, we added a regular
+sampling over the final Re-pair sequence ($C$), which indicates the text position where the
 corresponding symbol starts. For decompressing an arbitrary snippet we binary
-search the rightmost preceding sample and decompress from there. This induces
+search the rightmost preceding sample and decompress from there on. This induces
 a space/time tradeoff regarding the sampling step.
 
-Figure~\ref{fig:extract} shows the results of extracting random snippets
+Figure~\ref{fig:extract} shows the results obtained when we extract random snippets
 of length 80 and 13,000 characters. Word-based indexes \wcsa\ and \wslp\ extract a number of
 words equal to 80 or 13,000 divided by the average word length, to provide
 a roughly comparable result. 
@@ -585,7 +584,7 @@ a roughly comparable result.
 \begin{center}
 \includegraphics[angle=-90,width=0.49\textwidth]{../figures/f5/length80/extract80.eps}
 \includegraphics[angle=-90,width=0.49\textwidth]{../figures/f5/length13000/extract13000.eps}
-\caption{Space/time tradeoffs for extraction. Logscale.}
+\caption{Space/time tradeoffs for extraction. Logscale. This figure corresponds to Figure 10 in the parent paper \cite{CFMNis16.3}.}
 \label{fig:extract}
 \end{center}
 \end{figure}
@@ -618,7 +617,7 @@ a roughly comparable result.
 
 We have left our codes and experimental testbeds available at
 {\tt https://github.com/migumar2/uiHRDC}.
-Please refer to our Reproducibility paper {``\em Reproducible Research about Indexing Repetitive Document Collections''} or to our original paper  \cite{CFMNis16.3} for more details.
+Please refer to our Reproducibility paper {``\em On the Reproducibility of Experiments of Indexing Repetitive DocumentCollections''} or to our parent paper \cite{CFMNis16.3} for more details.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
@@ -629,4 +628,41 @@ Please refer to our Reproducibility paper {``\em Reproducible Research about Ind
 
 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Appendix 1: Details on the Computer used and summary of Results}
+\newcommand{\ok}{\checkmark}
+\newcommand{\ko}{  \texttt{--} }        
+               
+\input{../summaryTables/enviroment.tex}
+
+The experiments were reproduced by the uiHRDC framework within a Docker instance in a computer which the following specifications:
+\begin{itemize}
+\item {\bf CPU:} \cpu  ~~(siblings\footnote{Only \vbyteLZMA\ (at building time) takes advantage of using the available cores.}: \nsiblings)
+\item {\bf RAM:} \mem  ~~(Swap: \swapmem)
+\item {\bf OS:} \osversion. In particular: \osfull.
+\end{itemize}
+The experiments started on {\em \runinidate} and ended on {\em \runenddate}. The overall time to run the experiments was: {\bf \elapsed}.
+
+\medskip
+
+Below, we include a summary of the experiments performed for: 
+{\em (a)} the non-positional inverted indexes (Table~\ref{ap1:nopos}),
+{\em (b)} the positional inverted indexes (Table~\ref{ap1:pos}), and 
+{\em (c)} the self-indexes (Table~\ref{ap1:self}). In all those tables we show respectively for each technique: 
+the name of the technique, the building time (considering all the variants built depending on the sampling parameter, if any) and the time spent to perform all the queries.
+Then, we include either a `\ok' or a `\ko' symbol to report wether the querying experiments either succeeded or failed. We consider the four scenarios for \texttt{locate} discussed in Section~\ref{sec:querysets}
+(low frequency words, high frequency words, 2-words phrases, and 5-words phrases). In addition, in Tables~\ref{ap1:pos} and ~\ref{ap1:self} we also consider \texttt{extract} experiments considering snippets of both 80 and 13,000 chars. 
+Finally, the last row of each table includes the overall time required to perform all the experiments that are summarized in each table.
+
+
+\input{../summaryTables/autonopos.tex}
+\input{../summaryTables/autopos.tex}
+\input{../summaryTables/autoselfindex.tex}
+
+%\input{../executionTables/summary.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document} 

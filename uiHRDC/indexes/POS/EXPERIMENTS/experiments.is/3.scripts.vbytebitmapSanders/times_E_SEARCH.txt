@@ -6,36 +6,23 @@
 	** Operation = N ** numpatts = 1000, wordsXpattern=0-0
 	**size_Index= 781411374 bytes, size_Inv-lists= 752569182 bytes, size_compText= 25280492 bytes
 	Total Num occs found = 99228
-	Locate time = 0.001760 sec
-	Locate time/Num_occs = 0.000018 msec/occss
-	Locate_time/pat = 0.00176000 msec/pat
-		(Load_time+locate time)/Num_occs = 0.000018  msec/occs
-
-
- Search: ./SEARCH indexes/wiki2gb_bitmap1_k64: 200 int2=lookup;intn=lookup
-	Load index time = 0.004000 sec
-	Index size = 746760985 bytes = (729258 Kbytes)
-	 source size = 2087767849 bytes ==> ratio = 35.768%
-	** Operation = N ** numpatts = 1000, wordsXpattern=0-0
-	**size_Index= 746760985 bytes, size_Inv-lists= 717918793 bytes, size_compText= 25280492 bytes
-	Total Num occs found = 99228
-	Locate time = 0.001840 sec
-	Locate time/Num_occs = 0.000019 msec/occss
-	Locate_time/pat = 0.00184000 msec/pat
-		(Load_time+locate time)/Num_occs = 0.000059  msec/occs
+	Locate time = 0.001540 sec
+	Locate time/Num_occs = 0.000016 msec/occss
+	Locate_time/pat = 0.00154000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000016  msec/occs
 
 
  Search: ./SEARCH indexes/wiki2gb_bitmap1_k128: 200 int2=lookup;intn=lookup
-	Load index time = 0.000000 sec
+	Load index time = 0.004000 sec
 	Index size = 741021161 bytes = (723653 Kbytes)
 	 source size = 2087767849 bytes ==> ratio = 35.493%
 	** Operation = N ** numpatts = 1000, wordsXpattern=0-0
 	**size_Index= 741021161 bytes, size_Inv-lists= 712178969 bytes, size_compText= 25280492 bytes
 	Total Num occs found = 99228
-	Locate time = 0.001700 sec
-	Locate time/Num_occs = 0.000017 msec/occss
-	Locate_time/pat = 0.00170000 msec/pat
-		(Load_time+locate time)/Num_occs = 0.000017  msec/occs
+	Locate time = 0.001480 sec
+	Locate time/Num_occs = 0.000015 msec/occss
+	Locate_time/pat = 0.00148000 msec/pat
+		(Load_time+locate time)/Num_occs = 0.000055  msec/occs
 
 
  Search: ./SEARCH indexes/wiki2gb_bitmap1_k16: 100 int2=lookup;intn=lookup
@@ -45,22 +32,9 @@
 	** Operation = N ** numpatts = 1000, wordsXpattern=0-0
 	**size_Index= 781411374 bytes, size_Inv-lists= 752569182 bytes, size_compText= 25280492 bytes
 	Total Num occs found = 5701883
-	Locate time = 0.037400 sec
-	Locate time/Num_occs = 0.000007 msec/occss
-	Locate_time/pat = 0.03740000 msec/pat
-		(Load_time+locate time)/Num_occs = 0.000007  msec/occs
-
-
- Search: ./SEARCH indexes/wiki2gb_bitmap1_k64: 100 int2=lookup;intn=lookup
-	Load index time = 0.004000 sec
-	Index size = 746760985 bytes = (729258 Kbytes)
-	 source size = 2087767849 bytes ==> ratio = 35.768%
-	** Operation = N ** numpatts = 1000, wordsXpattern=0-0
-	**size_Index= 746760985 bytes, size_Inv-lists= 717918793 bytes, size_compText= 25280492 bytes
-	Total Num occs found = 5701883
-	Locate time = 0.032960 sec
+	Locate time = 0.034200 sec
 	Locate time/Num_occs = 0.000006 msec/occss
-	Locate_time/pat = 0.03296000 msec/pat
+	Locate_time/pat = 0.03420000 msec/pat
 		(Load_time+locate time)/Num_occs = 0.000006  msec/occs
 
 
@@ -71,8 +45,8 @@
 	** Operation = N ** numpatts = 1000, wordsXpattern=0-0
 	**size_Index= 741021161 bytes, size_Inv-lists= 712178969 bytes, size_compText= 25280492 bytes
 	Total Num occs found = 5701883
-	Locate time = 0.032760 sec
-	Locate time/Num_occs = 0.000006 msec/occss
-	Locate_time/pat = 0.03276000 msec/pat
+	Locate time = 0.030960 sec
+	Locate time/Num_occs = 0.000005 msec/occss
+	Locate_time/pat = 0.03096000 msec/pat
 		(Load_time+locate time)/Num_occs = 0.000006  msec/occs
 

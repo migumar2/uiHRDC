@@ -1,7 +1,0 @@
-f1 --> Se corresponde con la figura f3 del paper original  (ii no-pos tradicionales )
-f2 --> Se corresponde con la figura f4 del paper original  (ii no-pos trad mejores VS nuevos)
-f3 --> Se corresponde con la figura f6 del paper original  (ii posicionales mejores-tradicionales)
-f4 --> Se corresponde con la figura f9 del paper original  (ii pos vs autoíndices)
-f5 --> Se corresponde con la figura f10 del paper original  (extract)
-
-

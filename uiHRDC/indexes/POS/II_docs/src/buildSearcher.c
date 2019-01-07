@@ -760,6 +760,7 @@ FILE *FLOG = fopen(flogname,"w");
 	atime = getTime ();
 
 	#ifdef WITHREPETITIONS
+	fprintf(stderr,"\n#iter %d of %d # ",1,REPETITIONS_INTERSECT);   	
 	int j;
 	for (j=0;j<REPETITIONS_INTERSECT;j++) {
 		//fprintf(stderr,"\n iter %d of %d",j,REPETITIONS_INTERSECT);
@@ -776,48 +777,44 @@ FILE *FLOG = fopen(flogname,"w");
 	  		  
 		  tot_numocc += numocc;
 
-//	uint valuex= (numocc>0)? occ[0]: 99999999;	  
-//	fprintf(stderr,"\niter %4u, occs= %6u, occs[0] = %8u",i,numocc,valuex);
-// 	fprintf(stderr," pattern = %s", pattern);
-
-
 		  #ifdef DO_LOG
 			fprintf(logFile,"\n iter = %u, occs= %u ",i,numocc); 
 			uint z;
 			for (z=0;z<numocc;z++) fprintf(logFile,"\n %u --> id=%u",z,occ[z]);
 			//exit(0);
 		  #endif
-
 		  
 
-	#ifdef DO_LOG_OUTPUT
-		{
-			fprintf(FLOG,"\n ===========================================");
-			fprintf(FLOG,"\n #iter %d of %d: pattern = \"%s\" ",i, numpatt, pattern);
-			fprintf(FLOG,"\n    n-occs = %u ", numocc); 
-			//fprintf(FLOG,"\n    showing pairs [doc,offset]: -->"); 
-			//		uint z;
-			//		for (z=0;z<numocc;z++) fprintf(FLOG,"[%u,%u]", occ[z+numocc], occ[z]);
-			fprintf(FLOG,"\n ===========================================");
-			fflush(FLOG);
-		}
-	#endif	  
+		#ifdef DO_LOG_OUTPUT
+			{
+				fprintf(FLOG,"\n ===========================================");
+				fprintf(FLOG,"\n #iter %d of %d: pattern = \"%s\" ",i, numpatt, pattern);
+				fprintf(FLOG,"\n    n-occs = %u ", numocc); 
+				//fprintf(FLOG,"\n    showing pairs [doc,offset]: -->"); 
+				//		uint z;
+				//		for (z=0;z<numocc;z++) fprintf(FLOG,"[%u,%u]", occ[z+numocc], occ[z]);
+				fprintf(FLOG,"\n ===========================================");
+				fflush(FLOG);
+			}
+		#endif	  
 
 
 		  if (occ) free (occ);	
 		  //fprintf(stderr,"@%u@",i); 			
-		  fprintf(stderr,"@"); 			
+		  //fprintf(stderr,"@"); 			
 
 	  }
 	  
    #ifdef WITHREPETITIONS
-	fprintf(stderr,"#iter %d of %d finishes# ",j+1,REPETITIONS_INTERSECT); 
+	//fprintf(stderr,"#iter %d of %d finishes# ",j+1,REPETITIONS_INTERSECT); 
+	fprintf(stderr,"\r#iter %d of %d finished# ",j+1,REPETITIONS_INTERSECT);   
 
 
 	}
    #endif
 	tot_time += (getTime () - atime);
 	tot_time /= (double) REPETITIONS_INTERSECT;		
+	fprintf(stderr,"\n");	
 	
 	fflush(stdout);fflush(stderr);
 	//free patterns and lens arrays.

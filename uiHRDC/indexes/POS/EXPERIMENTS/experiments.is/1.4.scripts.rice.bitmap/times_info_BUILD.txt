@@ -1,6 +1,6 @@
 
  Building index qgrams: ./BUILD ../../text2gb/wiki_src2gb.txt indexes/wiki2gb_bitmap1 lenBitmapDiv=1
-	Building time: 679.856 secs
+	Building time: 729.128 secs
 	Input: 2087767849 bytes --> Output 768245308 bytes.
 	Overall compression --> 36.80% (2.94 bits per char).
 

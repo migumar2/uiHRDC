@@ -1,6 +1,6 @@
 
  Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb_bitmap8_k4 samplerate=4; lenBitmapDiv=8; 2.scripts.vbytebitmapMoffat
-	Building time: 271.820 secs
+	Building time: 310.520 secs
 	Input: 20971541599 bytes --> Output 937007538 bytes.
 	Overall compression --> 4.47% (0.36 bits per char).
 
@@ -18,7 +18,7 @@
 =====================================
 
  Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb_bitmap8_k32 samplerate=32; lenBitmapDiv=8; 2.scripts.vbytebitmapMoffat
-	Building time: 275.628 secs
+	Building time: 306.580 secs
 	Input: 20971541599 bytes --> Output 903972779 bytes.
 	Overall compression --> 4.31% (0.34 bits per char).
 
@@ -36,7 +36,7 @@
 =====================================
 
  Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb_bitmap1_k4 samplerate=4; lenBitmapDiv=1; 2.scripts.vbytebitmapMoffat
-	Building time: 282.064 secs
+	Building time: 308.672 secs
 	Input: 20971541599 bytes --> Output 1258787612 bytes.
 	Overall compression --> 6.00% (0.48 bits per char).
 
@@ -54,7 +54,7 @@
 =====================================
 
  Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb_bitmap1_k32 samplerate=32; lenBitmapDiv=1; 2.scripts.vbytebitmapMoffat
-	Building time: 314.692 secs
+	Building time: 308.460 secs
 	Input: 20971541599 bytes --> Output 1201900682 bytes.
 	Overall compression --> 5.73% (0.46 bits per char).
 

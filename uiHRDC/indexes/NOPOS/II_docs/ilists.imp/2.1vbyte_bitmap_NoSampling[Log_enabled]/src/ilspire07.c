@@ -1352,10 +1352,10 @@ int svsn (void *ail, uint *ids, uint nids, uint *noccs, uint **occs){
 	}
 
 
-	{uint i;
-	fprintf(stderr,"\n Call to svsN:: ");
-	for (i=0;i<nids;i++) fprintf(stderr,"[%d]",ids[i]);
-	}
+//	{uint i;
+//	fprintf(stderr,"\n Call to svsN:: ");
+//	for (i=0;i<nids;i++) fprintf(stderr,"[%d]",ids[i]);
+//	}
 
 
 	// initializing ptr to function "fsearch"

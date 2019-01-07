@@ -1580,10 +1580,10 @@ int lookupn (void *ail, uint *ids, uint nids, uint *noccs, uint **occs){
 	//fprintf(stderr,"\n Call to svsn");	
 	t_il *il = (t_il *) ail;
 	
-		{uint i;
-		fprintf(stderr,"\n Call to lookupN:: ids=  ");
-		for (i=0;i<nids;i++) fprintf(stderr,"[%d]",ids[i]);
-		}
+	//	{uint i;
+	//	fprintf(stderr,"\n Call to lookupN:: ids=  ");
+	//	for (i=0;i<nids;i++) fprintf(stderr,"[%d]",ids[i]);
+	//	}
 
 	//sorting ids ==> lists are sorted by frequency !!
 /*

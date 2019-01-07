@@ -62,7 +62,8 @@ namespace quasi_succinct {
 
             uint64_t results = 0;
             
-            int GAP1,GAP2;
+            int GAP1;
+            //int GAP2;
             
             uint64_t candidate = enums[0].first.docid();  GAP1= enums[0].second;
             candidate -=GAP1;

@@ -1,3 +1,5 @@
+Build-starts!
+start-time  : 2018-12-31 20:07:15.733505
 ---------------------------------------------------------------
 - Building WCSA indexes with several parameter configurations -
 ---------------------------------------------------------------
@@ -239,6 +241,11 @@ Overall compression --> 8.89% (0.71 bits per char).
 	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
 	**** [the whole iCSA ocuppied ... 181233178 bytes... RAM
 	**** iCSA size = 181233178 bytes 
+end-time    : 2018-12-31 20:31:12.990550
+elapsed-time: 00h23m57.25s
+00h23m57.25s
+Search-starts!
+start-time  : 2018-12-31 20:31:13.013289
 ---------------------------------------------------------------
 - Running Locate and extract experiments -
 ---------------------------------------------------------------
@@ -1535,3 +1542,6 @@ Psi Bin Search Factor-Jump is = 512
 	[destroying  SA: BA vector] ...Freed 57859076 bytes... RAM
 	**** [the whole iCSA ocuppied ... 226740278 bytes... RAM
 	**** iCSA size = 226740278 bytes 
+end-time    : 2019-01-01 03:04:23.434644
+elapsed-time: 06h33m10.42s
+06h33m10.42s

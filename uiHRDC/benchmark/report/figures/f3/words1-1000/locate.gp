@@ -11,10 +11,11 @@ set key top right
 set pointsize 1.5
 set logscale x
 set logscale y
+
 #set yr [0:5]
-#set xr [20:151]
-set xr [10:151]
-#set xtics ("" 1,"" 10,20,30,40,"" 50,60,"" 70,80,"" 90,100,"" 110,120,"" 130,140,"" 150)
+set xr [20:151]
+#set xr [10:151]
+set xtics ("" 1,"" 10,20,30,40,"" 50,60,"" 70,80,"" 90,100,"" 110,120,"" 130,140,"" 150)
 
 
 plot\

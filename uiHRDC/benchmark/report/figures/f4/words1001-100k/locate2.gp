@@ -18,7 +18,9 @@ set logscale x
 set logscale y
 #set yr [0.01:15000]
 #set xr [1:41]
-#set xtics ("1" 1, "2" 2, "3" 3, "4" 4,"5" 5,"6" 6,"7" 7,"8" 8,"9" 9, "10" 10,"20" 20, "30" 30,""40)
+set xr [1:51]
+set xtics ("1" 1, "2" 2, "3" 3, "4" 4,"5" 5,"6" 6,"7" 7,"8" 8,"9" 9, "10" 10,"20" 20, "30" 30,"40" 40,"" 50)
+
 
 plot\
   "E_Wb.7.1.simple9e.dat" using (100*$1/2087767849):3 title "Simple9" with linespoints ls 2 lc rgb 'blue',\

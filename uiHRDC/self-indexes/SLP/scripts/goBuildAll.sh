@@ -35,22 +35,37 @@ cd ../intervals
 ln -s ../../../../data/intervals/wiki2g* .
 cd ../../
 
+
+
 echo " \n -----------------------"
 echo " --- SLP indexing... ---"
 echo " -----------------------\n"
+
+rm -f evaluation/results/Bslp*-LOG.dat*
+python ../../utils-py/starttime.py  evaluation/results/Bslp-LOG.dat "Build-starts!"   ##LOGS-ELAPSED-TIMES
+
 cd slp
 ./SLPIndex -i ../evaluation/text ../evaluation/indexes/index.slp 4
 cd ..
 
+python ../../utils-py/endtime.py    evaluation/results/Bslp-LOG.dat                  ##LOGS-ELAPSED-TIMES
+
+
 echo " \n ------------------------"
 echo " --- WSLP indexing... ---"
 echo " ------------------------\n"
+
+rm -f evaluation/results/Bwslp*-LOG.dat*
+python ../../utils-py/starttime.py  evaluation/results/Bwslp-LOG.dat "Build-starts!"   ##LOGS-ELAPSED-TIMES
+
 cd wslp
 ./wSLPIndex -i ../evaluation/text ../evaluation/indexes/index.wslp
+cd ..
+
+python ../../utils-py/endtime.py    evaluation/results/Bwslp-LOG.dat                  ##LOGS-ELAPSED-TIMES
 
 echo " \n =========================================================="
 echo " === The collection is indexed and ready to be evaluated ==="
 echo "  ==========================================================\n"
-cd ..
 
 cd ./scripts

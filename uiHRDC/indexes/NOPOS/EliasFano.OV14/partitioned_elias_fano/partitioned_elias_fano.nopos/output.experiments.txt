@@ -1,11 +1,13 @@
 ====================================================
 == CREATING 20gb OPT ===============================
 ====================================================
-2018-01-27 23:22:12: Processing 881802 documents
-2018-01-27 23:22:12: semiasync_queue using 12 worker threads
-2018-01-27 23:25:18: Processed 534120 sequences, 1176903348 postings
-2018-01-27 23:25:25: opt collection built in 192.762 seconds
-{"type": "opt", "worker_threads": 12, "construction_time": 192.762, "construction_user_time": 1079.86}
+Build-starts!
+start-time  : 2018-12-31 20:00:07.592628
+2018-12-31 20:00:07: Processing 881802 documents
+2018-12-31 20:00:07: semiasync_queue using 12 worker threads
+2018-12-31 20:02:08: Processed 534120 sequences, 1176903348 postings
+2018-12-31 20:02:17: opt collection built in 130.142 seconds
+{"type": "opt", "worker_threads": 12, "construction_time": 130.142, "construction_user_time": 1475.02}
 <TOP>: 329912725
     m_params: 5
     m_docs_sequences: 132564440
@@ -18,72 +20,82 @@
             m_bits: 906520
         m_bitvectors: 196441736
             m_bits: 196441728
-2018-01-27 23:25:25: Documents: 132564440 bytes, 0.901107 bits per element
-2018-01-27 23:25:25: Frequencies: 197348272 bytes, 1.34147 bits per element
+2018-12-31 20:02:17: Documents: 132564440 bytes, 0.901107 bits per element
+2018-12-31 20:02:17: Frequencies: 197348272 bytes, 1.34147 bits per element
 {"type": "opt", "docs_size": 132564440, "freqs_size": 197348272, "bits_per_doc": 0.901107, "bits_per_freq": 1.34147}
 {"type": "opt", "eps1": 0.03, "eps2": 0.3, "fix_cost": 64, "docs_avg_part": 140.77, "freqs_avg_part": 411.359}
-2018-01-27 23:25:32: Checking the written data, just to be extra safe...
-2018-01-27 23:25:39: Everything is OK!
-2018-01-27 23:25:39: Reading sizes...
-2018-01-27 23:25:39: Storing max weight for each list...
-2018-01-27 23:25:41: 534120 list processed
+2018-12-31 20:02:18: Checking the written data, just to be extra safe...
+2018-12-31 20:02:25: Everything is OK!
+2018-12-31 20:02:25: Reading sizes...
+2018-12-31 20:02:25: Storing max weight for each list...
+2018-12-31 20:02:27: 534120 list processed
+end-time    : 2018-12-31 20:02:27.110802
+elapsed-time: 00h02m19.51s
+00h02m19.51s
+Search-starts!
+start-time  : 2018-12-31 20:02:27.116025
 == Wa ==============================================
-2018-01-27 23:25:41: Loading index from indexes/20gb.opt
-2018-01-27 23:25:41: Performing opt queries [1000]
-2018-01-27 23:25:41: ---- opt and
-2018-01-27 23:25:41: Tot time (micros): 1088
-2018-01-27 23:25:41: Time per occ (micros): 0.00758075 occs= 91020
-2018-01-27 23:25:41: Mean (micros per pat): 0.69
-2018-01-27 23:25:41: Mean (micros per occ): 0.00758075
-2018-01-27 23:25:41: 50% quantile: 0.333333
-2018-01-27 23:25:41: 90% quantile: 1.66667
-2018-01-27 23:25:41: 95% quantile: 2
-{"type": "opt", "query": "and", "tottime (micros)": 1088, "noccs": 91020, "avg (micros per pat)": 0.69, "avg (micros per occ)": 0.00758075, "q50": 0.333333, "q90": 1.66667, "q95": 2}
+2018-12-31 20:02:27: Loading index from indexes/20gb.opt
+2018-12-31 20:02:27: Performing opt queries [1000]
+2018-12-31 20:02:27: ---- opt and
+2018-12-31 20:02:27: Tot time (micros): 756.767
+2018-12-31 20:02:27: Time per occ (micros): 0.00785688 occs= 91020
+2018-12-31 20:02:27: Mean (micros per pat): 0.715133
+2018-12-31 20:02:27: Mean (micros per occ): 0.00785688
+2018-12-31 20:02:27: 50% quantile: 0.366667
+2018-12-31 20:02:27: 90% quantile: 1.6
+2018-12-31 20:02:27: 95% quantile: 2.16667
+{"type": "opt", "query": "and", "tottime (micros)": 756.767, "noccs": 91020, "avg (micros per pat)": 0.715133, "avg (micros per occ)": 0.00785688, "q50": 0.366667, "q90": 1.6, "q95": 2.16667}
 == Wb ==============================================
-2018-01-27 23:25:41: Loading index from indexes/20gb.opt
-2018-01-27 23:25:41: Performing opt queries [1000]
-2018-01-27 23:25:41: ---- opt and
-2018-01-27 23:25:41: Tot time (micros): 27769.7
-2018-01-27 23:25:41: Time per occ (micros): 0.00383368 occs= 5383595
-2018-01-27 23:25:41: Mean (micros per pat): 20.639
-2018-01-27 23:25:41: Mean (micros per occ): 0.00383368
-2018-01-27 23:25:41: 50% quantile: 8.66667
-2018-01-27 23:25:41: 90% quantile: 48.6667
-2018-01-27 23:25:41: 95% quantile: 91
-{"type": "opt", "query": "and", "tottime (micros)": 27769.7, "noccs": 5383595, "avg (micros per pat)": 20.639, "avg (micros per occ)": 0.00383368, "q50": 8.66667, "q90": 48.6667, "q95": 91}
+2018-12-31 20:02:27: Loading index from indexes/20gb.opt
+2018-12-31 20:02:27: Performing opt queries [1000]
+2018-12-31 20:02:27: ---- opt and
+2018-12-31 20:02:27: Tot time (micros): 18726.8
+2018-12-31 20:02:27: Time per occ (micros): 0.00336132 occs= 5383595
+2018-12-31 20:02:27: Mean (micros per pat): 18.096
+2018-12-31 20:02:27: Mean (micros per occ): 0.00336132
+2018-12-31 20:02:27: 50% quantile: 7.2
+2018-12-31 20:02:27: 90% quantile: 40
+2018-12-31 20:02:27: 95% quantile: 79.4667
+{"type": "opt", "query": "and", "tottime (micros)": 18726.8, "noccs": 5383595, "avg (micros per pat)": 18.096, "avg (micros per occ)": 0.00336132, "q50": 7.2, "q90": 40, "q95": 79.4667}
 == P2 ==============================================
-2018-01-27 23:25:41: Loading index from indexes/20gb.opt
-2018-01-27 23:25:41: Performing opt queries [1000]
-2018-01-27 23:25:44: ---- opt and
-2018-01-27 23:25:44: Tot time (micros): 711894
-2018-01-27 23:25:44: Time per occ (micros): 0.00640481 occs= 83166310
-2018-01-27 23:25:44: Mean (micros per pat): 532.664
-2018-01-27 23:25:44: Mean (micros per occ): 0.00640481
-2018-01-27 23:25:44: 50% quantile: 173.667
-2018-01-27 23:25:44: 90% quantile: 1619.33
-2018-01-27 23:25:44: 95% quantile: 2448
-{"type": "opt", "query": "and", "tottime (micros)": 711894, "noccs": 83166310, "avg (micros per pat)": 532.664, "avg (micros per occ)": 0.00640481, "q50": 173.667, "q90": 1619.33, "q95": 2448}
+2018-12-31 20:02:27: Loading index from indexes/20gb.opt
+2018-12-31 20:02:27: Performing opt queries [1000]
+2018-12-31 20:02:44: ---- opt and
+2018-12-31 20:02:44: Tot time (micros): 545559
+2018-12-31 20:02:44: Time per occ (micros): 0.0063447 occs= 83166310
+2018-12-31 20:02:44: Mean (micros per pat): 527.666
+2018-12-31 20:02:44: Mean (micros per occ): 0.0063447
+2018-12-31 20:02:44: 50% quantile: 172.067
+2018-12-31 20:02:44: 90% quantile: 1621.57
+2018-12-31 20:02:44: 95% quantile: 2391.27
+{"type": "opt", "query": "and", "tottime (micros)": 545559, "noccs": 83166310, "avg (micros per pat)": 527.666, "avg (micros per occ)": 0.0063447, "q50": 172.067, "q90": 1621.57, "q95": 2391.27}
 == P4 ==============================================
-2018-01-27 23:25:44: Loading index from indexes/20gb.opt
-2018-01-27 23:25:44: Performing opt queries [1000]
-2018-01-27 23:25:45: ---- opt and
-2018-01-27 23:25:45: Tot time (micros): 338499
-2018-01-27 23:25:45: Time per occ (micros): 0.0146588 occs= 17179908
-2018-01-27 23:25:45: Mean (micros per pat): 251.837
-2018-01-27 23:25:45: Mean (micros per occ): 0.0146588
-2018-01-27 23:25:45: 50% quantile: 52.3333
-2018-01-27 23:25:45: 90% quantile: 577
-2018-01-27 23:25:45: 95% quantile: 1421.33
-{"type": "opt", "query": "and", "tottime (micros)": 338499, "noccs": 17179908, "avg (micros per pat)": 251.837, "avg (micros per occ)": 0.0146588, "q50": 52.3333, "q90": 577, "q95": 1421.33}
+2018-12-31 20:02:44: Loading index from indexes/20gb.opt
+2018-12-31 20:02:44: Performing opt queries [1000]
+2018-12-31 20:02:52: ---- opt and
+2018-12-31 20:02:52: Tot time (micros): 267176
+2018-12-31 20:02:52: Time per occ (micros): 0.0150301 occs= 17179908
+2018-12-31 20:02:52: Mean (micros per pat): 258.215
+2018-12-31 20:02:52: Mean (micros per occ): 0.0150301
+2018-12-31 20:02:52: 50% quantile: 51.7333
+2018-12-31 20:02:52: 90% quantile: 578.733
+2018-12-31 20:02:52: 95% quantile: 1435.77
+{"type": "opt", "query": "and", "tottime (micros)": 267176, "noccs": 17179908, "avg (micros per pat)": 258.215, "avg (micros per occ)": 0.0150301, "q50": 51.7333, "q90": 578.733, "q95": 1435.77}
 ====================================================
+end-time    : 2018-12-31 20:02:52.237267
+elapsed-time: 00h00m25.12s
+00h00m25.12s
 ====================================================
 == CREATING 20gb UNIF ==============================
 ====================================================
-2018-01-27 23:25:45: Processing 881802 documents
-2018-01-27 23:25:45: semiasync_queue using 12 worker threads
-2018-01-27 23:25:47: Processed 534120 sequences, 1176903348 postings
-2018-01-27 23:25:47: uniform collection built in 2.77544 seconds
-{"type": "uniform", "worker_threads": 12, "construction_time": 2.77544, "construction_user_time": 29.072}
+Build-starts!
+start-time  : 2018-12-31 20:02:52.242442
+2018-12-31 20:02:52: Processing 881802 documents
+2018-12-31 20:02:52: semiasync_queue using 12 worker threads
+2018-12-31 20:02:54: Processed 534120 sequences, 1176903348 postings
+2018-12-31 20:02:55: uniform collection built in 2.81014 seconds
+{"type": "uniform", "worker_threads": 12, "construction_time": 2.81014, "construction_user_time": 29.084}
 <TOP>: 544941693
     m_params: 5
     m_docs_sequences: 317511232
@@ -96,268 +108,306 @@
             m_bits: 921800
         m_bitvectors: 226508632
             m_bits: 226508624
-2018-01-27 23:25:47: Documents: 317511232 bytes, 2.15828 bits per element
-2018-01-27 23:25:47: Frequencies: 227430448 bytes, 1.54596 bits per element
+2018-12-31 20:02:55: Documents: 317511232 bytes, 2.15828 bits per element
+2018-12-31 20:02:55: Frequencies: 227430448 bytes, 1.54596 bits per element
 {"type": "uniform", "docs_size": 317511232, "freqs_size": 227430448, "bits_per_doc": 2.15828, "bits_per_freq": 1.54596}
 {"type": "uniform", "log_partition_size": 7}
-2018-01-27 23:25:58: Checking the written data, just to be extra safe...
-2018-01-27 23:26:07: Everything is OK!
-2018-01-27 23:26:07: Reading sizes...
-2018-01-27 23:26:07: Storing max weight for each list...
-2018-01-27 23:26:09: 534120 list processed
+2018-12-31 20:02:55: Checking the written data, just to be extra safe...
+2018-12-31 20:03:04: Everything is OK!
+2018-12-31 20:03:04: Reading sizes...
+2018-12-31 20:03:04: Storing max weight for each list...
+2018-12-31 20:03:05: 534120 list processed
+end-time    : 2018-12-31 20:03:05.854458
+elapsed-time: 00h00m13.61s
+00h00m13.61s
+Search-starts!
+start-time  : 2018-12-31 20:03:05.859658
 == Wa ==============================================
-2018-01-27 23:26:09: Loading index from indexes/20gb.uniform
-2018-01-27 23:26:09: Performing uniform queries [1000]
-2018-01-27 23:26:09: ---- uniform and
-2018-01-27 23:26:09: Tot time (micros): 1106
-2018-01-27 23:26:09: Time per occ (micros): 0.00785908 occs= 91020
-2018-01-27 23:26:09: Mean (micros per pat): 0.715333
-2018-01-27 23:26:09: Mean (micros per occ): 0.00785908
-2018-01-27 23:26:09: 50% quantile: 0.333333
-2018-01-27 23:26:09: 90% quantile: 1.66667
-2018-01-27 23:26:09: 95% quantile: 2.33333
-{"type": "uniform", "query": "and", "tottime (micros)": 1106, "noccs": 91020, "avg (micros per pat)": 0.715333, "avg (micros per occ)": 0.00785908, "q50": 0.333333, "q90": 1.66667, "q95": 2.33333}
+2018-12-31 20:03:05: Loading index from indexes/20gb.uniform
+2018-12-31 20:03:05: Performing uniform queries [1000]
+2018-12-31 20:03:05: ---- uniform and
+2018-12-31 20:03:05: Tot time (micros): 733.033
+2018-12-31 20:03:05: Time per occ (micros): 0.00761664 occs= 91020
+2018-12-31 20:03:05: Mean (micros per pat): 0.693267
+2018-12-31 20:03:05: Mean (micros per occ): 0.00761664
+2018-12-31 20:03:05: 50% quantile: 0.333333
+2018-12-31 20:03:05: 90% quantile: 1.73333
+2018-12-31 20:03:05: 95% quantile: 2.4
+{"type": "uniform", "query": "and", "tottime (micros)": 733.033, "noccs": 91020, "avg (micros per pat)": 0.693267, "avg (micros per occ)": 0.00761664, "q50": 0.333333, "q90": 1.73333, "q95": 2.4}
 == Wb ==============================================
-2018-01-27 23:26:09: Loading index from indexes/20gb.uniform
-2018-01-27 23:26:09: Performing uniform queries [1000]
-2018-01-27 23:26:09: ---- uniform and
-2018-01-27 23:26:09: Tot time (micros): 29882.7
-2018-01-27 23:26:09: Time per occ (micros): 0.00412766 occs= 5383595
-2018-01-27 23:26:09: Mean (micros per pat): 22.2217
-2018-01-27 23:26:09: Mean (micros per occ): 0.00412766
-2018-01-27 23:26:09: 50% quantile: 8.66667
-2018-01-27 23:26:09: 90% quantile: 48
-2018-01-27 23:26:09: 95% quantile: 96
-{"type": "uniform", "query": "and", "tottime (micros)": 29882.7, "noccs": 5383595, "avg (micros per pat)": 22.2217, "avg (micros per occ)": 0.00412766, "q50": 8.66667, "q90": 48, "q95": 96}
+2018-12-31 20:03:05: Loading index from indexes/20gb.uniform
+2018-12-31 20:03:05: Performing uniform queries [1000]
+2018-12-31 20:03:06: ---- uniform and
+2018-12-31 20:03:06: Tot time (micros): 23093
+2018-12-31 20:03:06: Time per occ (micros): 0.00414573 occs= 5383595
+2018-12-31 20:03:06: Mean (micros per pat): 22.3189
+2018-12-31 20:03:06: Mean (micros per occ): 0.00414573
+2018-12-31 20:03:06: 50% quantile: 8.83333
+2018-12-31 20:03:06: 90% quantile: 47.7667
+2018-12-31 20:03:06: 95% quantile: 96
+{"type": "uniform", "query": "and", "tottime (micros)": 23093, "noccs": 5383595, "avg (micros per pat)": 22.3189, "avg (micros per occ)": 0.00414573, "q50": 8.83333, "q90": 47.7667, "q95": 96}
 == P2 ==============================================
-2018-01-27 23:26:09: Loading index from indexes/20gb.uniform
-2018-01-27 23:26:09: Performing uniform queries [1000]
-2018-01-27 23:26:12: ---- uniform and
-2018-01-27 23:26:12: Tot time (micros): 898466
-2018-01-27 23:26:12: Time per occ (micros): 0.00808339 occs= 83166310
-2018-01-27 23:26:12: Mean (micros per pat): 672.266
-2018-01-27 23:26:12: Mean (micros per occ): 0.00808339
-2018-01-27 23:26:12: 50% quantile: 221
-2018-01-27 23:26:12: 90% quantile: 2031.33
-2018-01-27 23:26:12: 95% quantile: 3001.33
-{"type": "uniform", "query": "and", "tottime (micros)": 898466, "noccs": 83166310, "avg (micros per pat)": 672.266, "avg (micros per occ)": 0.00808339, "q50": 221, "q90": 2031.33, "q95": 3001.33}
+2018-12-31 20:03:06: Loading index from indexes/20gb.uniform
+2018-12-31 20:03:06: Performing uniform queries [1000]
+2018-12-31 20:03:27: ---- uniform and
+2018-12-31 20:03:27: Tot time (micros): 697686
+2018-12-31 20:03:27: Time per occ (micros): 0.00811486 occs= 83166310
+2018-12-31 20:03:27: Mean (micros per pat): 674.883
+2018-12-31 20:03:27: Mean (micros per occ): 0.00811486
+2018-12-31 20:03:27: 50% quantile: 219.933
+2018-12-31 20:03:27: 90% quantile: 2023.4
+2018-12-31 20:03:27: 95% quantile: 3021.57
+{"type": "uniform", "query": "and", "tottime (micros)": 697686, "noccs": 83166310, "avg (micros per pat)": 674.883, "avg (micros per occ)": 0.00811486, "q50": 219.933, "q90": 2023.4, "q95": 3021.57}
 == P4 ==============================================
-2018-01-27 23:26:12: Loading index from indexes/20gb.uniform
-2018-01-27 23:26:12: Performing uniform queries [1000]
-2018-01-27 23:26:13: ---- uniform and
-2018-01-27 23:26:13: Tot time (micros): 450834
-2018-01-27 23:26:13: Time per occ (micros): 0.0195395 occs= 17179908
-2018-01-27 23:26:13: Mean (micros per pat): 335.686
-2018-01-27 23:26:13: Mean (micros per occ): 0.0195395
-2018-01-27 23:26:13: 50% quantile: 66
-2018-01-27 23:26:13: 90% quantile: 784.667
-2018-01-27 23:26:13: 95% quantile: 1897.67
-{"type": "uniform", "query": "and", "tottime (micros)": 450834, "noccs": 17179908, "avg (micros per pat)": 335.686, "avg (micros per occ)": 0.0195395, "q50": 66, "q90": 784.667, "q95": 1897.67}
+2018-12-31 20:03:27: Loading index from indexes/20gb.uniform
+2018-12-31 20:03:28: Performing uniform queries [1000]
+2018-12-31 20:03:38: ---- uniform and
+2018-12-31 20:03:38: Tot time (micros): 349578
+2018-12-31 20:03:38: Time per occ (micros): 0.0196635 occs= 17179908
+2018-12-31 20:03:38: Mean (micros per pat): 337.816
+2018-12-31 20:03:38: Mean (micros per occ): 0.0196635
+2018-12-31 20:03:38: 50% quantile: 63.3667
+2018-12-31 20:03:38: 90% quantile: 763.833
+2018-12-31 20:03:38: 95% quantile: 1953.03
+{"type": "uniform", "query": "and", "tottime (micros)": 349578, "noccs": 17179908, "avg (micros per pat)": 337.816, "avg (micros per occ)": 0.0196635, "q50": 63.3667, "q90": 763.833, "q95": 1953.03}
 ====================================================
+end-time    : 2018-12-31 20:03:38.732795
+elapsed-time: 00h00m32.87s
+00h00m32.87s
 ====================================================
 == CREATING 20gb OPTPFOR ===========================
 ====================================================
-2018-01-27 23:26:14: Processing 881802 documents
-2018-01-27 23:26:50: Processed 534120 sequences, 1176903348 postings
-2018-01-27 23:26:50: block_optpfor collection built in 36.2104 seconds
-{"type": "block_optpfor", "worker_threads": 12, "construction_time": 36.2104, "construction_user_time": 35.936}
+Build-starts!
+start-time  : 2018-12-31 20:03:38.737990
+2018-12-31 20:03:38: Processing 881802 documents
+2018-12-31 20:04:15: Processed 534120 sequences, 1176903348 postings
+2018-12-31 20:04:15: block_optpfor collection built in 36.2781 seconds
+{"type": "block_optpfor", "worker_threads": 12, "construction_time": 36.2781, "construction_user_time": 35.944}
 <TOP>: 368750920
     m_params: 5
     m_endpoints: 766672
         m_bits: 766664
     m_lists: 367984227
-2018-01-27 23:26:51: Documents: 186571256 bytes, 1.26822 bits per element
-2018-01-27 23:26:51: Frequencies: 182179664 bytes, 1.23837 bits per element
+2018-12-31 20:04:16: Documents: 186571256 bytes, 1.26822 bits per element
+2018-12-31 20:04:16: Frequencies: 182179664 bytes, 1.23837 bits per element
 {"type": "block_optpfor", "docs_size": 186571256, "freqs_size": 182179664, "bits_per_doc": 1.26822, "bits_per_freq": 1.23837}
-2018-01-27 23:26:58: Checking the written data, just to be extra safe...
-2018-01-27 23:27:01: Everything is OK!
-2018-01-27 23:27:01: Reading sizes...
-2018-01-27 23:27:01: Storing max weight for each list...
-2018-01-27 23:27:03: 534120 list processed
+2018-12-31 20:04:16: Checking the written data, just to be extra safe...
+2018-12-31 20:04:19: Everything is OK!
+2018-12-31 20:04:19: Reading sizes...
+2018-12-31 20:04:19: Storing max weight for each list...
+2018-12-31 20:04:20: 534120 list processed
+end-time    : 2018-12-31 20:04:20.878698
+elapsed-time: 00h00m42.14s
+00h00m42.14s
+Search-starts!
+start-time  : 2018-12-31 20:04:20.883922
 == Wa ==============================================
-2018-01-27 23:27:03: Loading index from indexes/20gb.block_optpfor
-2018-01-27 23:27:03: Performing block_optpfor queries [1000]
-2018-01-27 23:27:03: ---- block_optpfor and
-2018-01-27 23:27:03: Tot time (micros): 598.333
-2018-01-27 23:27:03: Time per occ (micros): 0.00433238 occs= 91020
-2018-01-27 23:27:03: Mean (micros per pat): 0.394333
-2018-01-27 23:27:03: Mean (micros per occ): 0.00433238
-2018-01-27 23:27:03: 50% quantile: 0.333333
-2018-01-27 23:27:03: 90% quantile: 1
-2018-01-27 23:27:03: 95% quantile: 1.33333
-{"type": "block_optpfor", "query": "and", "tottime (micros)": 598.333, "noccs": 91020, "avg (micros per pat)": 0.394333, "avg (micros per occ)": 0.00433238, "q50": 0.333333, "q90": 1, "q95": 1.33333}
+2018-12-31 20:04:20: Loading index from indexes/20gb.block_optpfor
+2018-12-31 20:04:21: Performing block_optpfor queries [1000]
+2018-12-31 20:04:21: ---- block_optpfor and
+2018-12-31 20:04:21: Tot time (micros): 388.9
+2018-12-31 20:04:21: Time per occ (micros): 0.00403428 occs= 91020
+2018-12-31 20:04:21: Mean (micros per pat): 0.3672
+2018-12-31 20:04:21: Mean (micros per occ): 0.00403428
+2018-12-31 20:04:21: 50% quantile: 0.2
+2018-12-31 20:04:21: 90% quantile: 0.833333
+2018-12-31 20:04:21: 95% quantile: 1.23333
+{"type": "block_optpfor", "query": "and", "tottime (micros)": 388.9, "noccs": 91020, "avg (micros per pat)": 0.3672, "avg (micros per occ)": 0.00403428, "q50": 0.2, "q90": 0.833333, "q95": 1.23333}
 == Wb ==============================================
-2018-01-27 23:27:03: Loading index from indexes/20gb.block_optpfor
-2018-01-27 23:27:03: Performing block_optpfor queries [1000]
-2018-01-27 23:27:03: ---- block_optpfor and
-2018-01-27 23:27:03: Tot time (micros): 14290.3
-2018-01-27 23:27:03: Time per occ (micros): 0.00196554 occs= 5383595
-2018-01-27 23:27:03: Mean (micros per pat): 10.5817
-2018-01-27 23:27:03: Mean (micros per occ): 0.00196554
-2018-01-27 23:27:03: 50% quantile: 4.33333
-2018-01-27 23:27:03: 90% quantile: 22.3333
-2018-01-27 23:27:03: 95% quantile: 45.6667
-{"type": "block_optpfor", "query": "and", "tottime (micros)": 14290.3, "noccs": 5383595, "avg (micros per pat)": 10.5817, "avg (micros per occ)": 0.00196554, "q50": 4.33333, "q90": 22.3333, "q95": 45.6667}
+2018-12-31 20:04:21: Loading index from indexes/20gb.block_optpfor
+2018-12-31 20:04:21: Performing block_optpfor queries [1000]
+2018-12-31 20:04:21: ---- block_optpfor and
+2018-12-31 20:04:21: Tot time (micros): 10871
+2018-12-31 20:04:21: Time per occ (micros): 0.00195042 occs= 5383595
+2018-12-31 20:04:21: Mean (micros per pat): 10.5003
+2018-12-31 20:04:21: Mean (micros per occ): 0.00195042
+2018-12-31 20:04:21: 50% quantile: 4.2
+2018-12-31 20:04:21: 90% quantile: 22.2667
+2018-12-31 20:04:21: 95% quantile: 45.2333
+{"type": "block_optpfor", "query": "and", "tottime (micros)": 10871, "noccs": 5383595, "avg (micros per pat)": 10.5003, "avg (micros per occ)": 0.00195042, "q50": 4.2, "q90": 22.2667, "q95": 45.2333}
 == P2 ==============================================
-2018-01-27 23:27:03: Loading index from indexes/20gb.block_optpfor
-2018-01-27 23:27:04: Performing block_optpfor queries [1000]
-2018-01-27 23:27:05: ---- block_optpfor and
-2018-01-27 23:27:05: Tot time (micros): 459069
-2018-01-27 23:27:05: Time per occ (micros): 0.00411595 occs= 83166310
-2018-01-27 23:27:05: Mean (micros per pat): 342.308
-2018-01-27 23:27:05: Mean (micros per occ): 0.00411595
-2018-01-27 23:27:05: 50% quantile: 116
-2018-01-27 23:27:05: 90% quantile: 1034
-2018-01-27 23:27:05: 95% quantile: 1582.33
-{"type": "block_optpfor", "query": "and", "tottime (micros)": 459069, "noccs": 83166310, "avg (micros per pat)": 342.308, "avg (micros per occ)": 0.00411595, "q50": 116, "q90": 1034, "q95": 1582.33}
+2018-12-31 20:04:21: Loading index from indexes/20gb.block_optpfor
+2018-12-31 20:04:21: Performing block_optpfor queries [1000]
+2018-12-31 20:04:32: ---- block_optpfor and
+2018-12-31 20:04:32: Tot time (micros): 353145
+2018-12-31 20:04:32: Time per occ (micros): 0.00410586 occs= 83166310
+2018-12-31 20:04:32: Mean (micros per pat): 341.469
+2018-12-31 20:04:32: Mean (micros per occ): 0.00410586
+2018-12-31 20:04:32: 50% quantile: 113.333
+2018-12-31 20:04:32: 90% quantile: 1024.13
+2018-12-31 20:04:32: 95% quantile: 1557.93
+{"type": "block_optpfor", "query": "and", "tottime (micros)": 353145, "noccs": 83166310, "avg (micros per pat)": 341.469, "avg (micros per occ)": 0.00410586, "q50": 113.333, "q90": 1024.13, "q95": 1557.93}
 == P4 ==============================================
-2018-01-27 23:27:05: Loading index from indexes/20gb.block_optpfor
-2018-01-27 23:27:05: Performing block_optpfor queries [1000]
-2018-01-27 23:27:06: ---- block_optpfor and
-2018-01-27 23:27:06: Tot time (micros): 233321
-2018-01-27 23:27:06: Time per occ (micros): 0.010041 occs= 17179908
-2018-01-27 23:27:06: Mean (micros per pat): 172.503
-2018-01-27 23:27:06: Mean (micros per occ): 0.010041
-2018-01-27 23:27:06: 50% quantile: 33.3333
-2018-01-27 23:27:06: 90% quantile: 391
-2018-01-27 23:27:06: 95% quantile: 977
-{"type": "block_optpfor", "query": "and", "tottime (micros)": 233321, "noccs": 17179908, "avg (micros per pat)": 172.503, "avg (micros per occ)": 0.010041, "q50": 33.3333, "q90": 391, "q95": 977}
+2018-12-31 20:04:32: Loading index from indexes/20gb.block_optpfor
+2018-12-31 20:04:32: Performing block_optpfor queries [1000]
+2018-12-31 20:04:37: ---- block_optpfor and
+2018-12-31 20:04:37: Tot time (micros): 178617
+2018-12-31 20:04:37: Time per occ (micros): 0.0100398 occs= 17179908
+2018-12-31 20:04:37: Mean (micros per pat): 172.483
+2018-12-31 20:04:37: Mean (micros per occ): 0.0100398
+2018-12-31 20:04:37: 50% quantile: 32.4333
+2018-12-31 20:04:37: 90% quantile: 391.567
+2018-12-31 20:04:37: 95% quantile: 973.667
+{"type": "block_optpfor", "query": "and", "tottime (micros)": 178617, "noccs": 17179908, "avg (micros per pat)": 172.483, "avg (micros per occ)": 0.0100398, "q50": 32.4333, "q90": 391.567, "q95": 973.667}
 ====================================================
+end-time    : 2018-12-31 20:04:37.702719
+elapsed-time: 00h00m16.81s
+00h00m16.81s
 ====================================================
 == CREATING 20gb VARINT ===========================
 ====================================================
-2018-01-27 23:27:06: Processing 881802 documents
-2018-01-27 23:27:15: Processed 534120 sequences, 1176903348 postings
-2018-01-27 23:27:15: block_varint collection built in 8.9512 seconds
-{"type": "block_varint", "worker_threads": 12, "construction_time": 8.9512, "construction_user_time": 8.612}
+Build-starts!
+start-time  : 2018-12-31 20:04:37.707950
+2018-12-31 20:04:37: Processing 881802 documents
+2018-12-31 20:04:47: Processed 534120 sequences, 1176903348 postings
+2018-12-31 20:04:47: block_varint collection built in 10 seconds
+{"type": "block_varint", "worker_threads": 12, "construction_time": 10, "construction_user_time": 8.548}
 <TOP>: 2735766077
     m_params: 5
     m_endpoints: 960320
         m_bits: 960312
     m_lists: 2734805736
-2018-01-27 23:27:15: Documents: 1413491548 bytes, 9.60821 bits per element
-2018-01-27 23:27:15: Frequencies: 1322274529 bytes, 8.98816 bits per element
+2018-12-31 20:04:48: Documents: 1413491548 bytes, 9.60821 bits per element
+2018-12-31 20:04:48: Frequencies: 1322274529 bytes, 8.98816 bits per element
 {"type": "block_varint", "docs_size": 1413491548, "freqs_size": 1322274529, "bits_per_doc": 9.60821, "bits_per_freq": 8.98816}
-2018-01-27 23:28:10: Checking the written data, just to be extra safe...
-2018-01-27 23:29:01: Everything is OK!
-2018-01-27 23:29:01: Reading sizes...
-2018-01-27 23:29:01: Storing max weight for each list...
-2018-01-27 23:29:02: 534120 list processed
+2018-12-31 20:04:49: Checking the written data, just to be extra safe...
+2018-12-31 20:04:51: Everything is OK!
+2018-12-31 20:04:51: Reading sizes...
+2018-12-31 20:04:51: Storing max weight for each list...
+2018-12-31 20:04:53: 534120 list processed
+end-time    : 2018-12-31 20:04:53.497616
+elapsed-time: 00h00m15.78s
+00h00m15.78s
+Search-starts!
+start-time  : 2018-12-31 20:04:53.502897
 == Wa ==============================================
-2018-01-27 23:29:03: Loading index from indexes/20gb.block_varint
-2018-01-27 23:29:04: Performing block_varint queries [1000]
-2018-01-27 23:29:04: ---- block_varint and
-2018-01-27 23:29:04: Tot time (micros): 600.333
-2018-01-27 23:29:04: Time per occ (micros): 0.00426646 occs= 91020
-2018-01-27 23:29:04: Mean (micros per pat): 0.388333
-2018-01-27 23:29:04: Mean (micros per occ): 0.00426646
-2018-01-27 23:29:04: 50% quantile: 0.333333
-2018-01-27 23:29:04: 90% quantile: 0.666667
-2018-01-27 23:29:04: 95% quantile: 1
-{"type": "block_varint", "query": "and", "tottime (micros)": 600.333, "noccs": 91020, "avg (micros per pat)": 0.388333, "avg (micros per occ)": 0.00426646, "q50": 0.333333, "q90": 0.666667, "q95": 1}
+2018-12-31 20:04:53: Loading index from indexes/20gb.block_varint
+2018-12-31 20:04:54: Performing block_varint queries [1000]
+2018-12-31 20:04:54: ---- block_varint and
+2018-12-31 20:04:54: Tot time (micros): 454.7
+2018-12-31 20:04:54: Time per occ (micros): 0.00472057 occs= 91020
+2018-12-31 20:04:54: Mean (micros per pat): 0.429667
+2018-12-31 20:04:54: Mean (micros per occ): 0.00472057
+2018-12-31 20:04:54: 50% quantile: 0.266667
+2018-12-31 20:04:54: 90% quantile: 0.933333
+2018-12-31 20:04:54: 95% quantile: 1.33333
+{"type": "block_varint", "query": "and", "tottime (micros)": 454.7, "noccs": 91020, "avg (micros per pat)": 0.429667, "avg (micros per occ)": 0.00472057, "q50": 0.266667, "q90": 0.933333, "q95": 1.33333}
 == Wb ==============================================
-2018-01-27 23:29:04: Loading index from indexes/20gb.block_varint
-2018-01-27 23:29:05: Performing block_varint queries [1000]
-2018-01-27 23:29:05: ---- block_varint and
-2018-01-27 23:29:05: Tot time (micros): 12263.7
-2018-01-27 23:29:05: Time per occ (micros): 0.00167893 occs= 5383595
-2018-01-27 23:29:05: Mean (micros per pat): 9.03867
-2018-01-27 23:29:05: Mean (micros per occ): 0.00167893
-2018-01-27 23:29:05: 50% quantile: 3.66667
-2018-01-27 23:29:05: 90% quantile: 19.3333
-2018-01-27 23:29:05: 95% quantile: 38.3333
-{"type": "block_varint", "query": "and", "tottime (micros)": 12263.7, "noccs": 5383595, "avg (micros per pat)": 9.03867, "avg (micros per occ)": 0.00167893, "q50": 3.66667, "q90": 19.3333, "q95": 38.3333}
+2018-12-31 20:04:54: Loading index from indexes/20gb.block_varint
+2018-12-31 20:04:56: Performing block_varint queries [1000]
+2018-12-31 20:04:56: ---- block_varint and
+2018-12-31 20:04:56: Tot time (micros): 9531.87
+2018-12-31 20:04:56: Time per occ (micros): 0.00170949 occs= 5383595
+2018-12-31 20:04:56: Mean (micros per pat): 9.2032
+2018-12-31 20:04:56: Mean (micros per occ): 0.00170949
+2018-12-31 20:04:56: 50% quantile: 3.76667
+2018-12-31 20:04:56: 90% quantile: 19.7333
+2018-12-31 20:04:56: 95% quantile: 38.9333
+{"type": "block_varint", "query": "and", "tottime (micros)": 9531.87, "noccs": 5383595, "avg (micros per pat)": 9.2032, "avg (micros per occ)": 0.00170949, "q50": 3.76667, "q90": 19.7333, "q95": 38.9333}
 == P2 ==============================================
-2018-01-27 23:29:05: Loading index from indexes/20gb.block_varint
-2018-01-27 23:29:06: Performing block_varint queries [1000]
-2018-01-27 23:29:08: ---- block_varint and
-2018-01-27 23:29:08: Tot time (micros): 377949
-2018-01-27 23:29:08: Time per occ (micros): 0.0033591 occs= 83166310
-2018-01-27 23:29:08: Mean (micros per pat): 279.364
-2018-01-27 23:29:08: Mean (micros per occ): 0.0033591
-2018-01-27 23:29:08: 50% quantile: 92.6667
-2018-01-27 23:29:08: 90% quantile: 848.667
-2018-01-27 23:29:08: 95% quantile: 1281.33
-{"type": "block_varint", "query": "and", "tottime (micros)": 377949, "noccs": 83166310, "avg (micros per pat)": 279.364, "avg (micros per occ)": 0.0033591, "q50": 92.6667, "q90": 848.667, "q95": 1281.33}
+2018-12-31 20:04:56: Loading index from indexes/20gb.block_varint
+2018-12-31 20:04:57: Performing block_varint queries [1000]
+2018-12-31 20:05:06: ---- block_varint and
+2018-12-31 20:05:06: Tot time (micros): 288575
+2018-12-31 20:05:06: Time per occ (micros): 0.00335034 occs= 83166310
+2018-12-31 20:05:06: Mean (micros per pat): 278.635
+2018-12-31 20:05:06: Mean (micros per occ): 0.00335034
+2018-12-31 20:05:06: 50% quantile: 93.0667
+2018-12-31 20:05:06: 90% quantile: 849.8
+2018-12-31 20:05:06: 95% quantile: 1271.03
+{"type": "block_varint", "query": "and", "tottime (micros)": 288575, "noccs": 83166310, "avg (micros per pat)": 278.635, "avg (micros per occ)": 0.00335034, "q50": 93.0667, "q90": 849.8, "q95": 1271.03}
 == P4 ==============================================
-2018-01-27 23:29:08: Loading index from indexes/20gb.block_varint
-2018-01-27 23:29:09: Performing block_varint queries [1000]
-2018-01-27 23:29:09: ---- block_varint and
-2018-01-27 23:29:09: Tot time (micros): 199661
-2018-01-27 23:29:09: Time per occ (micros): 0.00846079 occs= 17179908
-2018-01-27 23:29:09: Mean (micros per pat): 145.356
-2018-01-27 23:29:09: Mean (micros per occ): 0.00846079
-2018-01-27 23:29:09: 50% quantile: 28.3333
-2018-01-27 23:29:09: 90% quantile: 328.333
-2018-01-27 23:29:09: 95% quantile: 821.333
-{"type": "block_varint", "query": "and", "tottime (micros)": 199661, "noccs": 17179908, "avg (micros per pat)": 145.356, "avg (micros per occ)": 0.00846079, "q50": 28.3333, "q90": 328.333, "q95": 821.333}
+2018-12-31 20:05:06: Loading index from indexes/20gb.block_varint
+2018-12-31 20:05:07: Performing block_varint queries [1000]
+2018-12-31 20:05:12: ---- block_varint and
+2018-12-31 20:05:12: Tot time (micros): 157367
+2018-12-31 20:05:12: Time per occ (micros): 0.00882348 occs= 17179908
+2018-12-31 20:05:12: Mean (micros per pat): 151.587
+2018-12-31 20:05:12: Mean (micros per occ): 0.00882348
+2018-12-31 20:05:12: 50% quantile: 29.2333
+2018-12-31 20:05:12: 90% quantile: 365.9
+2018-12-31 20:05:12: 95% quantile: 892.933
+{"type": "block_varint", "query": "and", "tottime (micros)": 157367, "noccs": 17179908, "avg (micros per pat)": 151.587, "avg (micros per occ)": 0.00882348, "q50": 29.2333, "q90": 365.9, "q95": 892.933}
 ====================================================
+end-time    : 2018-12-31 20:05:12.509455
+elapsed-time: 00h00m19.00s
+00h00m19.00s
 ====================================================
 == CREATING 20gb INTERPOLATIVE =====================
 ====================================================
-2018-01-27 23:29:09: Processing 881802 documents
-2018-01-27 23:29:28: Processed 534120 sequences, 1176903348 postings
-2018-01-27 23:29:28: block_interpolative collection built in 19.0021 seconds
-{"type": "block_interpolative", "worker_threads": 12, "construction_time": 19.0021, "construction_user_time": 18.732}
+Build-starts!
+start-time  : 2018-12-31 20:05:12.514653
+2018-12-31 20:05:12: Processing 881802 documents
+2018-12-31 20:05:32: Processed 534120 sequences, 1176903348 postings
+2018-12-31 20:05:32: block_interpolative collection built in 19.6457 seconds
+{"type": "block_interpolative", "worker_threads": 12, "construction_time": 19.6457, "construction_user_time": 19.336}
 <TOP>: 378143706
     m_params: 5
     m_endpoints: 769056
         m_bits: 769048
     m_lists: 377374629
-2018-01-27 23:29:43: Documents: 148238980 bytes, 1.00765 bits per element
-2018-01-27 23:29:43: Frequencies: 229904726 bytes, 1.56278 bits per element
+2018-12-31 20:05:46: Documents: 148238980 bytes, 1.00765 bits per element
+2018-12-31 20:05:46: Frequencies: 229904726 bytes, 1.56278 bits per element
 {"type": "block_interpolative", "docs_size": 148238980, "freqs_size": 229904726, "bits_per_doc": 1.00765, "bits_per_freq": 1.56278}
-2018-01-27 23:29:50: Checking the written data, just to be extra safe...
-2018-01-27 23:30:06: Everything is OK!
-2018-01-27 23:30:06: Reading sizes...
-2018-01-27 23:30:06: Storing max weight for each list...
-2018-01-27 23:30:08: 534120 list processed
+2018-12-31 20:05:46: Checking the written data, just to be extra safe...
+2018-12-31 20:06:02: Everything is OK!
+2018-12-31 20:06:02: Reading sizes...
+2018-12-31 20:06:02: Storing max weight for each list...
+2018-12-31 20:06:04: 534120 list processed
+end-time    : 2018-12-31 20:06:04.080986
+elapsed-time: 00h00m51.56s
+00h00m51.56s
+Search-starts!
+start-time  : 2018-12-31 20:06:04.086190
 == Wa ==============================================
-2018-01-27 23:30:08: Loading index from indexes/20gb.block_interpolative
-2018-01-27 23:30:08: Performing block_interpolative queries [1000]
-2018-01-27 23:30:08: ---- block_interpolative and
-2018-01-27 23:30:08: Tot time (micros): 1243
-2018-01-27 23:30:08: Time per occ (micros): 0.00957665 occs= 91020
-2018-01-27 23:30:08: Mean (micros per pat): 0.871667
-2018-01-27 23:30:08: Mean (micros per occ): 0.00957665
-2018-01-27 23:30:08: 50% quantile: 0.333333
-2018-01-27 23:30:08: 90% quantile: 2.66667
-2018-01-27 23:30:08: 95% quantile: 4
-{"type": "block_interpolative", "query": "and", "tottime (micros)": 1243, "noccs": 91020, "avg (micros per pat)": 0.871667, "avg (micros per occ)": 0.00957665, "q50": 0.333333, "q90": 2.66667, "q95": 4}
+2018-12-31 20:06:04: Loading index from indexes/20gb.block_interpolative
+2018-12-31 20:06:04: Performing block_interpolative queries [1000]
+2018-12-31 20:06:04: ---- block_interpolative and
+2018-12-31 20:06:04: Tot time (micros): 865.3
+2018-12-31 20:06:04: Time per occ (micros): 0.00908445 occs= 91020
+2018-12-31 20:06:04: Mean (micros per pat): 0.826867
+2018-12-31 20:06:04: Mean (micros per occ): 0.00908445
+2018-12-31 20:06:04: 50% quantile: 0.233333
+2018-12-31 20:06:04: 90% quantile: 2.43333
+2018-12-31 20:06:04: 95% quantile: 3.83333
+{"type": "block_interpolative", "query": "and", "tottime (micros)": 865.3, "noccs": 91020, "avg (micros per pat)": 0.826867, "avg (micros per occ)": 0.00908445, "q50": 0.233333, "q90": 2.43333, "q95": 3.83333}
 == Wb ==============================================
-2018-01-27 23:30:08: Loading index from indexes/20gb.block_interpolative
-2018-01-27 23:30:08: Performing block_interpolative queries [1000]
-2018-01-27 23:30:08: ---- block_interpolative and
-2018-01-27 23:30:08: Tot time (micros): 50773.7
-2018-01-27 23:30:08: Time per occ (micros): 0.00702845 occs= 5383595
-2018-01-27 23:30:08: Mean (micros per pat): 37.8383
-2018-01-27 23:30:08: Mean (micros per occ): 0.00702845
-2018-01-27 23:30:08: 50% quantile: 14.3333
-2018-01-27 23:30:08: 90% quantile: 81.3333
-2018-01-27 23:30:08: 95% quantile: 164.667
-{"type": "block_interpolative", "query": "and", "tottime (micros)": 50773.7, "noccs": 5383595, "avg (micros per pat)": 37.8383, "avg (micros per occ)": 0.00702845, "q50": 14.3333, "q90": 81.3333, "q95": 164.667}
+2018-12-31 20:06:04: Loading index from indexes/20gb.block_interpolative
+2018-12-31 20:06:04: Performing block_interpolative queries [1000]
+2018-12-31 20:06:05: ---- block_interpolative and
+2018-12-31 20:06:05: Tot time (micros): 38866.7
+2018-12-31 20:06:05: Time per occ (micros): 0.00697771 occs= 5383595
+2018-12-31 20:06:05: Mean (micros per pat): 37.5652
+2018-12-31 20:06:05: Mean (micros per occ): 0.00697771
+2018-12-31 20:06:05: 50% quantile: 14.5667
+2018-12-31 20:06:05: 90% quantile: 80.2667
+2018-12-31 20:06:05: 95% quantile: 164.9
+{"type": "block_interpolative", "query": "and", "tottime (micros)": 38866.7, "noccs": 5383595, "avg (micros per pat)": 37.5652, "avg (micros per occ)": 0.00697771, "q50": 14.5667, "q90": 80.2667, "q95": 164.9}
 == P2 ==============================================
-2018-01-27 23:30:08: Loading index from indexes/20gb.block_interpolative
-2018-01-27 23:30:08: Performing block_interpolative queries [1000]
-2018-01-27 23:30:14: ---- block_interpolative and
-2018-01-27 23:30:14: Tot time (micros): 1.83027e+06
-2018-01-27 23:30:14: Time per occ (micros): 0.0164765 occs= 83166310
-2018-01-27 23:30:14: Mean (micros per pat): 1370.29
-2018-01-27 23:30:14: Mean (micros per occ): 0.0164765
-2018-01-27 23:30:14: 50% quantile: 481.667
-2018-01-27 23:30:14: 90% quantile: 4105.33
-2018-01-27 23:30:14: 95% quantile: 6177.67
-{"type": "block_interpolative", "query": "and", "tottime (micros)": 1.83027e+06, "noccs": 83166310, "avg (micros per pat)": 1370.29, "avg (micros per occ)": 0.0164765, "q50": 481.667, "q90": 4105.33, "q95": 6177.67}
+2018-12-31 20:06:05: Loading index from indexes/20gb.block_interpolative
+2018-12-31 20:06:05: Performing block_interpolative queries [1000]
+2018-12-31 20:06:49: ---- block_interpolative and
+2018-12-31 20:06:49: Tot time (micros): 1.44334e+06
+2018-12-31 20:06:49: Time per occ (micros): 0.0167902 occs= 83166310
+2018-12-31 20:06:49: Mean (micros per pat): 1396.38
+2018-12-31 20:06:49: Mean (micros per occ): 0.0167902
+2018-12-31 20:06:49: 50% quantile: 480.2
+2018-12-31 20:06:49: 90% quantile: 4099.57
+2018-12-31 20:06:49: 95% quantile: 6224.73
+{"type": "block_interpolative", "query": "and", "tottime (micros)": 1.44334e+06, "noccs": 83166310, "avg (micros per pat)": 1396.38, "avg (micros per occ)": 0.0167902, "q50": 480.2, "q90": 4099.57, "q95": 6224.73}
 == P4 ==============================================
-2018-01-27 23:30:14: Loading index from indexes/20gb.block_interpolative
-2018-01-27 23:30:14: Performing block_interpolative queries [1000]
-2018-01-27 23:30:17: ---- block_interpolative and
-2018-01-27 23:30:17: Tot time (micros): 987813
-2018-01-27 23:30:17: Time per occ (micros): 0.0429609 occs= 17179908
-2018-01-27 23:30:17: Mean (micros per pat): 738.064
-2018-01-27 23:30:17: Mean (micros per occ): 0.0429609
-2018-01-27 23:30:17: 50% quantile: 147
-2018-01-27 23:30:17: 90% quantile: 1676.33
-2018-01-27 23:30:17: 95% quantile: 4162.67
-{"type": "block_interpolative", "query": "and", "tottime (micros)": 987813, "noccs": 17179908, "avg (micros per pat)": 738.064, "avg (micros per occ)": 0.0429609, "q50": 147, "q90": 1676.33, "q95": 4162.67}
+2018-12-31 20:06:49: Loading index from indexes/20gb.block_interpolative
+2018-12-31 20:06:49: Performing block_interpolative queries [1000]
+2018-12-31 20:07:12: ---- block_interpolative and
+2018-12-31 20:07:12: Tot time (micros): 768209
+2018-12-31 20:07:12: Time per occ (micros): 0.0432455 occs= 17179908
+2018-12-31 20:07:12: Mean (micros per pat): 742.954
+2018-12-31 20:07:12: Mean (micros per occ): 0.0432455
+2018-12-31 20:07:12: 50% quantile: 149.933
+2018-12-31 20:07:12: 90% quantile: 1726.9
+2018-12-31 20:07:12: 95% quantile: 4161
+{"type": "block_interpolative", "query": "and", "tottime (micros)": 768209, "noccs": 17179908, "avg (micros per pat)": 742.954, "avg (micros per occ)": 0.0432455, "q50": 149.933, "q90": 1726.9, "q95": 4161}
 ====================================================
+end-time    : 2018-12-31 20:07:12.374142
+elapsed-time: 00h01m08.28s
+00h01m08.28s

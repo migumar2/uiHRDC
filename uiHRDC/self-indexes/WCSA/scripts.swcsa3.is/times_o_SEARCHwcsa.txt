@@ -1722,3 +1722,3738 @@
 ##############################################################################
 
        185646818	 2775.404000000	  307.267280300	        9032540	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET A.words (Wa)       ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 50  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.020240 sec
+	Locate_time/Num_occs = 0.000204 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000204  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    0.020240000	    0.203974685	          99228	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 50  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.038880 sec
+	Locate_time/Num_occs = 0.000392 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000392  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    0.038880000	    0.391824888	          99228	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.080160 sec
+	Locate_time/Num_occs = 0.000808 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000808  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	    0.080160000	    0.807836498	          99228	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 25  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.157440 sec
+	Locate_time/Num_occs = 0.001587 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.001587  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	    0.157440000	    1.586648930	          99228	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 25  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.483200 sec
+	Locate_time/Num_occs = 0.004870 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.004870  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	    0.483200000	    4.869593260	          99228	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 4.790000 sec
+	Locate_time/Num_occs = 0.048273 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.048273  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	    4.790000000	   48.272664974	          99228	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 57.200000 sec
+	Locate_time/Num_occs = 0.576450 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.576450  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	   57.200000000	  576.450195509	          99228	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET B.words (Wb)       ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 50  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 0.916400 sec
+	Locate_time/Num_occs = 0.000161 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000161  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    0.916400000	    0.160718836	        5701883	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 50  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 1.696880 sec
+	Locate_time/Num_occs = 0.000298 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000298  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    1.696880000	    0.297599933	        5701883	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 3.334880 sec
+	Locate_time/Num_occs = 0.000585 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000585  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	    3.334880000	    0.584873453	        5701883	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 25  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 6.421760 sec
+	Locate_time/Num_occs = 0.001126 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.001126  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	    6.421760000	    1.126252503	        5701883	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 25  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 18.213760 sec
+	Locate_time/Num_occs = 0.003194 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.003194  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	   18.213760000	    3.194341238	        5701883	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 196.742000 sec
+	Locate_time/Num_occs = 0.034505 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.034505  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	  196.742000000	   34.504741679	        5701883	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 2650.856000 sec
+	Locate_time/Num_occs = 0.464909 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.464909  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	 2650.856000000	  464.908873086	        5701883	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET phrases.2 (p2)     ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 25  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 4.494400 sec
+	Locate_time/Num_occs = 0.000141 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000141  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    4.494400000	    0.140748929	       31932037	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 25  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 8.206880 sec
+	Locate_time/Num_occs = 0.000257 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000257  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    8.206880000	    0.257010851	       31932037	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 15.917120 sec
+	Locate_time/Num_occs = 0.000498 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000499  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	   15.917120000	    0.498468670	       31932037	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 15  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 31.125333 sec
+	Locate_time/Num_occs = 0.000975 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000975  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	   31.125333333	    0.974736855	       31932037	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 15  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 82.327733 sec
+	Locate_time/Num_occs = 0.002578 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.002578  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	   82.327733333	    2.578217398	       31932037	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 829.174000 sec
+	Locate_time/Num_occs = 0.025967 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.025967  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	  829.174000000	   25.966837004	       31932037	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 11817.660000 sec
+	Locate_time/Num_occs = 0.370088 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.370088  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	11817.660000000	  370.087883839	       31932037	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET phrases.5 (p5)     ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 5  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 1.239200 sec
+	Locate_time/Num_occs = 0.000137 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000137  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    1.239200000	    0.137192860	        9032540	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 4  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 2.228000 sec
+	Locate_time/Num_occs = 0.000247 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000247  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    2.228000000	    0.246663729	        9032540	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 4  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 4.196000 sec
+	Locate_time/Num_occs = 0.000465 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000465  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	    4.196000000	    0.464542642	        9032540	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 4  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 8.150000 sec
+	Locate_time/Num_occs = 0.000902 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000902  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	    8.150000000	    0.902293264	        9032540	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 4  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 20.034000 sec
+	Locate_time/Num_occs = 0.002218 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.002218  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	   20.034000000	    2.217980767	        9032540	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 186.606000 sec
+	Locate_time/Num_occs = 0.020659 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.020659  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	  186.606000000	   20.659305135	        9032540	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 2720.844000 sec
+	Locate_time/Num_occs = 0.301227 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.301227  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	 2720.844000000	  301.226897418	        9032540	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET A.words (Wa)       ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 50  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.018320 sec
+	Locate_time/Num_occs = 0.000185 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000185  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    0.018320000	    0.184625307	          99228	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 50  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.038240 sec
+	Locate_time/Num_occs = 0.000385 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000385  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    0.038240000	    0.385375096	          99228	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.077120 sec
+	Locate_time/Num_occs = 0.000777 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000777  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	    0.077120000	    0.777199984	          99228	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 25  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.151200 sec
+	Locate_time/Num_occs = 0.001524 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.001524  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	    0.151200000	    1.523763454	          99228	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 25  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.472960 sec
+	Locate_time/Num_occs = 0.004766 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.004766  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	    0.472960000	    4.766396582	          99228	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 4.750000 sec
+	Locate_time/Num_occs = 0.047870 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.047870  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	    4.750000000	   47.869552949	          99228	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 56.848000 sec
+	Locate_time/Num_occs = 0.572903 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.572903  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	   56.848000000	  572.902809691	          99228	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET B.words (Wb)       ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 50  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 0.876640 sec
+	Locate_time/Num_occs = 0.000154 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000154  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    0.876640000	    0.153745701	        5701883	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 50  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 1.642880 sec
+	Locate_time/Num_occs = 0.000288 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000288  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    1.642880000	    0.288129378	        5701883	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 3.259200 sec
+	Locate_time/Num_occs = 0.000572 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000572  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	    3.259200000	    0.571600645	        5701883	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 25  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 6.300320 sec
+	Locate_time/Num_occs = 0.001105 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.001105  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	    6.300320000	    1.104954276	        5701883	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 25  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 17.972160 sec
+	Locate_time/Num_occs = 0.003152 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.003152  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	   17.972160000	    3.151969271	        5701883	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 194.172000 sec
+	Locate_time/Num_occs = 0.034054 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.034054  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	  194.172000000	   34.054013385	        5701883	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 2691.056000 sec
+	Locate_time/Num_occs = 0.471959 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.471959  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	 2691.056000000	  471.959175592	        5701883	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET phrases.2 (p2)     ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 25  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 4.449120 sec
+	Locate_time/Num_occs = 0.000139 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000139  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    4.449120000	    0.139330917	       31932037	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 25  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 8.489760 sec
+	Locate_time/Num_occs = 0.000266 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000266  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    8.489760000	    0.265869666	       31932037	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 16.469440 sec
+	Locate_time/Num_occs = 0.000516 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000516  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	   16.469440000	    0.515765405	       31932037	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 15  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 32.718667 sec
+	Locate_time/Num_occs = 0.001025 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.001025  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	   32.718666667	    1.024634497	       31932037	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+*****************************************************************************
+********************  PATTERN SET A.words (Wa)       ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 50  ** 
+	Index size = 19368772 bytes, ratio = 36.920
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 3300
+	Locate time = 0.000400 sec
+	Locate_time/Num_occs = 0.000121 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000121  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+        19368772	    0.000400000	    0.121212121	           3300	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 50  ** 
+	Index size = 9586868 bytes, ratio = 18.274
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 3300
+	Locate time = 0.001040 sec
+	Locate_time/Num_occs = 0.000315 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000315  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         9586868	    0.001040000	    0.315151515	           3300	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 6788788 bytes, ratio = 12.941
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 3300
+	Locate time = 0.001120 sec
+	Locate_time/Num_occs = 0.000339 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000339  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         6788788	    0.001120000	    0.339393939	           3300	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 25  ** 
+	Index size = 5923852 bytes, ratio = 11.292
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 3300
+	Locate time = 0.004320 sec
+	Locate_time/Num_occs = 0.001309 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.001309  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         5923852	    0.004320000	    1.309090909	           3300	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 25  ** 
+	Index size = 4260616 bytes, ratio = 8.121
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 3300
+	Locate time = 0.010080 sec
+	Locate_time/Num_occs = 0.003055 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.003055  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         4260616	    0.010080000	    3.054545455	           3300	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 3657336 bytes, ratio = 6.971
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 3300
+	Locate time = 0.078000 sec
+	Locate_time/Num_occs = 0.023636 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.023636  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3657336	    0.078000000	   23.636363636	           3300	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 3464852 bytes, ratio = 6.605
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 3300
+	Locate time = 0.764000 sec
+	Locate_time/Num_occs = 0.231515 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.231515  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3464852	    0.764000000	  231.515151515	           3300	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET B.words (Wb)       ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 50  ** 
+	Index size = 19368772 bytes, ratio = 36.920
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 92819
+	Locate time = 0.012880 sec
+	Locate_time/Num_occs = 0.000139 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000139  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+        19368772	    0.012880000	    0.138764693	          92819	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 50  ** 
+	Index size = 9586868 bytes, ratio = 18.274
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 92819
+	Locate time = 0.023120 sec
+	Locate_time/Num_occs = 0.000249 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000249  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         9586868	    0.023120000	    0.249086933	          92819	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 6788788 bytes, ratio = 12.941
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 92819
+	Locate time = 0.046560 sec
+	Locate_time/Num_occs = 0.000502 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000502  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         6788788	    0.046560000	    0.501621435	          92819	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 25  ** 
+	Index size = 5923852 bytes, ratio = 11.292
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 92819
+	Locate time = 0.090880 sec
+	Locate_time/Num_occs = 0.000979 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000979  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         5923852	    0.090880000	    0.979109881	          92819	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 25  ** 
+	Index size = 4260616 bytes, ratio = 8.121
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 92819
+	Locate time = 0.213280 sec
+	Locate_time/Num_occs = 0.002298 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.002298  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         4260616	    0.213280000	    2.297805406	          92819	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 3657336 bytes, ratio = 6.971
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 92819
+	Locate time = 1.854000 sec
+	Locate_time/Num_occs = 0.019974 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.019974  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3657336	    1.854000000	   19.974358698	          92819	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 3464852 bytes, ratio = 6.605
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 92819
+	Locate time = 22.560000 sec
+	Locate_time/Num_occs = 0.243054 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.243054  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3464852	   22.560000000	  243.053685129	          92819	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET phrases.2 (p2)     ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 25  ** 
+	Index size = 19368772 bytes, ratio = 36.920
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 2714
+	Locate time = 0.000160 sec
+	Locate_time/Num_occs = 0.000059 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000059  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+        19368772	    0.000160000	    0.058953574	           2714	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 25  ** 
+	Index size = 9586868 bytes, ratio = 18.274
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 2714
+	Locate time = 0.000320 sec
+	Locate_time/Num_occs = 0.000118 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000118  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         9586868	    0.000320000	    0.117907148	           2714	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 6788788 bytes, ratio = 12.941
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 2714
+	Locate time = 0.001120 sec
+	Locate_time/Num_occs = 0.000413 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000413  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         6788788	    0.001120000	    0.412675018	           2714	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 15  ** 
+	Index size = 5923852 bytes, ratio = 11.292
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 2714
+	Locate time = 0.002400 sec
+	Locate_time/Num_occs = 0.000884 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000884  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         5923852	    0.002400000	    0.884303611	           2714	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 15  ** 
+	Index size = 4260616 bytes, ratio = 8.121
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 2714
+	Locate time = 0.005333 sec
+	Locate_time/Num_occs = 0.001965 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.001965  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         4260616	    0.005333333	    1.965119135	           2714	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 3657336 bytes, ratio = 6.971
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 2714
+	Locate time = 0.052000 sec
+	Locate_time/Num_occs = 0.019160 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.019160  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3657336	    0.052000000	   19.159911570	           2714	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 3464852 bytes, ratio = 6.605
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 2714
+	Locate time = 0.724000 sec
+	Locate_time/Num_occs = 0.266765 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.266765  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3464852	    0.724000000	  266.764922623	           2714	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET phrases.5 (p5)     ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 5  ** 
+	Index size = 19368772 bytes, ratio = 36.920
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 0
+	Locate time = 0.000000 sec
+	Locate_time/Num_occs = -nan msec/occss
+		(Load_time+Locate_time)/Num_occs = -nan  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+        19368772	    0.000000000	           -nan	              0	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 4  ** 
+	Index size = 9586868 bytes, ratio = 18.274
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 0
+	Locate time = 0.000000 sec
+	Locate_time/Num_occs = -nan msec/occss
+		(Load_time+Locate_time)/Num_occs = -nan  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         9586868	    0.000000000	           -nan	              0	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 4  ** 
+	Index size = 6788788 bytes, ratio = 12.941
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 0
+	Locate time = 0.000000 sec
+	Locate_time/Num_occs = -nan msec/occss
+		(Load_time+Locate_time)/Num_occs = -nan  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         6788788	    0.000000000	           -nan	              0	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 4  ** 
+	Index size = 5923852 bytes, ratio = 11.292
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 0
+	Locate time = 0.000000 sec
+	Locate_time/Num_occs = -nan msec/occss
+		(Load_time+Locate_time)/Num_occs = -nan  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         5923852	    0.000000000	           -nan	              0	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 4  ** 
+	Index size = 4260616 bytes, ratio = 8.121
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 0
+	Locate time = 0.000000 sec
+	Locate_time/Num_occs = -nan msec/occss
+		(Load_time+Locate_time)/Num_occs = -nan  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         4260616	    0.000000000	           -nan	              0	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 3657336 bytes, ratio = 6.971
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 0
+	Locate time = 0.000000 sec
+	Locate_time/Num_occs = -nan msec/occss
+		(Load_time+Locate_time)/Num_occs = -nan  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3657336	    0.000000000	           -nan	              0	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 3464852 bytes, ratio = 6.605
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 0
+	Locate time = 0.000000 sec
+	Locate_time/Num_occs = -nan msec/occss
+		(Load_time+Locate_time)/Num_occs = -nan  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3464852	    0.000000000	           -nan	              0	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET A.words (Wa)       ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 50  ** 
+	Index size = 19368772 bytes, ratio = 36.920
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 3300
+	Locate time = 0.000640 sec
+	Locate_time/Num_occs = 0.000194 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000194  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+        19368772	    0.000640000	    0.193939394	           3300	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 50  ** 
+	Index size = 9586868 bytes, ratio = 18.274
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 3300
+	Locate time = 0.000480 sec
+	Locate_time/Num_occs = 0.000145 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000145  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         9586868	    0.000480000	    0.145454545	           3300	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 6788788 bytes, ratio = 12.941
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 3300
+	Locate time = 0.002080 sec
+	Locate_time/Num_occs = 0.000630 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000630  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         6788788	    0.002080000	    0.630303030	           3300	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 25  ** 
+	Index size = 5923852 bytes, ratio = 11.292
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 3300
+	Locate time = 0.003200 sec
+	Locate_time/Num_occs = 0.000970 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000970  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         5923852	    0.003200000	    0.969696970	           3300	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 25  ** 
+	Index size = 4260616 bytes, ratio = 8.121
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 3300
+	Locate time = 0.008160 sec
+	Locate_time/Num_occs = 0.002473 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.002473  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         4260616	    0.008160000	    2.472727273	           3300	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 3657336 bytes, ratio = 6.971
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 3300
+	Locate time = 0.080000 sec
+	Locate_time/Num_occs = 0.024242 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.024242  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3657336	    0.080000000	   24.242424242	           3300	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 3464852 bytes, ratio = 6.605
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 3300
+	Locate time = 0.748000 sec
+	Locate_time/Num_occs = 0.226667 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.226667  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3464852	    0.748000000	  226.666666667	           3300	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET B.words (Wb)       ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 50  ** 
+	Index size = 19368772 bytes, ratio = 36.920
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 92819
+	Locate time = 0.012400 sec
+	Locate_time/Num_occs = 0.000134 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000134  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+        19368772	    0.012400000	    0.133593338	          92819	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 50  ** 
+	Index size = 9586868 bytes, ratio = 18.274
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 92819
+	Locate time = 0.023280 sec
+	Locate_time/Num_occs = 0.000251 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000251  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         9586868	    0.023280000	    0.250810718	          92819	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 6788788 bytes, ratio = 12.941
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 92819
+	Locate time = 0.046560 sec
+	Locate_time/Num_occs = 0.000502 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000502  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         6788788	    0.046560000	    0.501621435	          92819	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 25  ** 
+	Index size = 5923852 bytes, ratio = 11.292
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 92819
+	Locate time = 0.089280 sec
+	Locate_time/Num_occs = 0.000962 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000962  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         5923852	    0.089280000	    0.961872031	          92819	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 25  ** 
+	Index size = 4260616 bytes, ratio = 8.121
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 92819
+	Locate time = 0.213120 sec
+	Locate_time/Num_occs = 0.002296 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.002296  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         4260616	    0.213120000	    2.296081621	          92819	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 3657336 bytes, ratio = 6.971
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 92819
+	Locate time = 1.848000 sec
+	Locate_time/Num_occs = 0.019910 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.019910  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3657336	    1.848000000	   19.909716761	          92819	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 3464852 bytes, ratio = 6.605
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 92819
+	Locate time = 23.076000 sec
+	Locate_time/Num_occs = 0.248613 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.248613  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3464852	   23.076000000	  248.612891757	          92819	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET phrases.2 (p2)     ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 25  ** 
+	Index size = 19368772 bytes, ratio = 36.920
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 2714
+	Locate time = 0.000320 sec
+	Locate_time/Num_occs = 0.000118 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000118  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+        19368772	    0.000320000	    0.117907148	           2714	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 25  ** 
+	Index size = 9586868 bytes, ratio = 18.274
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 2714
+	Locate time = 0.000640 sec
+	Locate_time/Num_occs = 0.000236 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000236  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         9586868	    0.000640000	    0.235814296	           2714	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 6788788 bytes, ratio = 12.941
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 2714
+	Locate time = 0.001440 sec
+	Locate_time/Num_occs = 0.000531 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000531  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         6788788	    0.001440000	    0.530582167	           2714	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 15  ** 
+	Index size = 5923852 bytes, ratio = 11.292
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 2714
+	Locate time = 0.002933 sec
+	Locate_time/Num_occs = 0.001081 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.001081  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         5923852	    0.002933333	    1.080815524	           2714	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 15  ** 
+	Index size = 4260616 bytes, ratio = 8.121
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 2714
+	Locate time = 0.005333 sec
+	Locate_time/Num_occs = 0.001965 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.001965  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         4260616	    0.005333333	    1.965119135	           2714	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 3657336 bytes, ratio = 6.971
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 2714
+	Locate time = 0.054000 sec
+	Locate_time/Num_occs = 0.019897 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.019897  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3657336	    0.054000000	   19.896831245	           2714	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 3464852 bytes, ratio = 6.605
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 2714
+	Locate time = 0.748000 sec
+	Locate_time/Num_occs = 0.275608 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.275608  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3464852	    0.748000000	  275.607958732	           2714	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET phrases.5 (p5)     ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 5  ** 
+	Index size = 19368772 bytes, ratio = 36.920
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 15
+	Locate time = 0.000000 sec
+	Locate_time/Num_occs = 0.000000 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000000  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+        19368772	    0.000000000	    0.000000000	             15	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 4  ** 
+	Index size = 9586868 bytes, ratio = 18.274
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 15
+	Locate time = 0.000000 sec
+	Locate_time/Num_occs = 0.000000 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000000  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         9586868	    0.000000000	    0.000000000	             15	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 4  ** 
+	Index size = 6788788 bytes, ratio = 12.941
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 15
+	Locate time = 0.000000 sec
+	Locate_time/Num_occs = 0.000000 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000000  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         6788788	    0.000000000	    0.000000000	             15	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 4  ** 
+	Index size = 5923852 bytes, ratio = 11.292
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 15
+	Locate time = 0.000000 sec
+	Locate_time/Num_occs = 0.000000 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000000  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         5923852	    0.000000000	    0.000000000	             15	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 4  ** 
+	Index size = 4260616 bytes, ratio = 8.121
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 15
+	Locate time = 0.000000 sec
+	Locate_time/Num_occs = 0.000000 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000000  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         4260616	    0.000000000	    0.000000000	             15	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 3657336 bytes, ratio = 6.971
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 15
+	Locate time = 0.000000 sec
+	Locate_time/Num_occs = 0.000000 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000000  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3657336	    0.000000000	    0.000000000	             15	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 3464852 bytes, ratio = 6.605
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 15
+	Locate time = 0.008000 sec
+	Locate_time/Num_occs = 0.533333 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.533333  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3464852	    0.008000000	  533.333333333	             15	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET A.words (Wa)       ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 50  ** 
+	Index size = 19368772 bytes, ratio = 36.920
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 3300
+	Locate time = 0.000480 sec
+	Locate_time/Num_occs = 0.000145 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000145  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+        19368772	    0.000480000	    0.145454545	           3300	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 50  ** 
+	Index size = 9586868 bytes, ratio = 18.274
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 3300
+	Locate time = 0.000720 sec
+	Locate_time/Num_occs = 0.000218 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000218  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         9586868	    0.000720000	    0.218181818	           3300	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 6788788 bytes, ratio = 12.941
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 3300
+	Locate time = 0.001120 sec
+	Locate_time/Num_occs = 0.000339 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000339  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         6788788	    0.001120000	    0.339393939	           3300	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 25  ** 
+	Index size = 5923852 bytes, ratio = 11.292
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 3300
+	Locate time = 0.003840 sec
+	Locate_time/Num_occs = 0.001164 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.001164  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         5923852	    0.003840000	    1.163636364	           3300	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 25  ** 
+	Index size = 4260616 bytes, ratio = 8.121
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 3300
+	Locate time = 0.010080 sec
+	Locate_time/Num_occs = 0.003055 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.003055  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         4260616	    0.010080000	    3.054545455	           3300	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 3657336 bytes, ratio = 6.971
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 3300
+	Locate time = 0.078000 sec
+	Locate_time/Num_occs = 0.023636 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.023636  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3657336	    0.078000000	   23.636363636	           3300	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 3464852 bytes, ratio = 6.605
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 3300
+	Locate time = 0.792000 sec
+	Locate_time/Num_occs = 0.240000 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.240000  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3464852	    0.792000000	  240.000000000	           3300	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET B.words (Wb)       ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 50  ** 
+	Index size = 19368772 bytes, ratio = 36.920
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 92819
+	Locate time = 0.012960 sec
+	Locate_time/Num_occs = 0.000140 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000140  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+        19368772	    0.012960000	    0.139626585	          92819	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 50  ** 
+	Index size = 9586868 bytes, ratio = 18.274
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 92819
+	Locate time = 0.023360 sec
+	Locate_time/Num_occs = 0.000252 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000252  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         9586868	    0.023360000	    0.251672610	          92819	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 6788788 bytes, ratio = 12.941
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 92819
+	Locate time = 0.044800 sec
+	Locate_time/Num_occs = 0.000483 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000483  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         6788788	    0.044800000	    0.482659800	          92819	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 25  ** 
+	Index size = 5923852 bytes, ratio = 11.292
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 92819
+	Locate time = 0.088000 sec
+	Locate_time/Num_occs = 0.000948 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000948  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         5923852	    0.088000000	    0.948081751	          92819	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 25  ** 
+	Index size = 4260616 bytes, ratio = 8.121
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 92819
+	Locate time = 0.214240 sec
+	Locate_time/Num_occs = 0.002308 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.002308  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         4260616	    0.214240000	    2.308148116	          92819	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 3657336 bytes, ratio = 6.971
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 92819
+	Locate time = 1.870000 sec
+	Locate_time/Num_occs = 0.020147 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.020147  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3657336	    1.870000000	   20.146737198	          92819	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 3464852 bytes, ratio = 6.605
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 92819
+	Locate time = 22.768000 sec
+	Locate_time/Num_occs = 0.245295 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.245295  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3464852	   22.768000000	  245.294605630	          92819	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET phrases.2 (p2)     ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 25  ** 
+	Index size = 19368772 bytes, ratio = 36.920
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 2714
+	Locate time = 0.000640 sec
+	Locate_time/Num_occs = 0.000236 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000236  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+        19368772	    0.000640000	    0.235814296	           2714	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 25  ** 
+	Index size = 9586868 bytes, ratio = 18.274
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 2714
+	Locate time = 0.000640 sec
+	Locate_time/Num_occs = 0.000236 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000236  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         9586868	    0.000640000	    0.235814296	           2714	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 6788788 bytes, ratio = 12.941
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 2714
+	Locate time = 0.001760 sec
+	Locate_time/Num_occs = 0.000648 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000648  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         6788788	    0.001760000	    0.648489315	           2714	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 15  ** 
+	Index size = 5923852 bytes, ratio = 11.292
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 2714
+	Locate time = 0.002400 sec
+	Locate_time/Num_occs = 0.000884 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000884  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         5923852	    0.002400000	    0.884303611	           2714	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 15  ** 
+	Index size = 4260616 bytes, ratio = 8.121
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 2714
+	Locate time = 0.005333 sec
+	Locate_time/Num_occs = 0.001965 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.001965  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         4260616	    0.005333333	    1.965119135	           2714	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 3657336 bytes, ratio = 6.971
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 2714
+	Locate time = 0.052000 sec
+	Locate_time/Num_occs = 0.019160 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.019160  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3657336	    0.052000000	   19.159911570	           2714	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 3464852 bytes, ratio = 6.605
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 2714
+	Locate time = 0.696000 sec
+	Locate_time/Num_occs = 0.256448 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.256448  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3464852	    0.696000000	  256.448047163	           2714	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET phrases.5 (p5)     ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 5  ** 
+	Index size = 19368772 bytes, ratio = 36.920
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 15
+	Locate time = 0.000800 sec
+	Locate_time/Num_occs = 0.053333 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.053333  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+        19368772	    0.000800000	   53.333333333	             15	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 4  ** 
+	Index size = 9586868 bytes, ratio = 18.274
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 15
+	Locate time = 0.000000 sec
+	Locate_time/Num_occs = 0.000000 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000000  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         9586868	    0.000000000	    0.000000000	             15	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 4  ** 
+	Index size = 6788788 bytes, ratio = 12.941
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 15
+	Locate time = 0.000000 sec
+	Locate_time/Num_occs = 0.000000 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000000  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         6788788	    0.000000000	    0.000000000	             15	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 4  ** 
+	Index size = 5923852 bytes, ratio = 11.292
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 15
+	Locate time = 0.000000 sec
+	Locate_time/Num_occs = 0.000000 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000000  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         5923852	    0.000000000	    0.000000000	             15	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 4  ** 
+	Index size = 4260616 bytes, ratio = 8.121
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 15
+	Locate time = 0.000000 sec
+	Locate_time/Num_occs = 0.000000 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000000  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         4260616	    0.000000000	    0.000000000	             15	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 3657336 bytes, ratio = 6.971
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 15
+	Locate time = 0.000000 sec
+	Locate_time/Num_occs = 0.000000 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000000  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3657336	    0.000000000	    0.000000000	             15	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 3464852 bytes, ratio = 6.605
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 15
+	Locate time = 0.004000 sec
+	Locate_time/Num_occs = 0.266667 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.266667  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+         3464852	    0.004000000	  266.666666667	             15	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET A.words (Wa)       ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 50  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.021200 sec
+	Locate_time/Num_occs = 0.000214 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000214  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    0.021200000	    0.213649373	          99228	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 50  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.041200 sec
+	Locate_time/Num_occs = 0.000415 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000415  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    0.041200000	    0.415205386	          99228	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.083360 sec
+	Locate_time/Num_occs = 0.000840 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000840  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	    0.083360000	    0.840085460	          99228	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 25  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.157760 sec
+	Locate_time/Num_occs = 0.001590 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.001590  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	    0.157760000	    1.589873826	          99228	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 25  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.489600 sec
+	Locate_time/Num_occs = 0.004934 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.004934  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	    0.489600000	    4.934091184	          99228	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 4.924000 sec
+	Locate_time/Num_occs = 0.049623 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.049623  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	    4.924000000	   49.623090257	          99228	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 57.900000 sec
+	Locate_time/Num_occs = 0.583505 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.583505  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	   57.900000000	  583.504655944	          99228	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET B.words (Wb)       ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 50  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 0.934480 sec
+	Locate_time/Num_occs = 0.000164 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000164  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    0.934480000	    0.163889719	        5701883	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 50  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 1.755520 sec
+	Locate_time/Num_occs = 0.000308 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000308  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    1.755520000	    0.307884255	        5701883	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 3.454080 sec
+	Locate_time/Num_occs = 0.000606 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000606  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	    3.454080000	    0.605778828	        5701883	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 25  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 6.672800 sec
+	Locate_time/Num_occs = 0.001170 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.001170  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	    6.672800000	    1.170280064	        5701883	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 25  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 18.933120 sec
+	Locate_time/Num_occs = 0.003321 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.003321  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	   18.933120000	    3.320503069	        5701883	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 201.816000 sec
+	Locate_time/Num_occs = 0.035395 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.035395  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	  201.816000000	   35.394623145	        5701883	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 2649.252000 sec
+	Locate_time/Num_occs = 0.464628 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.464628  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	 2649.252000000	  464.627562509	        5701883	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET phrases.2 (p2)     ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 25  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 4.527840 sec
+	Locate_time/Num_occs = 0.000142 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000142  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    4.527840000	    0.141796153	       31932037	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 25  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 8.388000 sec
+	Locate_time/Num_occs = 0.000263 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000263  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    8.388000000	    0.262682897	       31932037	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 16.093920 sec
+	Locate_time/Num_occs = 0.000504 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000504  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	   16.093920000	    0.504005429	       31932037	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 15  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 32.251467 sec
+	Locate_time/Num_occs = 0.001010 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.001010  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	   32.251466667	    1.010003423	       31932037	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 15  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 84.893067 sec
+	Locate_time/Num_occs = 0.002659 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.002659  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	   84.893066667	    2.658554688	       31932037	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 865.374000 sec
+	Locate_time/Num_occs = 0.027100 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.027100  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	  865.374000000	   27.100494716	       31932037	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 12017.860000 sec
+	Locate_time/Num_occs = 0.376357 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.376357  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	12017.860000000	  376.357449417	       31932037	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET phrases.5 (p5)     ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 5  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 1.257600 sec
+	Locate_time/Num_occs = 0.000139 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000139  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    1.257600000	    0.139229940	        9032540	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 4  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 2.259000 sec
+	Locate_time/Num_occs = 0.000250 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000251  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    2.259000000	    0.250095765	        9032540	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 4  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 4.367000 sec
+	Locate_time/Num_occs = 0.000483 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000483  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	    4.367000000	    0.483474194	        9032540	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 4  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 8.429000 sec
+	Locate_time/Num_occs = 0.000933 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000933  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	    8.429000000	    0.933181586	        9032540	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 4  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 20.868000 sec
+	Locate_time/Num_occs = 0.002310 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.002310  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	   20.868000000	    2.310313599	        9032540	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 191.408000 sec
+	Locate_time/Num_occs = 0.021191 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.021191  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	  191.408000000	   21.190938540	        9032540	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 2801.612000 sec
+	Locate_time/Num_occs = 0.310169 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.310169  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	 2801.612000000	  310.168789731	        9032540	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET A.words (Wa)       ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 50  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.018720 sec
+	Locate_time/Num_occs = 0.000189 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000189  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    0.018720000	    0.188656428	          99228	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 50  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.036720 sec
+	Locate_time/Num_occs = 0.000370 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000370  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    0.036720000	    0.370056839	          99228	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.075200 sec
+	Locate_time/Num_occs = 0.000758 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000758  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	    0.075200000	    0.757850607	          99228	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 25  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.151520 sec
+	Locate_time/Num_occs = 0.001527 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.001527  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	    0.151520000	    1.526988350	          99228	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 25  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.474400 sec
+	Locate_time/Num_occs = 0.004781 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.004781  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	    0.474400000	    4.780908615	          99228	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 4.802000 sec
+	Locate_time/Num_occs = 0.048394 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.048394  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	    4.802000000	   48.393598581	          99228	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 56.872000 sec
+	Locate_time/Num_occs = 0.573145 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.573145  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	   56.872000000	  573.144676906	          99228	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET B.words (Wb)       ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 50  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 0.871680 sec
+	Locate_time/Num_occs = 0.000153 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000153  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    0.871680000	    0.152875813	        5701883	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 50  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 1.624960 sec
+	Locate_time/Num_occs = 0.000285 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000285  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    1.624960000	    0.284986556	        5701883	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 3.222400 sec
+	Locate_time/Num_occs = 0.000565 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000565  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	    3.222400000	    0.565146637	        5701883	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 25  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 6.300160 sec
+	Locate_time/Num_occs = 0.001105 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.001105  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	    6.300160000	    1.104926215	        5701883	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 25  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 17.981280 sec
+	Locate_time/Num_occs = 0.003154 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.003154  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	   17.981280000	    3.153568742	        5701883	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 195.216000 sec
+	Locate_time/Num_occs = 0.034237 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.034237  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	  195.216000000	   34.237110793	        5701883	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 2652.744000 sec
+	Locate_time/Num_occs = 0.465240 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.465240  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	 2652.744000000	  465.239991771	        5701883	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET phrases.2 (p2)     ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 25  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 4.359680 sec
+	Locate_time/Num_occs = 0.000137 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000137  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    4.359680000	    0.136529968	       31932037	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 25  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 7.988960 sec
+	Locate_time/Num_occs = 0.000250 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000250  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    7.988960000	    0.250186357	       31932037	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 15.605920 sec
+	Locate_time/Num_occs = 0.000489 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000489  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	   15.605920000	    0.488722971	       31932037	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 15  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 30.520267 sec
+	Locate_time/Num_occs = 0.000956 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000956  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	   30.520266667	    0.955788278	       31932037	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 15  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 82.212000 sec
+	Locate_time/Num_occs = 0.002575 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.002575  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	   82.212000000	    2.574593033	       31932037	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 834.466000 sec
+	Locate_time/Num_occs = 0.026133 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.026133  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	  834.466000000	   26.132563983	       31932037	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 11895.040000 sec
+	Locate_time/Num_occs = 0.372511 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.372511  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	11895.040000000	  372.511155489	       31932037	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET phrases.5 (p5)     ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 5  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 1.200000 sec
+	Locate_time/Num_occs = 0.000133 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000133  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    1.200000000	    0.132852996	        9032540	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 4  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 2.152000 sec
+	Locate_time/Num_occs = 0.000238 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000238  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    2.152000000	    0.238249706	        9032540	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 4  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 4.049000 sec
+	Locate_time/Num_occs = 0.000448 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000448  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	    4.049000000	    0.448268150	        9032540	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 4  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 7.893000 sec
+	Locate_time/Num_occs = 0.000874 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000874  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	    7.893000000	    0.873840581	        9032540	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 4  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 19.910000 sec
+	Locate_time/Num_occs = 0.002204 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.002204  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	   19.910000000	    2.204252624	        9032540	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 189.654000 sec
+	Locate_time/Num_occs = 0.020997 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.020997  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	  189.654000000	   20.996751744	        9032540	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 2720.636000 sec
+	Locate_time/Num_occs = 0.301204 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.301204  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	 2720.636000000	  301.203869565	        9032540	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET A.words (Wa)       ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 50  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.017280 sec
+	Locate_time/Num_occs = 0.000174 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000214  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    0.017280000	    0.174144395	          99228	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 50  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.037200 sec
+	Locate_time/Num_occs = 0.000375 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000375  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    0.037200000	    0.374894183	          99228	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.076480 sec
+	Locate_time/Num_occs = 0.000771 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000771  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	    0.076480000	    0.770750191	          99228	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 25  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.148640 sec
+	Locate_time/Num_occs = 0.001498 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.001498  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	    0.148640000	    1.497964284	          99228	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 25  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.483680 sec
+	Locate_time/Num_occs = 0.004874 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.004874  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	    0.483680000	    4.874430604	          99228	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 4.728000 sec
+	Locate_time/Num_occs = 0.047648 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.047648  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	    4.728000000	   47.647841335	          99228	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 56.536000 sec
+	Locate_time/Num_occs = 0.569759 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.569759  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	   56.536000000	  569.758535897	          99228	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET B.words (Wb)       ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 50  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 0.889760 sec
+	Locate_time/Num_occs = 0.000156 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000156  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    0.889760000	    0.156046695	        5701883	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 50  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 1.646480 sec
+	Locate_time/Num_occs = 0.000289 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000289  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    1.646480000	    0.288760748	        5701883	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 3.257600 sec
+	Locate_time/Num_occs = 0.000571 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000571  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	    3.257600000	    0.571320036	        5701883	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 25  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 6.341120 sec
+	Locate_time/Num_occs = 0.001112 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.001112  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	    6.341120000	    1.112109807	        5701883	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 25  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 18.133120 sec
+	Locate_time/Num_occs = 0.003180 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.003180  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	   18.133120000	    3.180198541	        5701883	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 195.128000 sec
+	Locate_time/Num_occs = 0.034222 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.034222  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	  195.128000000	   34.221677295	        5701883	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 2646.608000 sec
+	Locate_time/Num_occs = 0.464164 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.464164  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	 2646.608000000	  464.163856045	        5701883	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET phrases.2 (p2)     ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 25  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 4.423680 sec
+	Locate_time/Num_occs = 0.000139 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000139  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    4.423680000	    0.138534225	       31932037	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 25  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 8.153440 sec
+	Locate_time/Num_occs = 0.000255 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000255  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    8.153440000	    0.255337297	       31932037	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 15.902400 sec
+	Locate_time/Num_occs = 0.000498 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000498  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	   15.902400000	    0.498007691	       31932037	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 15  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 31.051467 sec
+	Locate_time/Num_occs = 0.000972 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000972  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	   31.051466667	    0.972423609	       31932037	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 15  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 82.650667 sec
+	Locate_time/Num_occs = 0.002588 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.002588  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	   82.650666667	    2.588330543	       31932037	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 834.822000 sec
+	Locate_time/Num_occs = 0.026144 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.026144  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	  834.822000000	   26.143712661	       31932037	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 11813.892000 sec
+	Locate_time/Num_occs = 0.369970 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.369970  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	11813.892000000	  369.969883224	       31932037	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET phrases.5 (p5)     ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 5  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 1.239200 sec
+	Locate_time/Num_occs = 0.000137 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000137  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    1.239200000	    0.137192860	        9032540	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 4  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 2.174000 sec
+	Locate_time/Num_occs = 0.000241 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000241  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    2.174000000	    0.240685344	        9032540	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 4  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 4.143000 sec
+	Locate_time/Num_occs = 0.000459 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000459  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	    4.143000000	    0.458674969	        9032540	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 4  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 8.054000 sec
+	Locate_time/Num_occs = 0.000892 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000892  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	    8.054000000	    0.891665024	        9032540	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 4  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 20.202000 sec
+	Locate_time/Num_occs = 0.002237 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.002237  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	   20.202000000	    2.236580187	        9032540	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 187.594000 sec
+	Locate_time/Num_occs = 0.020769 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.020769  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	  187.594000000	   20.768687435	        9032540	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 2732.916000 sec
+	Locate_time/Num_occs = 0.302563 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.302563  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	 2732.916000000	  302.563398557	        9032540	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET A.words (Wa)       ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 50  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.017520 sec
+	Locate_time/Num_occs = 0.000177 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000177  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    0.017520000	    0.176563067	          99228	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 50  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.037280 sec
+	Locate_time/Num_occs = 0.000376 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000376  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    0.037280000	    0.375700407	          99228	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.078400 sec
+	Locate_time/Num_occs = 0.000790 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000790  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	    0.078400000	    0.790099569	          99228	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 25  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.150080 sec
+	Locate_time/Num_occs = 0.001512 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.001512  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	    0.150080000	    1.512476317	          99228	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 25  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 0.472960 sec
+	Locate_time/Num_occs = 0.004766 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.004766  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	    0.472960000	    4.766396582	          99228	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 4.748000 sec
+	Locate_time/Num_occs = 0.047849 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.047849  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	    4.748000000	   47.849397348	          99228	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 99228
+	Locate time = 56.688000 sec
+	Locate_time/Num_occs = 0.571290 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.571290  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	   56.688000000	  571.290361591	          99228	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET B.words (Wb)       ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 50  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 0.885840 sec
+	Locate_time/Num_occs = 0.000155 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000155  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    0.885840000	    0.155359203	        5701883	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 50  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 1.687840 sec
+	Locate_time/Num_occs = 0.000296 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000296  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    1.687840000	    0.296014492	        5701883	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 3.260480 sec
+	Locate_time/Num_occs = 0.000572 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000572  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	    3.260480000	    0.571825132	        5701883	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 25  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 6.328960 sec
+	Locate_time/Num_occs = 0.001110 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.001110  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	    6.328960000	    1.109977178	        5701883	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 25  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 17.940640 sec
+	Locate_time/Num_occs = 0.003146 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.003146  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	   17.940640000	    3.146441272	        5701883	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 194.956000 sec
+	Locate_time/Num_occs = 0.034192 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.034192  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	  194.956000000	   34.191511822	        5701883	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=1: [0-0]
+	Total Num occs found = 5701883
+	Locate time = 2640.232000 sec
+	Locate_time/Num_occs = 0.463046 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.463046  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	 2640.232000000	  463.045628962	        5701883	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET phrases.2 (p2)     ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 25  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 4.414240 sec
+	Locate_time/Num_occs = 0.000138 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000138  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    4.414240000	    0.138238597	       31932037	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 25  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 8.137600 sec
+	Locate_time/Num_occs = 0.000255 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000255  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    8.137600000	    0.254841243	       31932037	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 25  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 15.855840 sec
+	Locate_time/Num_occs = 0.000497 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000497  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	   15.855840000	    0.496549594	       31932037	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 15  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 31.066667 sec
+	Locate_time/Num_occs = 0.000973 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000973  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	   31.066666667	    0.972899620	       31932037	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 15  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 82.066133 sec
+	Locate_time/Num_occs = 0.002570 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.002570  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	   82.066133333	    2.570024998	       31932037	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 827.972000 sec
+	Locate_time/Num_occs = 0.025929 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.025929  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	  827.972000000	   25.929194558	       31932037	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=20002000: [2-2]
+	Total Num occs found = 31932037
+	Locate time = 11794.680000 sec
+	Locate_time/Num_occs = 0.369368 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.369368  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	11794.680000000	  369.368230408	       31932037	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k
+*****************************************************************************
+********************  PATTERN SET phrases.5 (p5)     ************************
+*****************************************************************************
+
+ Search sWCSA: ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA8.sAi8.sPsi8.16k o 5  ** 
+	Index size = 1061765698 bytes, ratio = 50.857
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 1.208000 sec
+	Locate_time/Num_occs = 0.000134 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000134  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+      1061765698	    1.208000000	    0.133738683	        9032540	           1000	#wiki2gb_sA8.sAi8.sPsi8.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA16.sAi64.sPsi16.16k o 4  ** 
+	Index size = 536091618 bytes, ratio = 25.678
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 2.167000 sec
+	Locate_time/Num_occs = 0.000240 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000240  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       536091618	    2.167000000	    0.239910369	        9032540	           1000	#wiki2gb_sA16.sAi64.sPsi16.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA32.sAi64.sPsi32.16k o 4  ** 
+	Index size = 374666518 bytes, ratio = 17.946
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 4.138000 sec
+	Locate_time/Num_occs = 0.000458 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000458  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       374666518	    4.138000000	    0.458121414	        9032540	           1000	#wiki2gb_sA32.sAi64.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_ssA64.sAi128.sPsi32.16k o 4  ** 
+	Index size = 331272214 bytes, ratio = 15.867
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 8.109000 sec
+	Locate_time/Num_occs = 0.000898 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.000898  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       331272214	    8.109000000	    0.897754120	        9032540	           1000	#wiki2gb_ssA64.sAi128.sPsi32.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA128.sAi256.sPsi128.16k o 4  ** 
+	Index size = 231153918 bytes, ratio = 11.072
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 19.866000 sec
+	Locate_time/Num_occs = 0.002199 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.002199  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       231153918	   19.866000000	    2.199381348	        9032540	           1000	#wiki2gb_sA128.sAi256.sPsi128.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA512.sAi512.sPsi512.16k o 2  ** 
+	Index size = 196398722 bytes, ratio = 9.407
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 188.462000 sec
+	Locate_time/Num_occs = 0.020865 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.020865  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       196398722	  188.462000000	   20.864784435	        9032540	           1000	#wiki2gb_sA512.sAi512.sPsi512.16k
+
+ Search sWCSA: ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k
+	 ** Prog = ./SEARCHwcsa ./indexes/wiki2gb_sA2048.sAi2048.sPsi2048.16k o 1  ** 
+	Index size = 185646818 bytes, ratio = 8.892
+	** Operation = o ** numpatts = 1000, wordsperphrase=50005000: [5-5]
+	Total Num occs found = 9032540
+	Locate time = 2709.580000 sec
+	Locate_time/Num_occs = 0.299980 msec/occss
+		(Load_time+Locate_time)/Num_occs = 0.299980  msec/occs
+
+# totaSize(byte)	       msec/pat	       usec/occ	           occs	        numpats	#indexBaseName
+
+##############################################################################
+
+       185646818	 2709.580000000	  299.979850629	        9032540	           1000	#wiki2gb_sA2048.sAi2048.sPsi2048.16k

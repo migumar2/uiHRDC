@@ -1,6 +1,6 @@
 
  Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb_bitmap1 lenBitmapDiv=1; 1.4.scripts.rice.bitmap
-	Building time: 278.128 secs
+	Building time: 308.976 secs
 	Input: 20971541599 bytes --> Output 825583310 bytes.
 	Overall compression --> 3.94% (0.31 bits per char).
 
@@ -18,7 +18,7 @@
 =====================================
 
  Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb_bitmap8 lenBitmapDiv=8; 1.4.scripts.rice.bitmap
-	Building time: 274.532 secs
+	Building time: 309.604 secs
 	Input: 20971541599 bytes --> Output 863561538 bytes.
 	Overall compression --> 4.12% (0.33 bits per char).
 

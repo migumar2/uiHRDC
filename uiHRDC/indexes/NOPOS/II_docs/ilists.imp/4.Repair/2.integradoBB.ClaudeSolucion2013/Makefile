@@ -6,6 +6,7 @@ CPP			 = g++
 
 #export CPPFLAGS = -O0 -g3 -D_FORTIFY_SOURCE=0 -DNDEBUG #-Wall 
 export CPPFLAGS = -O9 -m64 -D_FORTIFY_SOURCE=0 -DNDEBUG #-Wall 
+#export CPPFLAGS = -O0 -g -m64 -D_FORTIFY_SOURCE=0 -DNDEBUG #-Wall 
 SRCDIRLINKER = linker
 
 #DEBUGOPT  =-DDEBUG_ON   ##Writes out logging data (for search_il.c)

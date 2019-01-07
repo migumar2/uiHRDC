@@ -13,9 +13,9 @@ set logscale x
 set logscale y
 
 #set yr [0.01:11]
-#set xr [20:151]
-set xr [10:151]
-#set xtics ("" 1,"" 10,20,30,40,"" 50,60,"" 70,80,"" 90,100,"" 110,120,"" 130,140,"" 150)
+set xr [20:151]
+#set xr [10:151]
+set xtics ("" 1,"" 10,20,30,40,"" 50,60,"" 70,80,"" 90,100,"" 110,120,"" 130,140,"" 150)
 
 plot\
   "N_p2.1.4.rice.dat" using (100*$1/2087767849):3 title "Rice" with linespoints ls 13	pt 12 lc rgb 'black',\

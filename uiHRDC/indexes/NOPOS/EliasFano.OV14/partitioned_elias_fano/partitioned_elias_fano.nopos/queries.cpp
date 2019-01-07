@@ -106,7 +106,8 @@ void perftest(const char* index_filename,
     succinct::mapper::map(index, m, succinct::mapper::map_flags::warmup);
 
     logger() << "Performing " << type << " queries" << " [" <<  queries.size()  << "]"<< std::endl;
-    op_perftest(index, and_query<false>(), queries, type, "and", 3);
+    //op_perftest(index, and_query<false>(), queries, type, "and", 3);  /*fari commented this*/
+    op_perftest(index, and_query<false>(), queries, type, "and", 30);
   
 /*
     //FARI, COMMENTED THIS

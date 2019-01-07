@@ -1,3 +1,6 @@
+rm -f S-LOG.dat*
+python ../../../../../utils-py/starttime.py  S-LOG.dat "Search-starts!"   ##LOGS-ELAPSED-TIMES
+
 #!/bin/bash
 rm -f E.dat
 rm -f N.dat
@@ -80,7 +83,7 @@ SAMPLEK="1 64"
 		./sampleK indexes/wiki2gb $i		
 	#	./SEARCH indexes/wiki2gb N 1 "int2=skip;intn=skip"   < ../../patterns/cr.xt100k_4
 		./SEARCH indexes/wiki2gb N 5 "int2=skipE;intn=skipE" < ../../patterns/wiki2g_5_5
-		./appendLastLine E.dat sampleK=$i
+		./appendLastLine N.dat sampleK=$i
 	done
 	mv N.dat N_p5.4.3.1repairG.skipping.moffat.dat 
 ###
@@ -88,6 +91,4 @@ echo "################################################################"
 
 
 
-
-
-
+python ../../../../../utils-py/endtime.py    S-LOG.dat                  ##LOGS-ELAPSED-TIMES

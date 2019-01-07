@@ -1,6 +1,6 @@
 
  Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb_bitmap1_k16 samplerate=16;lenBitmapDiv=1 ; 3.vbytebitmapSanders
-	Building time: 274.380 secs
+	Building time: 298.212 secs
 	Input: 20971541599 bytes --> Output 1300164478 bytes.
 	Overall compression --> 6.20% (0.50 bits per char).
 
@@ -17,26 +17,8 @@
  
 =====================================
 
- Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb_bitmap8_k16 samplerate=16;lenBitmapDiv=8 ; 3.vbytebitmapSanders
-	Building time: 268.332 secs
-	Input: 20971541599 bytes --> Output 950092307 bytes.
-	Overall compression --> 4.53% (0.36 bits per char).
-
-	 Extended info 
- 
-	Space statistics for II-words-DocOriented
-	 tindex structure = 96 bytes.
-	 number of diff words= 534120
-	 number of docs (ndocs)= 881802
-	 vocabulary of words = 6189846 bytes.
-	 Inverted list-structure = 943902365 bytes.
-	 Text (compressed representation) = 0 bytes.
-	 Whole index = 950092307 bytes  ** Ratio = 4.530 % **
- 
-=====================================
-
  Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb_bitmap1_k128 samplerate=128;lenBitmapDiv=1; 3.vbytebitmapSanders
-	Building time: 271.516 secs
+	Building time: 300.960 secs
 	Input: 20971541599 bytes --> Output 1206972827 bytes.
 	Overall compression --> 5.76% (0.46 bits per char).
 
@@ -53,8 +35,26 @@
  
 =====================================
 
+ Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb_bitmap8_k16 samplerate=16;lenBitmapDiv=8 ; 3.vbytebitmapSanders
+	Building time: 296.668 secs
+	Input: 20971541599 bytes --> Output 950092307 bytes.
+	Overall compression --> 4.53% (0.36 bits per char).
+
+	 Extended info 
+ 
+	Space statistics for II-words-DocOriented
+	 tindex structure = 96 bytes.
+	 number of diff words= 534120
+	 number of docs (ndocs)= 881802
+	 vocabulary of words = 6189846 bytes.
+	 Inverted list-structure = 943902365 bytes.
+	 Text (compressed representation) = 0 bytes.
+	 Whole index = 950092307 bytes  ** Ratio = 4.530 % **
+ 
+=====================================
+
  Building index qgrams: ./BUILD ../../textos/text20gb.txt indexes/wiki20gb_bitmap8_k128 samplerate=128;lenBitmapDiv=8; 3.vbytebitmapSanders
-	Building time: 300.136 secs
+	Building time: 297.176 secs
 	Input: 20971541599 bytes --> Output 905718881 bytes.
 	Overall compression --> 4.32% (0.35 bits per char).
 

@@ -26,23 +26,28 @@ echo "---------------------------------------------------------------------"
 echo "---------------------------------------------------------------------"
 echo ""
 
-cd WCSA
-  sh runExperiments.sh
-  cd ..
+rm -f SELF-LOG*
+python ../utils-py/starttime.py  SELF-LOG.dat "Build-starts!"       ##LOGS-ELAPSED-TIMES
 
-cd LZ  
-  sh runExperiments.sh
-  cd ..
-  
-cd RLCSAM  
-  sh runExperiments.sh
-  cd ..
+	cd WCSA
+	  sh runExperiments.sh
+	  cd ..
 
-cd SLP  
-  sh runExperiments.sh
-  cd ..
+	cd LZ  
+	  sh runExperiments.sh
+	  cd ..
+	  
+	cd RLCSAM  
+	  sh runExperiments.sh
+	  cd ..
 
-cd collectResults
-	sh goCollectResults.sh
-	cd ..
+	cd SLP  
+	  sh runExperiments.sh
+	  cd ..
+
+	cd collectResults
+	  sh goCollectResults.sh
+	  cd ..
+
+python ../utils-py/endtime.py  SELF-LOG.dat                         ##LOGS-ELAPSED-TIMES
 

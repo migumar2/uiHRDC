@@ -11,33 +11,12 @@ RLCSA:           41.4879 MB
 SA samples:      251.046 MB
 Total size:      292.534 MB
 
-time/occ:0.0012
+time/occ:0.0011
 
-Patterns:    1000 (706.215 / sec)
-Total size:  8033 bytes (5673.02 / sec)
-Matches:     1171124 (827065 / sec)
-Time:        1.416 seconds
-
-
-RLCSA test
-Base name: ./indexes/wiki2gb.txt
-Sample: 64
-Sequences:       1
-Original size:   1991.05 MB
-Block size:      32 bytes
-Sample rate:     64
-
-RLCSA:           41.4879 MB
-  BWT only:      32.741 MB
-SA samples:      251.046 MB
-Total size:      292.534 MB
-
-time/occ:0.0012
-
-Patterns:    1000 (700.28 / sec)
-Total size:  8033 bytes (5625.35 / sec)
-Matches:     1171124 (820115 / sec)
-Time:        1.428 seconds
+Patterns:    1000 (766.871 / sec)
+Total size:  8033 bytes (6160.28 / sec)
+Matches:     1171124 (898101 / sec)
+Time:        1.304 seconds
 
 
 RLCSA test
@@ -53,33 +32,12 @@ RLCSA:           41.4879 MB
 SA samples:      251.046 MB
 Total size:      292.534 MB
 
-time/occ:0.0012
+time/occ:0.0011
 
-Patterns:    1000 (696.379 / sec)
-Total size:  8033 bytes (5594.01 / sec)
-Matches:     1171124 (815546 / sec)
-Time:        1.436 seconds
-
-
-RLCSA test
-Base name: ./indexes/wiki2gb.txt
-Sample: 64
-Sequences:       1
-Original size:   1991.05 MB
-Block size:      32 bytes
-Sample rate:     64
-
-RLCSA:           41.4879 MB
-  BWT only:      32.741 MB
-SA samples:      251.046 MB
-Total size:      292.534 MB
-
-time/occ:0.0012
-
-Patterns:    1000 (696.379 / sec)
-Total size:  8033 bytes (5594.01 / sec)
-Matches:     1171124 (815546 / sec)
-Time:        1.436 seconds
+Patterns:    1000 (766.871 / sec)
+Total size:  8033 bytes (6160.28 / sec)
+Matches:     1171124 (898101 / sec)
+Time:        1.304 seconds
 
 
 RLCSA test
@@ -95,33 +53,12 @@ RLCSA:           41.4879 MB
 SA samples:      251.046 MB
 Total size:      292.534 MB
 
-time/occ:0.0012
+time/occ:0.0011
 
-Patterns:    1000 (722.543 / sec)
-Total size:  8033 bytes (5804.19 / sec)
-Matches:     1171124 (846188 / sec)
-Time:        1.384 seconds
-
-
-RLCSA test
-Base name: ./indexes/wiki2gb.txt
-Sample: 64
-Sequences:       1
-Original size:   1991.05 MB
-Block size:      32 bytes
-Sample rate:     64
-
-RLCSA:           41.4879 MB
-  BWT only:      32.741 MB
-SA samples:      251.046 MB
-Total size:      292.534 MB
-
-time/occ:0.0012
-
-Patterns:    1000 (692.521 / sec)
-Total size:  8033 bytes (5563.02 / sec)
-Matches:     1171124 (811028 / sec)
-Time:        1.444 seconds
+Patterns:    1000 (757.576 / sec)
+Total size:  8033 bytes (6085.61 / sec)
+Matches:     1171124 (887215 / sec)
+Time:        1.32 seconds
 
 
 RLCSA test
@@ -137,33 +74,12 @@ RLCSA:           41.4879 MB
 SA samples:      251.046 MB
 Total size:      292.534 MB
 
-time/occ:0.0012
+time/occ:0.0011
 
-Patterns:    1000 (698.324 / sec)
-Total size:  8033 bytes (5609.64 / sec)
-Matches:     1171124 (817824 / sec)
-Time:        1.432 seconds
-
-
-RLCSA test
-Base name: ./indexes/wiki2gb.txt
-Sample: 64
-Sequences:       1
-Original size:   1991.05 MB
-Block size:      32 bytes
-Sample rate:     64
-
-RLCSA:           41.4879 MB
-  BWT only:      32.741 MB
-SA samples:      251.046 MB
-Total size:      292.534 MB
-
-time/occ:0.0012
-
-Patterns:    1000 (716.332 / sec)
-Total size:  8033 bytes (5754.3 / sec)
-Matches:     1171124 (838914 / sec)
-Time:        1.396 seconds
+Patterns:    1000 (762.195 / sec)
+Total size:  8033 bytes (6122.71 / sec)
+Matches:     1171124 (892625 / sec)
+Time:        1.312 seconds
 
 
 RLCSA test
@@ -179,12 +95,12 @@ RLCSA:           41.4879 MB
 SA samples:      251.046 MB
 Total size:      292.534 MB
 
-time/occ:0.0012
+time/occ:0.0011
 
-Patterns:    1000 (706.215 / sec)
-Total size:  8033 bytes (5673.02 / sec)
-Matches:     1171124 (827065 / sec)
-Time:        1.416 seconds
+Patterns:    1000 (764.526 / sec)
+Total size:  8033 bytes (6141.44 / sec)
+Matches:     1171124 (895355 / sec)
+Time:        1.308 seconds
 
 
 RLCSA test
@@ -200,12 +116,96 @@ RLCSA:           41.4879 MB
 SA samples:      251.046 MB
 Total size:      292.534 MB
 
-time/occ:0.0012
+time/occ:0.0011
 
-Patterns:    1000 (712.251 / sec)
-Total size:  8033 bytes (5721.51 / sec)
-Matches:     1171124 (834134 / sec)
-Time:        1.404 seconds
+Patterns:    1000 (759.878 / sec)
+Total size:  8033 bytes (6104.1 / sec)
+Matches:     1171124 (889912 / sec)
+Time:        1.316 seconds
+
+
+RLCSA test
+Base name: ./indexes/wiki2gb.txt
+Sample: 64
+Sequences:       1
+Original size:   1991.05 MB
+Block size:      32 bytes
+Sample rate:     64
+
+RLCSA:           41.4879 MB
+  BWT only:      32.741 MB
+SA samples:      251.046 MB
+Total size:      292.534 MB
+
+time/occ:0.0011
+
+Patterns:    1000 (748.503 / sec)
+Total size:  8033 bytes (6012.72 / sec)
+Matches:     1171124 (876590 / sec)
+Time:        1.336 seconds
+
+
+RLCSA test
+Base name: ./indexes/wiki2gb.txt
+Sample: 64
+Sequences:       1
+Original size:   1991.05 MB
+Block size:      32 bytes
+Sample rate:     64
+
+RLCSA:           41.4879 MB
+  BWT only:      32.741 MB
+SA samples:      251.046 MB
+Total size:      292.534 MB
+
+time/occ:0.0011
+
+Patterns:    1000 (766.871 / sec)
+Total size:  8033 bytes (6160.28 / sec)
+Matches:     1171124 (898101 / sec)
+Time:        1.304 seconds
+
+
+RLCSA test
+Base name: ./indexes/wiki2gb.txt
+Sample: 64
+Sequences:       1
+Original size:   1991.05 MB
+Block size:      32 bytes
+Sample rate:     64
+
+RLCSA:           41.4879 MB
+  BWT only:      32.741 MB
+SA samples:      251.046 MB
+Total size:      292.534 MB
+
+time/occ:0.0011
+
+Patterns:    1000 (766.871 / sec)
+Total size:  8033 bytes (6160.28 / sec)
+Matches:     1171124 (898101 / sec)
+Time:        1.304 seconds
+
+
+RLCSA test
+Base name: ./indexes/wiki2gb.txt
+Sample: 64
+Sequences:       1
+Original size:   1991.05 MB
+Block size:      32 bytes
+Sample rate:     64
+
+RLCSA:           41.4879 MB
+  BWT only:      32.741 MB
+SA samples:      251.046 MB
+Total size:      292.534 MB
+
+time/occ:0.0011
+
+Patterns:    1000 (762.195 / sec)
+Total size:  8033 bytes (6122.71 / sec)
+Matches:     1171124 (892625 / sec)
+Time:        1.312 seconds
 
 
 #################################

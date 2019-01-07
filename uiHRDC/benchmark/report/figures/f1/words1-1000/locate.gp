@@ -13,8 +13,8 @@ set pointsize 1.5
 set logscale x
 set logscale y
 #set  yrange [0.001:0.1]
-#set xr [0.1:10]
-#set xtics ("0.1" 0.1, "0.2" 0.2, "0.3" 0.3, "0.4" 0.4,"" 0.5,"0.6" 0.6,"" 0.7,"0.8" 0.8,""0.9,"1"1,"2"2,"3"3,"4"4,"5"5,"6"6,"7"7,"8"8,"9"9,"10"10)
+set xr [0.1:10]
+set xtics ("0.1" 0.1, "0.2" 0.2, "0.3" 0.3, "0.4" 0.4,"" 0.5,"0.6" 0.6,"" 0.7,"0.8" 0.8,""0.9,"1"1,"2"2,"3"3,"4"4,"5"5,"6"6,"7"7,"8"8,"9"9,"10"10)
 plot\
   "E_Wa.1.4.rice.dat" using (100*$1/26597454863):3 title "Rice" 				with linespoints ls 13	pt 12 lc rgb 'black',\
   "E_Wa.2.1.vbyte.dat" using (100*$1/26597454863):3 title "Vbyte" 				with linespoints ls 3 lc rgb 'red',\

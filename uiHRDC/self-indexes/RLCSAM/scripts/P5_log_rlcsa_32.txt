@@ -13,10 +13,10 @@ Total size:      543.549 MB
 
 time/occ:0.0004
 
-Patterns:    1000 (260.96 / sec)
-Total size:  22771 bytes (5942.33 / sec)
-Matches:     9246505 (2.41297e+06 / sec)
-Time:        3.832 seconds
+Patterns:    1000 (267.38 / sec)
+Total size:  22771 bytes (6088.5 / sec)
+Matches:     9246505 (2.47233e+06 / sec)
+Time:        3.74 seconds
 
 
 RLCSA test
@@ -34,10 +34,10 @@ Total size:      543.549 MB
 
 time/occ:0.0004
 
-Patterns:    1000 (260.688 / sec)
-Total size:  22771 bytes (5936.13 / sec)
-Matches:     9246505 (2.41045e+06 / sec)
-Time:        3.836 seconds
+Patterns:    1000 (265.957 / sec)
+Total size:  22771 bytes (6056.12 / sec)
+Matches:     9246505 (2.45918e+06 / sec)
+Time:        3.76 seconds
 
 
 RLCSA test
@@ -55,10 +55,10 @@ Total size:      543.549 MB
 
 time/occ:0.0004
 
-Patterns:    1000 (259.875 / sec)
-Total size:  22771 bytes (5917.62 / sec)
-Matches:     9246505 (2.40294e+06 / sec)
-Time:        3.848 seconds
+Patterns:    1000 (265.111 / sec)
+Total size:  22771 bytes (6036.85 / sec)
+Matches:     9246505 (2.45135e+06 / sec)
+Time:        3.772 seconds
 
 
 RLCSA test
@@ -76,10 +76,10 @@ Total size:      543.549 MB
 
 time/occ:0.0004
 
-Patterns:    1000 (257.998 / sec)
-Total size:  22771 bytes (5874.87 / sec)
-Matches:     9246505 (2.38558e+06 / sec)
-Time:        3.876 seconds
+Patterns:    1000 (266.241 / sec)
+Total size:  22771 bytes (6062.57 / sec)
+Matches:     9246505 (2.4618e+06 / sec)
+Time:        3.756 seconds
 
 
 RLCSA test
@@ -97,10 +97,10 @@ Total size:      543.549 MB
 
 time/occ:0.0004
 
-Patterns:    1000 (260.146 / sec)
-Total size:  22771 bytes (5923.78 / sec)
-Matches:     9246505 (2.40544e+06 / sec)
-Time:        3.844 seconds
+Patterns:    1000 (267.666 / sec)
+Total size:  22771 bytes (6095.02 / sec)
+Matches:     9246505 (2.47497e+06 / sec)
+Time:        3.736 seconds
 
 
 RLCSA test
@@ -118,10 +118,10 @@ Total size:      543.549 MB
 
 time/occ:0.0004
 
-Patterns:    1000 (258.799 / sec)
-Total size:  22771 bytes (5893.12 / sec)
-Matches:     9246505 (2.39299e+06 / sec)
-Time:        3.864 seconds
+Patterns:    1000 (264.831 / sec)
+Total size:  22771 bytes (6030.46 / sec)
+Matches:     9246505 (2.44876e+06 / sec)
+Time:        3.776 seconds
 
 
 RLCSA test
@@ -139,10 +139,10 @@ Total size:      543.549 MB
 
 time/occ:0.0004
 
-Patterns:    1000 (260.146 / sec)
-Total size:  22771 bytes (5923.78 / sec)
-Matches:     9246505 (2.40544e+06 / sec)
-Time:        3.844 seconds
+Patterns:    1000 (265.393 / sec)
+Total size:  22771 bytes (6043.26 / sec)
+Matches:     9246505 (2.45396e+06 / sec)
+Time:        3.768 seconds
 
 
 RLCSA test
@@ -160,10 +160,10 @@ Total size:      543.549 MB
 
 time/occ:0.0004
 
-Patterns:    1000 (267.953 / sec)
-Total size:  22771 bytes (6101.55 / sec)
-Matches:     9246505 (2.47763e+06 / sec)
-Time:        3.732 seconds
+Patterns:    1000 (266.809 / sec)
+Total size:  22771 bytes (6075.51 / sec)
+Matches:     9246505 (2.46705e+06 / sec)
+Time:        3.748 seconds
 
 
 RLCSA test
@@ -181,10 +181,10 @@ Total size:      543.549 MB
 
 time/occ:0.0004
 
-Patterns:    1000 (259.605 / sec)
-Total size:  22771 bytes (5911.47 / sec)
-Matches:     9246505 (2.40044e+06 / sec)
-Time:        3.852 seconds
+Patterns:    1000 (264.831 / sec)
+Total size:  22771 bytes (6030.46 / sec)
+Matches:     9246505 (2.44876e+06 / sec)
+Time:        3.776 seconds
 
 
 RLCSA test
@@ -202,9 +202,9 @@ Total size:      543.549 MB
 
 time/occ:0.0004
 
-Patterns:    1000 (259.875 / sec)
-Total size:  22771 bytes (5917.62 / sec)
-Matches:     9246505 (2.40294e+06 / sec)
-Time:        3.848 seconds
+Patterns:    1000 (262.881 / sec)
+Total size:  22771 bytes (5986.07 / sec)
+Matches:     9246505 (2.43073e+06 / sec)
+Time:        3.804 seconds
 
 

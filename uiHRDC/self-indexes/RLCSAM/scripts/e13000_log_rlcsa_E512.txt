@@ -8,13 +8,13 @@ RLCSA:           41.4879 MB
 SA samples:      31.4435 MB
 Total size:      72.9314 MB
 
-mchars/s:3.5809
+mchars/s:3.9494
 Total num chars extracted = 130000000
-Extract time = 36.30 secs
+Extract time = 32.92 secs
 Extract_time/Num_chars_extracted = 0.0003 msecs/chars
-Num_chars_extracted/extract_time = 3580872.6311 chars/sec
+Num_chars_extracted/extract_time = 3949447.0774 chars/sec
 (Load_time+Extract_time)/Num_chars_extracted = 0.0003 msecs/chars
-Num_chars_extracted/(Load_time+Extract_time) = 3571036.1499 chars/sec
+Num_chars_extracted/(Load_time+Extract_time) = 3937961.9532 chars/sec
 Sequences:       1
 Original size:   1991.05 MB
 Block size:      32 bytes
@@ -25,13 +25,13 @@ RLCSA:           41.4879 MB
 SA samples:      31.4435 MB
 Total size:      72.9314 MB
 
-mchars/s:3.5219
+mchars/s:3.9755
 Total num chars extracted = 130000000
-Extract time = 36.91 secs
+Extract time = 32.70 secs
 Extract_time/Num_chars_extracted = 0.0003 msecs/chars
-Num_chars_extracted/extract_time = 3521889.9003 chars/sec
+Num_chars_extracted/extract_time = 3975535.1682 chars/sec
 (Load_time+Extract_time)/Num_chars_extracted = 0.0003 msecs/chars
-Num_chars_extracted/(Load_time+Extract_time) = 3508961.3474 chars/sec
+Num_chars_extracted/(Load_time+Extract_time) = 3962931.3498 chars/sec
 Sequences:       1
 Original size:   1991.05 MB
 Block size:      32 bytes
@@ -42,13 +42,13 @@ RLCSA:           41.4879 MB
 SA samples:      31.4435 MB
 Total size:      72.9314 MB
 
-mchars/s:3.6119
+mchars/s:3.9907
 Total num chars extracted = 130000000
-Extract time = 35.99 secs
+Extract time = 32.58 secs
 Extract_time/Num_chars_extracted = 0.0003 msecs/chars
-Num_chars_extracted/extract_time = 3611913.7586 chars/sec
+Num_chars_extracted/extract_time = 3990667.9764 chars/sec
 (Load_time+Extract_time)/Num_chars_extracted = 0.0003 msecs/chars
-Num_chars_extracted/(Load_time+Extract_time) = 3600310.1806 chars/sec
+Num_chars_extracted/(Load_time+Extract_time) = 3978455.1353 chars/sec
 Sequences:       1
 Original size:   1991.05 MB
 Block size:      32 bytes
@@ -59,13 +59,13 @@ RLCSA:           41.4879 MB
 SA samples:      31.4435 MB
 Total size:      72.9314 MB
 
-mchars/s:3.5620
+mchars/s:3.9322
 Total num chars extracted = 130000000
-Extract time = 36.50 secs
+Extract time = 33.06 secs
 Extract_time/Num_chars_extracted = 0.0003 msecs/chars
-Num_chars_extracted/extract_time = 3562034.1955 chars/sec
+Num_chars_extracted/extract_time = 3932244.4041 chars/sec
 (Load_time+Extract_time)/Num_chars_extracted = 0.0003 msecs/chars
-Num_chars_extracted/(Load_time+Extract_time) = 3549584.9716 chars/sec
+Num_chars_extracted/(Load_time+Extract_time) = 3920858.9697 chars/sec
 Sequences:       1
 Original size:   1991.05 MB
 Block size:      32 bytes
@@ -76,11 +76,11 @@ RLCSA:           41.4879 MB
 SA samples:      31.4435 MB
 Total size:      72.9314 MB
 
-mchars/s:3.5726
+mchars/s:3.9912
 Total num chars extracted = 130000000
-Extract time = 36.39 secs
+Extract time = 32.57 secs
 Extract_time/Num_chars_extracted = 0.0003 msecs/chars
-Num_chars_extracted/extract_time = 3572606.3537 chars/sec
+Num_chars_extracted/extract_time = 3991158.0499 chars/sec
 (Load_time+Extract_time)/Num_chars_extracted = 0.0003 msecs/chars
-Num_chars_extracted/(Load_time+Extract_time) = 3562034.1955 chars/sec
+Num_chars_extracted/(Load_time+Extract_time) = 3978942.2135 chars/sec
 #################################
