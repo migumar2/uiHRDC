@@ -1,7 +1,7 @@
 %!PS-Adobe-2.0
 %%Title: nopos-2_2.eps
-%%Creator: gnuplot 5.0 patchlevel 3
-%%CreationDate: Tue Jan  1 16:09:46 2019
+%%Creator: gnuplot 4.4 patchlevel 3
+%%CreationDate: Tue Mar 12 11:08:35 2019
 %%DocumentFonts: (atend)
 %%BoundingBox: 50 50 554 770
 %%Orientation: Landscape
@@ -20,29 +20,42 @@ gnudict begin
 /Dashlength 1 def
 /Landscape true def
 /Level1 false def
-/Level3 false def
 /Rounded false def
 /ClipToBoundingBox false def
-/SuppressPDFMark false def
 /TransparentPatterns false def
 /gnulinewidth 5.000 def
 /userlinewidth gnulinewidth def
 /Gamma 1.0 def
-/BackgroundColor {-1.000 -1.000 -1.000} def
 %
 /vshift -53 def
 /dl1 {
-  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  10.0 Dashlength mul mul
   Rounded { currentlinewidth 0.75 mul sub dup 0 le { pop 0.01 } if } if
 } def
 /dl2 {
-  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  10.0 Dashlength mul mul
   Rounded { currentlinewidth 0.75 mul add } if
 } def
 /hpt_ 31.5 def
 /vpt_ 31.5 def
 /hpt hpt_ def
 /vpt vpt_ def
+Level1 {} {
+/SDict 10 dict def
+systemdict /pdfmark known not {
+  userdict /pdfmark systemdict /cleartomark get put
+} if
+SDict begin [
+  /Title (nopos-2_2.eps)
+  /Subject (gnuplot plot)
+  /Creator (gnuplot 4.4 patchlevel 3)
+  /Author (root)
+%  /Producer (gnuplot)
+%  /Keywords ()
+  /CreationDate (Tue Mar 12 11:08:35 2019)
+  /DOCINFO pdfmark
+end
+} ifelse
 /doclip {
   ClipToBoundingBox {
     newpath 50 50 moveto 554 50 lineto 554 770 lineto 50 770 lineto closepath
@@ -50,7 +63,7 @@ gnudict begin
   } if
 } def
 %
-% Gnuplot Prolog Version 5.1 (Oct 2015)
+% Gnuplot Prolog Version 4.4 (August 2010)
 %
 %/SuppressPDFMark true def
 %
@@ -67,11 +80,11 @@ gnudict begin
 /vpt2 vpt 2 mul def
 /hpt2 hpt 2 mul def
 /Lshow {currentpoint stroke M 0 vshift R 
-	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+	Blacktext {gsave 0 setgray show grestore} {show} ifelse} def
 /Rshow {currentpoint stroke M dup stringwidth pop neg vshift R
-	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+	Blacktext {gsave 0 setgray show grestore} {show} ifelse} def
 /Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R 
-	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+	Blacktext {gsave 0 setgray show grestore} {show} ifelse} def
 /UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def
   /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def
 /DL {Color {setrgbcolor Solid {pop []} if 0 setdash}
@@ -85,7 +98,7 @@ gnudict begin
 /PL {stroke userlinewidth setlinewidth
 	Rounded {1 setlinejoin 1 setlinecap} if} def
 3.8 setmiterlimit
-% Classic Line colors (version 5.0)
+% Default Line colors
 /LCw {1 1 1} def
 /LCb {0 0 0} def
 /LCa {0 0 0} def
@@ -98,21 +111,19 @@ gnudict begin
 /LC6 {0 0 0} def
 /LC7 {1 0.3 0} def
 /LC8 {0.5 0.5 0.5} def
-% Default dash patterns (version 5.0)
-/LTB {BL [] LCb DL} def
+% Default Line Types
 /LTw {PL [] 1 setgray} def
-/LTb {PL [] LCb DL} def
+/LTb {BL [] LCb DL} def
 /LTa {AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor} def
 /LT0 {PL [] LC0 DL} def
-/LT1 {PL [2 dl1 3 dl2] LC1 DL} def
-/LT2 {PL [1 dl1 1.5 dl2] LC2 DL} def
-/LT3 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC3 DL} def
-/LT4 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
-/LT5 {PL [4 dl1 2 dl2] LC5 DL} def
-/LT6 {PL [1.5 dl1 1.5 dl2 1.5 dl1 1.5 dl2 1.5 dl1 6 dl2] LC6 DL} def
-/LT7 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC7 DL} def
-/LT8 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC8 DL} def
-/SL {[] 0 setdash} def
+/LT1 {PL [4 dl1 2 dl2] LC1 DL} def
+/LT2 {PL [2 dl1 3 dl2] LC2 DL} def
+/LT3 {PL [1 dl1 1.5 dl2] LC3 DL} def
+/LT4 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
+/LT5 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC5 DL} def
+/LT6 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC6 DL} def
+/LT7 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC7 DL} def
+/LT8 {PL [2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 4 dl2] LC8 DL} def
 /Pnt {stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore} def
 /Dia {stroke [] 0 setdash 2 copy vpt add M
   hpt neg vpt neg V hpt vpt neg V
@@ -319,8 +330,7 @@ gnudict begin
 /PatternFill {gsave /PFa [ 9 2 roll ] def
   PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate
   PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec
-  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
-  clip
+  gsave 1 setgray fill grestore clip
   currentlinewidth 0.5 mul setlinewidth
   /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def
   0 0 M PFa 5 get rotate PFs -2 div dup translate
@@ -334,14 +344,9 @@ gnudict begin
 %
 /languagelevel where
  {pop languagelevel} {1} ifelse
-dup 2 lt
-	{/InterpretLevel1 true def
-	 /InterpretLevel3 false def}
-	{/InterpretLevel1 Level1 def
-	 2 gt
-	    {/InterpretLevel3 Level3 def}
-	    {/InterpretLevel3 false def}
-	 ifelse }
+ 2 lt
+	{/InterpretLevel1 true def}
+	{/InterpretLevel1 Level1 def}
  ifelse
 %
 % PostScript level 2 pattern fill definitions
@@ -430,17 +435,16 @@ Level1 {Level1PatternFill} {Level2PatternFill} ifelse
 /Symbol-Oblique /Symbol findfont [1 0 .167 1 0 0] makefont
 dup length dict begin {1 index /FID eq {pop pop} {def} ifelse} forall
 currentdict end definefont pop
-%
 /MFshow {
    { dup 5 get 3 ge
      { 5 get 3 eq {gsave} {grestore} ifelse }
      {dup dup 0 get findfont exch 1 get scalefont setfont
      [ currentpoint ] exch dup 2 get 0 exch R dup 5 get 2 ne {dup dup 6
-     get exch 4 get {textshow} {stringwidth pop 0 R} ifelse }if dup 5 get 0 eq
+     get exch 4 get {Gshow} {stringwidth pop 0 R} ifelse }if dup 5 get 0 eq
      {dup 3 get {2 get neg 0 exch R pop} {pop aload pop M} ifelse} {dup 5
      get 1 eq {dup 2 get exch dup 3 get exch 6 get stringwidth pop -2 div
      dup 0 R} {dup 6 get stringwidth pop -2 div 0 R 6 get
-     textshow 2 index {aload pop M neg 3 -1 roll neg R pop pop} {pop pop pop
+     show 2 index {aload pop M neg 3 -1 roll neg R pop pop} {pop pop pop
      pop aload pop M} ifelse }ifelse }ifelse }
      ifelse }
    forall} def
@@ -459,51 +463,6 @@ currentdict end definefont pop
   Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
 /XYsave    { [( ) 1 2 true false 3 ()] } bind def
 /XYrestore { [( ) 1 2 true false 4 ()] } bind def
-Level1 SuppressPDFMark or 
-{} {
-/SDict 10 dict def
-systemdict /pdfmark known not {
-  userdict /pdfmark systemdict /cleartomark get put
-} if
-SDict begin [
-  /Title (nopos-2_2.eps)
-  /Subject (gnuplot plot)
-  /Creator (gnuplot 5.0 patchlevel 3)
-  /Author (fari)
-%  /Producer (gnuplot)
-%  /Keywords ()
-  /CreationDate (Tue Jan  1 16:09:46 2019)
-  /DOCINFO pdfmark
-end
-} ifelse
-%
-% Support for boxed text - Ethan A Merritt May 2005
-%
-/InitTextBox { userdict /TBy2 3 -1 roll put userdict /TBx2 3 -1 roll put
-           userdict /TBy1 3 -1 roll put userdict /TBx1 3 -1 roll put
-	   /Boxing true def } def
-/ExtendTextBox { Boxing
-    { gsave dup false charpath pathbbox
-      dup TBy2 gt {userdict /TBy2 3 -1 roll put} {pop} ifelse
-      dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
-      dup TBy1 lt {userdict /TBy1 3 -1 roll put} {pop} ifelse
-      dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse
-      grestore } if } def
-/PopTextBox { newpath TBx1 TBxmargin sub TBy1 TBymargin sub M
-               TBx1 TBxmargin sub TBy2 TBymargin add L
-	       TBx2 TBxmargin add TBy2 TBymargin add L
-	       TBx2 TBxmargin add TBy1 TBymargin sub L closepath } def
-/DrawTextBox { PopTextBox stroke /Boxing false def} def
-/FillTextBox { gsave PopTextBox 1 1 1 setrgbcolor fill grestore /Boxing false def} def
-0 0 0 0 InitTextBox
-/TBxmargin 20 def
-/TBymargin 20 def
-/Boxing false def
-/textshow { ExtendTextBox Gshow } def
-%
-% redundant definitions for compatibility with prologue.ps older than 5.0.2
-/LTB {BL [] LCb DL} def
-/LTb {PL [] LCb DL} def
 end
 %%EndProlog
 %%Page: 1 1
@@ -517,10 +476,8 @@ doclip
 0 setgray
 newpath
 (Bitstream-Vera-Sans) findfont 160 scalefont setfont
-BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {gsave BackgroundColor C clippath fill grestore} if
 1.000 UL
 LTb
-LCb setrgbcolor
 976 512 M
 63 0 V
 5872 0 R
@@ -531,96 +488,93 @@ stroke
 ] -53.3 MRshow
 1.000 UL
 LTb
-LCb setrgbcolor
-976 1109 M
+976 1121 M
 31 0 V
 5904 0 R
 -31 0 V
-976 1458 M
+976 1477 M
 31 0 V
 5904 0 R
 -31 0 V
-976 1706 M
+976 1730 M
 31 0 V
 5904 0 R
 -31 0 V
-976 1898 M
+976 1926 M
 31 0 V
 5904 0 R
 -31 0 V
-976 2055 M
+976 2087 M
 31 0 V
 5904 0 R
 -31 0 V
-976 2188 M
+976 2222 M
 31 0 V
 5904 0 R
 -31 0 V
-976 2303 M
+976 2339 M
 31 0 V
 5904 0 R
 -31 0 V
-976 2405 M
+976 2443 M
 31 0 V
 5904 0 R
 -31 0 V
-976 2496 M
+976 2536 M
 63 0 V
 5872 0 R
 -63 0 V
 stroke
-880 2496 M
+880 2536 M
 [ [(Bitstream-Vera-Sans) 160.0 0.0 true true 0 ( 0.01)]
 ] -53.3 MRshow
 1.000 UL
 LTb
-LCb setrgbcolor
-976 3093 M
+976 3145 M
 31 0 V
 5904 0 R
 -31 0 V
-976 3442 M
+976 3501 M
 31 0 V
 5904 0 R
 -31 0 V
-976 3690 M
+976 3754 M
 31 0 V
 5904 0 R
 -31 0 V
-976 3882 M
+976 3950 M
 31 0 V
 5904 0 R
 -31 0 V
-976 4039 M
+976 4110 M
 31 0 V
 5904 0 R
 -31 0 V
-976 4172 M
+976 4246 M
 31 0 V
 5904 0 R
 -31 0 V
-976 4287 M
+976 4363 M
 31 0 V
 5904 0 R
 -31 0 V
-976 4388 M
+976 4466 M
 31 0 V
 5904 0 R
 -31 0 V
-976 4479 M
+976 4559 M
 63 0 V
 5872 0 R
 -63 0 V
 stroke
-880 4479 M
+880 4559 M
 [ [(Bitstream-Vera-Sans) 160.0 0.0 true true 0 ( 0.1)]
 ] -53.3 MRshow
 1.000 UL
 LTb
-LCb setrgbcolor
 976 512 M
 0 63 V
-0 3904 R
+0 3984 R
 0 -63 V
 stroke
 976 352 M
@@ -628,10 +582,9 @@ stroke
 ] -53.3 MCshow
 1.000 UL
 LTb
-LCb setrgbcolor
 1869 512 M
 0 63 V
-0 3904 R
+0 3984 R
 0 -63 V
 stroke
 1869 352 M
@@ -639,10 +592,9 @@ stroke
 ] -53.3 MCshow
 1.000 UL
 LTb
-LCb setrgbcolor
 2392 512 M
 0 63 V
-0 3904 R
+0 3984 R
 0 -63 V
 stroke
 2392 352 M
@@ -650,10 +602,9 @@ stroke
 ] -53.3 MCshow
 1.000 UL
 LTb
-LCb setrgbcolor
 2763 512 M
 0 63 V
-0 3904 R
+0 3984 R
 0 -63 V
 stroke
 2763 352 M
@@ -661,17 +612,13 @@ stroke
 ] -53.3 MCshow
 1.000 UL
 LTb
-LCb setrgbcolor
 3050 512 M
 0 63 V
-0 3904 R
+0 3984 R
 0 -63 V
-stroke
-LTb
-LCb setrgbcolor
 3285 512 M
 0 63 V
-0 3904 R
+0 3984 R
 0 -63 V
 stroke
 3285 352 M
@@ -679,17 +626,13 @@ stroke
 ] -53.3 MCshow
 1.000 UL
 LTb
-LCb setrgbcolor
 3484 512 M
 0 63 V
-0 3904 R
+0 3984 R
 0 -63 V
-stroke
-LTb
-LCb setrgbcolor
 3656 512 M
 0 63 V
-0 3904 R
+0 3984 R
 0 -63 V
 stroke
 3656 352 M
@@ -697,17 +640,13 @@ stroke
 ] -53.3 MCshow
 1.000 UL
 LTb
-LCb setrgbcolor
 3808 512 M
 0 63 V
-0 3904 R
+0 3984 R
 0 -63 V
-stroke
-LTb
-LCb setrgbcolor
 3944 512 M
 0 63 V
-0 3904 R
+0 3984 R
 0 -63 V
 stroke
 3944 352 M
@@ -715,10 +654,9 @@ stroke
 ] -53.3 MCshow
 1.000 UL
 LTb
-LCb setrgbcolor
 4837 512 M
 0 63 V
-0 3904 R
+0 3984 R
 0 -63 V
 stroke
 4837 352 M
@@ -726,10 +664,9 @@ stroke
 ] -53.3 MCshow
 1.000 UL
 LTb
-LCb setrgbcolor
 5359 512 M
 0 63 V
-0 3904 R
+0 3984 R
 0 -63 V
 stroke
 5359 352 M
@@ -737,10 +674,9 @@ stroke
 ] -53.3 MCshow
 1.000 UL
 LTb
-LCb setrgbcolor
 5730 512 M
 0 63 V
-0 3904 R
+0 3984 R
 0 -63 V
 stroke
 5730 352 M
@@ -748,10 +684,9 @@ stroke
 ] -53.3 MCshow
 1.000 UL
 LTb
-LCb setrgbcolor
 6018 512 M
 0 63 V
-0 3904 R
+0 3984 R
 0 -63 V
 stroke
 6018 352 M
@@ -759,10 +694,9 @@ stroke
 ] -53.3 MCshow
 1.000 UL
 LTb
-LCb setrgbcolor
 6253 512 M
 0 63 V
-0 3904 R
+0 3984 R
 0 -63 V
 stroke
 6253 352 M
@@ -770,10 +704,9 @@ stroke
 ] -53.3 MCshow
 1.000 UL
 LTb
-LCb setrgbcolor
 6451 512 M
 0 63 V
-0 3904 R
+0 3984 R
 0 -63 V
 stroke
 6451 352 M
@@ -781,10 +714,9 @@ stroke
 ] -53.3 MCshow
 1.000 UL
 LTb
-LCb setrgbcolor
 6623 512 M
 0 63 V
-0 3904 R
+0 3984 R
 0 -63 V
 stroke
 6623 352 M
@@ -792,10 +724,9 @@ stroke
 ] -53.3 MCshow
 1.000 UL
 LTb
-LCb setrgbcolor
 6775 512 M
 0 63 V
-0 3904 R
+0 3984 R
 0 -63 V
 stroke
 6775 352 M
@@ -803,10 +734,9 @@ stroke
 ] -53.3 MCshow
 1.000 UL
 LTb
-LCb setrgbcolor
 6911 512 M
 0 63 V
-0 3904 R
+0 3984 R
 0 -63 V
 stroke
 6911 352 M
@@ -814,22 +744,16 @@ stroke
 ] -53.3 MCshow
 1.000 UL
 LTb
-LCb setrgbcolor
-1.000 UL
-LTB
-LCb setrgbcolor
-976 4479 N
-976 512 L
-5935 0 V
-0 3967 V
--5935 0 V
-Z stroke
-1.500 UP
 1.000 UL
 LTb
+976 4559 N
+976 512 L
+5935 0 V
+0 4047 V
+-5935 0 V
+Z stroke
 LCb setrgbcolor
-LCb setrgbcolor
-128 2495 M
+128 2535 M
 currentpoint gsave translate -270 rotate 0 0 moveto
 [ [(Bitstream-Vera-Sans) 160.0 0.0 true true 0 (time \(microsec/occurrence\))]
 ] -53.3 MCshow
@@ -840,289 +764,256 @@ LCb setrgbcolor
 [ [(Bitstream-Vera-Sans) 160.0 0.0 true true 0 (space \(% of the collection\))]
 ] -53.3 MCshow
 LTb
-LCb setrgbcolor
 3943 4799 M
 [ [(Bitstream-Vera-Sans) 240.0 0.0 true true 0 (Location of phrases \(2-words\))]
 ] -80.0 MCshow
+1.500 UP
+1.000 UL
+LTb
 % Begin plot #1
 1.500 UP
 1.000 UL
-LTb
+LT3
 0.00 0.00 0.00 C LCb setrgbcolor
-2416 4336 M
+2416 4416 M
 [ [(Bitstream-Vera-Sans) 160.0 0.0 true true 0 (Rice)]
 ] -53.3 MRshow
-1.500 UP
-1.000 UL
-LTb
-0.00 0.00 0.00 C 2512 4336 M
-447 0 V
-5394 2538 M
-5394 2538 Dia
-2735 4336 Dia
+LT3
+0.00 0.00 0.00 C 2512 4416 M
+478 0 V
+5394 2579 M
+5394 2579 Dia
+2751 4416 Dia
 % End plot #1
 % Begin plot #2
 1.500 UP
 1.000 UL
-LTb
+LT2
 1.00 0.00 0.00 C LCb setrgbcolor
-2416 4176 M
+2416 4256 M
 [ [(Bitstream-Vera-Sans) 160.0 0.0 true true 0 (Vbyte)]
 ] -53.3 MRshow
-1.500 UP
-1.000 UL
-LTb
-1.00 0.00 0.00 C 2512 4176 M
-447 0 V
-5870 1987 M
-5870 1987 Star
-2735 4176 Star
+LT2
+1.00 0.00 0.00 C 2512 4256 M
+478 0 V
+5870 2017 M
+5870 2017 Star
+2751 4256 Star
 % End plot #2
 % Begin plot #3
 1.500 UP
 1.000 UL
-LTb
+LT3
 1.00 0.00 0.00 C LCb setrgbcolor
-2416 4016 M
+2416 4096 M
 [ [(Bitstream-Vera-Sans) 160.0 0.0 true true 0 (Vbyte-CM)]
 ] -53.3 MRshow
-1.500 UP
-1.000 UL
-LTb
-1.00 0.00 0.00 C 2512 4016 M
-447 0 V
-5941 3326 M
+LT3
+1.00 0.00 0.00 C 2512 4096 M
+478 0 V
+5941 3383 M
 -60 11 V
-5941 3326 Box
-5881 3337 Box
-2735 4016 Box
+5941 3383 Box
+5881 3394 Box
+2751 4096 Box
 % End plot #3
 % Begin plot #4
 1.500 UP
 1.000 UL
-LTb
+LT4
 1.00 0.00 0.00 C LCb setrgbcolor
-2416 3856 M
+2416 3936 M
 [ [(Bitstream-Vera-Sans) 160.0 0.0 true true 0 (Vbyte-ST)]
 ] -53.3 MRshow
-1.500 UP
-1.000 UL
-LTb
-1.00 0.00 0.00 C 2512 3856 M
-447 0 V
-5982 1723 M
+LT4
+1.00 0.00 0.00 C 2512 3936 M
+478 0 V
+5982 1747 M
 -96 -44 V
-5982 1723 BoxF
-5886 1679 BoxF
-2735 3856 BoxF
+5982 1747 BoxF
+5886 1703 BoxF
+2751 3936 BoxF
 % End plot #4
 % Begin plot #5
 1.500 UP
 1.000 UL
-LTb
+LT0
 0.00 0.00 0.00 C LCb setrgbcolor
-2416 3696 M
+2416 3776 M
 [ [(Bitstream-Vera-Sans) 160.0 0.0 true true 0 (RiceB)]
 ] -53.3 MRshow
-1.500 UP
-1.000 UL
-LTb
-0.00 0.00 0.00 C 2512 3696 M
-447 0 V
-5452 1656 M
-5452 1656 Pls
-2735 3696 Pls
+LT0
+0.00 0.00 0.00 C 2512 3776 M
+478 0 V
+5452 1679 M
+5452 1679 Pls
+2751 3776 Pls
 % End plot #5
 % Begin plot #6
 1.500 UP
 1.000 UL
-LTb
+LT1
 1.00 0.00 0.00 C LCb setrgbcolor
-2416 3536 M
+2416 3616 M
 [ [(Bitstream-Vera-Sans) 160.0 0.0 true true 0 (VbyteB)]
 ] -53.3 MRshow
-1.500 UP
-1.000 UL
-LTb
-1.00 0.00 0.00 C 2512 3536 M
-447 0 V
-5502 1239 M
-5502 1239 Crs
-2735 3536 Crs
+LT1
+1.00 0.00 0.00 C 2512 3616 M
+478 0 V
+5502 1254 M
+5502 1254 Crs
+2751 3616 Crs
 % End plot #6
 % Begin plot #7
 1.500 UP
 1.000 UL
-LTb
-0.00 0.00 0.00 C LCb setrgbcolor
-2416 3376 M
+LT7
+LCb setrgbcolor
+2416 3456 M
 [ [(Bitstream-Vera-Sans) 160.0 0.0 true true 0 (Vbyte-CMB)]
 ] -53.3 MRshow
-1.500 UP
-1.000 UL
-LTb
-0.00 0.00 0.00 C 2512 3376 M
-447 0 V
-5558 1630 M
+LT7
+2512 3456 M
+478 0 V
+5558 1652 M
 -47 7 V
-5558 1630 TriU
-5511 1637 TriU
-2735 3376 TriU
+5558 1652 TriU
+5511 1659 TriU
+2751 3456 TriU
 % End plot #7
 % Begin plot #8
 1.500 UP
 1.000 UL
-LTb
-0.00 0.62 0.45 C LCb setrgbcolor
-2416 3216 M
+LT0
+LCb setrgbcolor
+2416 3296 M
 [ [(Bitstream-Vera-Sans) 160.0 0.0 true true 0 (Vbyte-STB)]
 ] -53.3 MRshow
-1.500 UP
-1.000 UL
-LTb
-0.00 0.62 0.45 C 2512 3216 M
-447 0 V
-5576 1523 M
--62 26 V
-5576 1523 TriU
-5514 1549 TriU
-2735 3216 TriU
+LT0
+2512 3296 M
+478 0 V
+5576 1543 M
+-62 27 V
+5576 1543 TriD
+5514 1570 TriD
+2751 3296 TriD
 % End plot #8
 % Begin plot #9
 1.500 UP
 1.000 UL
-LTb
+LT1
 0.00 0.00 1.00 C LCb setrgbcolor
-2416 3056 M
+2416 3136 M
 [ [(Bitstream-Vera-Sans) 160.0 0.0 true true 0 (Simple9)]
 ] -53.3 MRshow
-1.500 UP
-1.000 UL
-LTb
-0.00 0.00 1.00 C 2512 3056 M
-447 0 V
-3826 2014 M
-3826 2014 Crs
-2735 3056 Crs
+LT1
+0.00 0.00 1.00 C 2512 3136 M
+478 0 V
+3826 2044 M
+3826 2044 Crs
+2751 3136 Crs
 % End plot #9
 % Begin plot #10
 1.500 UP
 1.000 UL
-LTb
-0.00 0.00 0.00 C LCb setrgbcolor
-2416 2896 M
+LT6
+LCb setrgbcolor
+2416 2976 M
 [ [(Bitstream-Vera-Sans) 160.0 0.0 true true 0 (PforDelta)]
 ] -53.3 MRshow
-1.500 UP
-1.000 UL
-LTb
-0.00 0.00 0.00 C 2512 2896 M
-447 0 V
-901 -625 R
-3860 2271 TriD
-2735 2896 TriD
+LT6
+2512 2976 M
+478 0 V
+870 -669 R
+3860 2307 C0
+2751 2976 C0
 % End plot #10
 % Begin plot #11
 1.500 UP
 1.000 UL
-LTb
-0.00 0.62 0.45 C LCb setrgbcolor
-2416 2736 M
+LT8
+LCb setrgbcolor
+2416 2816 M
 [ [(Bitstream-Vera-Sans) 160.0 0.0 true true 0 (QMX-simd)]
 ] -53.3 MRshow
-1.500 UP
-1.000 UL
-LTb
-0.00 0.62 0.45 C 2512 2736 M
-447 0 V
-5987 1831 M
-5987 1831 TriDF
-2735 2736 TriDF
+LT8
+2512 2816 M
+478 0 V
+5987 1857 M
+5987 1857 C2
+2751 2816 C2
 % End plot #11
 % Begin plot #12
 1.500 UP
 1.000 UL
-LTb
-0.34 0.71 0.91 C LCb setrgbcolor
-2416 2576 M
+LT0
+LCb setrgbcolor
+2416 2656 M
 [ [(Bitstream-Vera-Sans) 160.0 0.0 true true 0 (EF-opt*)]
 ] -53.3 MRshow
-1.500 UP
-1.000 UL
-LTb
-0.34 0.71 0.91 C 2512 2576 M
-447 0 V
-87 -472 R
-3046 2104 Dia
-2735 2576 Dia
+LT0
+2512 2656 M
+478 0 V
+56 -520 R
+3046 2136 C3
+2751 2656 C3
 % End plot #12
 % Begin plot #13
 1.500 UP
 1.000 UL
-LTb
-0.90 0.62 0.00 C LCb setrgbcolor
-2416 2416 M
+LT1
+LCb setrgbcolor
+2416 2496 M
 [ [(Bitstream-Vera-Sans) 160.0 0.0 true true 0 (OPT-PFD*)]
 ] -53.3 MRshow
-1.500 UP
-1.000 UL
-LTb
-0.90 0.62 0.00 C 2512 2416 M
-447 0 V
-528 -687 R
-3487 1729 DiaF
-2735 2416 DiaF
+LT1
+2512 2496 M
+478 0 V
+497 -743 R
+3487 1753 C4
+2751 2496 C4
 % End plot #13
 % Begin plot #14
 1.500 UP
 1.000 UL
-LTb
-0.94 0.89 0.26 C LCb setrgbcolor
-2416 2256 M
+LT2
+LCb setrgbcolor
+2416 2336 M
 [ [(Bitstream-Vera-Sans) 160.0 0.0 true true 0 (Interpolative*)]
 ] -53.3 MRshow
-1.500 UP
-1.000 UL
-LTb
-0.94 0.89 0.26 C 2512 2256 M
-447 0 V
-231 686 R
-3190 2942 Pent
-2735 2256 Pent
+LT2
+2512 2336 M
+478 0 V
+200 655 R
+3190 2991 C5
+2751 2336 C5
 % End plot #14
 % Begin plot #15
 1.500 UP
 1.000 UL
-LTb
-0.00 0.45 0.70 C LCb setrgbcolor
-2416 2096 M
+LT3
+LCb setrgbcolor
+2416 2176 M
 [ [(Bitstream-Vera-Sans) 160.0 0.0 true true 0 (Varint-G8IU*)]
 ] -53.3 MRshow
-1.500 UP
-1.000 UL
-LTb
-0.00 0.45 0.70 C 2512 2096 M
-447 0 V
-6096 1554 M
-6096 1554 PentF
-2735 2096 PentF
+LT3
+2512 2176 M
+478 0 V
+6096 1575 M
+6096 1575 C6
+2751 2176 C6
 % End plot #15
-2.000 UL
-LTb
-LCb setrgbcolor
 1.000 UL
-LTB
-LCb setrgbcolor
-976 4479 N
+LTb
+976 4559 N
 976 512 L
 5935 0 V
-0 3967 V
+0 4047 V
 -5935 0 V
 Z stroke
 1.500 UP
 1.000 UL
 LTb
-LCb setrgbcolor
 stroke
 grestore
 end

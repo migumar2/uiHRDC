@@ -251,7 +251,7 @@ From  the same authors \cite{OV14}, we also included in our experiments the vari
  % gcc version 4.8.2
 
 
-We compare all those techniques in Section~\ref{exp:nopos:others}, to determine which are the most successful the traditional techniques  in the repetitive scenario. 
+We compare all those techniques in Section~\ref{exp:nopos:others}, to determine which are the most successful among the traditional techniques in the repetitive scenario. 
 Then, in Section~\ref{exp:nopos:ours} we compare them with the new variants designed to deal with repetitive data we proposed. In particular, we include \riceRuns,
 \vbyteLZMA,  \vbyteLzend, \repairNo, \repairSkip. We add no sampling to them. Therefore, only \repairSkip\ can benefit of additional data to boost the intersections (which are performed sequentially). In addition, we show the \repair\ variants using sampling, \repairSkipCM\ (with $k=\{1,64\}$) and \repairSkipST\ (with $B=\{ 1024\}$). For \vbyteLzend\ we will obtain different space/time tradeoffs by tuning its {\em delta-codes-sampling} parameter $ds$ (see \cite{KNtcs12} for details) to $ds=\{4,16,64,256\}$.
 
@@ -401,7 +401,7 @@ folding nor any kind of filtering in this scenario. We index the original text
 as is. As explained, word-based self-indexes will regard (and index) the text 
 as a sequence of words and separators. For fairness, the positional inverted 
 indexes will index separators as valid words as well, and phrase queries will 
-choose sequences of tokens, be they words or separators. Still, we note that
+choose sequences of tokens (either words or separators). Still, we note that
 character-based self-indexes will return more occurrences than word-based
 self-indexes (or than inverted indexes), as they also report the
 non-word-aligned occurrences. Times per occurrence still seem comparable, yet
