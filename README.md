@@ -27,12 +27,12 @@ if you have any doubt or need more information, please feel free to contact us:
 
 
 ---------
-NOTE: We have also been invited to write reproducibility companion paper in Information Systems. In 
+NOTE: We were also invited to write reproducibility companion paper in Information Systems. In 
 this second paper we give a brief summary of the techniques in the previous paper, and
 include further details regarding how our experiments can be reproduced by using our __uiHRDC__ 
 framework. For more details please see/cite: 
 
-- A. Fariña, M.A. Martinez-Prieto, F. Claude, and G. Navarro. On the Reproducibility of 
-Experiments of Indexing Repetitive Document Collections. Information Systems. To appear, 2019.
+- A. Fariña, M.A. Martinez-Prieto, F. Claude, G. Navarro, J.J Lastra-Díaz, N. Prezza, and D. Seco. On the Reproducibility of 
+Experiments of Indexing Repetitive Document Collections. Information Systems. Volume 83, Pages 181-194, 2019. (https://doi.org/10.1016/j.is.2019.03.007)
 
 
