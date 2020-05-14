@@ -5,7 +5,7 @@ for indexing highly repetitive document collections, and all scripts required to
 replicate the experimental setup proposed in:
 
 - F. Claude, A. Fariña, M.A. Martinez-Prieto, and G. Navarro. Universal Indexes for Highly 
-Repetitive Document Collections. Information Systems 61:1-23, 2016. 
+Repetitive Document Collections. Information Systems. Volume 61, pages 1-23, 2016. 
 (https://doi.org/10.1016/j.is.2016.04.002)
 
 uiHRDC includes non-positional and positional inverted indexes, which perform multiple forms 
@@ -33,6 +33,6 @@ include further details regarding how our experiments can be reproduced by using
 framework. For more details please see/cite: 
 
 - A. Fariña, M.A. Martinez-Prieto, F. Claude, G. Navarro, J.J Lastra-Díaz, N. Prezza, and D. Seco. On the Reproducibility of 
-Experiments of Indexing Repetitive Document Collections. Information Systems. Volume 83, Pages 181-194, 2019. (https://doi.org/10.1016/j.is.2019.03.007)
+Experiments of Indexing Repetitive Document Collections. Information Systems, volume 83, pages 181-194, 2019. (https://doi.org/10.1016/j.is.2019.03.007)
 
 
